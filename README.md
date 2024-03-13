@@ -5,4 +5,9 @@ by IHE Germany.
 This Continuous Build will appear at http://build.fhir.org/ig/IHE-Germany/ITI.XDS.VS/branches/master/index.html.
 
 It is currently the initial draft and it is expected to have updates soon.
-For the moment, we are seeing forward to get feedback on possible errors.
+For the moment, we are seeing forward to get feedback on possible errors:
+
+* please see outstanding issues
+* verfication of codesystems, value sets and namingsystems
+* ...
+
