@@ -1,0 +1,13 @@
+{ 
+  "name": "shs.fhir.us.ig-template",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "SHS FHIR IG Template",
+  "author": "http://oemig.de/fhir",
+  "canonical": "http://fhir.org/templates/hl7.fhir.us.mcode.ig-template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  },
+  "version": "0.1.0"
+}

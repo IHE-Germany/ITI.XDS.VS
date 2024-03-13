@@ -1,4 +1,5 @@
 # IHE.ITI.XDS.VS
+This GITHUB repository is the source content for the [German XDS ValueSet publication](http://www.ihe-d.de/fhir/ImplementationGuide/ihe.iti.de.xds-vs) 
+by IHE Germany. 
 
-XDS VS (xdsVSS) - defines which value sets IHE ITI XDS SHOULD use for IHE Document Sharing Health Information Exchange in Germany. 
-This is the homepage for the IHE IT-I XDS Value Set National Extension for Germany.
+This Continuous Build will appear http://build.fhir.org/ig/IHE-Germany/IHE.ITI.XDS.VS/branches/master/index.html
