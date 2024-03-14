@@ -171,13 +171,18 @@ Description: "**IHE XDS Format Code**"
 //Value Set 1.2.840.10008.6.1.2
 //Value Set 1.2.276.0.76.11.469
 
+
+//geht alleine:
+//* include codes from system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+//geht alleine:
+//* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FormatCode
+
+* ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
+//TODO
+//* ^compose.include[+].system = "http://dicom.nema.org"
+//* ^compose.include[=].concept[+].code = #1.2.840.10008.5.1.4.1.1.88.59
 // #1.2.840.10008.5.1.4.1.1.88.59 "DICOM Manifest" "DICOM Manifest (DICOM KOS SOP Class UID)"
-
-
-* include codes from system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FormatCode
-
-
 
 
 Instance: formatCode

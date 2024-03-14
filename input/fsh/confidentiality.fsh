@@ -41,45 +41,6 @@ Description: "**Vertraulichkeit**"
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit
 
 
-//CodeSystem
-
-CodeSystem: Confidentiality
-Id: Confidentiality
-Title: "Confidentiality"
-Description: "**Confidentiality**"
-
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Confidentiality"
-* ^version = "0.1.0"
-
-* insert HeaderDetailRules
-
-* ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Confidentiality"
-* ^hierarchyMeaning = #is-a
-* ^compositional = false
-* ^versionNeeded = false
-* ^content = #complete
-
-* #N "normal"
-* #R "restricted"
-* #V "very restricted"
-
-
-
-//ValueSet
-
-ValueSet: Confidentiality
-Id: Confidentiality
-Title: "Confidentiality"
-Description: "**Confidentiality**"
-
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/Confidentiality"
-* ^version = "0.1.0"
-
-* insert HeaderDetailRules
-
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Confidentiality
-
 
 
 
@@ -92,12 +53,14 @@ Description: "**IHE XDS Confidentiality Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Confidentiality
+* insert HeaderDetailRules
+
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit"
+* ^compose.include[+].system =  "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+* ^compose.include[=].concept[+].code = #N
+* ^compose.include[=].concept[+].code = #R
+* ^compose.include[=].concept[+].code = #V
 
 
 
