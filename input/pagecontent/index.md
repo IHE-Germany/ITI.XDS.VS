@@ -121,7 +121,9 @@ Die vorläufigen Antworten sind in fett markiert:
 
 ### Offene Punkte (noch zu erledigen)
 
-* Namen für die Codesysteme, Bsp. Prozessrollen vs. PRozessrollenFuerAutoren
+* Namen für die Codesysteme
+  * Bsp. Prozessrollen vs. ProzessrollenFuerAutoren
+  * Qualifikationen vs. Qualifikatoren
 * Abgleich mit den DEMIS Einrichtungsarten: simplifier.net
 * Mapping für Fachabteilungsschlüssel (akt. noch bei PracticeSetting Notes)
   * als ConceptMap

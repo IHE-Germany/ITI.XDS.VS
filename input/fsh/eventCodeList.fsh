@@ -150,12 +150,16 @@ Description: "**IHE XDS event Code List**"
 
 * insert HeaderDetailRules
 
-//* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
-//* ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
-//* ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
+//geht allein:
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
+//geht allein:
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontext"
+
 * ^compose.include[+].system = "urn:iso-astm:E1762-95:2013"
+
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
+* ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
+* ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 
 
 
