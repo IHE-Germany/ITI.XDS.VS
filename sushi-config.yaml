@@ -63,6 +63,10 @@ pages:
     title: Einleitung
   team.md:
     title: Projekt-Team
+  document.md:
+    title: Dokument (+Folder)
+  submissionset.md:
+    title: Submission Set
   faq.md:
     title: FAQ
   value_sets.md:
@@ -119,6 +123,8 @@ menu:
   IHE XDS VS Home: index.html
   Einleitung:
     Einleitung: einleitung.html
+    Dokument (*Folder): document.html
+    Submission Set: submissionset.html
     FAQ: faq.html
     Versionen: versionen.html
     Versionierungs-Policy: policy.html
@@ -127,16 +133,16 @@ menu:
   XDS Value Sets:
     Author Role: ValueSet-IHEXDSauthorRole.html
     Author Specialty: ValueSet-IHEXDSauthorSpeciality.html
-    Class Code: ValueSet-IHEXDSclassCode.html
+    Class: ValueSet-IHEXDSclassCode.html
     Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
-    Content Type: ValueSet-IHEXDScontentTypeCode.html
-    Event Code List: ValueSet-IHEXDSeventCodeList.html
-    (Healthcare) Facility Type: ValueSet-IHEXDSfacilityType.html
-    Folder Code List: ValueSet-IHEXDSfolderCodeList.html
-    Format Code: ValueSet-IHEXDSformatCode.html
+    Content: ValueSet-IHEXDScontentTypeCode.html
+    Event: ValueSet-IHEXDSeventCodeList.html
+    (Healthcare) Facility: ValueSet-IHEXDShealthcareFacilityType.html
+    Folder: ValueSet-IHEXDSfolderCodeList.html
+    Format: ValueSet-IHEXDSformatCode.html
     Language: ValueSet-IHEXDSlanguageCode.html
-    Practice Setting: ValueSet-IHEXDSpracticeSetting.html
-    Type Code: ValueSet-IHEXDStypeCode.html
+    Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
+    Type: ValueSet-IHEXDStypeCode.html
   Codesystems:
     DocumentType: CodeSystem-DocumentType.html
     Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
@@ -148,9 +154,9 @@ menu:
     FormatCode: CodeSystem-FormatCode.html
     Grund der Übermittlung: CodeSystem-GrundDerUebermittlung.html
     Ordnertypen: CodeSystem-Ordnertypen.html
-    Patientenrollen für Autoren: CodeSystem-PatientenrollenFuerAutoren.html
-    Practice Setting Doctoral: CodeSystem-PracticeSettingDoctoral.html
-    Practice Setting Non-Doctoral: CodeSystem-PracticeSettingNonDoctoral.html
+    Patientenbeziehungsrollen für Autoren: CodeSystem-PatientenbeziehungsrollenFuerAutoren.html
+    Ärztliche Fachrichtungen: CodeSystem-AerztlicheFachrichtungen.html
+    Nich-ärztliche Fachrichtungen: CodeSystem-NichtaerztlicheFachrichtungen.html
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: CodeSystem-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
@@ -167,9 +173,9 @@ menu:
     FormatCode: ValueSet-FormatCode.html
     Grund der Übermittlung: ValueSet-GrundDerUebermittlung.html
     Ordnertypen: ValueSet-Ordnertypen.html
-    Patientenrollen für Autoren: ValueSet-PatientenrollenFuerAutoren.html
-    Practice Setting Doctoral: ValueSet-PracticeSettingDoctoral.html
-    Practice Setting Non-Doctoral: ValueSet-PracticeSettingNonDoctoral.html
+    Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
+    Ärztliche Fachrichtungen: ValueSet-AerztlicheFachrichtungen.html
+    Nicht-ärztliche Fachrichtungen: ValueSet-NichtaerztlicheFachrichtungen.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: ValueSet-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html

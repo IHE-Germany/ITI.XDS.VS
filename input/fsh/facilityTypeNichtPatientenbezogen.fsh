@@ -8,10 +8,9 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartNichtPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
-* ^copyright = "IHE Germany"
-* ^publisher = "IHE Germany"
+
+* insert HeaderDetailRules
+
 * ^caseSensitive = false
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartNichtPatientenbezogen"
 * ^hierarchyMeaning = #is-a
@@ -46,8 +45,9 @@ Description: "**Einrichtungsart nicht-patientenbezogen**"
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartNichtPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+
+* insert HeaderDetailRules
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.59"
 * ^identifier.use = #official

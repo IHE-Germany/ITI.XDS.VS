@@ -17,15 +17,29 @@ Description: "**Grund der Übermittlung**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^property[+].code = #parent
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."
+* ^property[=].type = #code
+
 * #1 "Patientenkontakt"
   * #2 "Verlegung"
+    * ^property.code = #parent
+    * ^property.valueCode = #1
   * #3 "Entlassung"
+    * ^property.code = #parent
+    * ^property.valueCode = #1
   * #4 "Überweisung/Einweisung"
+    * ^property.code = #parent
+    * ^property.valueCode = #1
   * #5 "Aufnahme"
+    * ^property.code = #parent
+    * ^property.valueCode = #1
   * #6 "Anforderung"
+    * ^property.code = #parent
+    * ^property.valueCode = #1
 * #7 "Auf Anfrage"
-* #8 "Veranlassung durch Patient"
-  "Regelmäßige Übertragungen (z.B. Implantate, Fitnesstracker), auch wenn durch den Patienten ursprünglich veranlasst, werden über das Konzept 11 (\"Monitoring\") abgebildet."
+* #8 "Veranlassung durch Patient" "Regelmäßige Übertragungen (z.B. Implantate, Fitnesstracker), auch wenn durch den Patienten ursprünglich veranlasst, werden über das Konzept 11 (\"Monitoring\") abgebildet."
 * #9 "Konsil/Zweitmeinung"
 * #10 "Systemwechsel/Archivierung"
 * #11 "Monitoring"

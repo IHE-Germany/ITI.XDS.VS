@@ -1,11 +1,11 @@
 //ValueSet
 
-ValueSet: IHEXDSfacilityType
-Id: IHEXDSfacilityType
-Title: "IHE XDS Facility Type"
-Description: "**IHE XDS Facility Type**"
+ValueSet: IHEXDShealthcareFacilityType
+Id: IHEXDShealthcareFacilityType
+Title: "IHE XDS Healthcare Facility Type"
+Description: "**IHE XDS Healthcare Facility Type**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfacilityType"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityType"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
@@ -19,11 +19,11 @@ Description: "**IHE XDS Facility Type**"
 
 
 
-Instance: FacilityType
+Instance: HealthcareFacilityType
 InstanceOf: NamingSystem
 Usage: #definition
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/FacilityType"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/HealthCareFacilityType"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
 * name = "FacilityType"

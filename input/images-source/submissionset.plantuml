@@ -1,0 +1,20 @@
+@startuml
+
+class "SubmissionSet" as s {
+    availability : code
+    [[ValueSet-IHEXDScontentTypeCode.html contentType]] : code
+}
+
+class "Author" as a {
+    [[ValueSet-IHEXDSauthorRole.html authorRole]]: code
+    [[ValueSet-IHEXDSauthorSpeciality.html authorSpecialty]]: code
+}
+
+class "Document Entry" as de {
+
+}
+
+s "1..*" -- "0..*" de
+s "1" *-right- "1..*" a
+
+@enduml
