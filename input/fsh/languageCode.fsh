@@ -18,17 +18,19 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #de-LU
 * ^compose.include[=].concept[+].code = #lb-LU
 * ^compose.include[=].concept[+].code = #da-DK
+* ^compose.include[=].concept[+].code = #el-GR
 * ^compose.include[=].concept[+].code = #en-GB
 * ^compose.include[=].concept[+].code = #en-US
 * ^compose.include[=].concept[+].code = #en-CA
 * ^compose.include[=].concept[+].code = #en-AU
+* ^compose.include[=].concept[+].code = #es-ES
 * ^compose.include[=].concept[+].code = #fr-FR
 * ^compose.include[=].concept[+].code = #fr-BE
 * ^compose.include[=].concept[+].code = #fr-CH
 * ^compose.include[=].concept[+].code = #fr-CA
 * ^compose.include[=].concept[+].code = #fr-LU
-* ^compose.include[=].concept[+].code = #el-GR
 * ^compose.include[=].concept[+].code = #it-CH
+* ^compose.include[=].concept[+].code = #nl-NL
 
 
 

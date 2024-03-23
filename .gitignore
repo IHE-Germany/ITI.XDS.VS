@@ -6,6 +6,7 @@ temp/
 template/
 input-cache/
 output/
+output_2/
 _genonce.sh
 _gencontinuous.bat
 _gencontinuous.sh

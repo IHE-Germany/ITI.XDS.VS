@@ -95,6 +95,8 @@ Die vorläufigen Antworten sind in fett markiert:
   * prä- oder postfix-Notation, bspw. "patientenbezogene Enrichtungsarten" vs. "Einrichtungsarten, patientenbezogen"
   * Prüfung auf Vollständigkeit der Titel und Beschreibungen
   * Sortierung über Titel, Groß- vor Kleinbuchstaben, nicht alphabetisch
+  * Mit “Code” am Ende oder ohne? Bspw. “classCode” oder nur “class”
+  * Mit Angabe der Verwendung oder ohne? Bspw. “Document.class” oder “class”
 * notwendige englische Übersetzung (für IHE ITI)
   * Was soll alles übersetzt werden? Aktuell nur die **Indexseite**
   * weiter auf Anforderung
@@ -103,15 +105,19 @@ Die vorläufigen Antworten sind in fett markiert:
   * r4b: 4.3.0
   * r5: 5.0.0
   * (r6)
+* Abbildung von Hierarchien
+  * nested, d.h. eingerückt
+  * parent, d.h. über Beziehung
+  * **beides**: zum überprüfen, später nur parent
 * Provenance
   * Wird das als Resource benötigt?
 * Benamung "IHE-D": "IHE Germany" oder **"IHE Deutschland e.V."** (als Impressum)
-  * "publisher" : "IHE Deutschland e.V., Berlin, D"
+  * "publisher" : "**IHE Deutschland e.V., Berlin, D**"
   * Copyright/Legal: IHE Deutschland e.V.
 * generelles Layout
   * möglichst dicht an IHE International ran
 * Farbgebung
-  * Header
+  * Header: ihe-lila
   * Tabellen
 * Licenzmodell
   * -> Angela

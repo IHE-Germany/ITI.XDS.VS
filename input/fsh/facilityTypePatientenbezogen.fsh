@@ -7,11 +7,9 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartPatientenbezogen"
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
-* ^copyright = "IHE Germany"
-* ^publisher = "IHE Germany"
+
+* insert HeaderDetailRules
+
 * ^caseSensitive = false
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartPatientenbezogen"
 * ^hierarchyMeaning = #is-a
@@ -71,8 +69,9 @@ Description: "**Einrichtungsart Patientenbezogen**"
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+
+* insert HeaderDetailRules
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.58"
 * ^identifier.use = #official
