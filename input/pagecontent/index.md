@@ -74,9 +74,12 @@ Die vorläufigen Antworten sind in fett markiert:
   * **IHE_DE_ITI_XDS_VS**
   * IHE_DE_ITI_XDS_VS
   * IHE_ITI_DE_XDS_VS
+  * GermanXdsValueSet
 * Package Name(s)
   * ihe.iti.de.xds-vs
   * **ihe.de.iti.xds-vs**
+  * ihe.fhir.de.iti-xds-vs
+  * ihe.fhir.de.iti.xds-vs
 * Projektname in github
   * ITI.XDS.VS
 * Versionierung

@@ -1,0 +1,37 @@
+@startuml
+
+package "Document Registry" {
+    class "Submission Set" as ss #fc8 {
+
+    }
+    note left of ss
+    Metadaten Submission Set
+    end Note
+    class "Folder" as f #afa {
+
+    }
+    note right of f
+    Metadaten Folder
+    end Note
+    class "Document Entry" as de1
+    note right of de1
+    Metadaten Document Entry
+    end Note
+    class "Document Entry" as de2
+
+    f -[#fc8]-> ss
+    ss -[#fc8]-> de1
+    ss -[#fc8]-> de2
+    de1 .[hidden]left. de2
+    de1 -up[#0f0]-> f
+}
+
+database "Document Repository" {
+    class "Document" as d1
+    class "Document" as d2
+}
+
+de1 --> d1
+de2 --> d2
+
+@enduml

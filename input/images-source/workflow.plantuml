@@ -1,0 +1,23 @@
+@startuml
+
+state "On-Demand Document Source" as oddocsrc
+state "Patient Identity Source" as patsrc
+state "Document Registry" as reg
+state "Document Repository" as rep
+state "Document Source" as docsrc
+state "Document Consumer" as cons
+
+patsrc -down-> reg: Pat Idendity Feed [ITI-8] 
+patsrc -down-> reg: Pat Idendity Feed HL7 V3 [ITI-44]
+
+cons -left-> reg : Registry Stored Query [ITI-18]
+cons -left-> rep : Retrieve Document Set [ITI-43]
+
+oddocsrc -left-> reg : Register On-Demand Document Entry [ITI-61]
+
+cons -right-> oddocsrc : Retrieve Document Set [ITI-43]
+
+rep -up-> reg : Register Document  Set [ITI-42]
+docsrc -up-> rep : Provide&Register Document Set [ITI-41]
+
+@enduml

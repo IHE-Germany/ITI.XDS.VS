@@ -55,7 +55,9 @@ Die Arbeitsgruppe hat anschließend alle Kommentare gemeinsam mit den Kommentato
 
 ### Vorgehensweise für die dritte Version
 
-Die Arbeiten zur dritten Version fanden nach dem selben Arbeitsmodus wie vorangegangenen Versionen statt. Alle 2 Wochen wurden in einer Telefonkonferenz eingereichte Themen mit den jeweils beteiligten Personen besprochen und ggf. in die Value Sets eingearbeitet. U.a. wurden folgende Themen in der dritten Version bearbeitet:
+Die Arbeiten zur dritten Version fanden nach dem selben Arbeitsmodus wie vorangegangenen Versionen statt. 
+Alle 2 Wochen wurden in einer Telefonkonferenz eingereichte Themen mit den jeweils beteiligten Personen besprochen 
+und ggf. in die Value Sets eingearbeitet. U.a. wurden folgende Themen in der dritten Version bearbeitet:
 
 * Anpassung der Value Sets für die Gematik ePA
 * Integration der KDL des DVMD
@@ -63,3 +65,16 @@ Die Arbeiten zur dritten Version fanden nach dem selben Arbeitsmodus wie vorange
   * Hinzufügen von Canonical URIs für Codesysteme und ValueSets
   * Publizierung in Simplifier
 * allgemeine Weiterentwicklung der ValueSets
+
+### Planung für die vierte Version
+
+Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen und Ergänzungen zu diskutieren:
+
+* Anpassung der Value Sets für die Gematik ePA
+* Integration der KDL des DVMD
+* Anpassungen für FHIR
+  * Korrektur der Canonicals
+  * Erstellung von NamingSystem Resourcen
+  * Erstellung von FHIR Packages
+  * Publikation auf build.fhir.org/ig/IHE-Germany
+  
