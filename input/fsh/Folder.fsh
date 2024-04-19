@@ -6,7 +6,7 @@ Description: "Folder"
 
 * ^version = "0.1.0"
 * ^abstract = false
-* ^type = "Folder"
+* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Folder"
 
 * insert HeaderDetailRules
 
@@ -31,7 +31,5 @@ Title: "Folder (Profile)"
 Description: "**Folder** (Profile)"
 
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
 
+* insert HeaderDetailRules

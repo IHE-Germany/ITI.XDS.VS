@@ -6,7 +6,7 @@ Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
-* ^version = "0.1.0"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -17,12 +17,34 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^property[0].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Status"
+* ^property[=].type = #code
+
+* ^property[+].code = #parent
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."
+* ^property[=].type = #code
+
+
 * #101 "Hausarzt"  "der Hausarzt (Primärversorger) des Patienten"
 * #102 "Patient"  "der Patient selbst"
 * #103 "Arbeitgebervertreter"  "ein Vertreter des Arbeitgebers des Patienten"
 * #104 "Primärbetreuer (langfristig)"  "Die Person, die den Patienten normalerweise primär betreut. Beispiele: Langzeitpflege, Stammapotheke"
+* #104 ^property[0].code = #status
+* #104 ^property[=].valueCode = #deprecated
 * #105 "Kostenträgerverteter"  "ein Vertreter des Kostenträgers"
-
+* #106 "Betreuer"
+* #107 "pflegerischer Betreuer" "Dies ist ein Pfleger oder eine pflegende Person, die einen Patienten betreut."
+  * ^property[0].code = #parent
+  * ^property[=].valueCode = #106
+* #108 "rechtlicher Betreuer" "Dieser ist dafür verantwortlich, medizinische Entscheidungen im Namen des Patienten zu treffen, insbesondere, wenn der Patient nicht in der Lage ist, diese Entscheidungen selbst zu treffen, sei es aufgrund von Minderjährigkeit, Krankheit, Behinderung oder anderen Umständen. Im Fall von Minderjährigen wird dieser auch als gesetzlicher Vormund bezeichnet."
+  * ^property[0].code = #parent
+  * ^property[=].valueCode = #106
+* #109 "Vertrauensperson" "Dies ist eine informelle Rolle, in der ein Familienmitglied oder Freund die Unterstützung eines Patienten übernimmt, um die medizinische Betreuung des Patienten sicherzustellen oder zu verbessern."
+  * ^property[0].code = #parent
+  * ^property[=].valueCode = #106
 
 
 //ValueSet

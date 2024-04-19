@@ -6,7 +6,7 @@ Description: "SubmissionSet Logical Model"
 
 * ^version = "0.1.0"
 * ^abstract = false
-* ^type = "SubmissionSet"
+* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/SubmissionSet"
 
 * insert HeaderDetailRules
 
@@ -24,7 +24,7 @@ Description: "SubmissionSet Logical Model"
 * sourceID 1..1 identifier "identifier of source"
 * submissionTime 1..1 dateTime "timestamp of submission"
 * title 0..1 string "title of document"
-* uniqueId 1..1 identifier "identifier of document"
+* uniqueID 1..1 identifier "identifier of document"
 
 
 Profile: SubmissionSetProfile
@@ -34,9 +34,13 @@ Title: "SubmissionSet (Profile)"
 Description: "**SubmissionSet** (Profile)"
 
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
 
+* insert HeaderDetailRules
+
+* author MS
 * contentType MS
-* contentType from http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode (required)
+* entryUUID MS
+* patientID MS
+* sourceID MS
+* submissionTime MS
+* uniqueID MS
