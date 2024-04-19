@@ -63,6 +63,8 @@ pages:
     title: Einleitung
   team.md:
     title: Projekt-Team
+  structure.md:
+    title: Struktur/Aufbau des Leitfadens
   document.md:
     title: Dokument (+Folder)
   submissionset.md:
@@ -123,6 +125,7 @@ menu:
   IHE XDS VS Home: index.html
   Einleitung:
     Einleitung: einleitung.html
+    Struktur/Aufbau des Leitfadens: structure.html
     Dokument (*Folder): document.html
     Submission Set: submissionset.html
     FAQ: faq.html
@@ -144,43 +147,43 @@ menu:
     Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
     Type: ValueSet-IHEXDStypeCode.html
   Codesystems:
+    Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
     DocumentType: CodeSystem-DocumentType.html
     Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentklasse: CodeSystem-Dokumentklasse.html
     Einrichtungsart nicht patientenbezogen: CodeSystem-EinrichtungsartNichtPatientenbezogen.html
     Einrichtungsart patientenbezogen: CodeSystem-EinrichtungsartPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
+    Fachrichtungen, ärztlich: CodeSystem-AerztlicheFachrichtungen.html
+    Fachrichtungen, nicht-ärztlich: CodeSystem-NichtaerztlicheFachrichtungen.html
     Fallkontext bei Dokumentenerstellung: CodeSystem-Fallkontext.html
     FormatCode: CodeSystem-FormatCode.html
     Grund der Übermittlung: CodeSystem-GrundDerUebermittlung.html
     Ordnertypen: CodeSystem-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: CodeSystem-PatientenbeziehungsrollenFuerAutoren.html
-    Ärztliche Fachrichtungen: CodeSystem-AerztlicheFachrichtungen.html
-    Nich-ärztliche Fachrichtungen: CodeSystem-NichtaerztlicheFachrichtungen.html
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: CodeSystem-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeit: CodeSystem-Vertraulichkeit.html
-    Ärztliche Berufsvarianten: CodeSystem-AerztlicheBerufe.html
   Value Sets:
+    Berufsvarianten, ärztlich: ValueSet-AerztlicheBerufe.html
     DocumentType: ValueSet-DocumentType.html
     Dokumenten Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentklasse: ValueSet-Dokumentklasse.html
     Einrichtungsart nicht patientenbezogen: ValueSet-EinrichtungsartNichtPatientenbezogen.html
     Einrichtungsart patientenbezogen: ValueSet-EinrichtungsartPatientenbezogen.html
     Facharzttitel Ärztekammer: ValueSet-FacharzttitelAerztekammer.html
+    Fachrichtungen, ärztlich: ValueSet-AerztlicheFachrichtungen.html
+    Fachrichtungen, nichtäärztlich: ValueSet-NichtaerztlicheFachrichtungen.html
     Fallkontext bei Dokumentenerstellung: ValueSet-Fallkontext.html
     FormatCode: ValueSet-FormatCode.html
     Grund der Übermittlung: ValueSet-GrundDerUebermittlung.html
     Ordnertypen: ValueSet-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
-    Ärztliche Fachrichtungen: ValueSet-AerztlicheFachrichtungen.html
-    Nicht-ärztliche Fachrichtungen: ValueSet-NichtaerztlicheFachrichtungen.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: ValueSet-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeit: ValueSet-Vertraulichkeit.html
-    Ärztliche Berufsvarianten: ValueSet-AerztlicheBerufe.html
   Naming Systems: artifacts.html#terminology-naming-systems
   Artifacts: artifacts.html
   Sonstiges:

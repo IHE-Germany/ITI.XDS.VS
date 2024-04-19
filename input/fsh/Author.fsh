@@ -5,13 +5,10 @@ Title: "Author (LM)"
 Description: "Author"
 
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
-* ^publisher = "FO"
-* ^copyright = "FO"
 * ^abstract = false
-* ^type = "Author"
+* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Author"
+
+* insert HeaderDetailRules
 
 * authorInstitution 0..1 string "institution of author"
 * authorPerson 0..1 string "author"
@@ -31,9 +28,8 @@ Title: "Author (Profile)"
 Description: "**Author** (Profile)"
 
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
+
+* insert HeaderDetailRules
 
 * authorRole MS
 * authorSpecialty MS

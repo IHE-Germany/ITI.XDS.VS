@@ -1,17 +1,15 @@
-Logical: Document
+Logical: DocumentEntry
 Parent: Base
-Id: Document
+Id: DocumentEntry
 Title: "Document Entry"
 Description: "Document Entry"
+
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
-* ^publisher = "FO"
-* ^copyright = "FO"
 * ^abstract = false
-* ^type = "Document"
+* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Document"
 * . ^definition = "Document Entry xxxx"
+
+* insert HeaderDetailRules
 
 * title 1..1 string "title of document"
 * uniqueId 1..1 identifier "identifier of document"
@@ -53,15 +51,14 @@ Description: "Document Entry"
 
 
 Profile: DocumentEntryProfile
-Parent: Document
+Parent: DocumentEntry
 Id: DocumentEntryProfile
 Title: "Document Entry (Profile)"
 Description: "**Document Entry**: Die zu unterstützenden Attribute werden über ein Profil festgelegt."
 
 * ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-03-22"
+
+* insert HeaderDetailRules
 
 * availabilityStatus MS
 * class MS
