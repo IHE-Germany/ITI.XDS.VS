@@ -169,7 +169,7 @@ Description: "**IHE XDS Format Code**"
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
 * ^compose.include[+].system =  "urn:ietf:rfc:3986"
 * ^compose.include[=].concept[+].code = #urn:oid:1.2.840.10008.5.1.4.1.1.88.59
-* ^compose.include[=].concept[=].display "DICOM Manifest (DICOM KOS SOP Class UID)"
+* ^compose.include[=].concept[=].display = "DICOM Manifest (DICOM KOS SOP Class UID)"
 
 
 Instance: formatCode
