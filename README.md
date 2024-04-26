@@ -9,5 +9,9 @@ For the moment, we are seeing forward to get feedback on possible errors:
 
 * please see outstanding issues
 * verfication of codesystems, value sets and namingsystems
+* correction to the canonicals
+* value set definitions
+* information models for the foundation
+* logical models for the base artifacts
 * ...
 
