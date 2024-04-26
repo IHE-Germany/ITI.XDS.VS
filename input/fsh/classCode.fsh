@@ -1,17 +1,20 @@
+Alias: $LOINC = http://loinc.org
+
+
 //CodeSystem
 
-CodeSystem: Dokumentklasse
-Id: Dokumentklasse
+CodeSystem: Dokumentenklassen
+Id: Dokumentenklassen
 Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentklasse"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumentklasse"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -104,17 +107,17 @@ Die bisher mit diesem Konzept abgedeckten Dokumententypen sollten zukünftig and
 
 //ValueSet
 
-ValueSet: Dokumentklasse
-Id: Dokumentklasse
-Title: "Dokumentklasse"
-Description: "**Dokumentklasse**"
+ValueSet: Dokumentenklassen
+Id: Dokumentenklassen
+Title: "Dokumentenklassen"
+Description: "**Dokumentenklassen**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumentklasse"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentklasse
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen
 
 
 
@@ -131,9 +134,17 @@ Description: "**IHE XDS Class Code**"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentklasse
+
+//funktioniert, ist dann aber der einzige Code
+* $LOINC#57016-8
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen
 
 
+//* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
+//* ^compose.include[+].system = "http://loinc.org"
+//* ^compose.include[=].concept[+].code = #57016-8
+//* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
+//* ^compose.include[=].concept[=].display = "Patienteneinverständniserklärung"
 
 
 

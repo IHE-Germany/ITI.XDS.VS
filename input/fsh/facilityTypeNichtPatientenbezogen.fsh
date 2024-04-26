@@ -1,18 +1,18 @@
 //CodeSystem
 
-CodeSystem: EinrichtungsartNichtPatientenbezogen
-Id: EinrichtungsartNichtPatientenbezogen
-Title: "Einrichtungsart nicht patientenbezogenen"
+CodeSystem: EinrichtungsartenNichtPatientenbezogen
+Id: EinrichtungsartenNichtPatientenbezogen
+Title: "Einrichtungsarten nicht patientenbezogenen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartNichtPatientenbezogen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartNichtPatientenbezogen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -37,12 +37,12 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 
 //ValueSet
 
-ValueSet: EinrichtungsartNichtPatientenbezogen
-Id: EinrichtungsartNichtPatientenbezogen
-Title: "Einrichtungsart nicht patientenbezogen"
-Description: "**Einrichtungsart nicht-patientenbezogen**"
+ValueSet: EinrichtungsartenNichtPatientenbezogen
+Id: EinrichtungsartenNichtPatientenbezogen
+Title: "Einrichtungsarten nicht patientenbezogen"
+Description: "**Einrichtungsarten nicht-patientenbezogen**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartNichtPatientenbezogen"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
 
@@ -52,6 +52,6 @@ Description: "**Einrichtungsart nicht-patientenbezogen**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.59"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartNichtPatientenbezogen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
 
 

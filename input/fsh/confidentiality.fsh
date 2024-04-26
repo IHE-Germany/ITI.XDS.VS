@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: Vertraulichkeit
-Id: Vertraulichkeit
-Title: "Vertraulichkeit"
+CodeSystem: Vertraulichkeiten
+Id: Vertraulichkeiten
+Title: "Vertraulichkeiten"
 Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeit"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeiten"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -28,17 +28,17 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 //ValueSet
 
-ValueSet: Vertraulichkeit
-Id: Vertraulichkeit
-Title: "Vertraulichkeit"
-Description: "**Vertraulichkeit**"
+ValueSet: Vertraulichkeiten
+Id: Vertraulichkeiten
+Title: "Vertraulichkeiten"
+Description: "**Vertraulichkeiten**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeit"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeiten"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten
 
 
 
@@ -56,8 +56,8 @@ Description: "**IHE XDS Confidentiality Code**"
 
 * insert HeaderDetailRules
 
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeit"
-* ^compose.include[+].system =  "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
+* ^compose.include[+].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
 * ^compose.include[=].concept[+].code = #N
 * ^compose.include[=].concept[+].code = #R
 * ^compose.include[=].concept[+].code = #V

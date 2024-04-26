@@ -12,22 +12,6 @@ Zur erfolgreichen Umsetzung von Aktenprojekten (eEPA, EFA, PEPA, etc.) werden Me
 Selektion und Auswertung von in den Aktensystemen gespeicherten Dokumenten ermöglichen. 
 In diesem Projekt werden Value Sets entwickelt, die entsprechende Codesysteme bereitstellen. 
 
-## Organization of This Guide
-
-This guide is organized into the following sections:
-
-* Einleitung
-  * FAQ
-  * Versionen
-  * VokabularManagement
-* XDS Value Sets (Primäre Value Sets)
-* Codesysteme für die Value Sets
-* Value Sets
-* Artifakte
-* Sonstiges
-  * Download (Packages)
-  * Offene Punkte
-
 ## Bereitstellung der Technischen Spezifikation
 
 Die mit diesem Leitfaden assoziierten FHIR-Terminologie-Ressourcen sind als Packages publiziert.

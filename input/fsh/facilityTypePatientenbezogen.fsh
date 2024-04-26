@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: EinrichtungsartPatientenbezogen
-Id: EinrichtungsartPatientenbezogen
-Title: "Einrichtungsart patientenbezogen"
+CodeSystem: EinrichtungsartenPatientenbezogen
+Id: EinrichtungsartenPatientenbezogen
+Title: "Einrichtungsarten patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartPatientenbezogen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartPatientenbezogen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -61,12 +61,12 @@ Dokumente von Pflegediensten oder freiberuflichen Pflegekräften fallen nicht in
 
 //ValueSet
 
-ValueSet: EinrichtungsartPatientenbezogen
-Id: EinrichtungsartPatientenbezogen
-Title: "Einrichtungsart patientenbezogen"
-Description: "**Einrichtungsart Patientenbezogen**"
+ValueSet: EinrichtungsartenPatientenbezogen
+Id: EinrichtungsartenPatientenbezogen
+Title: "Einrichtungsarten patientenbezogen"
+Description: "**Einrichtungsarten Patientenbezogen**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartPatientenbezogen"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
 * ^version = "0.1.0"
 * ^status = #draft
 
@@ -77,6 +77,6 @@ Description: "**Einrichtungsart Patientenbezogen**"
 * ^identifier.use = #official
 
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartPatientenbezogen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen
 
 

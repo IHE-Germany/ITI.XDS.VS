@@ -14,8 +14,8 @@ Description: "**IHE XDS Healthcare Facility Type**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.36"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartNichtPatientenbezogen
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartPatientenbezogen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen
 
 
 

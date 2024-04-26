@@ -12,27 +12,10 @@ Zur erfolgreichen Umsetzung von Aktenprojekten (eEPA, EFA, PEPA, etc.) werden Me
 Selektion und Auswertung von in den Aktensystemen gespeicherten Dokumenten ermöglichen. 
 In diesem Projekt werden Value Sets entwickelt, die entsprechende Value Sets und die dazugehörigen Codesysteme bereitstellen. 
 
-### Organisation dieses Leitfadens
-
-Dieser Leitfaden ist wie folgt organisiert:
-
-* Einleitung
-  * FAQ
-  * Versionen
-  * Vokabular-Management
-* XDS Value Sets (Primäre Value Sets)
-* Codesysteme zum Aufbau der Value Sets
-* (unterstützende) Value Sets
-* (erzeugte) Artifakte
-* Sonstiges
-  * Download (Packages)
-  * Überischt genutzte OIDs
-  * Disclaimer
-
 ### Bereitstellung der Technischen Spezifikation
 
 Die mit diesem Leitfaden assoziierten FHIR-Terminologie-Ressourcen werden als Packages publiziert.
-Die dazugehörigen Links sind auf der Downloadseite zu finden.
+Die dazugehörigen Links sind auf der speziellen Downloadseite zu finden.
 
 Es ist derzeit nicht beabsichtigt, das [IHE Profile SVCM](https://profiles.ihe.net/ITI/SVCM) zu unterstützen.
 
@@ -60,6 +43,7 @@ Die vorläufigen Antworten sind in fett markiert:
 
 * URLs - Canonical
   * **http://www.ihe-d.de/fhir** <- kann durch FHIR-Server einfach aufgelöst werden
+    * danach kommen dann die Resourcen
   * http://www.ihe-d.de/fhir/xds-vs
 * URLs - FHIR
   * **http://www.ihe-d.de/fhir**
@@ -72,12 +56,13 @@ Die vorläufigen Antworten sind in fett markiert:
   * Buchstaben, Unterstrich, Zahlen, fängt mit Großbuchstaben an
   * iheItiDeXdsValueSet
   * **IHE_DE_ITI_XDS_VS**
-  * IHE_DE_ITI_XDS_VS
+  * IHE_DE_ITI_XDS
   * IHE_ITI_DE_XDS_VS
   * GermanXdsValueSet
 * Package Name(s)
   * ihe.iti.de.xds-vs
   * **ihe.de.iti.xds-vs**
+  * ihe.fhir.de.iti.xds-vs <- präferiert bei hl7: hl7.fhir.XXXXX
   * ihe.fhir.de.iti-xds-vs
   * ihe.fhir.de.iti.xds-vs
 * Projektname in github
@@ -92,10 +77,16 @@ Die vorläufigen Antworten sind in fett markiert:
   * Policy: wie wird die Version hochgezogen? ([semver.org](http://semver.org)?)
 * Namenskonvention
   * **deutsch** oder englisch oder beides <- für die deutschen Codesysteme, ergänzt durch designations
-  * Tabelle: singular oder **plural**
+  * CodeSystem: **singular** oder plural
+    * eigene Codesysteme immer auf deutsch
+  * ValueSet: **singular** oder plural
+    * IHEXDSauthorRole(s) <- ohne "s"
+    * IHEXDSclassCode <- schöner
+	* oder: IheXdsClassCode <- richtiger
+  * Zuordnung von Informationen: **singular** oder plural <- es wird eine Zuordnung getroffen
   * sonst: **singular** oder plural
   * mit "CS" bzw. "VS" als Appendix <- **ohne**
-  * prä- oder postfix-Notation, bspw. "patientenbezogene Enrichtungsarten" vs. "Einrichtungsarten, patientenbezogen"
+  * prä- oder postfix-Notation, bspw. "patientenbezogene Einrichtungsarten" vs. "Einrichtungsarten, patientenbezogen"
   * Prüfung auf Vollständigkeit der Titel und Beschreibungen
   * Sortierung über Titel, Groß- vor Kleinbuchstaben, nicht alphabetisch
   * Mit “Code” am Ende oder ohne? Bspw. “classCode” oder nur “class”
@@ -130,6 +121,8 @@ Die vorläufigen Antworten sind in fett markiert:
 
 ### Offene Punkte (noch zu erledigen)
 
+* Bildung der XDS-Value Sets
+  * über die anderen ValueSets oder die Codesysteme direkt?
 * Namen für die Codesysteme
   * Bsp. Prozessrollen vs. ProzessrollenFuerAutoren
   * Qualifikationen vs. Qualifikatoren
@@ -168,5 +161,5 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 | 1.1 | 22.05.2018 | Draft | [http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
 | 2.0 | 09.10.2018 | active | [http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf)
 | 3.0 | 12.04.2021 | Draft | [http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf](http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf)
-| 4.0 | März.2024 | in Arbeit |
+| 4.0 | Mai 2024 | in Arbeit |
 
