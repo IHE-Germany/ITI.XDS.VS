@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: FormatCode
-Id: FormatCode
-Title: "Format Code"
-Description: "**Format Code** (Deutsche Dokumentenformate)"
+CodeSystem: Formate
+Id: Formate
+Title: "Formate"
+Description: "Dokumenten **Formate**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FormatCode"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Formate"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -138,17 +138,17 @@ Description: "**Format Code** (Deutsche Dokumentenformate)"
 
 //ValueSet
 
-ValueSet: FormatCode
-Id: FormatCode
-Title: "FormatCode"
-Description: "**Format Code** (German Document Format)"
+ValueSet: Formate
+Id: Formate
+Title: "Formate"
+Description: "Dokumenten **Formate**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/FormatCode"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Formate"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FormatCode
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Formate
 
 
 
@@ -165,24 +165,11 @@ Description: "**IHE XDS Format Code**"
 
 * insert HeaderDetailRules
 
-//TODO einfügen
-//Value Set 1.2.276.0.76.11.71  = Intermational format codes
-//Value Set 1.2.840.10008.6.1.19
-//Value Set 1.2.840.10008.6.1.2
-//Value Set 1.2.276.0.76.11.469
-
-
-//geht alleine:
-//* include codes from system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
-//geht alleine:
-//* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FormatCode
-
 * ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
-//TODO
-//* ^compose.include[+].system = "http://dicom.nema.org"
-//* ^compose.include[=].concept[+].code = #1.2.840.10008.5.1.4.1.1.88.59
-// #1.2.840.10008.5.1.4.1.1.88.59 "DICOM Manifest" "DICOM Manifest (DICOM KOS SOP Class UID)"
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
+* ^compose.include[+].system =  "urn:ietf:rfc:3986"
+* ^compose.include[=].concept[+].code = #urn:oid:1.2.840.10008.5.1.4.1.1.88.59
+* ^compose.include[=].concept[=].display "DICOM Manifest (DICOM KOS SOP Class UID)"
 
 
 Instance: formatCode

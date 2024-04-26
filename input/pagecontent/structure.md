@@ -2,20 +2,25 @@ Um den Aufbau dieses Leitfadens besser zu verstehen, wird hier die Unterteilung 
 
 * **XDS Home**: Startseite
 * **Einleitung**
+  * **Struktur und Aufbau** (diese Seite)
   * **Dokument und Folder**
   * **Submission Set**
   * **FAQ**: häufig gestellte Fragen
-  * **Versionen**: bisher veröffentlichte Versionen
+  * **Versionen**: bisher veröffentlichte Versionen der XDS Value Sets
   * **Versionierungs-Policy**: Wie werden Versionsnummern vergeben?
-  * **Vokabular-Management**: Wie erfolgt das Management von kodierten Informationen
+  * **Vokabular-Management**: Wie erfolgt das Management von kodierten Informationen?
   * **Projekt-Team**: Wer arbeitet an diesem Leitfaden
-* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die eingesetzt werden sollen.
-* **Codesystems**: unterstützende Codesystem, die den eigentlichen Inhalt definieren
-* indirekte **Value Sets**
+* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die in AKtenprojekten eingesetzt werden sollen.
+* **Codesystems**: Codesysteme, die den eigentlichen Inhalt definieren, sofern diese nicht bereits von anderen Organisationen bereitgestellt werden.
+* (indirekte) **Value Sets**: Canonical Value Sets zu den eigenen Codesystemen
 * Naming Systems
 * **Artifacts**: Auflistung aller definierten Komponenten
-* Sonstiges
-  * Changse
-  * Download
+  * Logical Models, die die XDS Artefakte noch einmal kurz beschreiben
+  * alle Value Sets
+  * alle Codesystems
+  * alle Namingsystems
+* **Sonstiges**
+  * Changes: Details über Änderungen
+  * Download der Inhalte in verschiedenen Formaten
   * verwendete OIDs
   * Disclaimer

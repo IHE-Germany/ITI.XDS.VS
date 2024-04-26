@@ -9,8 +9,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.1.0
-date: 2024-03-11
+version: 0.2.0
+date: 2024-04-26
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 copyright: Test Copyright - tbd
@@ -134,56 +134,56 @@ menu:
     Vokabular-Management: vok-mngmt.html
     Projekt-Team: team.html
   XDS Value Sets:
-    Author Role: ValueSet-IHEXDSauthorRole.html
-    Author Specialty: ValueSet-IHEXDSauthorSpeciality.html
-    Class: ValueSet-IHEXDSclassCode.html
-    Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
-    Content: ValueSet-IHEXDScontentTypeCode.html
-    Event: ValueSet-IHEXDSeventCodeList.html
-    (Healthcare) Facility: ValueSet-IHEXDShealthcareFacilityType.html
-    Folder: ValueSet-IHEXDSfolderCodeList.html
-    Format: ValueSet-IHEXDSformatCode.html
-    Language: ValueSet-IHEXDSlanguageCode.html
-    Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
-    Type: ValueSet-IHEXDStypeCode.html
+    XDS Author Role: ValueSet-IHEXDSauthorRole.html
+    XDS Author Specialty: ValueSet-IHEXDSauthorSpeciality.html
+    XDS Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
+    XDS Content: ValueSet-IHEXDScontentTypeCode.html
+    XDS Document Class: ValueSet-IHEXDSclassCode.html
+    XDS Document Type: ValueSet-IHEXDStypeCode.html
+    XDS Event: ValueSet-IHEXDSeventCodeList.html
+    XDS (Healthcare) Facility: ValueSet-IHEXDShealthcareFacilityType.html
+    XDS Folder (Type): ValueSet-IHEXDSfolderCodeList.html
+    XDS (Document) Format: ValueSet-IHEXDSformatCode.html
+    XDS Language: ValueSet-IHEXDSlanguageCode.html
+    XDS Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
   Codesystems:
     Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
-    DocumentType: CodeSystem-DocumentType.html
     Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
-    Dokumentklasse: CodeSystem-Dokumentklasse.html
-    Einrichtungsart nicht patientenbezogen: CodeSystem-EinrichtungsartNichtPatientenbezogen.html
-    Einrichtungsart patientenbezogen: CodeSystem-EinrichtungsartPatientenbezogen.html
+    Dokumentenklassen: CodeSystem-Dokumentenklassen.html
+    Dokumententypen: CodeSystem-Documententypen.html
+    Einrichtungsarten, nicht patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: CodeSystem-AerztlicheFachrichtungen.html
     Fachrichtungen, nicht-ärztlich: CodeSystem-NichtaerztlicheFachrichtungen.html
-    Fallkontext bei Dokumentenerstellung: CodeSystem-Fallkontext.html
-    FormatCode: CodeSystem-FormatCode.html
+    Fallkontexte bei Dokumentenerstellung: CodeSystem-Fallkontexte.html
+    Formate: CodeSystem-Formate.html
     Grund der Übermittlung: CodeSystem-GrundDerUebermittlung.html
     Ordnertypen: CodeSystem-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: CodeSystem-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: CodeSystem-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
-    Vertraulichkeit: CodeSystem-Vertraulichkeit.html
+    Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Value Sets:
     Berufsvarianten, ärztlich: ValueSet-AerztlicheBerufe.html
-    DocumentType: ValueSet-DocumentType.html
     Dokumenten Warnhinweise: ValueSet-DokumentenWarnhinweise.html
-    Dokumentklasse: ValueSet-Dokumentklasse.html
-    Einrichtungsart nicht patientenbezogen: ValueSet-EinrichtungsartNichtPatientenbezogen.html
-    Einrichtungsart patientenbezogen: ValueSet-EinrichtungsartPatientenbezogen.html
+    Dokumentenklassen: ValueSet-Dokumentenklassen.html
+    Dokumententypen: ValueSet-Documententypen.html
+    Einrichtungsarten, nicht patientenbezogen: ValueSet-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, patientenbezogen: ValueSet-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: ValueSet-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: ValueSet-AerztlicheFachrichtungen.html
-    Fachrichtungen, nichtäärztlich: ValueSet-NichtaerztlicheFachrichtungen.html
-    Fallkontext bei Dokumentenerstellung: ValueSet-Fallkontext.html
-    FormatCode: ValueSet-FormatCode.html
+    Fachrichtungen, nicht-ärztlich: ValueSet-NichtaerztlicheFachrichtungen.html
+    Fallkontexte bei Dokumentenerstellung: ValueSet-Fallkontexte.html
+    Formate: ValueSet-Formate.html
     Grund der Übermittlung: ValueSet-GrundDerUebermittlung.html
     Ordnertypen: ValueSet-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: ValueSet-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
-    Vertraulichkeit: ValueSet-Vertraulichkeit.html
+    Vertraulichkeiten: ValueSet-Vertraulichkeiten.html
   Naming Systems: artifacts.html#terminology-naming-systems
   Artifacts: artifacts.html
   Sonstiges:

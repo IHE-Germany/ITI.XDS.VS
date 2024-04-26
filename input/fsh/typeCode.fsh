@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: DocumentType
-Id: DocumentType
-Title: "DocumentType"
-Description: "**Document Type**"
+CodeSystem: Documententypen
+Id: Documententypen
+Title: "Documententypen"
+Description: "**Dokumententypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Documententypen"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/DocumentType"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Documententypen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -607,17 +607,17 @@ Description: "**Document Type**"
 
 //ValueSet
 
-ValueSet: DocumentType
-Id: DocumentType
-Title: "DocumentType"
-Description: "**Document Type**"
+ValueSet: Documententypen
+Id: Documententypen
+Title: "Documententypen"
+Description: "**Documententypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/DocumentType"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Documententypen"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/DocumentType
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Documententypen
 
 
 
@@ -637,7 +637,7 @@ Description: "**IHE XDS type Code**"
 
 //funktioniert, ist dann aber der einzige Code
 * LOINC#57016-8
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/DocumentType
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Documententypen
 
 
 //* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"

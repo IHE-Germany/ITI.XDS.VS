@@ -1,9 +1,12 @@
-This page collects the relevant changes.
+Diese Seite listet die vorgenommenen Änderungen auf:
 
-### Changes to 0.1.0
+### Zu Version 0.1.0
 
-* migration from ART-DECOR and wiki.hl7.de PDF to IG-publisher
-* separation into Codesystem, ValueSet and NamingSystem resources
-* definition of canonical URL
-* creation of a FHIR package for the vocabulary
+* Migration der Inhalte von ART-DECOR und wiki.hl7.de (PDF) nach IG-Publisher
+* Separation der Details in Codesystem, ValueSet und NamingSystem Ressourcen
+* Korrektur der Canonical URLs, die vorher nicht FHIR-konform war
+* Erzeugung eines FHIR Package für das Vokabular
+* Übersichtsseiten
+* Menustruktur
+* Disclaimer
 * ...

@@ -51,18 +51,18 @@ Description: "**Warnhinweise** zu Dokumenten"
 
 //CodeSystem
 
-CodeSystem: Fallkontext
-Id: Fallkontext
-Title: "Fallkontext bei Dokumentenerstellung"
-Description: "**Fallkontext** bei Dokumentenerstellung"
+CodeSystem: Fallkontexte
+Id: Fallkontexte
+Title: "Fallkontexte bei Dokumentenerstellung"
+Description: "**Fallkontexte** bei Dokumentenerstellung"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontext"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Fallkontext"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -121,17 +121,17 @@ Description: "**Fallkontext** bei Dokumentenerstellung"
 
 //ValueSet
 
-ValueSet: Fallkontext
-Id: Fallkontext
-Title: "Fallkontext"
-Description: "**Fallkontext**"
+ValueSet: Fallkontexte
+Id: Fallkontexte
+Title: "Fallkontexte"
+Description: "**Fallkontexte**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontext"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
 * ^version = "0.1.0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Fallkontext
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte
 
 
 
@@ -153,11 +153,11 @@ Description: "**IHE XDS event Code List**"
 //geht allein:
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
 //geht allein:
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontext"
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
 
 * ^compose.include[+].system = "urn:iso-astm:E1762-95:2013"
 
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/FormatCode"
+* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 
