@@ -66,7 +66,7 @@ und ggf. in die Value Sets eingearbeitet. U.a. wurden folgende Themen in der dri
   * Publizierung in Simplifier
 * allgemeine Weiterentwicklung der ValueSets
 
-### Planung für die vierte Version
+### Änderungen für die vierte Version
 
 Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen und Ergänzungen zu diskutieren:
 
@@ -75,6 +75,10 @@ Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen 
 * Anpassungen für FHIR
   * Korrektur der Canonicals
   * Erstellung von NamingSystem Resourcen
-  * Erstellung von FHIR Packages
+  * Umstellung auf IG-Publisher
+  * Erstellung von FHIR Packages (automatisch)
   * Publikation auf build.fhir.org/ig/IHE-Germany
-  
+
+### Planung für weitere Arbeiten direkt nach der vierter Version
+
+* versionierter Leitfaden auf www.ihe-d.de

@@ -27,23 +27,32 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."
 * ^property[=].type = #code
 
+* ^property[+].code = #beispiel
+//* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
+* ^property[=].description = "Beispiele"
+* ^property[=].type = #string
+
 
 * #101 "Hausarzt"  "der Hausarzt (Primärversorger) des Patienten"
 * #102 "Patient"  "der Patient selbst"
 * #103 "Arbeitgebervertreter"  "ein Vertreter des Arbeitgebers des Patienten"
-* #104 "Primärbetreuer (langfristig)"  "Die Person, die den Patienten normalerweise primär betreut. Beispiele: Langzeitpflege, Stammapotheke"
-* #104 ^property[0].code = #status
-* #104 ^property[=].valueCode = #deprecated
+* #104 "Primärbetreuer (langfristig)"  "Die Person, die den Patienten normalerweise primär betreut."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Langzeitpflege"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Stammapotheke"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #105 "Kostenträgerverteter"  "ein Vertreter des Kostenträgers"
 * #106 "Betreuer"
 * #107 "pflegerischer Betreuer" "Dies ist ein Pfleger oder eine pflegende Person, die einen Patienten betreut."
-  * ^property[0].code = #parent
+  * ^property[+].code = #parent
   * ^property[=].valueCode = #106
 * #108 "rechtlicher Betreuer" "Dieser ist dafür verantwortlich, medizinische Entscheidungen im Namen des Patienten zu treffen, insbesondere, wenn der Patient nicht in der Lage ist, diese Entscheidungen selbst zu treffen, sei es aufgrund von Minderjährigkeit, Krankheit, Behinderung oder anderen Umständen. Im Fall von Minderjährigen wird dieser auch als gesetzlicher Vormund bezeichnet."
-  * ^property[0].code = #parent
+  * ^property[+].code = #parent
   * ^property[=].valueCode = #106
 * #109 "Vertrauensperson" "Dies ist eine informelle Rolle, in der ein Familienmitglied oder Freund die Unterstützung eines Patienten übernimmt, um die medizinische Betreuung des Patienten sicherzustellen oder zu verbessern."
-  * ^property[0].code = #parent
+  * ^property[+].code = #parent
   * ^property[=].valueCode = #106
 
 

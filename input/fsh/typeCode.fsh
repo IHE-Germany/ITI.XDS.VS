@@ -18,7 +18,7 @@ Description: "**Dokumententypen**"
 * ^content = #complete
 
 * ^property[+].code = #beispiel
-* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
+//* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
 * ^property[=].description = "Beispiele"
 * ^property[=].type = #string
 

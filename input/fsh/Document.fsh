@@ -2,7 +2,11 @@ Logical: DocumentEntry
 Parent: Base
 Id: DocumentEntry
 Title: "Document Entry"
-Description: "Document Entry"
+Description: """
+This Logical Mode describes the relevant attributes on the **Document Entry** class within IHE ITI XDS.
+More details are to be retrieved from IHE ITI on www.ihe.net.
+(Focus for this LM is on the coded attributes.)
+"""
 
 * ^version = "0.1.0"
 * ^abstract = false

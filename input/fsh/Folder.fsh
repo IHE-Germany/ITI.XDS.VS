@@ -2,7 +2,11 @@ Logical: Folder
 Parent: DomainResource
 Id: Folder
 Title: "Folder (LM)"
-Description: "Folder"
+Description: """
+This Logical Mode describes the relevant attributes on the **Folder** class within IHE ITI XDS.
+More details are to be retrieved from IHE ITI on www.ihe.net.
+(Focus for this LM is on the coded attributes.)
+"""
 
 * ^version = "0.1.0"
 * ^abstract = false

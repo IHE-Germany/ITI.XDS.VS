@@ -19,7 +19,7 @@ class "Author" as a {
 
 class "Folder" as f {
     availabilityStatus : code
-    [[ValueSet-IHEXDSfolderCodeList.html code]]: code
+    [[ValueSet-IHEXDSfolderCodeList.html code]]: code[]
 }
 
 d "1" *-right- "0..*" a

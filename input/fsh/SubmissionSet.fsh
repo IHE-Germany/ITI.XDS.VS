@@ -2,7 +2,11 @@ Logical: SubmissionSet
 Parent: DomainResource
 Id: SubmissionSet
 Title: "SubmissionSet (LM)"
-Description: "SubmissionSet Logical Model"
+Description: """
+This Logical Mode describes the relevant attributes on the **Submission Set** class within IHE ITI XDS.
+More details are to be retrieved from IHE ITI on www.ihe.net.
+(Focus for this LM is on the coded attributes.)
+"""
 
 * ^version = "0.1.0"
 * ^abstract = false

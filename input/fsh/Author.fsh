@@ -2,7 +2,11 @@ Logical: Author
 Parent: DomainResource
 Id: Author
 Title: "Author (LM)"
-Description: "Author"
+Description: """
+This Logical Mode describes the relevant attributes on the **Author** class within IHE ITI XDS.
+More details are to be retrieved from IHE ITI on www.ihe.net.
+(Focus for this LM is on the coded attributes.)
+"""
 
 * ^version = "0.1.0"
 * ^abstract = false

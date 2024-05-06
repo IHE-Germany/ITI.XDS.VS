@@ -61,10 +61,11 @@ Die vorläufigen Antworten sind in fett markiert:
   * GermanXdsValueSet
 * Package Name(s)
   * ihe.iti.de.xds-vs
-  * **ihe.de.iti.xds-vs**
+  * **ihe.de.iti.xds-vs** <- überdenken!
   * ihe.fhir.de.iti.xds-vs <- präferiert bei hl7: hl7.fhir.XXXXX
   * ihe.fhir.de.iti-xds-vs
   * ihe.fhir.de.iti.xds-vs
+  * ihe.fhir.iti.de.xds-vs <- ??, mit IHE klären
 * Projektname in github
   * ITI.XDS.VS
 * Versionierung
