@@ -6,7 +6,7 @@ Title: "Facharzttitel der Ärztekammern"
 Description: "**Facharzttitel** der Ärztekammern"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -16,6 +16,8 @@ Description: "**Facharzttitel** der Ärztekammern"
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+
 
 * #11001 "FA Allgemeinmedizin"
 * #12901 "SP Geriatrie" "FA Allgemeinmedizin mit SP Geriatrie"
@@ -224,7 +226,7 @@ Title: "Facharzttitel Ärztekammer"
 Description: "**Facharzttitel Ärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/FacharzttitelAerztekammer"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -239,7 +241,7 @@ Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -834,10 +836,9 @@ Title: "Qualifikationen Ärztekammer"
 Description: "**Qualifikationen Ärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenAerztekammer"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
 
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer
 
@@ -850,12 +851,10 @@ Title: "Qualifikatoren zahnärztlicher Autoren"
 Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
-* ^copyright = "IHE Germany"
-* ^publisher = "IHE Germany"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
+
 * ^caseSensitive = false
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
 * ^hierarchyMeaning = #is-a
@@ -895,10 +894,9 @@ Title: "Qualifikatoren Zahnärztekammer"
 Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
 
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer
 
@@ -907,16 +905,14 @@ Description: "**Qualifikatoren Zahnärztekammer**"
 
 CodeSystem: AerztlicheBerufe
 Id: AerztlicheBerufe
-Title: "Ärztliche Berufsvarianten"
+Title: "Berufsvarianten, ärztlich"
 Description: "**Ärztliche Berufsvarianten**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
-* ^copyright = "IHE Germany"
-* ^publisher = "IHE Germany"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
+
 * ^caseSensitive = false
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheBerufe"
 * ^hierarchyMeaning = #is-a
@@ -943,14 +939,13 @@ Description: "**Ärztliche Berufsvarianten**"
 
 ValueSet: AerztlicheBerufe
 Id: AerztlicheBerufe
-Title: "Ärztliche Berufe"
+Title: "Berufe, ärztlich"
 Description: "**Ärztliche Berufe**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheBerufe"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
 
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe
 
@@ -965,10 +960,9 @@ Title: "IHE XDS Author Speciality"
 Description: "**IHE XDS Author Speciality**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
 
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer
@@ -982,6 +976,9 @@ Description: "**IHE XDS Author Speciality**"
 Instance: AuthorSpecialty
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/AuthorSpecialty"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -989,13 +986,14 @@ Usage: #definition
 * name = "AuthorSpecialty"
 //* title = "Author Specialty"
 * description = "Represents a **specific specialty** within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet"
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "urn:oid:1.2.276.0.76.11.31"
 * uniqueId[+].type = #uri

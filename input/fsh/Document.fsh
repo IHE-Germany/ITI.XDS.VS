@@ -1,7 +1,7 @@
 Logical: DocumentEntry
 Parent: Base
 Id: DocumentEntry
-Title: "Document Entry"
+Title: "Document Entry(LM)"
 Description: """
 This Logical Mode describes the relevant attributes on the **Document Entry** class within IHE ITI XDS.
 More details are to be retrieved from IHE ITI on www.ihe.net.
@@ -11,7 +11,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * ^version = "0.1.0"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Document"
-* . ^definition = "Document Entry xxxx"
+* . ^definition = "Document Entry"
 
 * insert HeaderDetailRules
 

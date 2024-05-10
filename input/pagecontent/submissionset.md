@@ -15,4 +15,5 @@ Die Werte sind im Basisprofile vorgegeben und werden hier nicht weiter präzisie
 
 ### SubmissionSet.contentTypeCode
 
+[IHE XDS Content Type Code](ValueSet-IHEXDScontentTypeCode.html)
 

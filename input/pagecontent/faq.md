@@ -13,3 +13,17 @@ Die Empfehlung spricht eher von einem Mapping (siehe PCC, Vol. 2, S. 45)
 "The typeCode should be mapped from the ClinicalDocument/code element to a set of document type codes configured 
 in the affinity domain. One suggested coding system to use for typeCode is LOINC, in which case the mapping step can be omitted." 
 Wir empfehlen daher die Auswahl von IHE-D Class und TypeCode auf Basis des LOINC Codes. Bei Bedarf kann man den ClinicalDocument/code als eventCode hinzufügen. 
+
+### Wieso gibt es "XDS Value Sets" und "einfache Value Sets"?
+
+Auf den ersten Blick erscheint sich eine Doppelung zu ergeben, weil es "Value Sets" und "XDS Value Sets" gibt.
+Für die Nutzung mit Aktensystemen sind die "XDS Value Sets" vorgesehen, weil diese ein vollständiges Konstrukt bilden.
+Die Liste der Codes ist dann in der Value Set Expansion vorhanden.
+
+Um diese Listen zu erstellen hat sich IHE-D dafür entschieden, "saubere" Codesysteme mit klaren Definitionen zu spezifizieren.
+Diese lassen sich dann einfacher administrieren, weil keine Konzepte durcheinandergeschmissen werden.
+Daraus ergibt sich aber auch, dass mitunter mehrere Codesysteme benötigt werden, 
+wie am Beispiel "Practice Setting" zu sehen ist.
+
+Die zugrundeliegenden Codesysteme stellen ebenfalls sog. "Canonical Value Sets" dar, die für die Verwendung
+mit den Ursprungscodesystemen vorgesehen sind. Der Vollständigkeit halber sind deshalb alle aufgeführt.

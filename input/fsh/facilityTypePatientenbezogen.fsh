@@ -2,11 +2,11 @@
 
 CodeSystem: EinrichtungsartenPatientenbezogen
 Id: EinrichtungsartenPatientenbezogen
-Title: "Einrichtungsarten patientenbezogen"
+Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -67,8 +67,7 @@ Title: "Einrichtungsarten patientenbezogen"
 Description: "**Einrichtungsarten Patientenbezogen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
-* ^version = "0.1.0"
-* ^status = #draft
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 

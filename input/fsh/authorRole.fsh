@@ -6,7 +6,7 @@ Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
-* ^version = "4.0.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -16,6 +16,16 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 2
+* ^extension[=].valueInteger.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
+* ^extension[=].valueInteger.extension.valueCanonical = "http://www.ihe-d.de/fhir/ImplementationGuide/ihe.de.iti.xds-vs"
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+* ^extension[=].valueCode = #normative
+* ^extension[=].valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
+* ^extension[=].valueCode.extension.valueCanonical = "http://www.ihe-d.de/fhir/ImplementationGuide/ihe.de.iti.xds-vs"
+
 
 * ^property[0].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -64,7 +74,7 @@ Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/PatientenbeziehungsrollenFuerAutoren"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -82,7 +92,7 @@ Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -148,7 +158,7 @@ Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/ProzessrollenFuerAutoren"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -166,7 +176,7 @@ Title: "IHE XDS Author Role"
 Description: "**IHE XDS Author Role**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -178,6 +188,9 @@ Description: "**IHE XDS Author Role**"
 Instance: AuthorRole
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/AuthorRole"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -186,13 +199,14 @@ Usage: #definition
 * name = "AuthorRoleCode"
 //* title = "Author Role Code"
 * description = "Represents the **role of the author** with respect to the patient at the time that an XDS Document or XDS Submission Set was created."
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.11.30"
 * uniqueId[+].type = #uri

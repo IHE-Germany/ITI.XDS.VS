@@ -2,7 +2,14 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.2.1
+Die aktuelle Version ist 0.2.2
+
+### Zu Version 0.2.1
+
+* Version = 4.0.0-alpha0
+* Namenskonvention für Titel
+* FMM=2
+* Inhaltsbeschreibungen zu den Value Sets verschoben 
 
 ### Zu Version 0.2.0
 
@@ -20,6 +27,8 @@ Nachfolgend die Änderungen (als Version 4.0) zur zuletzt veröffentlichten Vers
 * Korrektur der Canonical URLs, die vorher nicht FHIR-konform war
 * Erzeugung eines FHIR Package für das Vokabular
 * Übersichtsseiten
+* einfache Informationsmodelle
+* Logical Models für die Basiskonstrukte aus IHE ITI XDS
 * Menustruktur
 * Disclaimer
 * ...

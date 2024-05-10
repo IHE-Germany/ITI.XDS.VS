@@ -8,7 +8,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 (Focus for this LM is on the coded attributes.)
 """
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Author"
 
@@ -31,7 +31,7 @@ Id: AuthorProfile
 Title: "Author (Profile)"
 Description: "**Author** (Profile)"
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 

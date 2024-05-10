@@ -6,7 +6,7 @@ Title: "IHE XDS Language Code"
 Description: "**IHE XDS Language Code** (Sprachcode)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -43,17 +43,20 @@ Usage: #definition
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
 //* identifier.use = #official
 
+* insert HeaderNamingSystemRules
+
 * name = "Language"
 //* title = "Language"
 * description = "Specifies the possible **languages** to tag a document."
 * kind = #codesystem
-* status = #draft
-* date = "2014-12-13"
-* publisher = "IHE Deutschland e.V."
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* date = "2014-12-13"
+//* publisher = "IHE Deutschland e.V."
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+///* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
 //* uniqueId[0].type = #oid
 //* uniqueId[=].value = "1.2.276.0.76.11.30"
 * uniqueId[+].type = #uri

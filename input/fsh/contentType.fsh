@@ -6,7 +6,7 @@ Title: "Grund der Übermittlung"
 Description: "**Grund der Übermittlung**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -54,7 +54,7 @@ Title: "GrundDerUebermittlung"
 Description: "**Grund der Übermittlung**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/GrundDerUebermittlung"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -71,7 +71,7 @@ Title: "IHE XDS Content Type Code"
 Description: "**IHE XDS Content Type Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -82,6 +82,9 @@ Description: "**IHE XDS Content Type Code**"
 Instance: ContentType
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/ContentTypeCode"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -89,16 +92,17 @@ Usage: #definition
 * name = "ContentType"
 //* title = "Content Type"
 * description = "The code specifying the **type of clinical activity** that resulted in placing XDS Documents in a SubmissionSet."
-* status = #draft
-* kind = #codesystem
+//* status = #draft
+//* kind = #codesystem
 //* experimental = false
-* date = "2014-12-13"
-* jurisdiction = #DE
-* publisher = "IHE Germany"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* date = "2024-05-09"
+//* jurisdiction = #DE
+//* publisher = "IHE Germany"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "urn:oid:1.2.276.0.76.11.39"
 * uniqueId[+].type = #uri

@@ -2,15 +2,11 @@
 
 CodeSystem: NichtaerztlicheFachrichtungen
 Id: NichtaerztlicheFachrichtungen
-Title: "Nicht-ärztliche Fachrichtungen"
+Title: "Fachrichtungen, nicht-ärztlich"
 Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral)"
 
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
-* ^extension.valueCode = #informative
-* ^extension.valueCode.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
-* ^extension.valueCode.extension.valueCanonical = "http://www.ihe-d.de/fhir/ImplementationGuide/ihe.de.iti.xds-vs"
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -55,12 +51,10 @@ Title: "Practice Setting Non Doctoral"
 Description: "**Practice Setting Non Doctoral** (Nicht-ärztliche Fachrichtungen)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/NichtaerztlicheFachrichtungen"
-* ^version = "0.1.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2024-01-24"
-* ^copyright = "IHE Germany"
-* ^publisher = "IHE Germany"
+* ^version = "4.0.0-alpha0"
+
+* insert HeaderDetailRules
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5"
 * ^identifier.use = #official

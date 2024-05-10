@@ -6,7 +6,7 @@ Title: "Documententypen"
 Description: "**Dokumententypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Documententypen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -613,7 +613,7 @@ Title: "Documententypen"
 Description: "**Documententypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Documententypen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -629,7 +629,7 @@ Title: "IHE XDS Type Code"
 Description: "**IHE XDS type Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -652,6 +652,9 @@ Description: "**IHE XDS type Code**"
 Instance: TypeCode
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/TypeCode"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -659,13 +662,13 @@ Usage: #definition
 * name = "TypeCode"
 //* title = "Type Code"
 * description = "A **low-level classification** of XDS Documents within a classCode that describes class, event, specialty, and setting."
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "urn:oid:1.2.276.0.76.11.38"
 * uniqueId[+].type = #uri

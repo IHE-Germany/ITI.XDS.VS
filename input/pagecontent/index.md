@@ -61,7 +61,7 @@ Die vorläufigen Antworten sind in fett markiert:
   * GermanXdsValueSet
 * Package Name(s)
   * ihe.iti.de.xds-vs
-  * **ihe.de.iti.xds-vs** <- überdenken!
+  * **ihe.de.iti.xds-vs** <- überdenken! (bleiben dabei)
   * ihe.fhir.de.iti.xds-vs <- präferiert bei hl7: hl7.fhir.XXXXX
   * ihe.fhir.de.iti-xds-vs
   * ihe.fhir.de.iti.xds-vs
@@ -71,23 +71,48 @@ Die vorläufigen Antworten sind in fett markiert:
 * Versionierung
   *  erste "neue" Version
     * 1.0.0
-    * **4.0.0** <- als Fortführung der bestehenden Arbeit
+    * **4.0.0** <- als Fortführung der bestehenden Arbeit (auch durch breaking change bei canonical)
   * Codesystems/Value Sets
     * **einzeln** <- bessere Versionierbarkeit
-    * gemeinsam
+	* Startversion: 4.0.0
+  * Value Sets
+    * primär als **Content Logical Definition**
+  * Codesystem
+    * date
+      * Datum letztes Edit
+    * status
+      * informative (für nationale Anwendbarkeit)
+      * normative (seitens IHE-D)
+    * caseSensitive
+      * true: wenn Codes sowohl  groß- als auch kleingeschrieben vorkommen
+	  * false:
+	* hierarchy-meaning
+	  * is-a: nur als Taxonomie
+    * complete
+	  * true: wir definieren unsere Codesysteme vollständig
+	* versionNeeded
+	  * true: Klassifikation
+	  * false: Terminologie
+    * maturity level
+      * FMM=2
   * Policy: wie wird die Version hochgezogen? ([semver.org](http://semver.org)?)
+    * Klassifikation: primär neue major
+	* Terminologie: primär neue minor
+	* Typos als patch
 * Namenskonvention
   * **deutsch** oder englisch oder beides <- für die deutschen Codesysteme, ergänzt durch designations
   * CodeSystem: **singular** oder plural
     * eigene Codesysteme immer auf deutsch
   * ValueSet: **singular** oder plural
     * IHEXDSauthorRole(s) <- ohne "s"
-    * IHEXDSclassCode <- schöner
+    * **IHEXDSclassCode** <- schöner
 	* oder: IheXdsClassCode <- richtiger
   * Zuordnung von Informationen: **singular** oder plural <- es wird eine Zuordnung getroffen
   * sonst: **singular** oder plural
   * mit "CS" bzw. "VS" als Appendix <- **ohne**
   * prä- oder postfix-Notation, bspw. "patientenbezogene Einrichtungsarten" vs. "Einrichtungsarten, patientenbezogen"
+    * Sortierung unter dem Nomen, d.h. für Id und Title -> "Einrichtungsarten, patientenbezogen"
+	* Description: "patientenbezogene Einrichtungsarten"
   * Prüfung auf Vollständigkeit der Titel und Beschreibungen
   * Sortierung über Titel, Groß- vor Kleinbuchstaben, nicht alphabetisch
   * Mit “Code” am Ende oder ohne? Bspw. “classCode” oder nur “class”
@@ -127,6 +152,7 @@ Die vorläufigen Antworten sind in fett markiert:
 * Namen für die Codesysteme
   * Bsp. Prozessrollen vs. ProzessrollenFuerAutoren
   * Qualifikationen vs. Qualifikatoren
+  * Berufe vs. Berufsvarianten
 * Abgleich mit den DEMIS Einrichtungsarten: simplifier.net
 * Mapping für Fachabteilungsschlüssel (akt. noch bei PracticeSetting Notes)
   * als ConceptMap
@@ -162,5 +188,5 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 | 1.1 | 22.05.2018 | Draft | [http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
 | 2.0 | 09.10.2018 | active | [http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf)
 | 3.0 | 12.04.2021 | Draft | [http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf](http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf)
-| 4.0 | Mai 2024 | in Arbeit |
+| 4.0.0-alpha0 | Mai 2024 | in Arbeit |
 

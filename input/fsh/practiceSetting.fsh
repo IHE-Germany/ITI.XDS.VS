@@ -5,7 +5,7 @@ Title: "IHE XDS Practice Setting Code"
 Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSpracticeSettingCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -21,6 +21,9 @@ Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 Instance: PracticeSettingCode
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/PracticeSettingCode"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -28,14 +31,14 @@ Usage: #definition
 * name = "PracticeSetting"
 //* title = "Practice Setting"
 * description = "**Fachrichtungen**"
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* publisher = "IHE Germany"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* publisher = "IHE Germany"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.11.37"
 * uniqueId[+].type = #uri

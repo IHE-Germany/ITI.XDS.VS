@@ -6,7 +6,7 @@ Title: "Dokumenten-Warnhinweise"
 Description: "**Dokumenten-Warnhinweise**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -38,7 +38,7 @@ Title: "Dokumenten Warnhinweise"
 Description: "**Warnhinweise** zu Dokumenten"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -57,7 +57,7 @@ Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -127,7 +127,7 @@ Title: "Fallkontexte"
 Description: "**Fallkontexte**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -146,7 +146,7 @@ Title: "IHE XDS Event Code List"
 Description: "**IHE XDS event Code List**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -166,6 +166,9 @@ Description: "**IHE XDS event Code List**"
 Instance: EventCodeList
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/EventCodeList"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -173,14 +176,15 @@ Usage: #definition
 * name = "EventCodeList"
 //* title = "Event Code List"
 * description = "This list of codes represents the main **clinical acts** being documented in an XDS Document."
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* publisher = "IHE Germany"
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* publisher = "IHE Germany"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.11.34"
 * uniqueId[+].type = #uri

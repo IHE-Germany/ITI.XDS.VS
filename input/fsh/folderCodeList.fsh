@@ -6,7 +6,7 @@ Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -36,7 +36,7 @@ Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Ordnertypen"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -53,7 +53,7 @@ Title: "IHE XDS Folder Code List"
 Description: "**IHE XDS Folder Code List**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
@@ -64,6 +64,9 @@ Description: "**IHE XDS Folder Code List**"
 Instance: FolderCodeList
 InstanceOf: NamingSystem
 Usage: #definition
+
+* insert HeaderNamingSystemRules
+
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/FolderCodeList"
 //* identifier.system = "urn:ietf:rfc:3986"
@@ -71,14 +74,15 @@ Usage: #definition
 * name = "FolderCodeList"
 //* title = "Folder Code List"
 * description = "The list of codes specifying the **general super-type of the folder** designating its primary use."
-* status = #draft
-* kind = #codesystem
-* date = "2014-12-13"
-* publisher = "IHE Deutschland e.V."
-* contact.name = "Value Set project team"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Deutschland e.V."
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* publisher = "IHE Deutschland e.V."
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Deutschland e.V."
+
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "1.2.276.0.76.11.40"
 * uniqueId[+].type = #uri
