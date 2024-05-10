@@ -145,22 +145,22 @@ Patientenbeziehungsrollen für Autoren </td><td>http://www.ihe-d.de/fhir/CodeSys
 </tr>
 <tr>
 <td>
-Qualifikationen nicht ärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecialty</a>
+Qualifikationen nicht ärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Facharzttitel der Ärztekammern </td><td>http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecialty</a>
+Facharzttitel der Ärztekammern </td><td>http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Qualifikatoren zahnärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecialty</a>
+Qualifikatoren zahnärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Ärztliche Berufsvarianten </td><td>http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecialty</a>
+Ärztliche Berufsvarianten </td><td>http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>

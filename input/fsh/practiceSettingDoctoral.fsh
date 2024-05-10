@@ -11,7 +11,7 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/PracticeSettingDoctoral"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheFachrichtungen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false

@@ -14,7 +14,7 @@ class "Document Entry" as d {
 
 class "Author" as a {
     [[ValueSet-IHEXDSauthorRole.html authorRole]]: code
-    [[ValueSet-IHEXDSauthorSpeciality.html authorSpecialty]]: code
+    [[ValueSet-IHEXDSauthorSpecialty.html authorSpecialty]]: code
 }
 
 class "Folder" as f {

@@ -14,7 +14,7 @@ ein wichtiges - jedoch nicht das einzige - Signal für das Berechtigungssystem u
 Die hier vorgeschlagenen Werte implizieren kein spezifisches Berechtigungssystem. Zwei Affinity Domains können beide die hier vorgeschlagenen Codes verwenden, 
 jedoch vollkommen unterschiedliche Berechtigungsentscheidungen treffen. Während zum Beispiel in der ersten Affinity Domain 
 eingeschränkte Dokumente nur für den Hausarzt sichtbar sind, könnte die andere Affinity Domain eingeschränkte Dokumente 
-nur für Fachärzte mit einer zum practiceSettingCode passenden authorSpeciality sichtbar machen. Die Interpretation des Confidentiality Codes 
+nur für Fachärzte mit einer zum practiceSettingCode passenden authorSpecialty sichtbar machen. Die Interpretation des Confidentiality Codes 
 ist somit Aufgabe des Berechtigungssystems. IHE XDS unterstützt die Verwendung von mehreren Confidentiality Codes für ein Dokument. 
 Damit lässt sich zum Beispiel der von HL7 entwickelte Mechanismus für Security und Privacy Tags ("HL7 Healthcare Privacy and Security Classification System - HCS") umsetzen. 
 Das hier vorgestellte Value Set lässt sich vollständig mit HCS kombinieren.

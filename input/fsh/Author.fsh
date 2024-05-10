@@ -19,7 +19,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * authorRole 1..1 CodeableConcept "role of the author of this document" "**Author Role**"
 * authorRole from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole (required)
 * authorSpecialty 0..* CodeableConcept "specialty of the author for this document" "**AutorSpecialty**"
-* authorSpecialty from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality (required)
+* authorSpecialty from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty (required)
 * authorTelecommunication 0..1 string "contact information"
 
 

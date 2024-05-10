@@ -954,12 +954,12 @@ Description: "**Ärztliche Berufe**"
 
 //ValueSet
 
-ValueSet: IHEXDSauthorSpeciality
-Id: IHEXDSauthorSpeciality
-Title: "IHE XDS Author Speciality"
-Description: "**IHE XDS Author Speciality**"
+ValueSet: IHEXDSauthorSpecialty
+Id: IHEXDSauthorSpecialty
+Title: "IHE XDS Author Specialty"
+Description: "**IHE XDS Author Specialty**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
@@ -997,7 +997,7 @@ Usage: #definition
 * uniqueId[0].type = #oid
 * uniqueId[=].value = "urn:oid:1.2.276.0.76.11.31"
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
 * uniqueId[=].preferred = true
 
 

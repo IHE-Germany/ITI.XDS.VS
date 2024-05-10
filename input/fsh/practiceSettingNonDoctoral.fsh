@@ -11,7 +11,7 @@ Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/PracticeSettingNonDoctoral"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/NichtaerztlicheFachrichtungen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false

@@ -135,7 +135,7 @@ menu:
     Projekt-Team: team.html
   XDS Value Sets:
     XDS Author Role: ValueSet-IHEXDSauthorRole.html
-    XDS Author Specialty: ValueSet-IHEXDSauthorSpeciality.html
+    XDS Author Specialty: ValueSet-IHEXDSauthorSpecialty.html
     XDS Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
     XDS Content: ValueSet-IHEXDScontentTypeCode.html
     XDS Document Class: ValueSet-IHEXDSclassCode.html
@@ -180,8 +180,6 @@ menu:
     Grund der Übermittlung: ValueSet-GrundDerUebermittlung.html
     Ordnertypen: ValueSet-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
-    Practice Setting Doctoral: ValueSet-PracticeSettingDoctoral.html
-    Practice Setting Non-Doctoral: ValueSet-PracticeSettingNonDoctoral.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Qualifikationen Ärztekammer: ValueSet-QualifikationenAerztekammer.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
