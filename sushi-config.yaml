@@ -65,16 +65,14 @@ pages:
     title: Projekt-Team
   structure.md:
     title: Struktur/Aufbau des Leitfadens
+  submissionset.md:
+    title: Submission Set
   document.md:
-    title: Dokument (+Folder)
+    title: Dokumente (+ Folder)
   submissionset.md:
     title: Submission Set
   faq.md:
     title: FAQ
-  document.md:
-    title: Dokumente (* Folder)
-  submissionset.md:
-    title: Submission Set
   value_sets.md:
     title: Value-Set-Tabellen
   versionen.md:
