@@ -235,22 +235,26 @@ Description: "**Facharzttitel Ärztekammer**"
 
 //CodeSystem
 
-CodeSystem: QualifikationenAerztekammer
-Id: QualifikationenAerztekammer
+CodeSystem: QualifikationenNichtaerztlicherAutoren
+Id: QualifikationenNichtaerztlicherAutoren
 Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenAerztekammer"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenNichtaerztlicherAutoren"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
+* ^identifier.use = #official
 
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -830,17 +834,17 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 //ValueSet
 
-ValueSet: QualifikationenAerztekammer
-Id: QualifikationenAerztekammer
-Title: "Qualifikationen Ärztekammer"
-Description: "**Qualifikationen Ärztekammer**"
+ValueSet: QualifikationenNichtaerztlicherAutoren
+Id: QualifikationenNichtaerztlicherAutoren
+Title: "Qualifikationen nicht ärztlicher Autoren"
+Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenAerztekammer"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenNichtaerztlicherAutoren"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren
 
 
 //CodeSystem
@@ -861,6 +865,10 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.5.492"
+* ^identifier.use = #official
 
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -920,6 +928,10 @@ Description: "**Ärztliche Berufsvarianten**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.5.493"
+* ^identifier.use = #official
+
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "Status"
@@ -965,7 +977,7 @@ Description: "**IHE XDS Author Specialty**"
 * insert HeaderDetailRules
 
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenAerztekammer
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe
 

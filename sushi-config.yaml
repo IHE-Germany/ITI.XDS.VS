@@ -162,7 +162,7 @@ menu:
     Ordnertypen: CodeSystem-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: CodeSystem-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
-    Qualifikationen Ärztekammer: CodeSystem-QualifikationenAerztekammer.html
+    Qualifikationen Ärztekammer: CodeSystem-QualifikationenNichtaerztlicherAutoren.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Value Sets:
@@ -181,7 +181,7 @@ menu:
     Ordnertypen: ValueSet-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
-    Qualifikationen Ärztekammer: ValueSet-QualifikationenAerztekammer.html
+    Qualifikationen Ärztekammer: ValueSet-QualifikationenNichtaerztlicherAutoren.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: ValueSet-Vertraulichkeiten.html
   Naming Systems: artifacts.html#terminology-naming-systems

@@ -17,6 +17,10 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"
+* ^identifier.use = #official
+
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 2
 * ^extension[=].valueInteger.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
@@ -105,6 +109,10 @@ Description: "**Prozessrollen** für Autoren"
 
 * insert HeaderDetailRules
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13"
+* ^identifier.use = #official
+
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."
@@ -183,7 +191,9 @@ Description: "**IHE XDS Author Role**"
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren
 
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.30"
+* ^identifier.use = #official
 
 Instance: AuthorRole
 InstanceOf: NamingSystem
