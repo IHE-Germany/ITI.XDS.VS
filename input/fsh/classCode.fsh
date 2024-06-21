@@ -20,6 +20,10 @@ Description: "**Dokumentenklassen**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
+* ^identifier.use = #official
+
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "Status"
@@ -117,6 +121,10 @@ Description: "**IHE XDS Class Code**"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.32"
+* ^identifier.use = #official
 
 
 //funktioniert, ist dann aber der einzige Code
