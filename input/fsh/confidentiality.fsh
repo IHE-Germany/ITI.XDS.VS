@@ -17,6 +17,10 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
+* ^identifier.use = #official
+
 * #PV "gesperrt"
   "Aus Sicht der Betroffenen sind die Daten so sensibel, dass sie für praktisch niemanden außer ihr selbst sichtbar sein sollten."
 * #PR "erhöhte Vertraulichkeit"
@@ -62,7 +66,9 @@ Description: "**IHE XDS Confidentiality Code**"
 * ^compose.include[=].concept[+].code = #R
 * ^compose.include[=].concept[+].code = #V
 
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.33"
+* ^identifier.use = #official
 
 Instance: Confidentiality
 InstanceOf: NamingSystem
