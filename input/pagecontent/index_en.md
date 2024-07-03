@@ -8,14 +8,14 @@ This is the homepage for the **IHE IT-I XDS Value Set National Extension for Ger
 Compatibility with FHIR but also other requirements demand changes to important aspects like canonicals.
 {:.new-content}
 
-Zur erfolgreichen Umsetzung von Aktenprojekten (eEPA, EFA, PEPA, etc.) werden Metadaten benötigt, die die Identifikation, 
-Selektion und Auswertung von in den Aktensystemen gespeicherten Dokumenten ermöglichen. 
-In diesem Projekt werden Value Sets entwickelt, die entsprechende Codesysteme bereitstellen. 
+For the successful implementation of file projects (eEPA, EFA, PEPA, etc.), metadata is required that enables the identification, 
+selection and evaluation of documents stored in repositories. 
+In this project, value sets are developed that provide corresponding code systems. 
 
-## Bereitstellung der Technischen Spezifikation
+## Provision of the Technical Specification
 
-Die mit diesem Leitfaden assoziierten FHIR-Terminologie-Ressourcen sind als Packages publiziert.
-Die Links sind auf der Downloadseite zu finden.
+The FHIR terminology resources associated with this guide are published as packages.
+The links can be found on the download page.
 
 ## Corrections
 
@@ -24,9 +24,17 @@ Following corrections have been applied in contrast to what ART-DECOR provides:
 * event code list is missing - download not available
 * OID for non-doctoral codes are duplicate to practice setting code -> adjusted (x.70 -> .x71)
 * PracticeSetting has wrong URL and title
+* canonicals
+* adding of new codes to some codesystems
 
 ## Links
 
+* [Project at IHE-D](https://www.ihe-d.de/projekte/xds-value-sets-fuer-deutschland/)
+* HL7 Deutschland: German Message Profiles: XDS-MDM-CDA-Mapping. Online, verfügbar unter [http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping](http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping)
+* RFC 1766 „Tags for the Identification of Languages“. Online, verfügbar unter [https://www.ietf.org/rfc/rfc1766.txt](https://www.ietf.org/rfc/rfc1766.txt)
+* DIN EN ISO 3166-1 „Codes für die Namen von Ländern und deren Untereinheiten - Teil 1: Codes für Ländernamen“ . Online, verfügbar unter [http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312](http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312)
+* IETF „Tags for Identifying Languages“ . Online, verfügbar unter [http://tools.ietf.org/html/bcp47](http://tools.ietf.org/html/bcp47)
+* CLDR „Language-Territory Information“ . Online, verfügbar unter [http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html](http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html)
 * [art.decor.org/art-decor](https://art.decor.org/art-decor)
 * [www.ihe-d.de](https://www.ihe-d.de)
 
@@ -43,13 +51,13 @@ Following corrections have been applied in contrast to what ART-DECOR provides:
 
 IHE uses the normative words: Shall, Should, and May according to [standards conventions](https://profiles.ihe.net/GeneralIntro/ch-E.html).
 
-## Verbindlichkeit der Value Sets
+## Normative Status of these Value Sets
 
-Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan nicht verbindlich, sondern stellen eine Empfehlung von IHE Deutschland dar.
+The value sets introduced in this guide are currently not binding for Germany, but represent a recommendation of IHE Germany.
 
-## Änderung und Pflege
+## Changes and Maintenance
 
-Änderung und Pflege der hier vorgestellten Value Sets erfolgt durch die IHE Deutschland Arbeitsgruppe "Value Sets". 
+Changes and maintenance of the value sets presented here are carried out by the IHE Germany working group "Value Sets". 
 
 ## Links
 

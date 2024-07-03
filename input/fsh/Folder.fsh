@@ -1,5 +1,5 @@
 Logical: Folder
-Parent: DomainResource
+Parent: Base
 Id: Folder
 Title: "Folder (LM)"
 Description: """
