@@ -27,3 +27,13 @@ wie am Beispiel "Practice Setting" zu sehen ist.
 
 Die zugrundeliegenden Codesysteme stellen ebenfalls sog. "Canonical Value Sets" dar, die für die Verwendung
 mit den Ursprungscodesystemen vorgesehen sind. Der Vollständigkeit halber sind deshalb alle aufgeführt.
+
+### Wieso gibt es keine Mappings zu anderen (externen) Codesystemen?
+
+Auf den ersten Blick erscheint es logisch, dass Mappings zu externen Codesystemen ebenfalls in strukturierter Form
+bereitgestellt werden. Bei näherer Betrachtung ergeben sich dann aber Abhängigkeiten, die später nur schwerlich
+administriert werden können. Deshalb hat sich IHE-D dafür entschieden, diese in einem separaten Leitfaden 
+zur Verfügung zu stellen. Die aktuellen Mappings erscheinen deshalb in den "Notes".
+
+Aus Kapzitätsgründen werden diese Leitfäden erst später erarbeitet und bereitgestellt.
+Dafür gibt es jedoch noch keinen Terminplan.
