@@ -985,19 +985,19 @@ Description: "**IHE XDS Author Specialty**"
 
 
 
-Instance: AuthorSpecialty
+Instance: FacharzttitelAerztekammer
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/AuthorSpecialty"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/FacharzttitelAerztekammer"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "AuthorSpecialty"
-//* title = "Author Specialty"
-* description = "Represents a **specific specialty** within a healthcare facility under which the human and/or machines authored the XDS Document or XDS SubmissionSet"
+* name = "FacharzttitelAerztekammer"
+//* title = "Facharzttitel Ärztekammer"
+* description = "**Facharzttitel** der Ärztekammer"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -1006,10 +1006,58 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "urn:oid:1.2.276.0.76.11.31"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.2.276.0.76.5.514"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+
+
+
+Instance: QualifikationenNichtaerztlicherAutoren
+InstanceOf: NamingSystem
+Usage: #definition
+
+* insert HeaderNamingSystemRules
+
+//fuer r5
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/QualifikationenNichtaerztlicherAutoren"
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
+* name = "QualifikationenNichtaerztlicherAutoren"
+//* title = "Qualifikationen nicht-ärztlicher Autoren"
+* description = "**Qualifikationen nicht-ärztlicher Autoren**"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "uurn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

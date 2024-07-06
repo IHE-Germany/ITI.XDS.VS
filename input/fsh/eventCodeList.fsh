@@ -163,7 +163,7 @@ Description: "**IHE XDS event Code List**"
 
 
 
-Instance: EventCodeList
+Instance: DokumentenWarnhinweise
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -173,9 +173,9 @@ Usage: #definition
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/EventCodeList"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "EventCodeList"
-//* title = "Event Code List"
-* description = "This list of codes represents the main **clinical acts** being documented in an XDS Document."
+* name = "DokumentenWarnhinweise"
+//* title = "Dokumenten Warnhinweise"
+* description = "**Dokumenten Warnhinweise**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -185,11 +185,63 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.34"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* uniqueId[=].preferred = false
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+	
+
+
+
+Instance: Fallkontexte
+InstanceOf: NamingSystem
+Usage: #definition
+
+* insert HeaderNamingSystemRules
+
+//fuer r5
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/Fallkontexte"
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
+* name = "Fallkontexte"
+//* title = "Fallkontexte"
+* description = "**Fallkontexte**"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* publisher = "IHE Germany"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* uniqueId[=].preferred = false
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+	
+
+
 
 
 

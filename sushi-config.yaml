@@ -3,13 +3,13 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: ihe.de.iti.xds-vs
+id: ihe-de.iti.xds-vs
 canonical: http://www.ihe-d.de/fhir
 name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.2.4
+version: 0.3.0
 date: 2024-07-03
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
@@ -150,7 +150,7 @@ menu:
     Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
     Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
-    Dokumententypen: CodeSystem-Documententypen.html
+    Dokumententypen: CodeSystem-Dokumententypen.html
     Einrichtungsarten, nicht patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
@@ -169,7 +169,7 @@ menu:
     Berufsvarianten, ärztlich: ValueSet-AerztlicheBerufe.html
     Dokumenten Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentenklassen: ValueSet-Dokumentenklassen.html
-    Dokumententypen: ValueSet-Documententypen.html
+    Dokumententypen: ValueSet-Dokumententypen.html
     Einrichtungsarten, nicht patientenbezogen: ValueSet-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: ValueSet-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: ValueSet-FacharzttitelAerztekammer.html

@@ -1,6 +1,5 @@
 Alias: $LOINC = http://loinc.org
 
-
 //CodeSystem
 
 CodeSystem: Dokumentenklassen
@@ -35,8 +34,8 @@ Description: "**Dokumentenklassen**"
 * ^property[=].type = #string
 
 * ^property[+].code = #beispiel
-//* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
-* ^property[=].description = "Beispiele"
+* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"
+* ^property[=].description = "Beispiel"
 * ^property[=].type = #string
 
 
@@ -140,19 +139,19 @@ Description: "**IHE XDS Class Code**"
 
 
 
-Instance: ClassCode
+Instance: Dokumentenklassen
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/ClassCode"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/Dokumentenklassen"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "ClassCode"
+* name = "Dokumentenklassen"
 //* title = "Class Code"
-* description = "A high-level **classification** of XDS Documents that indicates the kind of document, e.g., report, summary, note, consent."
+* description = "Eine high-level **Klassifikation der Dokumente**, das die Art beschreibt, bspw. Bericht oder Zusammenfassung, Notiz."
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -162,10 +161,16 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.32"
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
-* uniqueId[=].preferred = true
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
 
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

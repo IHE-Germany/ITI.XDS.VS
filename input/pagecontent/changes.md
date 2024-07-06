@@ -2,9 +2,23 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.2.3.
+Die aktuelle Version ist 0.3.0.
+
+* Package-Id: id: ihe.de.iti.xds-vs -> ihe-de.iti.xds-vs (Da IHE-D der Herausgeber ist und nicht IHE Intl)
+* NamingSystem für Codesystem mit weiteren URIs
+
+### zu Version 0.2.4
+
 Für Details der kleineren Änderungen siehe github.
 Die aktuelle Version des Leitfadens wird nach der Ballotierung auf 4.0.0. gesetzt.
+
+### zu Version 0.2.3
+
+siehe github
+
+### zu Version 0.2.2
+
+siehe github
 
 ### Zu Version 0.2.1
 

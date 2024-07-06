@@ -29,26 +29,27 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #fr-CH
 * ^compose.include[=].concept[+].code = #fr-CA
 * ^compose.include[=].concept[+].code = #fr-LU
+* ^compose.include[=].concept[+].code = #it-IT
 * ^compose.include[=].concept[+].code = #it-CH
 * ^compose.include[=].concept[+].code = #nl-NL
 
 
-
-Instance: Language
-InstanceOf: NamingSystem
-Usage: #definition
+//nicht benötigt für Value Sets
+//Instance: Language
+//InstanceOf: NamingSystem
+//Usage: #definition
 //fuer r5
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/Language"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
 //* identifier.use = #official
 
-* insert HeaderNamingSystemRules
+//* insert HeaderNamingSystemRules
 
-* name = "Language"
+//* name = "Language"
 //* title = "Language"
-* description = "Specifies the possible **languages** to tag a document."
-* kind = #codesystem
+//* description = "Specifies the possible **languages** to tag a document."
+//* kind = #codesystem
 //* status = #draft
 //* date = "2014-12-13"
 //* publisher = "IHE Deutschland e.V."
@@ -57,10 +58,11 @@ Usage: #definition
 ///* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-//* uniqueId[0].type = #oid
-//* uniqueId[=].value = "1.2.276.0.76.11.30"
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode"
-* uniqueId[=].preferred = true
+//* uniqueId[+].type = #oid
+//* uniqueId[=].value = "urn:oid:1.2.276.0.76.11.30"
+
+//* uniqueId[+].type = #uri
+//* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode"
+//* uniqueId[=].preferred = true
 
 

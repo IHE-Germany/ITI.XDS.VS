@@ -61,7 +61,7 @@ Description: "**IHE XDS Folder Code List**"
 
 
 
-Instance: FolderCodeList
+Instance: Ordnertypen
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -71,9 +71,9 @@ Usage: #definition
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/FolderCodeList"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "FolderCodeList"
-//* title = "Folder Code List"
-* description = "The list of codes specifying the **general super-type of the folder** designating its primary use."
+* name = "Ordnertypen"
+//* title = "Ordnertypen"
+* description = "**Ordnertypen**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -83,8 +83,17 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Deutschland e.V."
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.40"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"

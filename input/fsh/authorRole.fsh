@@ -42,8 +42,8 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^property[=].type = #code
 
 * ^property[+].code = #beispiel
-//* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
-* ^property[=].description = "Beispiele"
+* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"
+* ^property[=].description = "Beispiel"
 * ^property[=].type = #string
 
 
@@ -195,20 +195,22 @@ Description: "**IHE XDS Author Role**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.30"
 * ^identifier.use = #official
 
-Instance: AuthorRole
+
+
+Instance: ProzessrollenFuerAutoren
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/AuthorRole"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/ProzessrollenFuerAutoren"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
 
-* name = "AuthorRoleCode"
-//* title = "Author Role Code"
-* description = "Represents the **role of the author** with respect to the patient at the time that an XDS Document or XDS Submission Set was created."
+* name = "ProzessrollenFuerAutoren"
+//* title = "Prozessrollen für Autoren"
+* description = "**Prozess-Rolle**, die Autoren in Bezug auf den Patienten zum Zeitpunkt der Dokumentenerstellung hatten."
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -217,10 +219,58 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.30"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
+	
+
+Instance: PatientenbeziehungsrollenFuerAutoren
+InstanceOf: NamingSystem
+Usage: #definition
+
+* insert HeaderNamingSystemRules
+
+//fuer r5
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/PatientenbeziehungsrollenFuerAutoren"
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
+
+* name = "PatientenbeziehungsrollenFuerAutoren"
+//* title = "Patientenbeziehungsrollen für Autoren"
+* description = "**Beziehungs-Rolle**, die Autoren in Bezug auf den Patienten zum Zeitpunkt der Dokumentenerstellung hatten."
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+	
