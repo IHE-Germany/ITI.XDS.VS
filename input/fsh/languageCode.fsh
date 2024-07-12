@@ -11,27 +11,48 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * insert HeaderDetailRules
 
 * ^compose.include[+].system = "urn:ietf:bcp:47"
+* ^compose.include[=].concept[+].code = #bg-BG
+* ^compose.include[=].concept[+].code = #cs-CZ
+* ^compose.include[=].concept[+].code = #da-DK
 * ^compose.include[=].concept[+].code = #de-DE
 * ^compose.include[=].concept[+].code = #de-AT
 * ^compose.include[=].concept[+].code = #de-CH
 * ^compose.include[=].concept[+].code = #de-LI
 * ^compose.include[=].concept[+].code = #de-LU
-* ^compose.include[=].concept[+].code = #lb-LU
-* ^compose.include[=].concept[+].code = #da-DK
 * ^compose.include[=].concept[+].code = #el-GR
-* ^compose.include[=].concept[+].code = #en-GB
-* ^compose.include[=].concept[+].code = #en-US
-* ^compose.include[=].concept[+].code = #en-CA
 * ^compose.include[=].concept[+].code = #en-AU
+* ^compose.include[=].concept[+].code = #en-GB
+* ^compose.include[=].concept[+].code = #en-CA
+* ^compose.include[=].concept[+].code = #en-US
 * ^compose.include[=].concept[+].code = #es-ES
+* ^compose.include[=].concept[+].code = #et-EE
+* ^compose.include[=].concept[+].code = #fi-FI
 * ^compose.include[=].concept[+].code = #fr-FR
 * ^compose.include[=].concept[+].code = #fr-BE
 * ^compose.include[=].concept[+].code = #fr-CH
 * ^compose.include[=].concept[+].code = #fr-CA
 * ^compose.include[=].concept[+].code = #fr-LU
+* ^compose.include[=].concept[+].code = #ga-IE
+* ^compose.include[=].concept[+].code = #hr-HR
+* ^compose.include[=].concept[+].code = #hu-HU
 * ^compose.include[=].concept[+].code = #it-IT
 * ^compose.include[=].concept[+].code = #it-CH
+* ^compose.include[=].concept[+].code = #is-IS
+* ^compose.include[=].concept[+].code = #lb-LU
+* ^compose.include[=].concept[+].code = #lt-LT
+* ^compose.include[=].concept[+].code = #lv-LV
+* ^compose.include[=].concept[+].code = #mt-MT
 * ^compose.include[=].concept[+].code = #nl-NL
+* ^compose.include[=].concept[+].code = #nl-BE
+* ^compose.include[=].concept[+].code = #no-NO
+* ^compose.include[=].concept[+].code = #pl-PL
+* ^compose.include[=].concept[+].code = #pt-PT
+* ^compose.include[=].concept[+].code = #rm-CH
+* ^compose.include[=].concept[+].code = #ro-RO
+* ^compose.include[=].concept[+].code = #sk-SK
+* ^compose.include[=].concept[+].code = #sl-SI
+* ^compose.include[=].concept[+].code = #sv-SE
+
 
 
 //nicht benötigt für Value Sets

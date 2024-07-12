@@ -2,7 +2,11 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.0.
+Die aktuelle Version ist 0.3.1.
+
+* Language Codes für Europa
+
+### zu Version 0.3.0
 
 * Package-Id: id: ihe.de.iti.xds-vs -> ihe-de.iti.xds-vs (Da IHE-D der Herausgeber ist und nicht IHE Intl)
 * NamingSystem für Codesystem mit weiteren URIs
