@@ -106,6 +106,7 @@ Usage: #definition
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
 * uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"

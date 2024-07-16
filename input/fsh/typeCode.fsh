@@ -17,6 +17,10 @@ Description: "**Dokumententypen**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
+* ^identifier.use = #official
+
 * ^property[+].code = #beispiel
 * ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"
 * ^property[=].description = "Beispiele"
@@ -466,8 +470,8 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Bradenskala"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Diabetikerkurve"
-* #57016-8 "Patienteneinverständniserklärung"
-  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
+//* #57016-8 "Patienteneinverständniserklärung"
+//  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
 * #QUAL "Qualitätssicherung"
   "Formulare, welche zur Qualitätssicherung der Krankenhausabläufe ausgefüllt werden müssen."
   * ^property[+].code = #beispiel
@@ -633,6 +637,12 @@ Description: "**IHE XDS type Code**"
 
 * insert HeaderDetailRules
 
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.38"
+* ^identifier.use = #official
+
+
 //TODO verify
 
 //funktioniert, ist dann aber der einzige Code
@@ -670,7 +680,7 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
+* uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "OID, aus historischen Gründen"
