@@ -9,9 +9,9 @@ Neben den ärztlichen Spezialisierungen können aber auch Qualifikationen nicht-
 Beispielsweise kann es sinnvoll sein, bei einem Autor anzugeben, dass dieser Lehrer, Psychologe oder Logopäde ist. 
 Hierzu wurde von der Arbeitsgruppe ein eigenes Codesystem entwickelt, das typische Berufe des Gesundheitswesens enthält. 
 Quellen hierfür waren ein Codesystem des ZTGs in Bochum und die Internetseiten des Arbeitsamtes. 
-Alle anderen Berufe wurden in grob granulare Berufsgruppen wie Umwelt, Sprachen oder Reinigung zusammengefasst. 
+Alle anderen Berufe wurden in grob granulare Berufsgruppen wie Umwelt, Jurist oder Taxifahrer zusammengefasst. 
 Dadurch kann, je nach benötigten Detailgrad und je nach Verfügbarkeit der Informationen die Spezialisierung sehr grob 
-(z.B. "Medizintechnik, Laboranalyse") oder sehr feingranular (z.B. "Medizinisch-Technischer Radiologieassistent") abgebildet werden.
+(z.B. "Medizintechnik, Laboranalyse") oder sehr feingranular (z.B. "Medizinisch-Technischer Radiologieassistent – MTA-R") abgebildet werden.
 
 Die authorSpecialty sollte nicht mit dem practiceSettingCode verwechselt werden. Der practiceSettingCode gibt an, 
 in welcher Art von Abteilung das Dokument verfasst wurde. Die authorSpecialty gibt die Qualifikation, 
