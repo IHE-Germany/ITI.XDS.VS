@@ -47,17 +47,17 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^property[=].type = #string
 
 
-* #101 "Hausarzt"  "der Hausarzt (Primärversorger) des Patienten"
-* #102 "Patient"  "der Patient selbst"
-* #103 "Arbeitgebervertreter"  "ein Vertreter des Arbeitgebers des Patienten"
-* #104 "Primärbetreuer (langfristig)"  "Die Person, die den Patienten normalerweise primär betreut."
+* #101 "Hausarzt" "der Hausarzt (Primärversorger) des Patienten"
+* #102 "Patient" "der Patient selbst"
+* #103 "Arbeitgebervertreter" "ein Vertreter des Arbeitgebers des Patienten"
+* #104 "Primärbetreuer (langfristig)" "Die Person, die den Patienten normalerweise primär betreut."
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Langzeitpflege"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Stammapotheke"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #105 "Kostenträgerverteter"  "ein Vertreter des Kostenträgers"
+* #105 "Kostenträgerverteter" "ein Vertreter des Kostenträgers"
 * #106 "Betreuer"
 * #107 "pflegerischer Betreuer" "Dies ist ein Pfleger oder eine pflegende Person, die einen Patienten betreut."
   * ^property[+].code = #parent
@@ -118,42 +118,42 @@ Description: "**Prozessrollen** für Autoren"
 * ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."
 * ^property[=].type = #code
 
-* #1 "Einweiser"    "Die Person, die die Einweisung veranlasst hat. (Sie wird auch als Zuweiser bezeichnet.)"
-* #2 "Entlassender"    "Die Person, die für die Entlassung verantwortlich ist."
-* #3 "Überweiser"    "Die Person, die die Überweisung veranlasst hat."
-* #4 "Durchführender"   "Die Person oder das Gerät, welche(s) die dokumentierte Aktion durchgeführt hat."
-  * #5 "durchführendes Gerät"    "Das Gerät, welches die dokumentierte Aktion durchgeführt hat."
+* #1 "Einweiser" "Die Person, die die Einweisung veranlasst hat. (Sie wird auch als Zuweiser bezeichnet.)"
+* #2 "Entlassender" "Die Person, die für die Entlassung verantwortlich ist."
+* #3 "Überweiser" "Die Person, die die Überweisung veranlasst hat."
+* #4 "Durchführender" "Die Person oder das Gerät, welche(s) die dokumentierte Aktion durchgeführt hat."
+  * #5 "durchführendes Gerät" "Das Gerät, welches die dokumentierte Aktion durchgeführt hat."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-  * #6 "Betreuer"    "Die Person, die den Patienten betreut, d.h. den Überblick über die Behandlung behält und als primärer Ansprechpartner während der Behandlung dient."
+  * #6 "Betreuer" "Die Person, die den Patienten betreut, d.h. den Überblick über die Behandlung behält und als primärer Ansprechpartner während der Behandlung dient."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-  * #7 "Pflegender"    "Die Person, die den Patienten pflegerisch (aktiv) betreut."
+  * #7 "Pflegender" "Die Person, die den Patienten pflegerisch (aktiv) betreut."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-  * #17 "Begutachtender"     "Die Person, die ein Gutachten erstellt."
+  * #17 "Begutachtender" "Die Person, die ein Gutachten erstellt."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-  * #8 "Behandler"   "Die Person, die den Patienten aktiv behandelt im Sinne der Verbesserung (oder zumindest Beibehaltung) des gesundheitlichen Zustandes."
+  * #8 "Behandler" "Die Person, die den Patienten aktiv behandelt im Sinne der Verbesserung (oder zumindest Beibehaltung) des gesundheitlichen Zustandes."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-    * #9 "Erstbehandler außerhalb einer Einrichtung"     "Die Person, die den Patienten außerhalb der (eigenen) Einrichtung zuerst behandelt hat. Das kann - muss aber nicht - im Rahmen einer Notfallversorgung stattgefunden haben."
+    * #9 "Erstbehandler außerhalb einer Einrichtung" "Die Person, die den Patienten außerhalb der (eigenen) Einrichtung zuerst behandelt hat. Das kann - muss aber nicht - im Rahmen einer Notfallversorgung stattgefunden haben."
       * ^property[+].code = #parent
       * ^property[=].valueCode = #8
-  * #10 "Bereitstellender"   "Die Person, die zusätzliche Mittel (Medikamente, Heil-/Hilfsmittel) bereitgestellt hat."
+  * #10 "Bereitstellender" "Die Person, die zusätzliche Mittel (Medikamente, Heil-/Hilfsmittel) bereitgestellt hat."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #4
-* #11 "Dokumentierender"   "Die Person, die übermittelte Informationen eingibt oder ein Gerät, das erzeugte Daten im System hinterlegt."
-  * #12 "dokumentierendes Gerät"    "Das Gerät, welches erzeugte Daten im System hinterlegt."
+* #11 "Dokumentierender" "Die Person, die übermittelte Informationen eingibt oder ein Gerät, das erzeugte Daten im System hinterlegt."
+  * #12 "dokumentierendes Gerät" "Das Gerät, welches erzeugte Daten im System hinterlegt."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #11
-  * #13 "Validierer"    "Die Person, die Korrektheit der hinterlegten Information überprüft und verifiziert hat."
+  * #13 "Validierer" "Die Person, die Korrektheit der hinterlegten Information überprüft und verifiziert hat."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #11
-  * #14 "Gesetzlich Verantwortlicher"   "Die Person, die vor dem Gesetz für die Korrektheit der Informationen verantwortlich ist und dafür haftet."
+  * #14 "Gesetzlich Verantwortlicher" "Die Person, die vor dem Gesetz für die Korrektheit der Informationen verantwortlich ist und dafür haftet."
     * ^property[+].code = #parent
     * ^property[=].valueCode = #11
-* #15 "Beratender"   "Die Person, die Auswertungen vorgenommen und beratend involviert war."
+* #15 "Beratender" "Die Person, die Auswertungen vorgenommen und beratend involviert war."
 * #16 "Informierender" "Eine Person, die zu den hier dokumentierten Informationen beigetragen hat."
 
 
