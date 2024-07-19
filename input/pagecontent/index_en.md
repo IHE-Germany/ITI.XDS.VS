@@ -2,30 +2,19 @@
 
 XDS VS (xdsVSS) - defines which value sets IHE ITI XDS SHOULD use for 
 [**IHE Document Sharing Health Information Exchange**](https://profiles.ihe.net/ITI/HIE-Whitepaper/index.html) in Germany.
-This is the homepage for the **IHE IT-I XDS Value Set National Extension for Germany**.
 {:.stu-note}
 
 Compatibility with FHIR but also other requirements demand changes to important aspects like canonicals.
 {:.new-content}
 
-For the successful implementation of file projects (eEPA, EFA, PEPA, etc.), metadata is required that enables the identification, 
-selection and evaluation of documents stored in repositories. 
-In this project, value sets are developed that provide corresponding code systems. 
+For the successful implementation of document management systems metadata is required that enables the identification, 
+selection and evaluation of documents stored in these systems. 
+In this guide value sets are developed that provide corresponding code systems. 
 
 ## Provision of the Technical Specification
 
 The FHIR terminology resources associated with this guide are published as packages.
 The links can be found on the download page.
-
-## Corrections
-
-Following corrections have been applied in contrast to what ART-DECOR provides:
-
-* event code list is missing - download not available
-* OID for non-doctoral codes are duplicate to practice setting code -> adjusted (x.70 -> .x71)
-* PracticeSetting has wrong URL and title
-* canonicals
-* adding of new codes to some codesystems
 
 ## Links
 

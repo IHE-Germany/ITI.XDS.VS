@@ -2,7 +2,6 @@
 
 XDS VS (xdsVSS) - definiert welche Value Sets IHE ITI XDS für 
 [**IHE Document Sharing Health Information Exchange**](https://profiles.ihe.net/ITI/HIE-Whitepaper/index.html) in Deutschland verwenden SOLL.
-Das ist die Homepage für **IHE IT-I XDS Value Set National Extension für Deutschland**.
 {:.stu-note}
 
 Die Versionsnummer des Leitfadens wird nach der Ballotierung auf die Version 4.0.0 gesetzt.
@@ -12,9 +11,9 @@ Ebenso die anderen Artefakte.
 Kompatibilität mit FHIR und anderen Anforderungen erfordert Änderungen an einigen zentralen Aspekten wie bspw. den Canonicals.
 {:.new-content}
 
-Zur erfolgreichen Umsetzung von Aktenprojekten (eEPA, EFA, PEPA, etc.) werden Metadaten benötigt, die die Identifikation, 
-Selektion und Auswertung von in den Aktensystemen gespeicherten Dokumenten ermöglichen. 
-In diesem Projekt werden Value Sets entwickelt, die entsprechende Value Sets und die dazugehörigen Codesysteme bereitstellen. 
+Zur erfolgreichen Umsetzung von (elektronischen) Dokumentenmanagementsystemen werden Metadaten benötigt, 
+die die Identifikation, Selektion und Auswertung von in den Dokumentenmanagementsystemen gespeicherten Dokumenten ermöglichen.
+In diesem Leitfaden werden Value Sets entwickelt, die entsprechende Value Sets und die dazugehörigen Codesysteme bereitstellen. 
 
 ### Bereitstellung der Technischen Spezifikation
 
@@ -23,19 +22,9 @@ Die dazugehörigen Links sind auf der speziellen Downloadseite zu finden.
 
 Es ist derzeit nicht beabsichtigt, das [IHE Profile SVCM](https://profiles.ihe.net/ITI/SVCM) zu unterstützen.
 
-### Korrekturen
-
-Folgende Korrekturen sind im Vergleich zu den bisher auf ART-DECOR veröffentlichten Details vorgenommen worden:
-
-* Die Event Code List fehlte - der Download war nicht verfügbar
-* OID für non-doctoral codes waren Dubletten zum Practice Setting CVode -> justiert: x.70 -> .x71
-* PracticeSetting hatte eine falsche URL und Titel
-* Anpassung der Canonical
-* kleinere Änderungen in den Codesystemen gemäß Diskussion
-
 ### Erwartungen an die Conformance 
 
-IHE vewrendet die normativen Wörter **MUSS**, **SOLL** und **KANN** gemäß den [Standard Konventionen](https://profiles.ihe.net/GeneralIntro/ch-E.html).
+IHE verwendet die normativen Wörter **MUSS**, **SOLL** und **KANN** gemäß den [Standard Konventionen](https://profiles.ihe.net/GeneralIntro/ch-E.html).
 
 ### Verbindlichkeit der Value Sets
 
