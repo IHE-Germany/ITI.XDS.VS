@@ -5,6 +5,10 @@ XDS VS (xdsVSS) - definiert welche Value Sets IHE ITI XDS für
 Das ist die Homepage für **IHE IT-I XDS Value Set National Extension für Deutschland**.
 {:.stu-note}
 
+Die Versionsnummer des Leitfadens wird nach der Ballotierung auf die Version 4.0.0 gesetzt.
+Ebenso die anderen Artefakte.
+{:.stu-note}
+
 Kompatibilität mit FHIR und anderen Anforderungen erfordert Änderungen an einigen zentralen Aspekten wie bspw. den Canonicals.
 {:.new-content}
 
@@ -27,135 +31,7 @@ Folgende Korrekturen sind im Vergleich zu den bisher auf ART-DECOR veröffentlic
 * OID für non-doctoral codes waren Dubletten zum Practice Setting CVode -> justiert: x.70 -> .x71
 * PracticeSetting hatte eine falsche URL und Titel
 * Anpassung der Canonical
-
-### Probleme
-
-* Die Dateien auf ART-DECOR wurden nur in XML-Form zur Verfügung gestellt.
-* The Value Sets waren nur als Expansions ohne unterliegendes Codesystem definiert. Jetzt gibt es dedizierte Codesysteme, die eigenständig gepflegt werden.
-* Der Status wurde nicht exportiert.
-* Eine Hierarchie wurde nicht exportiert/representiert!?
-* Value Set Id wurde durch den Zeitstempel definiert
-* Properties wurden nicht genutzt. So werden die Warnhinweise oder Beispiele jetzt als Properties definiert.
-
-### Offene Fragen
-
-Die vorläufigen Antworten sind in fett markiert:
-
-* URLs - Canonical
-  * **http://www.ihe-d.de/fhir** <- kann durch FHIR-Server einfach aufgelöst werden
-    * danach kommen dann die Resourcen
-  * http://www.ihe-d.de/fhir/xds-vs
-* URLs - FHIR
-  * **http://www.ihe-d.de/fhir**
-* Base URLs für IGs
-  * http://www.ihe-d.de/ig
-  * http://www.ihe-d.de/fhir
-  * http://www.ihe-d.de/fhir/ig
-  * **http://www.ihe-d.de/fhir/ImplementationGuide** <- generiert durch IG-Publisher
-* (Computable) Name
-  * Buchstaben, Unterstrich, Zahlen, fängt mit Großbuchstaben an
-  * iheItiDeXdsValueSet
-  * **IHE_DE_ITI_XDS_VS**
-  * IHE_DE_ITI_XDS
-  * IHE_ITI_DE_XDS_VS
-  * GermanXdsValueSet
-* Package Name(s)
-  * ihe.iti.de.xds-vs
-  * **ihe.de.iti.xds-vs** <- überdenken! (bleiben dabei)
-  * ihe.fhir.de.iti.xds-vs <- präferiert bei hl7: hl7.fhir.XXXXX
-  * ihe.fhir.de.iti-xds-vs
-  * ihe.fhir.de.iti.xds-vs
-  * ihe.fhir.iti.de.xds-vs <- ??, mit IHE klären
-* Projektname in github
-  * ITI.XDS.VS
-* Versionierung
-  *  erste "neue" Version
-    * 1.0.0
-    * **4.0.0** <- als Fortführung der bestehenden Arbeit (auch durch breaking change bei canonical)
-  * Codesystems/Value Sets
-    * **einzeln** <- bessere Versionierbarkeit
-	* Startversion: 4.0.0
-  * Value Sets
-    * primär als **Content Logical Definition**
-  * Codesystem
-    * date
-      * Datum letztes Edit
-    * status
-      * informative (für nationale Anwendbarkeit)
-      * normative (seitens IHE-D)
-    * caseSensitive
-      * true: wenn Codes sowohl  groß- als auch kleingeschrieben vorkommen
-	  * false:
-	* hierarchy-meaning
-	  * is-a: nur als Taxonomie
-    * complete
-	  * true: wir definieren unsere Codesysteme vollständig
-	* versionNeeded
-	  * true: Klassifikation
-	  * false: Terminologie
-    * maturity level
-      * FMM=2
-  * Policy: wie wird die Version hochgezogen? ([semver.org](http://semver.org)?)
-    * Klassifikation: primär neue major
-	* Terminologie: primär neue minor
-	* Typos als patch
-* Namenskonvention
-  * **deutsch** oder englisch oder beides <- für die deutschen Codesysteme, ergänzt durch designations
-  * CodeSystem: **singular** oder plural
-    * eigene Codesysteme immer auf deutsch
-  * ValueSet: **singular** oder plural
-    * IHEXDSauthorRole(s) <- ohne "s"
-    * **IHEXDSclassCode** <- schöner
-	* oder: IheXdsClassCode <- richtiger
-  * Zuordnung von Informationen: **singular** oder plural <- es wird eine Zuordnung getroffen
-  * sonst: **singular** oder plural
-  * mit "CS" bzw. "VS" als Appendix <- **ohne**
-  * prä- oder postfix-Notation, bspw. "patientenbezogene Einrichtungsarten" vs. "Einrichtungsarten, patientenbezogen"
-    * Sortierung unter dem Nomen, d.h. für Id und Title -> "Einrichtungsarten, patientenbezogen"
-	* Description: "patientenbezogene Einrichtungsarten"
-  * Prüfung auf Vollständigkeit der Titel und Beschreibungen
-  * Sortierung über Titel, Groß- vor Kleinbuchstaben, nicht alphabetisch
-  * Mit “Code” am Ende oder ohne? Bspw. “classCode” oder nur “class”
-  * Mit Angabe der Verwendung oder ohne? Bspw. “Document.class” oder “class”
-* notwendige englische Übersetzung (für IHE ITI)
-  * Was soll alles übersetzt werden? Aktuell nur die **Indexseite**
-  * weiter auf Anforderung
-* FHIR-Version
-  * r4: **4.0.1**
-  * r4b: 4.3.0
-  * r5: 5.0.0
-  * (r6)
-* Abbildung von Hierarchien
-  * nested, d.h. eingerückt
-  * parent, d.h. über Beziehung
-  * **beides**: zum überprüfen, später nur parent
-* Provenance
-  * Wird das als Resource benötigt?
-* Benamung "IHE-D": "IHE Germany" oder **"IHE Deutschland e.V."** (als Impressum)
-  * "publisher" : "**IHE Deutschland e.V., Berlin, D**"
-  * Copyright/Legal: IHE Deutschland e.V.
-* generelles Layout
-  * möglichst dicht an IHE International ran
-* Farbgebung
-  * Header: ihe-lila
-  * Tabellen
-* Licenzmodell
-  * -> Angela
-* Copyright
-* Disclaimer
-  * Überprüfung auf Vollständigkeit und Korrektheit
-
-### Offene Punkte (noch zu erledigen)
-
-* Bildung der XDS-Value Sets
-  * über die anderen ValueSets oder die Codesysteme direkt?
-* Namen für die Codesysteme
-  * Bsp. Prozessrollen vs. ProzessrollenFuerAutoren
-  * Qualifikationen vs. Qualifikatoren
-  * Berufe vs. Berufsvarianten
-* Abgleich mit den DEMIS Einrichtungsarten: simplifier.net
-* Mapping für Fachabteilungsschlüssel (akt. noch bei PracticeSetting Notes)
-  * als ConceptMap
+* kleinere Änderungen in den Codesystemen gemäß Diskussion
 
 ### Erwartungen an die Conformance 
 
@@ -171,6 +47,7 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 
 ### Links
 
+* [Projekt bei IHE-D](https://www.ihe-d.de/projekte/xds-value-sets-fuer-deutschland/)
 * HL7 Deutschland: deutsche Nachrichtenprofile: XDS-MDM-CDA-Mapping. Online, verfügbar unter [http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping](http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping)
 * RFC 1766 „Tags for the Identification of Languages“. Online, verfügbar unter [https://www.ietf.org/rfc/rfc1766.txt](https://www.ietf.org/rfc/rfc1766.txt)
 * DIN EN ISO 3166-1 „Codes für die Namen von Ländern und deren Untereinheiten - Teil 1: Codes für Ländernamen“ . Online, verfügbar unter [http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312](http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312)
@@ -187,6 +64,7 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 | 1.0 | 10.11.2016 | Final | [http://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](http://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
 | 1.1 | 22.05.2018 | Draft | [http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
 | 2.0 | 09.10.2018 | active | [http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf)
-| 3.0 | 12.04.2021 | Draft | [http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf](http://art-decor.org/w2p/downloads/6075da6b9c5bc.pdf)
+| 3.0 | 12.04.2021 | Draft | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
 | 4.0.0-alpha0 | Mai 2024 | in Arbeit |
+| 4.0.0-alpha0 | August+September 2024 | Ballot |
 

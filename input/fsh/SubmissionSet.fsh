@@ -1,5 +1,5 @@
 Logical: SubmissionSet
-Parent: DomainResource
+Parent: Base
 Id: SubmissionSet
 Title: "SubmissionSet (LM)"
 Description: """

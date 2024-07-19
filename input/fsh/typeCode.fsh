@@ -1,24 +1,28 @@
 //CodeSystem
 
-CodeSystem: Documententypen
-Id: Documententypen
-Title: "Documententypen"
+CodeSystem: Dokumententypen
+Id: Dokumententypen
+Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Documententypen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Documententypen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumententypen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
+* ^identifier.use = #official
+
 * ^property[+].code = #beispiel
-//* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
+* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"
 * ^property[=].description = "Beispiele"
 * ^property[=].type = #string
 
@@ -466,8 +470,8 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Bradenskala"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Diabetikerkurve"
-* #57016-8 "Patienteneinverständniserklärung"
-  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
+//* #57016-8 "Patienteneinverständniserklärung"
+//  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
 * #QUAL "Qualitätssicherung"
   "Formulare, welche zur Qualitätssicherung der Krankenhausabläufe ausgefüllt werden müssen."
   * ^property[+].code = #beispiel
@@ -607,17 +611,17 @@ Description: "**Dokumententypen**"
 
 //ValueSet
 
-ValueSet: Documententypen
-Id: Documententypen
-Title: "Documententypen"
-Description: "**Documententypen**"
+ValueSet: Dokumententypen
+Id: Dokumententypen
+Title: "Dokumententypen"
+Description: "**Dokumententypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/Documententypen"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumententypen"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Documententypen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen
 
 
 
@@ -633,11 +637,17 @@ Description: "**IHE XDS type Code**"
 
 * insert HeaderDetailRules
 
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.38"
+* ^identifier.use = #official
+
+
 //TODO verify
 
 //funktioniert, ist dann aber der einzige Code
 * LOINC#57016-8
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Documententypen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen
 
 
 //* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"
@@ -649,19 +659,19 @@ Description: "**IHE XDS type Code**"
 
 
 
-Instance: TypeCode
+Instance: Dokumententypen
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/TypeCode"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/Dokumententypen"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "TypeCode"
-//* title = "Type Code"
-* description = "A **low-level classification** of XDS Documents within a classCode that describes class, event, specialty, and setting."
+* name = "Dokumententypen"
+//* title = "Dokumententypen"
+* description = "**Dokumententypen**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -669,11 +679,20 @@ Usage: #definition
 //* contact.telecom.system = #url
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "urn:oid:1.2.276.0.76.11.38"
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode"
-* uniqueId[=].preferred = true
 
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

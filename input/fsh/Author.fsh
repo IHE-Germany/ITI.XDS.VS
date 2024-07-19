@@ -1,5 +1,5 @@
 Logical: Author
-Parent: DomainResource
+Parent: Base
 Id: Author
 Title: "Author (LM)"
 Description: """

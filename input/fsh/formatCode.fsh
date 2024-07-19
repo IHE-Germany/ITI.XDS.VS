@@ -172,19 +172,21 @@ Description: "**IHE XDS Format Code**"
 * ^compose.include[=].concept[=].display = "DICOM Manifest (DICOM KOS SOP Class UID)"
 
 
-Instance: formatCode
+
+
+Instance: Formate
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/formatCode"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/Formate"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "IHEXDSformatCodeDE"
-//* title = "IHE XDS format Code DE"
-* description = "**IHE XDS Format Code for Germany**"
+* name = "Formate"
+//* title = "Formate"
+* description = "**Formate**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -194,11 +196,20 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.35"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 
 

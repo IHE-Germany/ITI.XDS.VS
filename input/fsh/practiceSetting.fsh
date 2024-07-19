@@ -18,19 +18,20 @@ Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
  
 
 
-Instance: PracticeSettingCode
+
+Instance: AerztlicheFachrichtungen
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/PracticeSettingCode"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/AerztlicheFachrichtungen"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "PracticeSetting"
-//* title = "Practice Setting"
-* description = "**Fachrichtungen**"
+* name = "AerztlicheFachrichtungen"
+//* title = "Ärztliche Fachrichtungen"
+* description = "**Ärztliche Fachrichtungen**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"
@@ -39,12 +40,61 @@ Usage: #definition
 //* contact.telecom.system = #url
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "1.2.276.0.76.11.37"
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSpracticeSettingCode"
-* uniqueId[=].preferred = true
 
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+
+
+
+Instance: NichtaerztlicheFachrichtungen
+InstanceOf: NamingSystem
+Usage: #definition
+
+* insert HeaderNamingSystemRules
+
+//fuer r5
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/NichtaerztlicheFachrichtungen"
+//* identifier.system = "urn:ietf:rfc:3986"
+//* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
+* name = "NichtaerztlicheFachrichtungen"
+//* title = "Nicht-ärztliche Fachrichtungen"
+* description = "**Nicht-ärztliche Fachrichtungen**"
+//* status = #draft
+//* kind = #codesystem
+//* date = "2014-12-13"
+//* publisher = "IHE Germany"
+//* contact.name = "Value Set project team"
+//* contact.telecom.system = #url
+//* contact.telecom.value = "http://www.ihe-d.de"
+//* responsible = "IHE Germany"
+
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 
 

@@ -79,7 +79,7 @@ Description: "**IHE XDS Content Type Code**"
 
 
 
-Instance: ContentType
+Instance: GrundDerUebermittlung
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -89,9 +89,9 @@ Usage: #definition
 //* url = "http://www.ihe-d.de/fhir/NamingSystem/ContentTypeCode"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "ContentType"
-//* title = "Content Type"
-* description = "The code specifying the **type of clinical activity** that resulted in placing XDS Documents in a SubmissionSet."
+* name = "GrundDerUebermittlung"
+//* title = "Grund der Übermittlung"
+* description = "Code für die **typische Art der klinischen Aktivität**, die zur Übermittlung des Dokuments geführt hat."
 //* status = #draft
 //* kind = #codesystem
 //* experimental = false
@@ -103,8 +103,18 @@ Usage: #definition
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
 
-* uniqueId[0].type = #oid
-* uniqueId[=].value = "urn:oid:1.2.276.0.76.11.39"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"
+
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
+* uniqueId[=].preferred = false
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+

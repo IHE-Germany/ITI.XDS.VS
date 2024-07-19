@@ -61,7 +61,7 @@ welcher PracticeSettingCode für sie am besten geeignet ist.
 
 
 |Fachabteilungsschlüssel |Klartext Fachabteilung |practiceSettingCode |Displayname PracticeSettingCode |Bemerkungen|
-| --- | --- | ---|
+| --- | --- | ---| --- | --- |
 |0100 |Innere Medizin|INNE|Innere Medizin|gleicher Text
 |0200|Geriatrie|GERI|Geriatrie|gleicher Text
 |0300|Kardiologie|KARD|Kardiologie|gleicher Text
