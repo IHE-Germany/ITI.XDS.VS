@@ -9,7 +9,7 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.3.2
+version: 0.3.3
 date: 2024-07-03
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
