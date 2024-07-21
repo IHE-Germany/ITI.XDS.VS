@@ -78,6 +78,10 @@ Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen 
   * Umstellung auf IG-Publisher
   * Erstellung von FHIR Packages (automatisch)
   * Publikation auf build.fhir.org/ig/IHE-Germany
+* Die Event Code List fehlte - der Download war nicht verfügbar
+* PracticeSetting hatte eine falsche URL und Titel
+* Anpassung der Canonical
+* kleinere Änderungen in den Codesystemen gemäß Diskussion
 
 ### Planung für weitere Arbeiten direkt nach der vierter Version
 
