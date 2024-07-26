@@ -63,8 +63,8 @@ Dokumente von Pflegediensten oder freiberuflichen Pflegekräften fallen nicht in
 
 ValueSet: EinrichtungsartenPatientenbezogen
 Id: EinrichtungsartenPatientenbezogen
-Title: "Einrichtungsarten patientenbezogen"
-Description: "**Einrichtungsarten Patientenbezogen**"
+Title: "Einrichtungsarten, patientenbezogen"
+Description: "**Einrichtungsarten, patientenbezogen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
 * ^version = "4.0.0-alpha0"

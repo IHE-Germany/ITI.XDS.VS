@@ -9,7 +9,7 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.3.4
+version: 0.3.5
 date: 2024-07-03
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
@@ -62,8 +62,6 @@ pages:
     title: IHE ITI XDS VS Home (EN)
   einleitung.md:
     title: Einleitung
-  team.md:
-    title: Projekt-Team
   structure.md:
     title: Struktur/Aufbau des Leitfadens
   document.md:
@@ -80,6 +78,8 @@ pages:
     title: Versionierungs-Policy
   vok-mngmt.md:
     title: Vokabular-Management
+  team.md:
+    title: Projekt-Team
   oid-concept.md:
     title: verwendete OIDs
   changes.md:
@@ -137,22 +137,23 @@ menu:
   XDS Value Sets:
     XDS Author Role: ValueSet-IHEXDSauthorRole.html
     XDS Author Specialty: ValueSet-IHEXDSauthorSpecialty.html
-    XDS Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
+    XDS Confidentiality Code1: ValueSet-IHEXDSconfidentialityCode.html
     XDS Content: ValueSet-IHEXDScontentTypeCode.html
-    XDS Document Class: ValueSet-IHEXDSclassCode.html
-    XDS Document Type: ValueSet-IHEXDStypeCode.html
-    XDS Event: ValueSet-IHEXDSeventCodeList.html
-    XDS (Healthcare) Facility: ValueSet-IHEXDShealthcareFacilityType.html
-    XDS Folder (Type): ValueSet-IHEXDSfolderCodeList.html
-    XDS (Document) Format: ValueSet-IHEXDSformatCode.html
-    XDS Language: ValueSet-IHEXDSlanguageCode.html
-    XDS Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
+    XDS (Document) Class Code: ValueSet-IHEXDSclassCode.html
+    XDS (Document) Type Code: ValueSet-IHEXDStypeCode.html
+    XDS Event Code List: ValueSet-IHEXDSeventCodeList.html
+    XDS Folder Code List: ValueSet-IHEXDSfolderCodeList.html
+    XDS Format Code: ValueSet-IHEXDSformatCode.html
+    XDS Healthcare Facility Type Code: ValueSet-IHEXDShealthcareFacilityTypeCode.html
+    XDS Language Code: ValueSet-IHEXDSlanguageCode.html
+    XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
+    XDS (Submission) Content Type Code: ValueSet-IHEXDSsubmissionContentTypeCode.html
   Codesystems:
     Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
-    Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
+    Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
     Dokumententypen: CodeSystem-Dokumententypen.html
-    Einrichtungsarten, nicht patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: CodeSystem-AerztlicheFachrichtungen.html
@@ -168,10 +169,10 @@ menu:
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Value Sets:
     Berufsvarianten, ärztlich: ValueSet-AerztlicheBerufe.html
-    Dokumenten Warnhinweise: ValueSet-DokumentenWarnhinweise.html
+    Dokumenten-Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentenklassen: ValueSet-Dokumentenklassen.html
     Dokumententypen: ValueSet-Dokumententypen.html
-    Einrichtungsarten, nicht patientenbezogen: ValueSet-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, nicht-patientenbezogen: ValueSet-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: ValueSet-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: ValueSet-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: ValueSet-AerztlicheFachrichtungen.html

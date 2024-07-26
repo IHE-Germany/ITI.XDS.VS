@@ -43,7 +43,7 @@ Die Werte sind im Basisprofile vorgegeben und werden hier nicht weiter präzisie
 
 ### DocumentEntry.healthcareFacilityTypeCode
 
-[IHE XDS Healthcare Facility Type Code](ValueSet-IHEXDShealthcareFacilityType.html)
+[IHE XDS Healthcare Facility Type Code](ValueSet-IHEXDShealthcareFacilityTypeCode.html)
 
 ### DocumentEntry.author
 

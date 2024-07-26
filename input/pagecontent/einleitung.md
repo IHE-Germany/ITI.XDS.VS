@@ -73,19 +73,20 @@ Ziel des Projektes ist die Erarbeitung gemeinsamer Klassifizierungsvorgaben, dam
 Deutschland in Zukunft auch überregional (bzw. zwischen verschiedenen Affinity Domains) einfacher Dokumente austauschen können 
 und um neuen Projekten einen schnelleren Einstieg zu ermöglichen.
 
-Folgende Value Sets wurden für die verschiedenen Versionen des Leitfadens bereitgestellt:
+Folgende Value Sets wurden für die verschiedenen Versionen des Leitfadens bereitgestellt (1) oder angepasst (2):
 
 | Value Set | 1.0 | 2.0 | 3.0 | 4.0 |
 | --- | --- | --- | --- | --- |
-| DocumentEntry.classCode | x | | x | ? |
-| DocumentEntry.typeCode | x | | x | ? |
-| DocumentEntry.healthcareFacilityTypeCode | x | | | ? |
-| DocumentEntry.practiceSettingCode | x | | x | ? |
-| DocumentEntry.formatCode | x | | x | ? |
-| DocumentEntry.languageCode | x | | |  ? |
-| DocumentEntry.authorRole | | x | |  ? |
-| DocumentEntry.authorSpecialty | | x | x | ? |
-| DocumentEntry.confidentialityCode | | x | |  ? |
-| DocumentEntry.eventCodeList | | x | x | ? |
-| Folder.codeList | x | | |  ? |
-| SubmissionSet.contentTypeCode | | x | |  ? |
+| DocumentEntry.classCode | 1 | 1 | 2 | ? |
+| DocumentEntry.typeCode | 1 | 1 | 2 | ? |
+| DocumentEntry.healthcareFacilityTypeCode | 1 | 1 | 1 | ? |
+| DocumentEntry.practiceSettingCode | 1 | 1 | 2 | ? |
+| DocumentEntry.formatCode | 1 | 1 | 2 | ? |
+| DocumentEntry.languageCode | 1 | 1 | 1 |  ? |
+| DocumentEntry.authorRole | | 1 | 2 |  ? |
+| DocumentEntry.authorSpecialty | | 1 | 2 | ? |
+| DocumentEntry.confidentialityCode | | 1 | 1 |  ? |
+| DocumentEntry.eventCodeList | | 1 | 1 | ? |
+| Folder.codeList | 1 | 1 | 1 | ? |
+| Folder.availabilityStatus | | | | ? |
+| SubmissionSet.contentTypeCode | | 1 | 1 | ? |

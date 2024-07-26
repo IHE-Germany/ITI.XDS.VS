@@ -6,7 +6,7 @@
 
 * Tarik Idris, x-tention
 * Frank Oemig, Oracle Cerner
-* Arnold Rosner, Unikl. Freiburg
+* Arnold Roesner, Unikl. Freiburg
 * Raik Kuhlisch, gematik
 * Antje Brandner, Heidelberg
 * Annett Müller, DMI
@@ -18,7 +18,7 @@
 | ![ICW Logo](150px-Logo_icw.jpg){:width="100px"} <br clear="all"/> | x-tention (ehem. ICW), Walldorf |
 | ![bvitg Logo](150px-Logo_bvitg.JPG){:width="100px"} <br clear="all"/> | bvitg (Bundesverband Gesundheits-IT), Berlin |
 | ![Heidelberg Logo](150px-Logo-uk-heidelberg.png){:width="100px"} <br clear="all"/> | Uniklinik Heidelberg (ZIM), Heidelberg |
-| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Uniklinik Freiburg, Freiburg |
+| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Uniklinik Freiburg (ZDI), Freiburg |
 | ![OC Logo](OC_logo.png){:width="100px"} <br clear="all"/> | Oracle Cerner, Berlin |
 
 #### bisherige Kontributoren
