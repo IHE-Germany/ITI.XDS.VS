@@ -1,27 +1,27 @@
 ### (kommissarische) Projektleitung
 
-* Angela Merzweiler, Unikl. Heidelberg (komm. Projektleiterin)
+* Angela Merzweiler, Universitätsklinikum Heidelberg (komm. Projektleiterin)
 
 ### Ansprechpartner
 
 * Tarik Idris, x-tention
 * Frank Oemig, Oracle Cerner
-* Arnold Rosner, Unikl. Freiburg
+* Arnold Roesner, Universitätsklinikum Freiburg
 * Raik Kuhlisch, gematik
-* Antje Brandner, Heidelberg
+* Antje Brandner, Universitätsklinikum Heidelberg
 * Annett Müller, DMI
 * Daniel Hellmuth, CGM
 
 ### Kontributoren
 
 | ![IHE Logo](150px-Logo_ihe.png){:width="100px"} <br clear="all"/> | IHE Deutschland, Berlin |
-| ![ICW Logo](150px-Logo_icw.jpg){:width="100px"} <br clear="all"/> | x-tention (ehem. ICW), Walldorf |
+| ![x-tention Logo](150px-Logo-x-tention.png){:width="100px"} <br clear="all"/> | x-tention (ehem. ICW), Heidelberg |
 | ![bvitg Logo](150px-Logo_bvitg.JPG){:width="100px"} <br clear="all"/> | bvitg (Bundesverband Gesundheits-IT), Berlin |
-| ![Heidelberg Logo](150px-Logo-uk-heidelberg.png){:width="100px"} <br clear="all"/> | Uniklinik Heidelberg (ZIM), Heidelberg |
-| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Uniklinik Freiburg, Freiburg |
+| ![Heidelberg Logo](150px-Logo-uk-heidelberg.png){:width="100px"} <br clear="all"/> | Universitätsklinikum Heidelberg, Heidelberg |
+| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Universitätsklinikum Freiburg, Freiburg |
 | ![OC Logo](OC_logo.png){:width="100px"} <br clear="all"/> | Oracle Cerner, Berlin |
 
-#### bisherige Kontributoren
+#### Bisherige Kontributoren
 
 | ![DTHS Logo](150px-Logo-t-systems.jpg){:width="100px"} <br clear="all"/> | Deutsche Telekom Healthcare and Security Solutions GmbH, Bonn |
 | ![Visus Logo](150px-Logo-visus.jpg){:width="100px"} <br clear="all"/> | VISUS Health IT GmbH, Bochum |

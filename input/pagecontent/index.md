@@ -49,10 +49,10 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 
 | Version | Datum | Status | Download |
 | --- | --- | --- | --- |
-| 0.1 | 23.05.2016 | Draft | [http://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf](http://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf)
-| 1.0 | 10.11.2016 | Final | [http://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](http://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
-| 1.1 | 22.05.2018 | Draft | [http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
-| 2.0 | 09.10.2018 | active | [http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf](http://wiki.hl7.de/images/Value_Sets4XDS-v20.pdf)
+| 0.1 | 23.05.2016 | Draft | [https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf](https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf)
+| 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
+| 1.1 | 22.05.2018 | Draft | [https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
+| 2.0 | 09.10.2018 | active | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/#](https://www.ihe-d.de/download/ihe-valuesets-v2-0/#)
 | 3.0 | 12.04.2021 | Draft | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
 | 4.0.0-alpha0 | Mai 2024 | in Arbeit |
 | 4.0.0-alpha0 | August+September 2024 | Ballot |

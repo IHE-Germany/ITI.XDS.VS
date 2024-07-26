@@ -54,8 +54,8 @@ Zusätzlich wurde ein Abgleich mit HL7 v2.5 Tabelle 0112 (Discharge Disposition)
 |IHE Format Codes |1.3.6.1.4.1.19376.1.2.3 	|IHE XDW eventCodes werden von IHE International ausnahmsweise mit der OID für das IHE formatCode Code System geführt; siehe unten für die Liste der Codes die Teil des Value Sets sind|
 |DICOM Acquisition Modality |1.2.840.10008.6.1.19 |aus IHE XDS-I|
 |DICOM Anatomic Region 	|1.2.840.10008.6.1.2 |aus IHE XDS-I|
-|IHE Deutschland Warnhinweise |1.3.6.1.4.1.19376.3.276.1.5.15 |Das vollständige Code System findet sich weiter unten|
-|IHE Deutschland Fallkontext |1.3.6.1.4.1.19376.3.276.1.5.16 |Das vollständige Code System findet sich weiter unten|
+|IHE Deutschland Dokumenten-Warnhinweise |1.3.6.1.4.1.19376.3.276.1.5.15 |Das vollständige Code System findet sich weiter unten|
+|IHE Deutschland Fallkontext bei Dokumentenerstellung|1.3.6.1.4.1.19376.3.276.1.5.16 |Das vollständige Code System findet sich weiter unten|
 |KDL 	|versionsabhängig |Alle Codes des Valuesets 1.2.276.0.76.11.469|
 
 

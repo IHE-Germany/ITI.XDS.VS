@@ -137,16 +137,16 @@ menu:
   XDS Value Sets:
     XDS Author Role: ValueSet-IHEXDSauthorRole.html
     XDS Author Specialty: ValueSet-IHEXDSauthorSpecialty.html
-    XDS Confidentiality: ValueSet-IHEXDSconfidentialityCode.html
-    XDS Content: ValueSet-IHEXDScontentTypeCode.html
-    XDS Document Class: ValueSet-IHEXDSclassCode.html
-    XDS Document Type: ValueSet-IHEXDStypeCode.html
-    XDS Event: ValueSet-IHEXDSeventCodeList.html
-    XDS (Healthcare) Facility: ValueSet-IHEXDShealthcareFacilityType.html
-    XDS Folder (Type): ValueSet-IHEXDSfolderCodeList.html
-    XDS (Document) Format: ValueSet-IHEXDSformatCode.html
-    XDS Language: ValueSet-IHEXDSlanguageCode.html
-    XDS Practice Setting: ValueSet-IHEXDSpracticeSettingCode.html
+    XDS Class Code: ValueSet-IHEXDSclassCode.html
+    XDS Confidentiality Code: ValueSet-IHEXDSconfidentialityCode.html
+    XDS Content Type Code: ValueSet-IHEXDScontentTypeCode.html
+    XDS Event Code List: ValueSet-IHEXDSeventCodeList.html
+    XDS Folder Code List: ValueSet-IHEXDSfolderCodeList.html
+    XDS Format Code: ValueSet-IHEXDSformatCode.html
+    XDS Healthcare Facility Type Code: ValueSet-IHEXDShealthcareFacilityType.html
+    XDS Language Code: ValueSet-IHEXDSlanguageCode.html
+    XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
+    XDS Type Code: ValueSet-IHEXDStypeCode.html
   Codesystems:
     Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
     Dokumenten Warnhinweise: CodeSystem-DokumentenWarnhinweise.html

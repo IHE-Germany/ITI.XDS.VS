@@ -77,15 +77,15 @@ Folgende Value Sets wurden für die verschiedenen Versionen des Leitfadens berei
 
 | Value Set | 1.0 | 2.0 | 3.0 | 4.0 |
 | --- | --- | --- | --- | --- |
-| DocumentEntry.classCode | x | | x | ? |
-| DocumentEntry.typeCode | x | | x | ? |
-| DocumentEntry.healthcareFacilityTypeCode | x | | | ? |
-| DocumentEntry.practiceSettingCode | x | | x | ? |
-| DocumentEntry.formatCode | x | | x | ? |
-| DocumentEntry.languageCode | x | | |  ? |
-| DocumentEntry.authorRole | | x | |  ? |
-| DocumentEntry.authorSpecialty | | x | x | ? |
-| DocumentEntry.confidentialityCode | | x | |  ? |
-| DocumentEntry.eventCodeList | | x | x | ? |
-| Folder.codeList | x | | |  ? |
-| SubmissionSet.contentTypeCode | | x | |  ? |
+| DocumentEntry.classCode | x | x | x | x |
+| DocumentEntry.typeCode | x | x | x | x |
+| DocumentEntry.healthcareFacilityTypeCode | x | x | x | x |
+| DocumentEntry.practiceSettingCode | x | x | x | x |
+| DocumentEntry.formatCode | x | x | x | x |
+| DocumentEntry.languageCode | x | x | x | x |
+| DocumentEntry.authorRole | | x | x | x |
+| DocumentEntry.authorSpecialty | | x | x | x |
+| DocumentEntry.confidentialityCode | | x | x | x |
+| DocumentEntry.eventCodeList | | x | x | x |
+| Folder.codeList | x | x | x | x |
+| SubmissionSet.contentTypeCode | | x | x | x |
