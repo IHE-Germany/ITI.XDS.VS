@@ -17,8 +17,8 @@
 | ![IHE Logo](150px-Logo_ihe.png){:width="100px"} <br clear="all"/> | IHE Deutschland, Berlin |
 | ![x-tention Logo](150px-Logo-x-tention.png){:width="100px"} <br clear="all"/> | x-tention (ehem. ICW), Heidelberg |
 | ![bvitg Logo](150px-Logo_bvitg.JPG){:width="100px"} <br clear="all"/> | bvitg (Bundesverband Gesundheits-IT), Berlin |
-| ![Heidelberg Logo](150px-Logo-uk-heidelberg.png){:width="100px"} <br clear="all"/> | Universitätsklinikum Heidelberg, Heidelberg |
-| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Universitätsklinikum Freiburg, Freiburg |
+| ![Heidelberg Logo](150px-Logo-uk-heidelberg.png){:width="100px"} <br clear="all"/> | Uniklinik Heidelberg (ZIM), Heidelberg |
+| ![Freiburg Logo](150px-Logo-uk-freiburg.png){:width="100px"} <br clear="all"/> | Uniklinik Freiburg (ZDI), Freiburg |
 | ![OC Logo](OC_logo.png){:width="100px"} <br clear="all"/> | Oracle Cerner, Berlin |
 
 #### Bisherige Kontributoren

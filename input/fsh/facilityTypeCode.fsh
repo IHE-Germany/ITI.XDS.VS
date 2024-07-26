@@ -1,11 +1,11 @@
 //ValueSet
 
-ValueSet: IHEXDShealthcareFacilityType
-Id: IHEXDShealthcareFacilityType
-Title: "IHE XDS Healthcare Facility Type"
-Description: "**IHE XDS Healthcare Facility Type**"
+ValueSet: IHEXDShealthcareFacilityTypeCode
+Id: IHEXDShealthcareFacilityTypeCode
+Title: "IHE XDS Healthcare Facility Type Code"
+Description: "**IHE XDS Healthcare Facility Type Code**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityType"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
@@ -14,8 +14,8 @@ Description: "**IHE XDS Healthcare Facility Type**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.36"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
 
 
 

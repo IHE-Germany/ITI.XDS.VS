@@ -17,6 +17,10 @@ Description: "**Dokumenten-Warnhinweise**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* ^identifier.use = #official
+
 * #H1 "vom Patienten mitgebracht"
   "Dokumente, die der Patient zu seinem Arzt oder in die Klinik mitgebracht hat und die dort vom Leistungserbringer eingescannt (bei Papierdokumenten) bzw. importiert und in die Akte eingestellt wurden. Bei vom Patienten direkt in die Akte eingestellten Dokumenten wird stattdessen das Konzept H5 verwendet. Die Dokumente können von Medizinern und anderen Leistungserbringern, von anderen Autoren wie z.B. Behörden/Krankenkassen/Schulen oder vom Patienten selbst erstellt worden sein."
 * #H2 "noch nicht mit Patient besprochen"
@@ -34,7 +38,7 @@ Description: "**Dokumenten-Warnhinweise**"
 
 ValueSet: DokumentenWarnhinweise
 Id: DokumentenWarnhinweise
-Title: "Dokumenten Warnhinweise"
+Title: "Dokumenten-Warnhinweise"
 Description: "**Warnhinweise** zu Dokumenten"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
@@ -67,6 +71,10 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* ^identifier.use = #official
 
 
 * #E100 "ambulanter Kontakt"
@@ -124,7 +132,7 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 ValueSet: Fallkontexte
 Id: Fallkontexte
 Title: "Fallkontexte"
-Description: "**Fallkontexte**"
+Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
 * ^version = "4.0.0-alpha0"
@@ -149,6 +157,10 @@ Description: "**IHE XDS event Code List**"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.34"
+* ^identifier.use = #official
 
 //geht allein:
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"

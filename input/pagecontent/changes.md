@@ -2,7 +2,30 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.1.
+Die aktuelle Version ist 0.3.5.
+
+* Links korrigiert
+* Versionstabelle
+* Reihenfolge Inhaltsverzeichnis
+* healthcareFacilityType -> healthcareFacilityTypeCode
+* Menüeinträge
+* fehlende OID ergänzt
+* Beschreibungen
+* Filenames
+
+### zu Version 0.3.4
+
+Typos
+
+### zu Version 0.3.3
+
+Build Errors (UTG 6.0.0)
+
+### zu Version 0.3.2
+
+Build Errors (UTG 6.0.0)
+
+### zu Version 0.3.1
 
 * Language Codes für Europa
 

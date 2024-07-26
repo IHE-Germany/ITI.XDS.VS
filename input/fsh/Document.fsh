@@ -39,8 +39,8 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * hash 0..1 string "hash value"
 * practiceSetting 0..1 CodeableConcept "practice setting" "**Practice Setting**"
 * practiceSetting from http://www.ihe-d.de/fhir/ValueSet/IHEXDSpracticeSettingCode (required)
-* healthcareFacilityType 1..1 CodeableConcept "healthcare facility type" "Healthcare Facility Type**"
-* healthcareFacilityType from http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityType (required)
+* healthcareFacilityTypeCode 1..1 CodeableConcept "healthcare facility type code" "Healthcare Facility Type Code**"
+* healthcareFacilityTypeCode from http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode (required)
 * legalAuthenticator 0..1 identifier "legal authenticator of the document"
 //* limitedMetadata 0..1 string "metadata"
 * mimeType 1..1 CodeableConcept "mime type"
@@ -71,7 +71,7 @@ Description: "**Document Entry**: Die zu unterstützenden Attribute werden über
 * language MS
 * format MS
 * practiceSetting MS
-* healthcareFacilityType MS
+* healthcareFacilityTypeCode MS
 * sourcePatientID MS
 * mimeType MS
 * objectType MS
