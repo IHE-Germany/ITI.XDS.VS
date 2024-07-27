@@ -10,7 +10,7 @@ class "Author" as a {
     [[ValueSet-IHEXDSauthorSpecialty.html authorSpecialty]]: code
 }
 
-class "Document Entry" as de {
+class "[[document.html Document Entry]]" as de {
 
 }
 

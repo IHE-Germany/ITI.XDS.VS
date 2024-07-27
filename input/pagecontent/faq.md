@@ -33,7 +33,7 @@ mit den Ursprungscodesystemen vorgesehen sind. Der Vollständigkeit halber sind 
 Auf den ersten Blick erscheint es logisch, dass Mappings zu externen Codesystemen ebenfalls in strukturierter Form
 bereitgestellt werden. Bei näherer Betrachtung ergeben sich dann aber Abhängigkeiten, die später nur schwerlich
 administriert werden können. Deshalb hat sich IHE-D dafür entschieden, diese in einem separaten Leitfaden 
-zur Verfügung zu stellen. Die aktuellen Mappings erscheinen deshalb in den "Notes".
+zur Verfügung zu stellen. Die aktuellen Mappings erscheinen deshalb in den "Notes" in Form von einfachen Tabellen.
 
-Aus Kapzitätsgründen werden diese Leitfäden erst später erarbeitet und bereitgestellt.
+Aus Kapazitätsgründen werden diese Leitfäden erst später erarbeitet und bereitgestellt.
 Dafür gibt es jedoch noch keinen Terminplan.

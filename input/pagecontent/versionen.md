@@ -68,21 +68,26 @@ und ggf. in die Value Sets eingearbeitet. U.a. wurden folgende Themen in der dri
 
 ### Änderungen für die vierte Version
 
-Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen und Ergänzungen zu diskutieren:
+Nach wie vor finden alle 2 Wochen Meetings statt, um Erweiterungen, Korrekturen und Ergänzungen zu diskutieren,
+die an uns herangetragen werden:
 
 * Anpassung der Value Sets für die Gematik ePA
 * Integration der KDL des DVMD
-* Anpassungen für FHIR
+* Anpassungen/Ergänzungen für die Veröffentlichung als FHIR-Package:
   * Korrektur der Canonicals
   * Erstellung von NamingSystem Resourcen
   * Umstellung auf IG-Publisher
   * Erstellung von FHIR Packages (automatisch)
   * Publikation auf build.fhir.org/ig/IHE-Germany
-* Die Event Code List fehlte - der Download war nicht verfügbar
-* PracticeSetting hatte eine falsche URL und Titel
-* Anpassung der Canonical
-* kleinere Änderungen in den Codesystemen gemäß Diskussion
+* Fehlerkorrekturen
+  * Die Event Code List fehlte - der Download war nicht verfügbar
+  * PracticeSetting hatte eine falsche URL und Titel
+  * kleinere Änderungen in den Codesystemen gemäß Diskussion
+* Erweiterung der Dokumentation:
+  * Informationsmodelle
+  * Erstellung von Logical Models für die grundlegenden Objekte als Verständnishilfe
 
 ### Planung für weitere Arbeiten direkt nach der vierter Version
 
-* versionierter Leitfaden auf www.ihe-d.de
+* versionierter Leitfaden auf www.ihe-d.de bzw. in der offiziellen Registry
+* Terminologie-Mappings als separates Package

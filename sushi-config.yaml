@@ -9,7 +9,7 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.3.5
+version: 0.3.6
 date: 2024-07-03
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
@@ -137,8 +137,8 @@ menu:
   XDS Value Sets:
     XDS Author Role: ValueSet-IHEXDSauthorRole.html
     XDS Author Specialty: ValueSet-IHEXDSauthorSpecialty.html
-    XDS Confidentiality Code1: ValueSet-IHEXDSconfidentialityCode.html
-    XDS Content: ValueSet-IHEXDScontentTypeCode.html
+    XDS Confidentiality Code: ValueSet-IHEXDSconfidentialityCode.html
+    XDS Content Type Code: ValueSet-IHEXDScontentTypeCode.html
     XDS (Document) Class Code: ValueSet-IHEXDSclassCode.html
     XDS (Document) Type Code: ValueSet-IHEXDStypeCode.html
     XDS Event Code List: ValueSet-IHEXDSeventCodeList.html
@@ -147,7 +147,6 @@ menu:
     XDS Healthcare Facility Type Code: ValueSet-IHEXDShealthcareFacilityTypeCode.html
     XDS Language Code: ValueSet-IHEXDSlanguageCode.html
     XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
-    XDS (Submission) Content Type Code: ValueSet-IHEXDSsubmissionContentTypeCode.html
   Codesystems:
     Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html

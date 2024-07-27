@@ -42,7 +42,6 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 * DIN EN ISO 3166-1 „Codes für die Namen von Ländern und deren Untereinheiten - Teil 1: Codes für Ländernamen“ . Online, verfügbar unter [http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312](http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312)
 * IETF „Tags for Identifying Languages“ . Online, verfügbar unter [http://tools.ietf.org/html/bcp47](http://tools.ietf.org/html/bcp47)
 * CLDR „Language-Territory Information“ . Online, verfügbar unter [http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html](http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html)
-* [art.decor.org/art-decor](https://art.decor.org/art-decor)
 * [www.ihe-d.de](https://www.ihe-d.de)
 
 ### Historie
@@ -52,7 +51,7 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 | 0.1 | 23.05.2016 | Draft | [https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf](https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf)
 | 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
 | 1.1 | 22.05.2018 | Draft | [https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
-| 2.0 | 09.10.2018 | active | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/#](https://www.ihe-d.de/download/ihe-valuesets-v2-0/#)
+| 2.0 | 09.10.2018 | active | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/](https://www.ihe-d.de/download/ihe-valuesets-v2-0/)
 | 3.0 | 12.04.2021 | Draft | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
 | 4.0.0-alpha0 | Mai 2024 | in Arbeit |
 | 4.0.0-alpha0 | August+September 2024 | Ballot |

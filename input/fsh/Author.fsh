@@ -14,13 +14,13 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 
 * insert HeaderDetailRules
 
-* authorInstitution 0..1 string "institution of author"
-* authorPerson 0..1 string "author"
-* authorRole 1..1 CodeableConcept "role of the author of this document" "**Author Role**"
-* authorRole from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole (required)
-* authorSpecialty 0..* CodeableConcept "specialty of the author for this document" "**AutorSpecialty**"
-* authorSpecialty from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty (required)
-* authorTelecommunication 0..1 string "contact information"
+* institution 0..1 string "institution of author"
+* person 0..1 string "author"
+* role 1..1 CodeableConcept "role of the author of this document" "**Author Role**"
+* role from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole (required)
+* specialty 0..* CodeableConcept "specialty of the author for this document" "**AutorSpecialty**"
+* specialty from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty (required)
+* telecommunication 0..1 string "contact information"
 
 
 
@@ -35,5 +35,5 @@ Description: "**Author** (Profile)"
 
 * insert HeaderDetailRules
 
-* authorRole MS
-* authorSpecialty MS
+* role MS
+* specialty MS

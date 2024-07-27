@@ -190,7 +190,7 @@ Usage: #definition
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
 * name = "DokumentenWarnhinweise"
 //* title = "Dokumenten Warnhinweise"
-* description = "**Dokumenten Warnhinweise**"
+* description = "**Dokumenten-Warnhinweise**"
 //* status = #draft
 //* kind = #codesystem
 //* date = "2014-12-13"

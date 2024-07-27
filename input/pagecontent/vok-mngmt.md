@@ -190,12 +190,12 @@ Deutsche Dokumentenformate </td><td>http://www.ihe-d.de/fhir/CodeSystem/Deutsche
 </tr>
 <tr>
 <td>
-Einrichtungsarten der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2 </td><td><a href="ValueSet-IHEXDShealthcareFacilityType.html">IHEXDShealthcareFacilityTypeCode</a>
+Einrichtungsarten der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Einrichtungsarten ausserhalb der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3 </td><td><a href="ValueSet-IHEXDShealthcareFacilityType.html">IHEXDShealthcareFacilityTypeCode</a>
+Einrichtungsarten ausserhalb der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
 </td>
 </tr>
 <tr>

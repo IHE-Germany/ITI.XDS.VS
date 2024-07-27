@@ -9,12 +9,12 @@ class "Document Entry" as d {
     [[ValueSet-IHEXDSlanguageCode.html language]]: code
     [[ValueSet-IHEXDSformatCode.html format]]: code
     [[ValueSet-IHEXDSpracticeSettingCode.html practiceSetting]]: code
-    [[ValueSet-IHEXDShealthcareFacilityType.html healthcareFacilityType]]: code
+    [[ValueSet-IHEXDShealthcareFacilityTypeCode.html healthcareFacilityTypeCode]]: code
 }
 
 class "Author" as a {
-    [[ValueSet-IHEXDSauthorRole.html authorRole]]: code
-    [[ValueSet-IHEXDSauthorSpecialty.html authorSpecialty]]: code
+    [[ValueSet-IHEXDSauthorRole.html role]]: code
+    [[ValueSet-IHEXDSauthorSpecialty.html specialty]]: code
 }
 
 class "Folder" as f {
@@ -23,6 +23,6 @@ class "Folder" as f {
 }
 
 d "1" *-right- "0..*" a
-f --> d
+f "0..*" -- "1" d
 
 @enduml

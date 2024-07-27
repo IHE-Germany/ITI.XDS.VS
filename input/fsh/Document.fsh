@@ -1,7 +1,7 @@
 Logical: DocumentEntry
 Parent: Base
 Id: DocumentEntry
-Title: "Document Entry(LM)"
+Title: "Document Entry (LM)"
 Description: """
 This Logical Mode describes the relevant attributes on the **Document Entry** class within IHE ITI XDS.
 More details are to be retrieved from IHE ITI on www.ihe.net.
@@ -42,7 +42,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * healthcareFacilityTypeCode 1..1 CodeableConcept "healthcare facility type code" "Healthcare Facility Type Code**"
 * healthcareFacilityTypeCode from http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode (required)
 * legalAuthenticator 0..1 identifier "legal authenticator of the document"
-//* limitedMetadata 0..1 string "metadata"
+* limitedMetadata 0..1 string "metadata"
 * mimeType 1..1 CodeableConcept "mime type"
 * objectType 1..1 CodeableConcept "mime type"
 * sourcePatientID 1..1 identifier "identifier of patient"

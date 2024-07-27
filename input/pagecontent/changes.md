@@ -2,7 +2,12 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.5.
+Die aktuelle Version ist 0.3.6.
+
+* Download-Links
+* Tippfehler
+
+### zu Version 0.3.5
 
 * Links korrigiert
 * Versionstabelle
