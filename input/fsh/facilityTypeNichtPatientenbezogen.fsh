@@ -2,11 +2,10 @@
 
 CodeSystem: EinrichtungsartenNichtPatientenbezogen
 Id: EinrichtungsartenNichtPatientenbezogen
-Title: "Einrichtungsarten, nicht-patientenbezogenen"
+Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
-* ^version = "4.0.0-alpha0"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules

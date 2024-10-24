@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: AerztlicheFachrichtungen
-Id: AerztlicheFachrichtungen
+CodeSystem: FachrichtungenAerztlich
+Id: FachrichtungenAerztlich
 Title: "Fachrichtungen, ärztlich"
 Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheFachrichtungen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -218,12 +218,12 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 //ValueSet
 
-ValueSet: AerztlicheFachrichtungen
-Id: AerztlicheFachrichtungen
+ValueSet: FachrichtungenAerztlich
+Id: FachrichtungenAerztlich
 Title: "Practice Setting Doctoral"
 Description: "**Practice Setting Doctoral** (Ärztliche Fachrichtungen)"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheFachrichtungen"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
@@ -232,5 +232,5 @@ Description: "**Practice Setting Doctoral** (Ärztliche Fachrichtungen)"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.69"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich
 

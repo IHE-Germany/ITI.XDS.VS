@@ -17,6 +17,11 @@ Description: "**Ordnertypen**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
+* ^identifier.use = #official
+
+
 * #DMP "Disease Management Programm"
 * #ECR "Elektronische Fallakte (EFA)"
 * #IVA "Integrierte Versorgung (IVa-Vertrag)"

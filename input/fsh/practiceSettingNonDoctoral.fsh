@@ -1,17 +1,17 @@
 //CodeSystem
 
-CodeSystem: NichtaerztlicheFachrichtungen
-Id: NichtaerztlicheFachrichtungen
+CodeSystem: FachrichtungenNichtaerztlich
+Id: FachrichtungenNichtaerztlich
 Title: "Fachrichtungen, nicht-ärztlich"
 Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral)"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/NichtaerztlicheFachrichtungen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenNichtaerztlich"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -49,12 +49,12 @@ Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral
 
 //ValueSet
 
-ValueSet: NichtaerztlicheFachrichtungen
-Id: NichtaerztlicheFachrichtungen
+ValueSet: FachrichtungenNichtaerztlich
+Id: FachrichtungenNichtaerztlich
 Title: "Practice Setting Non Doctoral"
 Description: "**Practice Setting Non Doctoral** (Nicht-ärztliche Fachrichtungen)"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/NichtaerztlicheFachrichtungen"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenNichtaerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
@@ -63,7 +63,7 @@ Description: "**Practice Setting Non Doctoral** (Nicht-ärztliche Fachrichtungen
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.70"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich
 
 
 

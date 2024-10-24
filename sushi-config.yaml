@@ -7,10 +7,10 @@ id: ihe-de.iti.xds-vs
 canonical: http://www.ihe-d.de/fhir
 name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
-description: Set of Value Sets for IHE IT-I XDS in Germany
+description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.6
-date: 2024-07-03
+version: 0.3.7
+date: 2024-10-24
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 copyright: Test Copyright - tbd
@@ -70,8 +70,6 @@ pages:
     title: Submission Set
   faq.md:
     title: FAQ
-  value_sets.md:
-    title: Value-Set-Tabellen
   versionen.md:
     title: Versionen
   policy.md:
@@ -148,15 +146,15 @@ menu:
     XDS Language Code: ValueSet-IHEXDSlanguageCode.html
     XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
   Codesystems:
-    Berufsvarianten, ärztlich: CodeSystem-AerztlicheBerufe.html
+    Berufsvarianten, ärztlich: CodeSystem-BerufeAerztlich.html
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
     Dokumententypen: CodeSystem-Dokumententypen.html
     Einrichtungsarten, nicht-patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
-    Fachrichtungen, ärztlich: CodeSystem-AerztlicheFachrichtungen.html
-    Fachrichtungen, nicht-ärztlich: CodeSystem-NichtaerztlicheFachrichtungen.html
+    Fachrichtungen, ärztlich: CodeSystem-FachrichtungenAerztlich.html
+    Fachrichtungen, nicht-ärztlich: CodeSystem-FachrichtungenNichtaerztlich.html
     Fallkontexte bei Dokumentenerstellung: CodeSystem-Fallkontexte.html
     Formate: CodeSystem-Formate.html
     Grund der Übermittlung: CodeSystem-GrundDerUebermittlung.html
@@ -167,15 +165,15 @@ menu:
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Value Sets:
-    Berufsvarianten, ärztlich: ValueSet-AerztlicheBerufe.html
+    Berufsvarianten, ärztlich: ValueSet-BerufeAerztlich.html
     Dokumenten-Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentenklassen: ValueSet-Dokumentenklassen.html
     Dokumententypen: ValueSet-Dokumententypen.html
     Einrichtungsarten, nicht-patientenbezogen: ValueSet-EinrichtungsartenNichtPatientenbezogen.html
     Einrichtungsarten, patientenbezogen: ValueSet-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: ValueSet-FacharzttitelAerztekammer.html
-    Fachrichtungen, ärztlich: ValueSet-AerztlicheFachrichtungen.html
-    Fachrichtungen, nicht-ärztlich: ValueSet-NichtaerztlicheFachrichtungen.html
+    Fachrichtungen, ärztlich: ValueSet-FachrichtungenAerztlich.html
+    Fachrichtungen, nicht-ärztlich: ValueSet-FachrichtungenNichtaerztlich.html
     Fallkontexte bei Dokumentenerstellung: ValueSet-Fallkontexte.html
     Formate: ValueSet-Formate.html
     Grund der Übermittlung: ValueSet-GrundDerUebermittlung.html

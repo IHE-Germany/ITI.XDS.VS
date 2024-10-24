@@ -17,6 +17,11 @@ Description: "**Grund der Übermittlung**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
+* ^identifier.use = #official
+
+
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "Who is the parent element of this concept? Multiple parents are possible."

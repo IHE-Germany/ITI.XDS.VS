@@ -165,7 +165,7 @@ Qualifikatoren zahnärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSys
 </tr>
 <tr>
 <td>
-Dokumentenklassen </td><td>http://www.ihe-d.de/fhir/CodeSystem/IHEXDSclassCode </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8 </td><td><a href="ValueSet-IHEXDSclassCode.html">IHEXDSclassCode</a>
+Dokumentenklassen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8 </td><td><a href="ValueSet-IHEXDSclassCode.html">IHEXDSclassCode</a>
 </td>
 </tr>
 <tr>
@@ -200,17 +200,17 @@ Einrichtungsarten ausserhalb der patientenbezogenen Gesundheitsversorgung </td><
 </tr>
 <tr>
 <td>
-Ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
+Ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztliche </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Nicht-ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
+Nicht-ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Dokumententypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/IHEXDStypeCode </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9 </td><td><a href="ValueSet-IHEXDStypeCode.html">IHEXDStypeCode</a>
+Dokumententypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9 </td><td><a href="ValueSet-IHEXDStypeCode.html">IHEXDStypeCode</a>
 </td>
 </tr>
 <tr>

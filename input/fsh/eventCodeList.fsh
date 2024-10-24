@@ -17,9 +17,19 @@ Description: "**Dokumenten-Warnhinweise**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "http://www.ihe-d.de/fhir/CodeSystem/"
+* ^identifier[=].value = "DokumentenWarnhinweise"
+* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "http://ihe-d.de/CodeSystems/"
+* ^identifier[=].value = "DokumentenWarnhinweise"
+* ^identifier[=].use = #old
+
+	
 
 * #H1 "vom Patienten mitgebracht"
   "Dokumente, die der Patient zu seinem Arzt oder in die Klinik mitgebracht hat und die dort vom Leistungserbringer eingescannt (bei Papierdokumenten) bzw. importiert und in die Akte eingestellt wurden. Bei vom Patienten direkt in die Akte eingestellten Dokumenten wird stattdessen das Konzept H5 verwendet. Die Dokumente können von Medizinern und anderen Leistungserbringern, von anderen Autoren wie z.B. Behörden/Krankenkassen/Schulen oder vom Patienten selbst erstellt worden sein."
@@ -131,7 +141,7 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 ValueSet: Fallkontexte
 Id: Fallkontexte
-Title: "Fallkontexte"
+Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"

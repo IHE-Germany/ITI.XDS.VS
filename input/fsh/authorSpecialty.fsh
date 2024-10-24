@@ -17,6 +17,18 @@ Description: "**Facharzttitel** der Ärztekammern"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.5.514"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "http://www.ihe-d.de/fhir/CodeSystem/"
+* ^identifier[=].value = "FacharzttitelAerztekammer"
+* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "http://ihe-d.de/CodeSystems/"
+* ^identifier[=].value = "FacharzttitelDerAerztekammern"
+* ^identifier[=].use = #old
+
 
 
 * #011001 "FA Allgemeinmedizin"
@@ -911,18 +923,18 @@ Description: "**Qualifikatoren Zahnärztekammer**"
 
 //CodeSystem
 
-CodeSystem: AerztlicheBerufe
-Id: AerztlicheBerufe
+CodeSystem: BerufeAerztlich
+Id: BerufeAerztlich
 Title: "Berufsvarianten, ärztlich"
 Description: "**Ärztliche Berufsvarianten**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
 * ^caseSensitive = false
-* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheBerufe"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -949,17 +961,17 @@ Description: "**Ärztliche Berufsvarianten**"
 
 //ValueSet
 
-ValueSet: AerztlicheBerufe
-Id: AerztlicheBerufe
+ValueSet: BerufeAerztlich
+Id: BerufeAerztlich
 Title: "Berufe, ärztlich"
 Description: "**Ärztliche Berufe**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/AerztlicheBerufe"
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
 * ^version = "4.0.0-alpha0"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich
 
 
 
@@ -979,7 +991,7 @@ Description: "**IHE XDS Author Specialty**"
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren
 * include codes from system http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufe
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich
 
 
 

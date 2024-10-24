@@ -2,7 +2,14 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.6.
+Die aktuelle Version ist 0.3.7.
+
+* healthcareFacilityType Intro tauchte nicht auf
+* Referenzen in Identifkation von Kodesystemen
+* Issues: 16, 19, 20, 21, 22, 23
+* weitere Identifikatoren hinzugefügt
+
+### zu Version 0.3.6
 
 * Download-Links
 * Tippfehler

@@ -13,23 +13,23 @@ Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.37"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich
  
 
 
 
-Instance: AerztlicheFachrichtungen
+Instance: FachrichtungenAerztlich
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/AerztlicheFachrichtungen"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/FachrichtungenAerztlich"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "AerztlicheFachrichtungen"
+* name = "FachrichtungenAerztlich"
 //* title = "Ärztliche Fachrichtungen"
 * description = "**Ärztliche Fachrichtungen**"
 //* status = #draft
@@ -47,29 +47,29 @@ Usage: #definition
 * uniqueId[=].comment = "OID, aus historischen Gründen"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/AerztlicheFachrichtungen"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 
 
 
-Instance: NichtaerztlicheFachrichtungen
+Instance: FachrichtungenNichtaerztlich
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
 //fuer r5
-//* url = "http://www.ihe-d.de/fhir/NamingSystem/NichtaerztlicheFachrichtungen"
+//* url = "http://www.ihe-d.de/fhir/NamingSystem/FachrichtungenNichtaerztlich"
 //* identifier.system = "urn:ietf:rfc:3986"
 //* identifier.value = "urn:oid:2.16.840.1.113883.4.642.22.1"
-* name = "NichtaerztlicheFachrichtungen"
+* name = "FachrichtungenNichtaerztlich"
 //* title = "Nicht-ärztliche Fachrichtungen"
 * description = "**Nicht-ärztliche Fachrichtungen**"
 //* status = #draft
@@ -87,12 +87,12 @@ Usage: #definition
 * uniqueId[=].comment = "OID, aus historischen Gründen"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/NichtaerztlicheFachrichtungen"
+* uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenNichtaerztlich"
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
