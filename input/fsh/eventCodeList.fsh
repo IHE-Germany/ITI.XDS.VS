@@ -183,6 +183,9 @@ Description: "**IHE XDS event Code List**"
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 
+* ^compose.include[+].system = "urn:oid:1.2.276.0.76.5.223"
+// * ^compose.include[+].system = "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP"
+
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.34"
 * ^identifier.use = #official

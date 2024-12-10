@@ -57,6 +57,6 @@ Zusätzlich wurde ein Abgleich mit HL7 v2.5 Tabelle 0112 (Discharge Disposition)
 |IHE Deutschland Dokumenten-Warnhinweise |1.3.6.1.4.1.19376.3.276.1.5.15 |Das vollständige Code System findet sich weiter unten|
 |IHE Deutschland Fallkontext bei Dokumentenerstellung|1.3.6.1.4.1.19376.3.276.1.5.16 |Das vollständige Code System findet sich weiter unten|
 |KDL 	|versionsabhängig |Alle Codes des Valuesets 1.2.276.0.76.11.469|
-
+|KBV DMP |versionsabhängig |Alle Codes des Codesystems 1.2.276.0.76.5.223|
 
 
