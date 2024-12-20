@@ -1,4 +1,4 @@
-### DocumentEntry.languageCode (taucht irgendwo teilweise auf)
+### DocumentEntry.languageCode
 
 Der languageCode dient der Spezifikation der Sprache, in welcher der wesentliche, menschenlesbare Teil des Dokuments abgefasst ist.
 

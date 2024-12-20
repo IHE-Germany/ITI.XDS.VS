@@ -228,7 +228,6 @@ Usage: #definition
 
 * name = "ProzessrollenFuerAutoren"
 * description = "**Prozessrolle**, die Autoren in Bezug auf den Patienten zum Zeitpunkt der Dokumentenerstellung hatten."
-* version = "4.0.0-alpha1"
 
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13"
@@ -260,7 +259,6 @@ Usage: #definition
 
 * name = "PatientenbeziehungsrollenFuerAutoren"
 * description = "**Beziehungsrolle**, die Autoren in Bezug auf den Patienten zum Zeitpunkt der Dokumentenerstellung hatten."
-* version = "4.0.0-alpha1"
 
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"

@@ -32,7 +32,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * event 0..* CodeableConcept "class Code of the document" "**Class Code**"
 * event from http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList (required)
 * language 1..* CodeableConcept "language of the document" "**Language Code**"
-* language from http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode (required)
+* language from http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode (extensible)
 * format 1..1 CodeableConcept "format of the document" "**Format Code**"
 * format from http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode (required)
 * size 0..1 integer "size of document"
