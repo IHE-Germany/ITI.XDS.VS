@@ -2,12 +2,18 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.8
+Die aktuelle Version ist 0.3.10
+
+* IG-Version
+
+### zu Version 0.3.9
 
 * Binding zu language ist extensible
 * weiter language Codes
 
-### zu Version 0.3.7.
+### zu Version 0.3.8
+
+### zu Version 0.3.7
 
 * healthcareFacilityType Intro tauchte nicht auf
 * Referenzen in Identifkation von Kodesystemen
