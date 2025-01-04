@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: Formate
+CodeSystem: FormateCS
 Id: Formate
 Title: "Formate"
 Description: "Dokumenten **Formate**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Formate"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -20,6 +20,14 @@ Description: "Dokumenten **Formate**"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
 * ^identifier.use = #official
+
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
+* ^identifier[=].use = #old
 
 
 * ^property[+].code = #status
@@ -143,17 +151,17 @@ Description: "Dokumenten **Formate**"
 
 //ValueSet
 
-ValueSet: Formate
+ValueSet: FormateVS
 Id: Formate
 Title: "Formate"
 Description: "Dokumenten **Formate**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Formate"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Formate
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6
 
 
 
@@ -166,12 +174,12 @@ Title: "IHE XDS Format Code"
 Description: "**IHE XDS Format Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
+* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
 * ^compose.include[+].system =  "urn:ietf:rfc:3986"
 * ^compose.include[=].concept[+].code = #urn:oid:1.2.840.10008.5.1.4.1.1.88.59
 * ^compose.include[=].concept[=].display = "DICOM Manifest (DICOM KOS SOP Class UID)"

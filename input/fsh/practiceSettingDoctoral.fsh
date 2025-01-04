@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: FachrichtungenAerztlich
+CodeSystem: FachrichtungenAerztlichCS
 Id: FachrichtungenAerztlich
 Title: "Fachrichtungen, ärztlich"
 Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -20,6 +20,15 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
 * ^identifier.use = #official
+
+// OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
+* ^identifier[=].use = #old
 
 * ^property[0].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -218,13 +227,13 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 //ValueSet
 
-ValueSet: FachrichtungenAerztlich
+ValueSet: FachrichtungenAerztlichVS
 Id: FachrichtungenAerztlich
-Title: "Practice Setting Doctoral"
-Description: "**Practice Setting Doctoral** (Ärztliche Fachrichtungen)"
+Title: "Fachrichtungen, ärztlich"
+Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -232,5 +241,6 @@ Description: "**Practice Setting Doctoral** (Ärztliche Fachrichtungen)"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.69"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4
+
 

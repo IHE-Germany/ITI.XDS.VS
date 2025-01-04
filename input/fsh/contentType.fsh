@@ -1,12 +1,12 @@
 //CodeSystem
 
-CodeSystem: GrundDerUebermittlung
+CodeSystem: GrundDerUebermittlungCS
 Id: GrundDerUebermittlung
 Title: "Grund der Übermittlung"
 Description: "**Grund der Übermittlung**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -21,6 +21,13 @@ Description: "**Grund der Übermittlung**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
 * ^identifier.use = #official
 
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
+* ^identifier[=].use = #old
 
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -53,17 +60,17 @@ Description: "**Grund der Übermittlung**"
 
 //ValueSet
 
-ValueSet: GrundDerUebermittlung
+ValueSet: GrundDerUebermittlungVS
 Id: GrundDerUebermittlung
 Title: "GrundDerUebermittlung"
 Description: "**Grund der Übermittlung**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/GrundDerUebermittlung"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
 
 
 
@@ -76,11 +83,11 @@ Title: "IHE XDS Content Type Code"
 Description: "**IHE XDS Content Type Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
 
 
 

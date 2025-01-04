@@ -6,7 +6,7 @@ Title: "IHE XDS Healthcare Facility Type Code"
 Description: "**IHE XDS Healthcare Facility Type Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -14,8 +14,8 @@ Description: "**IHE XDS Healthcare Facility Type Code**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.36"
 * ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
 
 
 

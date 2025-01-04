@@ -2,7 +2,22 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.10
+Die aktuelle Version ist 0.3.11
+
+* caseSensitive = true für alls CS
+* version = "4.0.0-alpha1"
+* naming convention in FSH
+
+* CS ärztliche Berufsvarianten: OID
+* CS Grund der Übermittlung: OID
+* CS Ordnertypen: OID
+* CS Formate: OID
+* CS Einrichtungsarten patientenbezogen: OID
+* CS Einrichtungsarten nicht patientenbezogen: OID
+* CS ärztliche Fachrichtungen: OID + Titel
+* CS nicht-ärztliche Fachrichtungen: OID + Titel
+
+### zu Version 0.3.10
 
 * IG-Version
 

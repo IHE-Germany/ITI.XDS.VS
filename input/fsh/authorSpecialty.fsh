@@ -1,6 +1,6 @@
 //CodeSystem
 
-CodeSystem: FacharzttitelAerztekammer
+CodeSystem: FacharzttitelAerztekammerCS
 Id: FacharzttitelAerztekammer
 Title: "Facharzttitel der Ärztekammern"
 Description: "**Facharzttitel** der Ärztekammern"
@@ -10,7 +10,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FacharzttitelAerztekammer"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -233,7 +233,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 //ValueSet
 
-ValueSet: FacharzttitelAerztekammer
+ValueSet: FacharzttitelAerztekammerVS
 Id: FacharzttitelAerztekammer
 Title: "Facharzttitel Ärztekammer"
 Description: "**Facharzttitel Ärztekammer**"
@@ -248,7 +248,7 @@ Description: "**Facharzttitel Ärztekammer**"
 
 //CodeSystem
 
-CodeSystem: QualifikationenNichtaerztlicherAutoren
+CodeSystem: QualifikationenNichtaerztlicherAutorenCS
 Id: QualifikationenNichtaerztlicherAutoren
 Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
@@ -258,7 +258,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenNichtaerztlicherAutoren"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -855,7 +855,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 //ValueSet
 
-ValueSet: QualifikationenNichtaerztlicherAutoren
+ValueSet: QualifikationenNichtaerztlicherAutorenVS
 Id: QualifikationenNichtaerztlicherAutoren
 Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
@@ -868,9 +868,12 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 * include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
 
 
+
+//====================================================================================
+
 //CodeSystem
 
-CodeSystem: QualifikatorenZahnAerztekammer
+CodeSystem: QualifikatorenZahnAerztekammerCS
 Id: QualifikatorenZahnAerztekammer
 Title: "Qualifikatoren zahnärztlicher Autoren"
 Description: "**Qualifikatoren zahnärztlicher Autoren**"
@@ -880,7 +883,7 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -926,32 +929,37 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
 //ValueSet
 
-ValueSet: QualifikatorenZahnAerztekammer
+ValueSet: QualifikatorenZahnAerztekammerVS
 Id: QualifikatorenZahnAerztekammer
 Title: "Qualifikatoren Zahnärztekammer"
 Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * include codes from system urn:oid:1.2.276.0.76.5.492
 
 
+
+
+//====================================================================================
+
+
 //CodeSystem
 
-CodeSystem: BerufeAerztlich
+CodeSystem: BerufeAerztlichCS
 Id: BerufeAerztlich
 Title: "Berufsvarianten, ärztlich"
 Description: "**Ärztliche Berufsvarianten**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.2.276.0.76.5.493"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -961,6 +969,16 @@ Description: "**Ärztliche Berufsvarianten**"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.5.493"
 * ^identifier.use = #official
+
+// OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten"
+* ^identifier[=].use = #old
+
 
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -979,19 +997,20 @@ Description: "**Ärztliche Berufsvarianten**"
 
 //ValueSet
 
-ValueSet: BerufeAerztlich
+ValueSet: BerufeAerztlichVS
 Id: BerufeAerztlich
 Title: "Berufe, ärztlich"
 Description: "**Ärztliche Berufe**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich
+* include codes from system urn:oid:1.2.276.0.76.5.493
 
 
+//====================================================================================
 
 
 //ValueSet
@@ -1002,17 +1021,18 @@ Title: "IHE XDS Author Specialty"
 Description: "**IHE XDS Author Specialty**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * include codes from system urn:oid:1.2.276.0.76.5.514
 * include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
 * include codes from system urn:oid:1.2.276.0.76.5.492
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/BerufeAerztlich
+* include codes from system urn:oid:1.2.276.0.76.5.493
 
 
 
+//====================================================================================
 
 
 Instance: FacharzttitelAerztekammer

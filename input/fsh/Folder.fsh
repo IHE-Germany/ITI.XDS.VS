@@ -8,7 +8,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 (Focus for this LM is on the coded attributes.)
 """
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Folder"
 
@@ -34,6 +34,6 @@ Id: FolderProfile
 Title: "Folder (Profile)"
 Description: "**Folder** (Profile)"
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules

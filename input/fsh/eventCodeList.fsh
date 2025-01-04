@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: DokumentenWarnhinweise
+CodeSystem: DokumentenWarnhinweiseCS
 Id: DokumentenWarnhinweise
 Title: "Dokumenten-Warnhinweise"
 Description: "**Dokumenten-Warnhinweise**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -21,14 +21,14 @@ Description: "**Dokumenten-Warnhinweise**"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
 * ^identifier[=].use = #official
 
-* ^identifier[+].system = "http://www.ihe-d.de/fhir/CodeSystem/"
-* ^identifier[=].value = "DokumentenWarnhinweise"
-* ^identifier[=].use = #secondary
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
+//* ^identifier[=].use = #secondary
 
-* ^identifier[+].system = "http://ihe-d.de/CodeSystems/"
-* ^identifier[=].value = "DokumentenWarnhinweise"
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
 * ^identifier[=].use = #old
-
+	
 	
 
 * #H1 "vom Patienten mitgebracht"
@@ -46,17 +46,17 @@ Description: "**Dokumenten-Warnhinweise**"
 
 //ValueSet
 
-ValueSet: DokumentenWarnhinweise
+ValueSet: DokumentenWarnhinweiseVS
 Id: DokumentenWarnhinweise
 Title: "Dokumenten-Warnhinweise"
 Description: "**Warnhinweise** zu Dokumenten"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15
 
 
 
@@ -65,17 +65,17 @@ Description: "**Warnhinweise** zu Dokumenten"
 
 //CodeSystem
 
-CodeSystem: Fallkontexte
+CodeSystem: FallkontexteCS
 Id: Fallkontexte
 Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -85,6 +85,14 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
 * ^identifier.use = #official
+
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/Fallkontexte"
+* ^identifier[=].use = #old
 
 
 * #E100 "ambulanter Kontakt"
@@ -139,17 +147,17 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 //ValueSet
 
-ValueSet: Fallkontexte
+ValueSet: FallkontexteVS
 Id: Fallkontexte
 Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16
 
 
 
@@ -164,7 +172,7 @@ Title: "IHE XDS Event Code List"
 Description: "**IHE XDS event Code List**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 

@@ -2,17 +2,17 @@ Alias: $LOINC = http://loinc.org
 
 //CodeSystem
 
-CodeSystem: Dokumentenklassen
+CodeSystem: DokumentenklassenCS
 Id: Dokumentenklassen
 Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -94,13 +94,13 @@ Die bisher mit diesem Konzept abgedeckten Dokumententypen sollten zukünftig and
 
 //ValueSet
 
-ValueSet: Dokumentenklassen
+ValueSet: DokumentenklassenVS
 Id: Dokumentenklassen
 Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -117,7 +117,7 @@ Title: "IHE XDS Class Code"
 Description: "**IHE XDS Class Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 

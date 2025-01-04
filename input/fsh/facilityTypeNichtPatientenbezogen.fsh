@@ -1,21 +1,34 @@
 //CodeSystem
 
-CodeSystem: EinrichtungsartenNichtPatientenbezogen
+CodeSystem: EinrichtungsartenNichtPatientenbezogenCS
 Id: EinrichtungsartenNichtPatientenbezogen
 Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3"
+* ^identifier[=].use = #official
+
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen"
+* ^identifier[=].use = #old
+
 
 * #BIL "Bildungseinrichtung"
   "Kindergarten, Schulen, Hochschulen und andere erzieherische Einrichtungen für Kinder oder Erwachsene"
@@ -36,20 +49,20 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 
 //ValueSet
 
-ValueSet: EinrichtungsartenNichtPatientenbezogen
+ValueSet: EinrichtungsartenNichtPatientenbezogenVS
 Id: EinrichtungsartenNichtPatientenbezogen
 Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten, nicht-patientenbezogen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.59"
-* ^identifier.use = #official
+//* ^identifier.system = "urn:ietf:rfc:3986"
+//* ^identifier.value = "urn:oid:1.2.276.0.76.11.59"
+//* ^identifier.use = #official
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
 
 

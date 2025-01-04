@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: Dokumententypen
+CodeSystem: DokumententypenCS
 Id: Dokumententypen
 Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumententypen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -611,13 +611,13 @@ Description: "**Dokumententypen**"
 
 //ValueSet
 
-ValueSet: Dokumententypen
+ValueSet: DokumententypenVS
 Id: Dokumententypen
 Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumententypen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -633,7 +633,7 @@ Title: "IHE XDS Type Code"
 Description: "**IHE XDS type Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 

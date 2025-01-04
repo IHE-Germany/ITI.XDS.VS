@@ -6,7 +6,7 @@ Title: "IHE XDS Language Code"
 Description: "**IHE XDS Language Code** (Sprachcode)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -59,29 +59,29 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #ar-EG
 * ^compose.include[=].concept[+].code = #ar-IL
 * ^compose.include[=].concept[+].code = #ar-IQ
-* ^compose.include[=].concept[+].code = #ar-JO    
+* ^compose.include[=].concept[+].code = #ar-JO
 * ^compose.include[=].concept[+].code = #ar-KW  
-* ^compose.include[=].concept[+].code = #ar-LB    
-* ^compose.include[=].concept[+].code = #ar-LY     
+* ^compose.include[=].concept[+].code = #ar-LB
+* ^compose.include[=].concept[+].code = #ar-LY 
 * ^compose.include[=].concept[+].code = #ar-MA  
-* ^compose.include[=].concept[+].code = #ar-PS    
+* ^compose.include[=].concept[+].code = #ar-PS
 * ^compose.include[=].concept[+].code = #ar-QA   
-* ^compose.include[=].concept[+].code = #ar-SA    
-* ^compose.include[=].concept[+].code = #ar-SU    
-* ^compose.include[=].concept[+].code = #ar-SY     
-* ^compose.include[=].concept[+].code = #ar-TU    
-* ^compose.include[=].concept[+].code = #ar-YE     
-* ^compose.include[=].concept[+].code = #az-AZ    
+* ^compose.include[=].concept[+].code = #ar-SA
+* ^compose.include[=].concept[+].code = #ar-SU
+* ^compose.include[=].concept[+].code = #ar-SY 
+//* ^compose.include[=].concept[+].code = #ar-TU    invalid code?
+* ^compose.include[=].concept[+].code = #ar-YE 
+* ^compose.include[=].concept[+].code = #az-AZ
 * ^compose.include[=].concept[+].code = #be-BY   
 * ^compose.include[=].concept[+].code = #bs-BA   
 * ^compose.include[=].concept[+].code = #ca-AD   
-* ^compose.include[=].concept[+].code = #ca-ES    
+* ^compose.include[=].concept[+].code = #ca-ES
 * ^compose.include[=].concept[+].code = #de-BE   
-* ^compose.include[=].concept[+].code = #el-CY     
+* ^compose.include[=].concept[+].code = #el-CY 
 * ^compose.include[=].concept[+].code = #en-CX   
-* ^compose.include[=].concept[+].code = #en-GI    
-* ^compose.include[=].concept[+].code = #en-IE     
-* ^compose.include[=].concept[+].code = #en-IN    
+* ^compose.include[=].concept[+].code = #en-GI
+* ^compose.include[=].concept[+].code = #en-IE 
+* ^compose.include[=].concept[+].code = #en-IN
 * ^compose.include[=].concept[+].code = #en-MT  
 * ^compose.include[=].concept[+].code = #en-NZ   
 * ^compose.include[=].concept[+].code = #en-PK   
@@ -90,44 +90,44 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #es-AR   
 * ^compose.include[=].concept[+].code = #es-CO   
 * ^compose.include[=].concept[+].code = #es-MX  
-* ^compose.include[=].concept[+].code = #fa-AF    
-* ^compose.include[=].concept[+].code = #fa-IR      
-* ^compose.include[=].concept[+].code = #fr-DZ     
-* ^compose.include[=].concept[+].code = #fr-MA   
-* ^compose.include[=].concept[+].code = #fr-MC   
-* ^compose.include[=].concept[+].code = #fr-SY     
-* ^compose.include[=].concept[+].code = #fr-TU     
-* ^compose.include[=].concept[+].code = #he-IL     
-* ^compose.include[=].concept[+].code = #hi-IN     
+* ^compose.include[=].concept[+].code = #fa-AF
+* ^compose.include[=].concept[+].code = #fa-IR  
+* ^compose.include[=].concept[+].code = #fr-DZ
+* ^compose.include[=].concept[+].code = #fr-MA 
+* ^compose.include[=].concept[+].code = #fr-MC
+* ^compose.include[=].concept[+].code = #fr-SY
+//* ^compose.include[=].concept[+].code = #fr-TU    invalid code?
+* ^compose.include[=].concept[+].code = #he-IL
+* ^compose.include[=].concept[+].code = #hi-IN
 * ^compose.include[=].concept[+].code = #hr-BA   
 * ^compose.include[=].concept[+].code = #hy-AM  
-* ^compose.include[=].concept[+].code = #it-SM    
-* ^compose.include[=].concept[+].code = #jp-JP     
-* ^compose.include[=].concept[+].code = #ka-GE    
-* ^compose.include[=].concept[+].code = #kk-KZ    
-* ^compose.include[=].concept[+].code = #kl-GL     
+* ^compose.include[=].concept[+].code = #it-SM
+//* ^compose.include[=].concept[+].code = #jp-JP    invalid code?
+* ^compose.include[=].concept[+].code = #ka-GE
+* ^compose.include[=].concept[+].code = #kk-KZ
+* ^compose.include[=].concept[+].code = #kl-GL 
 * ^compose.include[=].concept[+].code = #ko-KP   
 * ^compose.include[=].concept[+].code = #ko-KR   
 * ^compose.include[=].concept[+].code = #mk-MK 
 * ^compose.include[=].concept[+].code = #nb-NO  
 * ^compose.include[=].concept[+].code = #nn-NO  
-* ^compose.include[=].concept[+].code = #ps-AF    
-* ^compose.include[=].concept[+].code = #pt-BR    
+* ^compose.include[=].concept[+].code = #ps-AF
+* ^compose.include[=].concept[+].code = #pt-BR
 * ^compose.include[=].concept[+].code = #ro-MD  
-* ^compose.include[=].concept[+].code = #ru-BY    
-* ^compose.include[=].concept[+].code = #ru-KZ    
-* ^compose.include[=].concept[+].code = #ru-RU    
+* ^compose.include[=].concept[+].code = #ru-BY
+* ^compose.include[=].concept[+].code = #ru-KZ
+* ^compose.include[=].concept[+].code = #ru-RU
 * ^compose.include[=].concept[+].code = #ru-UA   
-* ^compose.include[=].concept[+].code = #sq-AL    
-* ^compose.include[=].concept[+].code = #sq-XK    
-* ^compose.include[=].concept[+].code = #sr-BA    
-* ^compose.include[=].concept[+].code = #sr-RS     
-* ^compose.include[=].concept[+].code = #sr-XK    
-* ^compose.include[=].concept[+].code = #sv-FI      
-* ^compose.include[=].concept[+].code = #tr-CY     
-* ^compose.include[=].concept[+].code = #tr-TR     
+* ^compose.include[=].concept[+].code = #sq-AL
+//* ^compose.include[=].concept[+].code = #sq-XK    invalid code?
+* ^compose.include[=].concept[+].code = #sr-BA
+* ^compose.include[=].concept[+].code = #sr-RS 
+//* ^compose.include[=].concept[+].code = #sr-XK    invalid code?
+* ^compose.include[=].concept[+].code = #sv-FI  
+* ^compose.include[=].concept[+].code = #tr-CY 
+* ^compose.include[=].concept[+].code = #tr-TR 
 * ^compose.include[=].concept[+].code = #uk-UA   
-* ^compose.include[=].concept[+].code = #ur-PK    
+* ^compose.include[=].concept[+].code = #ur-PK
 * ^compose.include[=].concept[+].code = #zh-CN   
 * ^compose.include[=].concept[+].code = #zh-SG
 

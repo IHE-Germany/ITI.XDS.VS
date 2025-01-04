@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: Ordnertypen
+CodeSystem: OrdnertypenCS
 Id: Ordnertypen
 Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-* ^version = "4.0.0-alpha0"
+* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://ihe-d.de/fhir/ValueSet/Ordnertypen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -21,6 +21,13 @@ Description: "**Ordnertypen**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
 * ^identifier.use = #official
 
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
+//* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
+* ^identifier[=].use = #old
 
 * #DMP "Disease Management Programm"
 * #ECR "Elektronische Fallakte (EFA)"
@@ -35,17 +42,17 @@ Description: "**Ordnertypen**"
 
 //ValueSet
 
-ValueSet: Ordnertypen
+ValueSet: OrdnertypenVS
 Id: Ordnertypen
 Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Ordnertypen"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
 
 
 
@@ -58,11 +65,11 @@ Title: "IHE XDS Folder Code List"
 Description: "**IHE XDS Folder Code List**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen
+* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
 
 
 

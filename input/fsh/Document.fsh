@@ -8,7 +8,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 (Focus for this LM is on the coded attributes.)
 """
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Document"
 * . ^definition = "Document Entry"
@@ -60,7 +60,7 @@ Id: DocumentEntryProfile
 Title: "Document Entry (Profile)"
 Description: "**Document Entry**: Die zu unterstützenden Attribute werden über ein Profil festgelegt."
 
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -87,11 +87,11 @@ Title: "Verfügbarkeitsstatus von Dokumenten"
 Description: "**Verfügbarkeitsstatus** von Dokumenten (ersetzen durch IHE UV)"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/AvailabilityStatusCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AvailabilityStatusCode"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -108,7 +108,7 @@ Title: "IHE XDS Availability Status"
 Description: "**IHE XDS Availability Status** (ersetzen durch IHE)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 

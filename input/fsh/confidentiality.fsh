@@ -1,16 +1,16 @@
 //CodeSystem
 
-CodeSystem: Vertraulichkeiten
+CodeSystem: VertraulichkeitenCS
 Id: Vertraulichkeiten
 Title: "Vertraulichkeiten"
 Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeiten"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -32,13 +32,13 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 //ValueSet
 
-ValueSet: Vertraulichkeiten
+ValueSet: VertraulichkeitenVS
 Id: Vertraulichkeiten
 Title: "Vertraulichkeiten"
 Description: "**Vertraulichkeiten**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeiten"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
@@ -56,7 +56,7 @@ Title: "IHE XDS Confidentiality Code"
 Description: "**IHE XDS Confidentiality Code**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
-* ^version = "4.0.0-alpha0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 

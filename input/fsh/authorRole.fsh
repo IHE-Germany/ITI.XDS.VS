@@ -1,6 +1,6 @@
 //CodeSystem
 
-CodeSystem: PatientenbeziehungsrollenFuerAutoren
+CodeSystem: PatientenbeziehungsrollenFuerAutorenCS
 Id: PatientenbeziehungsrollenFuerAutoren
 Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
@@ -10,7 +10,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/PatientenbeziehungsrollenFuerAutoren"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -20,9 +20,11 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"
 * ^identifier[=].use = #official
+
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
 * ^identifier[=].use = #secondary
+
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
 * ^identifier[=].use = #old
@@ -78,7 +80,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 //ValueSet
 
-ValueSet: PatientenbeziehungsrollenFuerAutoren
+ValueSet: PatientenbeziehungsrollenFuerAutorenVS
 Id: PatientenbeziehungsrollenFuerAutoren
 Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
@@ -96,7 +98,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 //CodeSystem
 
-CodeSystem: ProzessrollenFuerAutoren
+CodeSystem: ProzessrollenFuerAutorenCS
 Id: ProzessrollenFuerAutoren
 Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
@@ -106,7 +108,7 @@ Description: "**Prozessrollen** für Autoren"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/ProzessrollenFuerAutoren"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
@@ -172,7 +174,7 @@ Description: "**Prozessrollen** für Autoren"
 
 //ValueSet
 
-ValueSet: ProzessrollenFuerAutoren
+ValueSet: ProzessrollenFuerAutorenVS
 Id: ProzessrollenFuerAutoren
 Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"

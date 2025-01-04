@@ -6,11 +6,11 @@ Title: "Property CodeSystem"
 Description: "Property CS"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Property"
-* ^version = "0.1.0"
+* ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
