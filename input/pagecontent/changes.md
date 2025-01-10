@@ -2,7 +2,12 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.11
+Die aktuelle Version ist 0.3.12
+
+* Korrektur OIDs für ValueSets
+* Anpassung sushi-config, um OIDs zu akzeptieren
+
+### zu Version 0.3.11
 
 * caseSensitive = true für alls CS
 * version = "4.0.0-alpha1"

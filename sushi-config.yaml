@@ -4,13 +4,14 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ihe-de.iti.xds-vs
+#canonical: urn:oid:1.2.276.0.76.5
 canonical: http://www.ihe-d.de/fhir
 name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.11
-date: 2025-01-04
+version: 0.3.12
+date: 2025-01-10
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Test Copyright - tbd
@@ -34,6 +35,7 @@ extension:
 #
 dependencies:
   ihe.formatcode.fhir: 1.1.1
+  kbv.all.st: 1.11.0
 #  hl7.terminology.r4: 5.5.0
 #  ihe.formatcode.fhir: 1.1.2-current
 
@@ -108,6 +110,23 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   usage-stats-opt-out: true
+  special-url: 
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15
+    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16
+    - urn:oid:1.2.276.0.76.5.492
+    - urn:oid:1.2.276.0.76.5.493
+    - urn:oid:1.2.276.0.76.5.514
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]

@@ -180,23 +180,21 @@ Description: "**IHE XDS event Code List**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.34"
 * ^identifier.use = #official
 
-//geht allein:
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
-//geht allein:
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
+* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+
+* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
 
 * ^compose.include[+].system = "urn:iso-astm:E1762-95:2013"
 
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
+* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 
-* ^compose.include[+].system = "urn:oid:1.2.276.0.76.5.223"
-// * ^compose.include[+].system = "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP"
+//fehlt, da Retrieve vom Terminologieserver nicht funktioniert
+//* ^compose.include[+].system = "urn:oid:1.2.276.0.76.5.223"
+* ^compose.include[+].system = "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP"
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.34"
-* ^identifier.use = #official
+
 
 
 Instance: DokumentenWarnhinweise
