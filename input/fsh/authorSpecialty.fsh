@@ -1025,6 +1025,10 @@ Description: "**IHE XDS Author Specialty**"
 
 * insert HeaderDetailRules
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.31"
+* ^identifier.use = #official
+
 * include codes from system urn:oid:1.2.276.0.76.5.514
 * include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
 * include codes from system urn:oid:1.2.276.0.76.5.492

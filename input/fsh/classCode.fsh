@@ -45,6 +45,20 @@ Description: "**Dokumentenklassen**"
     "Anforderung von Diagnostik oder therapeutischen Interventionen; Ausnahmen: nicht medizinische Anforderungen werden über \"Administratives Dokument\" abgedeckt."
 * #ASM "Assessment"
     "Bewertungsbögen zur Bestimmung von Scores und ähnlichen Kennwerten zum gesundheitlichen Zustand des Patienten, die primär der Behandlung des Patienten dienen - sonst handelt es sich um das Konzept GUT (\"Qualitätsmanagement\")"
+* #AUS "Medizinischer Ausweis"
+    "Ausweise, Pässe und ähnliche kurze Datensätze, die wichtige medizinische Informationen zusammenfassen."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Allergiepass"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Allergieausweis"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Impfpass"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Impfausweis"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Impfbuch"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Notfalldatensatz"
 * #BEF "Befundbericht"
     "Befundberichte von bildgebenden Modalitäten (CT, MRT), weiterer Funktionsdiagnostik (EEG, EKG), sowie manuellen Untersuchungen; solange es keine spezifischeren classCodes gibt (z.B LAB \"Laborergebnisse\"). Eine weitere Spezialisierung der Befundberichte (z.B. Histopathologie)  kann über den typeCode realisiert werden, insofern sie nicht über den practiceSettingCode abgebildet werden."
 * #BIL "Bilddaten"
@@ -62,20 +76,11 @@ Dazu gehören auch Messdaten (oft auch als Quelldaten oder Rohdaten bezeichnet) 
     "Medizinische Gutachten und Stellungnahmen die eine Qualitätsbewertung als Ziel haben, nicht primär die Unterstützung der Behandlung des Patienten (da sonst das Konzept ASM (\"Assessment\") verwendet werden sollte). Hierbei handelt es sich nicht notwendigerweise um Gutachten im juristischen Sinn."
 * #LAB "Laborergebnisse"
     "Sowohl automatisch erstellte Analysen wie auch Dokumente die primär die Interpretation des Laborarztes darstellen. Auch Dokumentation von Prozessen von Blutbanken, wie auch Human-genetische Analysen gehören hierzu."
-* #AUS "Medizinischer Ausweis"
-    "Ausweise, Pässe und ähnliche kurze Datensätze, die wichtige medizinische Informationen zusammenfassen."
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Allergiepass"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Allergieausweis"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Impfpass"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Impfausweis"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Impfbuch"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Notfalldatensatz"
+* #MED "Medikation"
+    "Dieses Konzept gilt als \"obsolet\" und sollte nicht mehr verwendet werden.
+Die bisher mit diesem Konzept abgedeckten Dokumententypen sollten zukünftig anderen Klassen zugeordnet werden, d.h. Medikationsplan der Klasse \"Planungsdokument\", Rezepte der Klasse \"Verordnung\" und Medikationsvergaben der Klasse \"Durchführungsprotokoll\"."
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #PLA "Planungsdokument"
     "Dokumente zur Behandlungsplanung (z.B. Bestrahlungsplan, Medikationsplan) oder Versorgungsplanung (z.B. Nachsorge-Plan). Weitere Beispiele: Wiedereingliederungsplan."
   * ^property[+].code = #beispiel
@@ -84,11 +89,6 @@ Dazu gehören auch Messdaten (oft auch als Quelldaten oder Rohdaten bezeichnet) 
     "Verordnungen für Krankenhausbehandlung, Arzneimittel bzw. Heil- und Hilfsmittel, sowie Überweisungen an andere Ärzte"
 * #VID "Videodaten"
     "Videodaten mit und ohne Tonspuren, sowie gemischte Bild- und Videodaten"
-* #MED "Medikation"
-    "Dieses Konzept gilt als \"obsolet\" und sollte nicht mehr verwendet werden.
-Die bisher mit diesem Konzept abgedeckten Dokumententypen sollten zukünftig anderen Klassen zugeordnet werden, d.h. Medikationsplan der Klasse \"Planungsdokument\", Rezepte der Klasse \"Verordnung\" und Medikationsvergaben der Klasse \"Durchführungsprotokoll\"."
-  * ^property[+].code = #status
-  * ^property[=].valueCode = #deprecated
 
 
 

@@ -21,12 +21,12 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
 * ^identifier.use = #official
 
-* #PV "gesperrt"
-  "Aus Sicht der Betroffenen sind die Daten so sensibel, dass sie für praktisch niemanden außer ihr selbst sichtbar sein sollten."
-* #PR "erhöhte Vertraulichkeit"
-  "Aus Sicht der Betroffenen sind die Daten sensibel genug, dass für sie besondere Zugriffsregelungen gelten sollen, die den Kreis der Zugriffsberechtigten signifikant einschränken."
 * #PN "übliche Vertraulichkeit"
   "Aus Sicht der Betroffenen sind die Daten nicht sensibler als andere Gesundheitsdaten und können daher nach den gleichen Regeln benutzt werden"
+* #PR "erhöhte Vertraulichkeit"
+  "Aus Sicht der Betroffenen sind die Daten sensibel genug, dass für sie besondere Zugriffsregelungen gelten sollen, die den Kreis der Zugriffsberechtigten signifikant einschränken."
+* #PV "gesperrt"
+  "Aus Sicht der Betroffenen sind die Daten so sensibel, dass sie für praktisch niemanden außer ihr selbst sichtbar sein sollten."
 
 
 

@@ -29,12 +29,12 @@ Description: "**Ordnertypen**"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
 * ^identifier[=].use = #old
 
+* #DIAG "Medizinischer Fall auf Diagnose Basis"
 * #DMP "Disease Management Programm"
 * #ECR "Elektronische Fallakte (EFA)"
+* #EMERG "Notfall-relevante Dokumente"
 * #IVA "Integrierte Versorgung (IVa-Vertrag)"
 * #IVB "Integrierte Versorgung (IVb-Vertrag)"
-* #DIAG "Medizinischer Fall auf Diagnose Basis"
-* #EMERG "Notfall-relevante Dokumente"
 
 
 
@@ -68,6 +68,10 @@ Description: "**IHE XDS Folder Code List**"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.40"
+* ^identifier.use = #official
 
 * include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
 

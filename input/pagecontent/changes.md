@@ -2,7 +2,16 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.12
+Die aktuelle Version ist 0.3.13
+
+* alphabetisch sortierte Codes
+* "Other Identifiers: OID:1.2.276.0.76.11.xx" hinzugefügt
+  * IHEXDSauthorSpecialty (.31)
+  * IHEXDScontentTypeCode (.39)
+  * IHEXDSfolderCodeList (.40)
+  * IHEXDSformatCode (.35)
+
+### zu Version 0.3.12
 
 * Korrektur OIDs für ValueSets
 * Anpassung sushi-config, um OIDs zu akzeptieren
