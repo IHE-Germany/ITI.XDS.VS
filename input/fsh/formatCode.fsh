@@ -21,9 +21,9 @@ Description: "Dokumenten **Formate**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
 * ^identifier.use = #official
 
-//* ^identifier[+].system = "urn:ietf:rfc:3986"
-//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
-//* ^identifier[=].use = #secondary
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
@@ -36,7 +36,7 @@ Description: "Dokumenten **Formate**"
 * ^property[=].type = #code
 
 * ^property[+].code = #hinweis
-* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property"
+* ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#hinweis"
 * ^property[=].description = "Hinweis"
 * ^property[=].type = #string
 
@@ -184,9 +184,13 @@ Description: "**IHE XDS Format Code**"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.35"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.35"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
+* ^identifier[=].use = #secondary
 
 * ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
 * ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"

@@ -23,6 +23,16 @@ Description: "**Dokumentenklassen**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
 * ^identifier.use = #official
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
+* ^identifier.use = #secondary
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
+* ^identifier.use = #old
+
+
+
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "Status"
@@ -121,10 +131,13 @@ Description: "**IHE XDS Class Code**"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.32"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.32"
+* ^identifier[=].use = #official
 
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
+* ^identifier[=].use = #secondary
 
 //funktioniert, ist dann aber der einzige Code
 * $LOINC#57016-8

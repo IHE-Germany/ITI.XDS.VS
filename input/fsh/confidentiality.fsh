@@ -21,6 +21,16 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
 * ^identifier.use = #official
 
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
+* ^identifier[=].use = #secondary
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
+* ^identifier[=].use = #old
+
+
+
 * #PN "übliche Vertraulichkeit"
   "Aus Sicht der Betroffenen sind die Daten nicht sensibler als andere Gesundheitsdaten und können daher nach den gleichen Regeln benutzt werden"
 * #PR "erhöhte Vertraulichkeit"
@@ -60,15 +70,19 @@ Description: "**IHE XDS Confidentiality Code**"
 
 * insert HeaderDetailRules
 
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.33"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
+* ^identifier[=].use = #secondary
+
 * ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
 * ^compose.include[+].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
 * ^compose.include[=].concept[+].code = #N
 * ^compose.include[=].concept[+].code = #R
 * ^compose.include[=].concept[+].code = #V
-
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.33"
-* ^identifier.use = #official
 
 
 

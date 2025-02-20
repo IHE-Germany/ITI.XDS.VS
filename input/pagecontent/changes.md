@@ -2,7 +2,13 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.13
+Die aktuelle Version ist 0.3.14
+
+* identifier ergänzt (#34)
+* property URI
+* practiceSettings: URIs
+
+### zu Version  0.3.13
 
 * alphabetisch sortierte Codes
 * "Other Identifiers: OID:1.2.276.0.76.11.xx" hinzugefügt

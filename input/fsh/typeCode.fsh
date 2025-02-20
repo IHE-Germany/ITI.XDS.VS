@@ -17,9 +17,19 @@ Description: "**Dokumententypen**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
+* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
+* ^identifier[=].use = #old
+
+
 
 * ^property[+].code = #beispiel
 * ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"

@@ -21,9 +21,9 @@ Description: "**Ordnertypen**"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
 * ^identifier.use = #official
 
-//* ^identifier[+].system = "urn:ietf:rfc:3986"
-//* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-//* ^identifier[=].use = #secondary
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
@@ -69,9 +69,13 @@ Description: "**IHE XDS Folder Code List**"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.40"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.40"
+* ^identifier[=].use = #official
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
+* ^identifier[=].use = #secondary
 
 * include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
 
