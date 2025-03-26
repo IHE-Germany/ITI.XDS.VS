@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.14
-date: 2025-02-20
+version: 0.3.15
+date: 2025-03-26
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Test Copyright - tbd
@@ -34,8 +34,8 @@ extension:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  ihe.formatcode.fhir: 1.1.1
-  kbv.all.st: 1.11.0
+  ihe.formatcode.fhir: 1.3.0
+  kbv.all.st: 1.15.0
 #  hl7.terminology.r4: 5.5.0
 #  ihe.formatcode.fhir: 1.1.2-current
 
@@ -111,22 +111,24 @@ parameters:
   apply-publisher: true
   usage-stats-opt-out: true
   special-url: 
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15
-    - urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16
-    - urn:oid:1.2.276.0.76.5.492
-    - urn:oid:1.2.276.0.76.5.493
-    - urn:oid:1.2.276.0.76.5.514
+    - http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
+    - http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe
+    - http://ihe-d.de/CodeSystems/DeutscheDokumentenformate
+    - http://ihe-d.de/CodeSystems/DokumentenWarnhinweise
+    - http://ihe-d.de/CodeSystems/EinrichtungsartenPatientenbezogen
+    - http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen
+    - http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
+    - http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
+    - http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung
+    - http://ihe-d.de/CodeSystems/GrundDerUebermittlung
+    - http://ihe-d.de/CodeSystems/Ordnertypen
+    - http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren
+    - http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren
+    - http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
+    - http://ihe-d.de/CodeSystems/IHEXDSclassCode
+    - http://ihe-d.de/CodeSystems/IHEXDStypeCode
+    - http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
+    - http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]

@@ -5,7 +5,7 @@ Id: EinrichtungsartenNichtPatientenbezogen
 Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3"
+* ^url = "http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
@@ -27,7 +27,7 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 
 * #BIL "Bildungseinrichtung"
@@ -63,7 +63,7 @@ Description: "**Einrichtungsarten, nicht-patientenbezogen**"
 //* ^identifier.value = "urn:oid:1.2.276.0.76.11.59"
 //* ^identifier.use = #official
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
+* include codes from system http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen
 
 
 
@@ -99,12 +99,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

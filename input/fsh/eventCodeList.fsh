@@ -5,7 +5,7 @@ Id: DokumentenWarnhinweise
 Title: "Dokumenten-Warnhinweise"
 Description: "**Dokumenten-Warnhinweise**"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* ^url = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Dokumenten-Warnhinweise**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
@@ -27,7 +27,7 @@ Description: "**Dokumenten-Warnhinweise**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 	
 	
 
@@ -56,7 +56,7 @@ Description: "**Warnhinweise** zu Dokumenten"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15
+* include codes from system http://ihe-d.de/CodeSystems/DokumentenWarnhinweise
 
 
 
@@ -70,7 +70,7 @@ Id: Fallkontexte
 Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* ^url = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -84,15 +84,15 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/CodeSystems/Fallkontexte"
-* ^identifier[=].use = #old
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
+* ^identifier[=].use = #official
 
 
 * #E100 "ambulanter Kontakt"
@@ -157,7 +157,7 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16
+* include codes from system http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung
 
 
 
@@ -184,9 +184,9 @@ Description: "**IHE XDS event Code List**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"
 * ^identifier[=].use = #secondary
 
-* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
 
-* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
 
 * ^compose.include[+].system = "urn:iso-astm:E1762-95:2013"
 
@@ -196,7 +196,7 @@ Description: "**IHE XDS event Code List**"
 
 //fehlt, da Retrieve vom Terminologieserver nicht funktioniert
 //* ^compose.include[+].system = "urn:oid:1.2.276.0.76.5.223"
-* ^compose.include[+].system = "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP"
+* ^compose.include[+].system = "https://fhir.kbv.de/CodeSystem/KBV_CS_FHIR_KBV_DMP"
 
 
 
@@ -229,12 +229,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 	
@@ -270,12 +270,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 	

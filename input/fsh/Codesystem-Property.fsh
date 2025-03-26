@@ -17,3 +17,4 @@ Description: "Property CS"
 
 * #beispiel "Beispiel"
 * #hinweis "Hinweis zur Nutzung"
+* #comment "Kommentar"

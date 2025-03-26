@@ -5,7 +5,7 @@ Id: PatientenbeziehungsrollenFuerAutoren
 Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"
+* ^url = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
@@ -27,7 +27,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 2
@@ -90,7 +90,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14
+* include codes from system http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren
 
 
 
@@ -103,7 +103,7 @@ Id: ProzessrollenFuerAutoren
 Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13"
+* ^url = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -119,13 +119,15 @@ Description: "**Prozessrollen** für Autoren"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
+
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren"
 * ^identifier[=].use = #secondary
+
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -184,7 +186,7 @@ Description: "**Prozessrollen** für Autoren"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13
+* include codes from system http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren
 
 
 
@@ -214,8 +216,8 @@ Description: "**IHE XDS Author Role**"
 * ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorRole"
 * ^identifier[=].use = #old
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14
+* include codes from system http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren
+* include codes from system http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren
 
 
 
@@ -271,12 +273,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue URL, die eine Auflösung ermöglicht"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alternative, nicht-normative URL"
 
 	

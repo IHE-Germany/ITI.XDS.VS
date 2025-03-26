@@ -5,7 +5,7 @@ Id: Ordnertypen
 Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
+* ^url = "http://ihe-d.de/CodeSystems/Ordnertypen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Ordnertypen**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
@@ -27,7 +27,7 @@ Description: "**Ordnertypen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * #DIAG "Medizinischer Fall auf Diagnose Basis"
 * #DMP "Disease Management Programm"
@@ -110,10 +110,10 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"

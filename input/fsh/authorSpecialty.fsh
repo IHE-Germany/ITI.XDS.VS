@@ -5,7 +5,7 @@ Id: FacharzttitelAerztekammer
 Title: "Facharzttitel der Ärztekammern"
 Description: "**Facharzttitel** der Ärztekammern"
 
-* ^url = "urn:oid:1.2.276.0.76.5.514"
+* ^url = "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.5.514"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -28,7 +28,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 
 
@@ -243,7 +243,7 @@ Description: "**Facharzttitel Ärztekammer**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.2.276.0.76.5.514
+* include codes from system http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
 
 
 //CodeSystem
@@ -253,7 +253,7 @@ Id: QualifikationenNichtaerztlicherAutoren
 Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
+* ^url = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -267,7 +267,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
@@ -275,7 +275,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -865,7 +865,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
+* include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
 
 
 
@@ -878,7 +878,7 @@ Id: QualifikatorenZahnAerztekammer
 Title: "Qualifikatoren zahnärztlicher Autoren"
 Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
-* ^url = "urn:oid:1.2.276.0.76.5.492"
+* ^url = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -892,7 +892,7 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.5.492"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundeszahnärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundeszahnärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -900,8 +900,8 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
-* ^identifier[=].use = #old
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
+* ^identifier[=].use = #official
 
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -939,7 +939,7 @@ Description: "**Qualifikatoren Zahnärztekammer**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.2.276.0.76.5.492
+* include codes from system http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
 
 
 
@@ -954,7 +954,7 @@ Id: BerufeAerztlich
 Title: "Berufsvarianten, ärztlich"
 Description: "**Ärztliche Berufsvarianten**"
 
-* ^url = "urn:oid:1.2.276.0.76.5.493"
+* ^url = "http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -968,7 +968,7 @@ Description: "**Ärztliche Berufsvarianten**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.276.0.76.5.493"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -977,7 +977,7 @@ Description: "**Ärztliche Berufsvarianten**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 
 * ^property[+].code = #status
@@ -1007,7 +1007,7 @@ Description: "**Ärztliche Berufe**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.2.276.0.76.5.493
+* include codes from system http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
 
 
 //====================================================================================
@@ -1033,10 +1033,10 @@ Description: "**IHE XDS Author Specialty**"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.31"
 * ^identifier[=].use = #secondary
 
-* include codes from system urn:oid:1.2.276.0.76.5.514
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11
-* include codes from system urn:oid:1.2.276.0.76.5.492
-* include codes from system urn:oid:1.2.276.0.76.5.493
+* include codes from system http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
+* include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
+* include codes from system http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
+* include codes from system http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
 
 
 
@@ -1109,12 +1109,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue URL, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alternative, nicht-normative URL"
 
 
@@ -1134,10 +1134,10 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alternative, nicht-normative URL"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue URL, die auflöst"

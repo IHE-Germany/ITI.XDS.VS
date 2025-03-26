@@ -2,7 +2,13 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.14
+Die aktuelle Version ist 0.3.15
+
+* Disclaimer
+* reference to source of this content
+* neuer Code bei Dokumententypen: GRIS
+
+### zu Version 0.3.14
 
 * identifier ergänzt (#34)
 * property URI

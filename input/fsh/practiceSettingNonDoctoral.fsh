@@ -5,7 +5,7 @@ Id: FachrichtungenNichtaerztlich
 Title: "Fachrichtungen, nicht-ärztlich"
 Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral)"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5"
+* ^url = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -28,7 +28,7 @@ Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^property.code = #parent
 * ^property.uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -72,7 +72,7 @@ Description: "**Fachrichtungen, nicht-ärztlich** (Practice Setting Non Doctoral
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.70"
 * ^identifier.use = #official
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5
+* include codes from system http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
 
 
 
@@ -108,12 +108,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenNichtaerztlich"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

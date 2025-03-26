@@ -7,7 +7,7 @@ Id: Dokumentenklassen
 Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
+* ^url = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -21,7 +21,7 @@ Description: "**Dokumentenklassen**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
@@ -29,7 +29,7 @@ Description: "**Dokumentenklassen**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
-* ^identifier.use = #old
+* ^identifier.use = #official
 
 
 
@@ -114,7 +114,7 @@ Description: "**Dokumentenklassen**"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen
+* include codes from system http://ihe-d.de/CodeSystems/IHEXDSclassCode
 
 
 
@@ -141,10 +141,10 @@ Description: "**IHE XDS Class Code**"
 
 //funktioniert, ist dann aber der einzige Code
 * $LOINC#57016-8
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen
+
+* include codes from system http://ihe-d.de/CodeSystems/IHEXDSclassCode
 
 
-//* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
 //* ^compose.include[+].system = "http://loinc.org"
 //* ^compose.include[=].concept[+].code = #57016-8
 //* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
@@ -181,11 +181,11 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

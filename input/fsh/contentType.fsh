@@ -5,7 +5,7 @@ Id: GrundDerUebermittlung
 Title: "Grund der Übermittlung"
 Description: "**Grund der Übermittlung**"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
+* ^url = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Grund der Übermittlung**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
@@ -27,7 +27,7 @@ Description: "**Grund der Übermittlung**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^property[+].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
@@ -70,7 +70,7 @@ Description: "**Grund der Übermittlung**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
+* include codes from system http://ihe-d.de/CodeSystems/GrundDerUebermittlung
 
 
 
@@ -95,7 +95,7 @@ Description: "**IHE XDS Content Type Code**"
 * ^identifier.value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
 * ^identifier.use = #secondary
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12
+* include codes from system http://ihe-d.de/CodeSystems/GrundDerUebermittlung
 
 
 
@@ -130,7 +130,7 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
@@ -140,7 +140,7 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

@@ -5,7 +5,7 @@ Id: Vertraulichkeiten
 Title: "Vertraulichkeiten"
 Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
+* ^url = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
@@ -27,7 +27,7 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 
 
@@ -52,7 +52,7 @@ Description: "**Vertraulichkeiten**"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten
+* include codes from system http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe
 
 
 
@@ -78,7 +78,8 @@ Description: "**IHE XDS Confidentiality Code**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
 * ^identifier[=].use = #secondary
 
-* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
+
 * ^compose.include[+].system = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
 * ^compose.include[=].concept[+].code = #N
 * ^compose.include[=].concept[+].code = #R
@@ -115,12 +116,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 	

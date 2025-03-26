@@ -5,7 +5,7 @@ Id: FachrichtungenAerztlich
 Title: "Fachrichtungen, ärztlich"
 Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
+* ^url = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
-* ^identifier.use = #official
+* ^identifier.use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -28,7 +28,7 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * ^property[0].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -241,7 +241,7 @@ Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.69"
 * ^identifier.use = #official
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4
+* include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
 
 
 
@@ -275,11 +275,11 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztlich"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

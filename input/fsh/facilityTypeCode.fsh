@@ -14,8 +14,8 @@ Description: "**IHE XDS Healthcare Facility Type Code**"
 * ^identifier.value = "urn:oid:1.2.276.0.76.11.36"
 * ^identifier.use = #official
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3
+* include codes from system http://ihe-d.de/CodeSystems/EinrichtungsartenPatientenbezogen
+* include codes from system http://ihe-d.de/CodeSystems/EinrichtungsartenNichtPatientenbezogen
 
 
 

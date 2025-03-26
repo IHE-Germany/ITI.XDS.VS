@@ -5,7 +5,7 @@ Id: EinrichtungsartenPatientenbezogen
 Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2"
+* ^url = "http://ihe-d.de/CodeSystems/EinrichtungsartenPatientenbezogen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -20,7 +20,7 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen"
@@ -28,7 +28,7 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/EinrichtungsartenPatientenbezogen"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 * #APD "Ambulanter Pflegedienst"
   "Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen häuslichen Umgebung betreuen, aber keine ärztlichen Tätigkeiten durchführen."
@@ -89,7 +89,7 @@ Description: "**Einrichtungsarten, patientenbezogen**"
 //* ^identifier.use = #official
 
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2
+* include codes from system http://ihe-d.de/CodeSystems/EinrichtungsartenPatientenbezogen
 
 
 
@@ -122,11 +122,11 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

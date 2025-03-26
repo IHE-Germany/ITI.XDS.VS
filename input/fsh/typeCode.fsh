@@ -5,7 +5,7 @@ Id: Dokumententypen
 Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
-* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
+* ^url = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -19,7 +19,7 @@ Description: "**Dokumententypen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
@@ -27,7 +27,7 @@ Description: "**Dokumententypen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #official
 
 
 
@@ -316,6 +316,8 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Dialysedokumente"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Psychotherapeutische Dokumente"
+* #GRIS "Auswertung Gesundheitsrisiken"
+  "Auswertungen zu datengestützter Erkennung individueller Gesundheitsrisiken durch die Kranken- und Pflegekassen Auswertungen gemäß § 25b SGB V"
 * #IMMU "Ergebnisse Immunologie"
   "Untersuchungsergebnisse der serologischen oder zellulären Diagnostik für Autoimmun- und Immundefekterkrankungen einschließlich immunologischer Testergebnisse zu Seren, Punktaten, Abstrichen usw.; auch die zugehörigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: MKRO (\"Ergebnisse Mikrobiologie\") und VIRO (\"Ergebnisse Virologie\")."
   * ^property[+].code = #beispiel
@@ -631,7 +633,7 @@ Description: "**Dokumententypen**"
 
 * insert HeaderDetailRules
 
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen
+* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
 
 
 
@@ -697,12 +699,12 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 

@@ -1,6 +1,15 @@
 This page and its complete content is undergoing verification and may not be correct in all details.
 {:.stu-note}
 
+**Lizenz**
+
+Dieser Leitfaden ist lizenziert unter der Creative Commons Namensnennung 4.0 International Lizenz. CC BY 4.0.
+
+**Umgang mit Fremdinhalten**
+
+Dieser Leitfaden verwendet Inhalte anderer Organisationen, u.a. HL7, IHTSDO, NEMA, Regenstrief Institute Inc. Für weitere Informationen zu deren Lizenzbedingungen siehe u.a. https://hl7.org/fhir/license.html
+
+
 **Disclaimer**
 
 IHE Germany (IHE Deutschland e.V.) makes the information and other material (“Information”) in this document available in good faith 
