@@ -17,9 +17,9 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4"
+* ^identifier[=].use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -237,9 +237,9 @@ Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.69"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.69"
+* ^identifier[=].use = #official
 
 * include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
 

@@ -17,15 +17,15 @@ Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10"
+* ^identifier[=].use = #old
 
-* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Vertraulichkeiten"
 * ^identifier[=].use = #secondary
 
-* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
 * ^identifier[=].use = #official
 

@@ -36,7 +36,6 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #ar-SA
 * ^compose.include[=].concept[+].code = #ar-SU
 * ^compose.include[=].concept[+].code = #ar-SY 
-//* ^compose.include[=].concept[+].code = #ar-TU    invalid code?
 * ^compose.include[=].concept[+].code = #ar-YE 
 * ^compose.include[=].concept[+].code = #az-AZ
 
@@ -89,7 +88,6 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #fr-MA 
 * ^compose.include[=].concept[+].code = #fr-MC
 * ^compose.include[=].concept[+].code = #fr-SY
-//* ^compose.include[=].concept[+].code = #fr-TU    invalid code?
 
 * ^compose.include[=].concept[+].code = #ga-IE
 
@@ -104,8 +102,6 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #is-IS
 * ^compose.include[=].concept[+].code = #it-IT
 * ^compose.include[=].concept[+].code = #it-SM
-
-//* ^compose.include[=].concept[+].code = #jp-JP    invalid code?
 
 * ^compose.include[=].concept[+].code = #ka-GE
 * ^compose.include[=].concept[+].code = #kk-KZ
@@ -143,10 +139,8 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #sl-SI
 * ^compose.include[=].concept[+].code = #sv-SE
 * ^compose.include[=].concept[+].code = #sq-AL
-//* ^compose.include[=].concept[+].code = #sq-XK    invalid code?
 * ^compose.include[=].concept[+].code = #sr-BA
 * ^compose.include[=].concept[+].code = #sr-RS 
-//* ^compose.include[=].concept[+].code = #sr-XK    invalid code?
 * ^compose.include[=].concept[+].code = #sv-FI  
 
 * ^compose.include[=].concept[+].code = #tr-CY 

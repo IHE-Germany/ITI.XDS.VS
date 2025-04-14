@@ -19,17 +19,17 @@ Description: "**Dokumentenklassen**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
+* ^identifier[=].use = #old
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
-* ^identifier.use = #secondary
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
+* ^identifier[=].use = #secondary
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
+* ^identifier[=].use = #official
 
 
 
@@ -38,10 +38,10 @@ Description: "**Dokumentenklassen**"
 * ^property[=].description = "Status"
 * ^property[=].type = #code
 
-* ^property[+].code = #comment
-* ^property[=].uri = "http://hl7.org/fhir/concept-properties#comment"
-* ^property[=].description = "Comment"
-* ^property[=].type = #string
+//* ^property[+].code = #comment
+//* ^property[=].uri = "http://hl7.org/fhir/concept-properties#comment"
+//* ^property[=].description = "Comment"
+//* ^property[=].type = #string
 
 * ^property[+].code = #beispiel
 * ^property[=].uri = "http://www.ihe-d.de/fhir/CodeSystem/Property#beispiel"

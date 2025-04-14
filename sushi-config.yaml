@@ -10,7 +10,7 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.16
+version: 0.3.17
 date: 2025-04-14
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
@@ -35,16 +35,8 @@ extension:
 #
 dependencies:
   ihe.formatcode.fhir: 1.3.0
-  kbv.all.st: 1.15.0
+  kbv.all.st: 1.20.0
 #  hl7.terminology.r4: 5.5.0
-#  ihe.formatcode.fhir: 1.1.2-current
-
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
-#
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
@@ -110,6 +102,7 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   usage-stats-opt-out: true
+#  pin-canonicals: pin-all
   special-url: 
     - http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
     - http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe

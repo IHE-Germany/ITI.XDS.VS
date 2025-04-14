@@ -966,9 +966,9 @@ Description: "**Ärztliche Berufsvarianten**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.5.493"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.5.493"
+* ^identifier[=].use = #old
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"

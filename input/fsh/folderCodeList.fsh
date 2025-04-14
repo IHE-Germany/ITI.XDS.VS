@@ -11,15 +11,15 @@ Description: "**Ordnertypen**"
 * insert HeaderDetailRules
 
 * ^caseSensitive = true
-* ^valueSet = "http://ihe-d.de/fhir/ValueSet/Ordnertypen"
+* ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Ordnertypen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7"
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
@@ -52,7 +52,7 @@ Description: "**Ordnertypen**"
 
 * insert HeaderDetailRules
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
+* include codes from system http://ihe-d.de/CodeSystems/Ordnertypen
 
 
 
@@ -77,7 +77,7 @@ Description: "**IHE XDS Folder Code List**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
 * ^identifier[=].use = #secondary
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7
+* include codes from system http://ihe-d.de/CodeSystems/Ordnertypen
 
 
 

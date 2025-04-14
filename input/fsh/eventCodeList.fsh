@@ -82,9 +82,9 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
@@ -190,7 +190,8 @@ Description: "**IHE XDS event Code List**"
 
 * ^compose.include[+].system = "urn:iso-astm:E1762-95:2013"
 
-* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
+
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:open
 * ^compose.include[=].concept[+].code = #urn:ihe:iti:xdw:2011:eventCode:closed
 

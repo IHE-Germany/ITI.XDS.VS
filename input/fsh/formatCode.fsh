@@ -17,9 +17,9 @@ Description: "Dokumenten **Formate**"
 * ^versionNeeded = false
 * ^content = #complete
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
-* ^identifier.use = #old
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
@@ -193,7 +193,9 @@ Description: "**IHE XDS Format Code**"
 * ^identifier[=].use = #secondary
 
 * ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
-* ^compose.include[+].system = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
+
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
+
 * ^compose.include[+].system =  "urn:ietf:rfc:3986"
 * ^compose.include[=].concept[+].code = #urn:oid:1.2.840.10008.5.1.4.1.1.88.59
 * ^compose.include[=].concept[=].display = "DICOM Manifest (DICOM KOS SOP Class UID)"
