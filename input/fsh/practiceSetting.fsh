@@ -18,8 +18,8 @@ Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 * ^identifier[=].use = #secondary
 
 
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4
-* include codes from system urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5
+* include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
+* include codes from system http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
  
 
 
