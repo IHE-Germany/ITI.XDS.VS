@@ -2,7 +2,22 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.15
+Die aktuelle Version ist 0.3.18
+
+* dependencies
+* read.me
+
+### zu Version 0.3.17
+
+* download
+* disclaimer
+* diverse
+
+### zu Version 0.3.16
+
+* diverse
+
+### zu Version 0.3.15
 
 * Disclaimer
 * reference to source of this content
