@@ -6,6 +6,8 @@ Die aktuelle Version ist 0.3.18
 
 * dependencies
 * read.me
+* identifier -> Identifier
+* VS Dokumenttypen
 
 ### zu Version 0.3.17
 

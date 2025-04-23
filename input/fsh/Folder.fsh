@@ -18,13 +18,13 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * codeList 1..* CodeableConcept  "list of associated codes"
 * comments 0..1 string "Comments"
-* entryUUID 1..1 identifier "identifier of the document"
-* homeCommunityID 0..1 identifier "ID of home community"
+* entryUUID 1..1 Identifier "identifier of the document"
+* homeCommunityID 0..1 Identifier "ID of home community"
 * lastUpdateTime 0..1 dateTime "timestamp of last udpate"
 //* limitedMetadata 0..0 string "limited metadata"
-* patientID 1..1 identifier "identifier of patient"
+* patientID 1..1 Identifier "identifier of patient"
 * title 1..1 string "title of document"
-* uniqueId 1..1 identifier "identifier of document"
+* uniqueId 1..1 Identifier "identifier of document"
 
 
 
@@ -37,3 +37,11 @@ Description: "**Folder** (Profile)"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
+
+* availabilityStatus MS
+* codeList MS
+* entryUUID MS
+* homeCommunityID MS
+* patientID MS
+* title MS
+* uniqueId MS

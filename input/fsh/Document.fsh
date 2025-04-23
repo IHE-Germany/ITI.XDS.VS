@@ -16,13 +16,13 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * insert HeaderDetailRules
 
 * title 1..1 string "title of document"
-* uniqueId 1..1 identifier "identifier of document"
-* uri 1..1 identifier "URI of document"
+* uniqueId 1..1 Identifier "identifier of document"
+* uri 1..1 Identifier "URI of document"
 * class 1..1 CodeableConcept "class Code of the document" "**Class Code**"
 * class from http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode (required)
 * type 1..1 CodeableConcept "type Code" "**Type Code**"
 * type from http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode (required)
-* author 0..1 identifier "author"
+* author 0..1 Identifier "author"
 * availabilityStatus 0..1 CodeableConcept "availability status of the document" "**Availability Status**"
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * comments 0..1 string "Comments"
@@ -41,14 +41,14 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * practiceSetting from http://www.ihe-d.de/fhir/ValueSet/IHEXDSpracticeSettingCode (required)
 * healthcareFacilityTypeCode 1..1 CodeableConcept "healthcare facility type code" "Healthcare Facility Type Code**"
 * healthcareFacilityTypeCode from http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode (required)
-* legalAuthenticator 0..1 identifier "legal authenticator of the document"
+* legalAuthenticator 0..1 Identifier "legal authenticator of the document"
 * limitedMetadata 0..1 string "metadata"
 * mimeType 1..1 CodeableConcept "mime type"
 * objectType 1..1 CodeableConcept "mime type"
-* sourcePatientID 1..1 identifier "identifier of patient"
+* sourcePatientID 1..1 Identifier "identifier of patient"
 * sourcePatientInfo 0..1 string "additional information to patient"
-* referenceIdList 0..* identifier "list of reference identifiers"
-* repositoryUniqueID 0..1 identifier "identifier of repository"
+* referenceIdList 0..* Identifier "list of reference identifiers"
+* repositoryUniqueID 0..1 Identifier "identifier of repository"
 * serviceStartTime 1..1 dateTime "start of service"
 * serviceEndTime 1..1 dateTime "end of service"
 

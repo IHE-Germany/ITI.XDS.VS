@@ -659,7 +659,8 @@ Description: "**IHE XDS type Code**"
 
 //funktioniert, ist dann aber der einzige Code
 * LOINC#57016-8
-* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen
+
+* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
 
 
 //* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"
