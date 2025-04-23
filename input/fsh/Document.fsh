@@ -81,7 +81,7 @@ Description: "**Document Entry**: Die zu unterstützenden Attribute werden über
 
 
 
-CodeSystem: AvailabilityStatusCode
+CodeSystem: AvailabilityStatusCodeCS
 Id: AvailabilityStatusCode
 Title: "Verfügbarkeitsstatus von Dokumenten"
 Description: "**Verfügbarkeitsstatus** von Dokumenten (ersetzen durch IHE UV)"
@@ -100,6 +100,20 @@ Description: "**Verfügbarkeitsstatus** von Dokumenten (ersetzen durch IHE UV)"
 
 * #Approved "The document is available for patient care."
 * #Deprecated "The document is obsolete."
+
+
+ValueSet: AvailabilityStatusCodeVS
+Id: AvailabilityStatusCode
+Title: "Availability Status"
+Description: "**Availability Status**"
+
+* ^url = "http://www.ihe-d.de/fhir/ValueSet/AvailabilityStatusCode"
+* ^version = "4.0.0-alpha1"
+
+* insert HeaderDetailRules
+
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/AvailabilityStatusCode
+
 
 
 ValueSet: IHEXDSavailabilityStatusCode

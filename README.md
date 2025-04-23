@@ -16,3 +16,16 @@ For the moment, we are seeing forward to get feedback on possible errors:
 * logical models for the base artifacts
 * ...
 
+## Foreign Dependencies
+
+This package depends on:
+
+* IHE format code
+* KBV Schlüsseltabellen
+* HL7 V3 Confidentiality
+* Language and Country Codes
+
+## Outstanding Issues
+
+* final ballot + reconciliation
+* upload to official repository
