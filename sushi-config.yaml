@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.18
-date: 2025-04-23
+version: 0.3.19
+date: 2025-05-24
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Test Copyright - tbd
@@ -34,7 +34,7 @@ extension:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  ihe.formatcode.fhir: 1.3.0
+  ihe.formatcode.fhir: 1.4.0
   kbv.all.st: 1.20.0
   hl7.terminology.r4: 6.2.0
 #
@@ -122,6 +122,8 @@ parameters:
     - http://ihe-d.de/CodeSystems/IHEXDStypeCode
     - http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
     - http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
+    - http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe
+    - http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeBerufe
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
@@ -175,6 +177,7 @@ menu:
     Ordnertypen: CodeSystem-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: CodeSystem-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
+    Psychotherapeutische Berufe: CodeSystem-PsychotherapeutischeBerufe.html
     Qualifikationen nichtärztlicher Autoren: CodeSystem-QualifikationenNichtaerztlicherAutoren.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
@@ -194,6 +197,7 @@ menu:
     Ordnertypen: ValueSet-Ordnertypen.html
     Patientenbeziehungsrollen für Autoren: ValueSet-PatientenbeziehungsrollenFuerAutoren.html
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
+    Psychotherapeutische Berufe: ValueSet-PsychotherapeutischeBerufe.html
     Qualifikationen nichtärztlicher Autoren: ValueSet-QualifikationenNichtaerztlicherAutoren.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: ValueSet-Vertraulichkeiten.html

@@ -2,7 +2,15 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.18
+Die aktuelle Version ist 0.3.19
+
+* psychotherapeutische Codes (für AuthorSpecialty)
+  * neues Codesystem der Bundespsychotherapeutenkammer
+  * dafür werden einige Codes aus "Qualifikationen nicht ärztlicher Autoren" auf deprecated gesetzt
+* Update FHIR Format Codes: 1.3.0 -> 1.4.0
+* Update HL7 Terminology: 6.2.0 -> 6.3.0
+
+### zu Version 0.3.18
 
 * dependencies
 * read.me

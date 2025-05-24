@@ -550,6 +550,8 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
     * #76 "Kinder- und Jugendlichenpsychotherapeut"
       * ^property[+].code = #parent
       * ^property[=].valueCode = #74
+      * ^property[+].code = #status
+      * ^property[=].valueCode = #deprecated
     * #77 "Klinischer Psychologe"
       * ^property[+].code = #parent
       * ^property[=].valueCode = #74
@@ -568,15 +570,23 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
     * #82 "Psychologischer Psychotherapeut"
       * ^property[+].code = #parent
       * ^property[=].valueCode = #74
+      * ^property[+].code = #status
+      * ^property[=].valueCode = #deprecated
     * #183 "Psychotherapeut"
       * ^property[+].code = #parent
       * ^property[=].valueCode = #74
+      * ^property[+].code = #status
+      * ^property[=].valueCode = #deprecated
       * #184 "Fachpsychotherapeut für Kinder und Jugendliche"
         * ^property[+].code = #parent
         * ^property[=].valueCode = #183
+        * ^property[+].code = #status
+        * ^property[=].valueCode = #deprecated
       * #185 "Fachpsychotherapeut für Erwachsene"
         * ^property[+].code = #parent
         * ^property[=].valueCode = #183
+        * ^property[+].code = #status
+        * ^property[=].valueCode = #deprecated
     * #83 "Sportpsychologe"
       * ^property[+].code = #parent
       * ^property[=].valueCode = #74
@@ -1013,6 +1023,68 @@ Description: "**Ärztliche Berufe**"
 //====================================================================================
 
 
+//CodeSystem
+
+CodeSystem: PsychotherapeutischeBerufeCS
+Id: PsychotherapeutischeBerufe
+Title: "Psychotherapeutische Berufe"
+Description: "**Psychotherapeutische Berufe**"
+
+* ^url = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* ^version = "4.0.0-alpha1"
+
+* ^status = #draft
+* ^experimental = false
+* ^date = "2025-05-24"
+* ^copyright = "Bundespsychotherapeutenkammer"
+
+* ^caseSensitive = true
+* ^valueSet = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeBerufe"
+* ^hierarchyMeaning = #is-a
+* ^compositional = false
+* ^versionNeeded = false
+* ^content = #complete
+
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "urn:oid:1.2.276.0.76.5.xxx"
+//* ^identifier[=].use = #old
+
+// OID und CodeSystem Inhalte kommen von der Bundespsychotherapeutenkammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* ^identifier[=].use = #official
+
+
+* #110101 "Kinder- und Jugendlichenpsychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG, OID=1.2.276.0.76.4.47"
+* #120101 "Psychologische Psychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG, OID=1.2.276.0.76.4.46"
+* #130101 "Psychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG, OID=1.2.276.0.76.4.45"
+* #200201 "Fachpsychotherapeut*in für Kinder und Jugendliche" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+* #200202 "Fachpsychotherapeut*in für Erwachsene" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+* #200203 "Fachpsychotherapeut*in für Neuropsychologische Psychotherapie" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+
+
+
+//ValueSet
+
+ValueSet: PsychotherapeutischeBerufeVS
+Id: PsychotherapeutischeBerufe
+Title: "Psychotherapeutische Berufe"
+Description: "**Psychotherapeutische Berufe^**"
+
+* ^url = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeBerufe"
+* ^version = "4.0.0-alpha1"
+
+* ^status = #draft
+* ^experimental = false
+* ^date = "2025-05-24"
+* ^copyright = "Bundespsychotherapeutenkammer"
+
+* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe
+
+
+//====================================================================================
+
+
 //ValueSet
 
 ValueSet: IHEXDSauthorSpecialty
@@ -1037,6 +1109,7 @@ Description: "**IHE XDS Author Specialty**"
 * include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
 * include codes from system http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
 * include codes from system http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
+* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe
 
 
 
@@ -1141,3 +1214,19 @@ Usage: #definition
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer"
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue URL, die auflöst"
+
+
+
+Instance: PsychotherapeutischeBerufe
+InstanceOf: NamingSystem
+Usage: #definition
+
+* insert HeaderNamingSystemRules
+
+* name = "PsychotherapeutischeBerufe"
+* description = "**Psychotherapeutische Berufe**"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* uniqueId[=].preferred = true
+
