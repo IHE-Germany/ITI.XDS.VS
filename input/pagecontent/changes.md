@@ -2,7 +2,12 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.20
+Die aktuelle Version ist 0.3.21
+
+* CS psychotherapeutischeQualifikationen: OID hinzugefügt
+* gematik OID entfernt
+
+### zu Version 0.3.20
 
 * CS: psychotherapeutischeBerufe -> psychotherapeutischeQualifikationen
 
