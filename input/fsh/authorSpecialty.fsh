@@ -1025,12 +1025,12 @@ Description: "**Ärztliche Berufe**"
 
 //CodeSystem
 
-CodeSystem: PsychotherapeutischeBerufeCS
-Id: PsychotherapeutischeBerufe
-Title: "Psychotherapeutische Berufe"
-Description: "**Psychotherapeutische Berufe**"
+CodeSystem: PsychotherapeutischeQualifikationenCS
+Id: PsychotherapeutischeQualifikationen
+Title: "Psychotherapeutische Qualifikationen"
+Description: "**Psychotherapeutische Qualifikationen**"
 
-* ^url = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* ^url = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
 * ^version = "4.0.0-alpha1"
 
 * ^status = #draft
@@ -1039,7 +1039,7 @@ Description: "**Psychotherapeutische Berufe**"
 * ^copyright = "Bundespsychotherapeutenkammer"
 
 * ^caseSensitive = true
-* ^valueSet = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeBerufe"
+* ^valueSet = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen"
 * ^hierarchyMeaning = #is-a
 * ^compositional = false
 * ^versionNeeded = false
@@ -1051,7 +1051,7 @@ Description: "**Psychotherapeutische Berufe**"
 
 // OID und CodeSystem Inhalte kommen von der Bundespsychotherapeutenkammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* ^identifier[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
 * ^identifier[=].use = #official
 
 
@@ -1066,12 +1066,12 @@ Description: "**Psychotherapeutische Berufe**"
 
 //ValueSet
 
-ValueSet: PsychotherapeutischeBerufeVS
-Id: PsychotherapeutischeBerufe
-Title: "Psychotherapeutische Berufe"
-Description: "**Psychotherapeutische Berufe^**"
+ValueSet: PsychotherapeutischeQualifikationenVS
+Id: PsychotherapeutischeQualifikationen
+Title: "Psychotherapeutische Qualifikationen"
+Description: "**Psychotherapeutische Qualifikationen**"
 
-* ^url = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeBerufe"
+* ^url = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen"
 * ^version = "4.0.0-alpha1"
 
 * ^status = #draft
@@ -1079,7 +1079,7 @@ Description: "**Psychotherapeutische Berufe^**"
 * ^date = "2025-05-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
 
-* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe
+* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen
 
 
 //====================================================================================
@@ -1109,7 +1109,7 @@ Description: "**IHE XDS Author Specialty**"
 * include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren
 * include codes from system http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
 * include codes from system http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten
-* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe
+* include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen
 
 
 
@@ -1217,16 +1217,16 @@ Usage: #definition
 
 
 
-Instance: PsychotherapeutischeBerufe
+Instance: PsychotherapeutischeQualifikationen
 InstanceOf: NamingSystem
 Usage: #definition
 
 * insert HeaderNamingSystemRules
 
-* name = "PsychotherapeutischeBerufe"
-* description = "**Psychotherapeutische Berufe**"
+* name = "PsychotherapeutischeQualifikationen"
+* description = "**Psychotherapeutische Qualifikationen**"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeBerufe"
+* uniqueId[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
 * uniqueId[=].preferred = true
 

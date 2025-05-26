@@ -2,7 +2,11 @@
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.19
+Die aktuelle Version ist 0.3.20
+
+* CS: psychotherapeutischeBerufe -> psychotherapeutischeQualifikationen
+
+### zu Version 0.3.19
 
 * psychotherapeutische Codes (für AuthorSpecialty)
   * neues Codesystem der Bundespsychotherapeutenkammer
