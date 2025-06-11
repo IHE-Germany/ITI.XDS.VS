@@ -185,7 +185,7 @@ Fallkontext bei Dokumentenerstellung </td><td>http://www.ihe-d.de/fhir/CodeSyste
 </tr>
 <tr>
 <td>
-Deutsche Dokumentenformate </td><td>http://www.ihe-d.de/fhir/CodeSystem/DeutscheDokumentenformate </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6 </td><td><a href="ValueSet-IHEXDSformatCode.html">IHEXDSformatCode</a>
+Deutsche Dokumentenformate </td><td>http://www.ihe-d.de/fhir/CodeSystem/DeutscheDokumentenformate </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6 </td><td><a href="ValueSet-IHEXDSformatCodeDE.html">IHEXDSformatCode</a>
 </td>
 </tr>
 <tr>
@@ -220,7 +220,7 @@ Grund der Übermittlung </td><td>http://www.ihe-d.de/fhir/CodeSystem/GrundDerUeb
 </tr>
 <tr>
 <td>
-Ordnertypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7 </td><td><a href="ValueSet-IHEXDSfolderCodeList.html">IHEXDSfolderCodeList</a>
+Ordnertypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7 </td><td><a href="ValueSet-IHEXDScodeList.html">IHEXDScodeList</a>
 </td>
 </tr>
 </table>

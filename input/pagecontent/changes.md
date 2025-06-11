@@ -1,8 +1,15 @@
-Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h. nach der Version 3.0 als Version 4.0:
+Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h. nach der Version 3.0 als Version 4.0:
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.21
+Die aktuelle Version ist 0.3.22
+
+* Link zu 3.0 ist final, es gab aber auch einen Drat für 3.1
+* Canonicals für ValueSets auf alten Wert zurückgesetzt
+* Psychotherapeutische Qualifikationen: Beschreibung angepasst
+* LM: Document -> DocumentEntry
+
+### zu Version 0.3.21
 
 * CS psychotherapeutischeQualifikationen: OID hinzugefügt
 * gematik OID entfernt

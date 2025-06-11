@@ -35,7 +35,7 @@ Die Werte sind im Basisprofile vorgegeben und werden hier nicht weiter präzisie
 
 ### DocumentEntry.formatCode
 
-[IHE XDS Format Code](ValueSet-IHEXDSformatCode.html)
+[IHE XDS Format Code](ValueSet-IHEXDSformatCodeDE.html)
 
 ### DocumentEntry.practiceSettingCode
 
@@ -91,6 +91,6 @@ tbd
 
 ### Folder.codeList
 
-[IHE XDS Folder Code List (Type)](ValueSet-IHEXDSfolderCodeList.html)
+[IHE XDS (Folder) Code List (Type)](ValueSet-IHEXDScodeList.html)
 
 

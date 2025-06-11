@@ -52,7 +52,8 @@ Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan 
 | 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
 | 1.1 | 22.05.2018 | Draft | [https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
 | 2.0 | 09.10.2018 | active | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/](https://www.ihe-d.de/download/ihe-valuesets-v2-0/)
-| 3.0 | 12.04.2021 | Draft | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
+| 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
+| 3.1 | | Draft |
 | 4.0.0-alpha0 | Mai 2024 | in Arbeit |
 | 4.0.0-alpha0 | August+September 2024 | Ballot |
-
+| 4.0.0-alpha1 | 2025 | Draft |

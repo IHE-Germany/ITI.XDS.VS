@@ -65,18 +65,22 @@ Id: IHEXDSconfidentialityCode
 Title: "IHE XDS Confidentiality Code"
 Description: "**IHE XDS Confidentiality Code**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.33"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.33"
 * ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
+* ^identifier[=].use = #old
 
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
 

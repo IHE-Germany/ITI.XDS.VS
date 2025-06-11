@@ -126,18 +126,22 @@ Id: IHEXDSclassCode
 Title: "IHE XDS Class Code"
 Description: "**IHE XDS Class Code**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSclassCode"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.32"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSclassCode"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.32"
 * ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
+* ^identifier[=].use = #old
 
 //funktioniert, ist dann aber der einzige Code
 * $LOINC#57016-8

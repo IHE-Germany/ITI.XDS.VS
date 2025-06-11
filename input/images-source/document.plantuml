@@ -7,7 +7,7 @@ class "Document Entry" as d {
     [[ValueSet-IHEXDSconfidentialityCode.html confidentiality]]: code
     [[ValueSet-IHEXDSeventCodeList.html event]] : code[]
     [[ValueSet-IHEXDSlanguageCode.html language]]: code
-    [[ValueSet-IHEXDSformatCode.html format]]: code
+    [[ValueSet-IHEXDSformatCodeDE.html format]]: code
     [[ValueSet-IHEXDSpracticeSettingCode.html practiceSetting]]: code
     [[ValueSet-IHEXDShealthcareFacilityTypeCode.html healthcareFacilityTypeCode]]: code
 }
@@ -19,7 +19,7 @@ class "Author" as a {
 
 class "Folder" as f {
     availabilityStatus : code
-    [[ValueSet-IHEXDSfolderCodeList.html code]]: code[]
+    [[ValueSet-IHEXDScodeList.html code]]: code[]
 }
 
 d "1" *-right- "0..*" a

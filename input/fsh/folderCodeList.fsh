@@ -59,23 +59,27 @@ Description: "**Ordnertypen**"
 
 //ValueSet
 
-ValueSet: IHEXDSfolderCodeList
-Id: IHEXDSfolderCodeList
+ValueSet: IHEXDScodeList
+Id: IHEXDScodeList
 Title: "IHE XDS Folder Code List"
 Description: "**IHE XDS Folder Code List**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDScodeList"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.40"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDScodeList"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.40"
 * ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
+* ^identifier[=].use = #old
 
 * include codes from system http://ihe-d.de/CodeSystems/Ordnertypen
 

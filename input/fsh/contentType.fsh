@@ -82,18 +82,22 @@ Id: IHEXDScontentTypeCode
 Title: "IHE XDS Content Type Code"
 Description: "**IHE XDS Content Type Code**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDScontentTypeCode"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.276.0.76.11.39"
+* ^identifier.value = "http://ihe-d.de/ValueSets/IHEXDScontentTypeCode"
 * ^identifier.use = #official
 
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
+* ^identifier.value = "urn:oid:1.2.276.0.76.11.39"
 * ^identifier.use = #secondary
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode"
+* ^identifier.use = #old
 
 * include codes from system http://ihe-d.de/CodeSystems/GrundDerUebermittlung
 

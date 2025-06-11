@@ -10,7 +10,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
-* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/Document"
+* ^type = "http://www.ihe-d.de/fhir/StructureDefinition/DocumentEntry"
 * . ^definition = "Document Entry"
 
 * insert HeaderDetailRules
@@ -19,28 +19,28 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * uniqueId 1..1 Identifier "identifier of document"
 * uri 1..1 Identifier "URI of document"
 * class 1..1 CodeableConcept "class Code of the document" "**Class Code**"
-* class from http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode (required)
+* class from http://ihe-d.de/ValueSets/IHEXDSclassCode (required)
 * type 1..1 CodeableConcept "type Code" "**Type Code**"
-* type from http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode (required)
+* type from http://ihe-d.de/ValueSets/IHEXDStypeCode (required)
 * author 0..1 Identifier "author"
 * availabilityStatus 0..1 CodeableConcept "availability status of the document" "**Availability Status**"
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * comments 0..1 string "Comments"
 * confidentiality 1..1 CodeableConcept "confidentiality Code" "**Confidentiality Code**"
-* confidentiality from http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode (required)
+* confidentiality from http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode (required)
 * creationTime 1..1 dateTime "timestamp of creation of document"
 * event 0..* CodeableConcept "class Code of the document" "**Class Code**"
-* event from http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList (required)
+* event from http://ihe-d.de/ValueSets/IHEXDSeventCodeList (required)
 * language 1..* CodeableConcept "language of the document" "**Language Code**"
 * language from http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode (extensible)
 * format 1..1 CodeableConcept "format of the document" "**Format Code**"
-* format from http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode (required)
+* format from http://ihe-d.de/ValueSets/IHEXDSformatCodeDE (required)
 * size 0..1 integer "size of document"
 * hash 0..1 string "hash value"
 * practiceSetting 0..1 CodeableConcept "practice setting" "**Practice Setting**"
-* practiceSetting from http://www.ihe-d.de/fhir/ValueSet/IHEXDSpracticeSettingCode (required)
+* practiceSetting from http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode (required)
 * healthcareFacilityTypeCode 1..1 CodeableConcept "healthcare facility type code" "Healthcare Facility Type Code**"
-* healthcareFacilityTypeCode from http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode (required)
+* healthcareFacilityTypeCode from http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCode (required)
 * legalAuthenticator 0..1 Identifier "legal authenticator of the document"
 * limitedMetadata 0..1 string "metadata"
 * mimeType 1..1 CodeableConcept "mime type"

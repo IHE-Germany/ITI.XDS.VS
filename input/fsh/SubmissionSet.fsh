@@ -19,7 +19,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * comments 0..1 string "Comments"
 * contentTypeCode 1..1 CodeableConcept "type of content of this submission" "**Submission Set**"
-* contentTypeCode from http://www.ihe-d.de/fhir/ValueSet/IHEXDScontentTypeCode (required)
+* contentTypeCode from http://ihe-d.de/ValueSets/IHEXDScontentTypeCode (required)
 * entryUUID 1..1 Identifier "identifier"
 * homeCommunityID 0..1 Identifier "ID of home community"
 * intendedRecipient 0..* Identifier "intendend recipients of the document"

@@ -174,23 +174,27 @@ Description: "Dokumenten **Formate**"
 
 //ValueSet
 
-ValueSet: IHEXDSformatCode
-Id: IHEXDSformatCode
+ValueSet: IHEXDSformatCodeDE
+Id: IHEXDSformatCodeDE
 Title: "IHE XDS Format Code"
 Description: "**IHE XDS Format Code**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSformatCodeDE"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.35"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSformatCodeDE"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.35"
 * ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"
+* ^identifier[=].use = #old
 
 * ^compose.include[+].system = "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
 

@@ -1055,12 +1055,12 @@ Description: "**Psychotherapeutische Qualifikationen**"
 * ^identifier[=].use = #official
 
 
-* #110101 "Kinder- und Jugendlichenpsychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
-* #120101 "Psychologische Psychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
-* #130101 "Psychotherapeut*in" "psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
-* #200201 "Fachpsychotherapeut*in für Kinder und Jugendliche" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
-* #200202 "Fachpsychotherapeut*in für Erwachsene" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
-* #200203 "Fachpsychotherapeut*in für Neuropsychologische Psychotherapie" "psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+* #110101 "Kinder- und Jugendlichenpsychotherapeut*in" "Kinder- und Jugendlichenpsychotherapeut*in: psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
+* #120101 "Psychologische Psychotherapeut*in" "Psychologische Psychotherapeut*in: psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
+* #130101 "Psychotherapeut*in" "Psychotherapeut*in: psychotherapeutischer Beruf (Approbation) gemäß § 1 PsychThG"
+* #200201 "Fachpsychotherapeut*in für Kinder und Jugendliche" "Fachpsychotherapeut*in für Kinder und Jugendliche: psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+* #200202 "Fachpsychotherapeut*in für Erwachsene" "Fachpsychotherapeut*in für Erwachsene: psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
+* #200203 "Fachpsychotherapeut*in für Neuropsychologische Psychotherapie" "Fachpsychotherapeut*in für Neuropsychologische Psychotherapie: psychotherapeutische Gebiets-Spezialisierung gemäß Musterweiterbildungsordnung für Psychotherapeut*innen"
 
 
 
@@ -1092,18 +1092,22 @@ Id: IHEXDSauthorSpecialty
 Title: "IHE XDS Author Specialty"
 Description: "**IHE XDS Author Specialty**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.31"
 * ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* ^identifier[=].use = #old
 
 * include codes from system http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
 * include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren

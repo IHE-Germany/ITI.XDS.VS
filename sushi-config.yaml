@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.21
-date: 2025-05-26
+version: 0.3.22
+date: 2025-06-11
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Test Copyright - tbd
@@ -36,7 +36,7 @@ extension:
 dependencies:
   ihe.formatcode.fhir: 1.4.0
   kbv.all.st: 1.20.0
-  hl7.terminology.r4: 6.2.0
+  hl7.terminology.r4: 6.4.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
@@ -124,6 +124,17 @@ parameters:
     - http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren
     - http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen
     - http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen
+    - http://ihe-d.de/ValueSets/IHEXDSauthorRole
+    - http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty
+    - http://ihe-d.de/ValueSets/IHEXDSclassCode
+    - http://ihe-d.de/ValueSets/IHEXDStypeCode
+    - http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
+    - http://ihe-d.de/ValueSets/IHEXDScontentTypeCode
+    - http://ihe-d.de/ValueSets/IHEXDSeventCodeList
+    - http://ihe-d.de/ValueSets/IHEXDSformatCodeDE
+    - http://ihe-d.de/ValueSets/IHEXDScodeList
+    - http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCode
+    - http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode
 
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
@@ -156,8 +167,8 @@ menu:
     XDS (Document) Class Code: ValueSet-IHEXDSclassCode.html
     XDS (Document) Type Code: ValueSet-IHEXDStypeCode.html
     XDS Event Code List: ValueSet-IHEXDSeventCodeList.html
-    XDS Folder Code List: ValueSet-IHEXDSfolderCodeList.html
-    XDS Format Code: ValueSet-IHEXDSformatCode.html
+    XDS (Folder) Code List: ValueSet-IHEXDScodeList.html
+    XDS Format Code: ValueSet-IHEXDSformatCodeDE.html
     XDS Healthcare Facility Type Code: ValueSet-IHEXDShealthcareFacilityTypeCode.html
     XDS Language Code: ValueSet-IHEXDSlanguageCode.html
     XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html

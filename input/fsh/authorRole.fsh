@@ -199,13 +199,13 @@ Id: IHEXDSauthorRole
 Title: "IHE XDS Author Role"
 Description: "**IHE XDS Author Role**"
 
-* ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorRole"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorRole"
 * ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -213,7 +213,7 @@ Description: "**IHE XDS Author Role**"
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorRole"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole"
 * ^identifier[=].use = #old
 
 * include codes from system http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren

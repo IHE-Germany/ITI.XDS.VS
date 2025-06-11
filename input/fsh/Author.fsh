@@ -17,9 +17,9 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * institution 0..1 string "institution of author"
 * person 0..1 string "author"
 * role 1..1 CodeableConcept "role of the author of this document" "**Author Role**"
-* role from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorRole (required)
+* role from http://ihe-d.de/ValueSets/IHEXDSauthorRole (required)
 * specialty 0..* CodeableConcept "specialty of the author for this document" "**AutorSpecialty**"
-* specialty from http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty (required)
+* specialty from http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty (required)
 * telecommunication 0..1 string "contact information"
 
 
