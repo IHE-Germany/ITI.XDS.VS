@@ -2,7 +2,12 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.22
+Die aktuelle Version ist 0.3.23
+
+* LM: Verweis auf author
+* KBV package: 1.21.0
+
+### zu Version 0.3.22
 
 * Link zu 3.0 ist final, es gab aber auch einen Drat für 3.1
 * Canonicals für ValueSets auf alten Wert zurückgesetzt

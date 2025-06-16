@@ -14,7 +14,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 
 * insert HeaderDetailRules
 
-* author 0..1 Identifier "author"
+* author 0..1 Author "detailed information about the author"
 * availabilityStatus 0..1 CodeableConcept  "availability of the document"
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * comments 0..1 string "Comments"

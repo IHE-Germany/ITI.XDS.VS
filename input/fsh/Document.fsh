@@ -22,7 +22,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * class from http://ihe-d.de/ValueSets/IHEXDSclassCode (required)
 * type 1..1 CodeableConcept "type Code" "**Type Code**"
 * type from http://ihe-d.de/ValueSets/IHEXDStypeCode (required)
-* author 0..1 Identifier "author"
+* author 0..1 Author "detailed information about the author"
 * availabilityStatus 0..1 CodeableConcept "availability status of the document" "**Availability Status**"
 * availabilityStatus from http://www.ihe-d.de/fhir/ValueSet/IHEXDSavailabilityStatusCode (required)
 * comments 0..1 string "Comments"

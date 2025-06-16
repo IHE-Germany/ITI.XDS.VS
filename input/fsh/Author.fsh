@@ -15,10 +15,10 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * insert HeaderDetailRules
 
 * institution 0..1 string "institution of author"
-* person 0..1 string "author"
-* role 1..1 CodeableConcept "role of the author of this document" "**Author Role**"
+* person 0..1 string "name of the author; to be provided in HL7 v2 format, e.g.^Max^Mustermann^^^Dr. med."
+* role 1..1 CodeableConcept "role of the author of this document" "**Role of Author**; e.g. 2^^^&amp;1.3.6.1.4.1.19376.3.276.1.5.13&amp;ISO"
 * role from http://ihe-d.de/ValueSets/IHEXDSauthorRole (required)
-* specialty 0..* CodeableConcept "specialty of the author for this document" "**AutorSpecialty**"
+* specialty 0..* CodeableConcept "specialty of the author for this document" "**Specialty of Autor**, e.g.  101001^^^&amp;1.3.6.1.4.1.19376.3.276.1.5.514&amp;ISO"
 * specialty from http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty (required)
 * telecommunication 0..1 string "contact information"
 
