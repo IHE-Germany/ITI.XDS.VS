@@ -2,7 +2,11 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.23
+Die aktuelle Version ist 0.3.24
+
+* KBV_CS_FHIR_KBV_DMP -> KBV_CS_SFHIR_KBV_DMP
+
+### zu Version 0.3.23
 
 * LM: Verweis auf author
 * KBV package: 1.21.0
