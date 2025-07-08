@@ -2,7 +2,11 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.24
+Die aktuelle Version ist 0.3.25
+
+* Überarbeitung der Formulierung zur Lizenz
+
+### zu Version 0.3.24
 
 * KBV_CS_FHIR_KBV_DMP -> KBV_CS_SFHIR_KBV_DMP
 

@@ -3,11 +3,16 @@ This page and its complete content is undergoing verification and may not be cor
 
 **Lizenz**
 
-Dieser Leitfaden ist lizenziert unter der Creative Commons Namensnennung 4.0 International Lizenz. CC BY 4.0.
+Der <a href="https://build.fhir.org/ig/IHE-Germany/ITI.XDS.VS/">IHE Deutschland Value Sets für XDS Implementierungsleitfaden</a> (IHE ITI XDS VS [DE]) von IHE Deutschland e.V. ist lizensiert unter der <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> Lizenz. <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" alt="CC-BY 4.0" title="CC-BY 4.0" style="max-height:2em;margin-left:.2em;"></a>
+<br/><br/>
+<a href="https://build.fhir.org/ig/IHE-Germany/ITI.XDS.VS/">IHE Germany Value Sets for XDS Implementation Guide</a> (IHE ITI XDS VS [DE]) by IHE Deutschland e.V. is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>.
+
 
 **Umgang mit Fremdinhalten**
 
-Dieser Leitfaden verwendet Inhalte anderer Organisationen, u.a. HL7, IHTSDO, NEMA, Regenstrief Institute Inc. Für weitere Informationen zu deren Lizenzbedingungen siehe u.a. https://hl7.org/fhir/license.html
+Dieser Leitfaden verwendet Inhalte anderer Organisationen, u.a. HL7, IHTSDO, NEMA, Regenstrief Institute Inc. 
+Für weitere Informationen zu deren Lizenzbedingungen siehe u.a. 
+[https://hl7.org/fhir/license.html](https://hl7.org/fhir/license.html)
 
 
 **Disclaimer**
