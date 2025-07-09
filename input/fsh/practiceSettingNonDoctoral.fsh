@@ -72,6 +72,10 @@ Description: "**Fachrichtungen, nicht-ärztlich** (Practice Setting Non Doctoral
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.70"
 * ^identifier[=].use = #official
 
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenNichtaerztlich"
+* ^identifier[=].use = #secondary
+
 * include codes from system http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
 
 

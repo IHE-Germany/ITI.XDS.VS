@@ -34,7 +34,7 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #ar-PS
 * ^compose.include[=].concept[+].code = #ar-QA   
 * ^compose.include[=].concept[+].code = #ar-SA
-* ^compose.include[=].concept[+].code = #ar-SU
+* ^compose.include[=].concept[+].code = #ar-SD
 * ^compose.include[=].concept[+].code = #ar-SY 
 * ^compose.include[=].concept[+].code = #ar-YE 
 * ^compose.include[=].concept[+].code = #az-AZ
@@ -59,7 +59,6 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[+].code = #el-GR
 * ^compose.include[=].concept[+].code = #en-AU
 * ^compose.include[=].concept[+].code = #en-CA
-* ^compose.include[=].concept[+].code = #en-CX   
 * ^compose.include[=].concept[+].code = #en-GI
 * ^compose.include[=].concept[+].code = #en-GB
 * ^compose.include[=].concept[+].code = #en-IE 

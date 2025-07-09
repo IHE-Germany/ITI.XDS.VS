@@ -2,7 +2,14 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.25
+Die aktuelle Version ist 0.3.26
+
+* Links für Language Codes
+* Language Codes: ar-SU -> ar-SD, en-CX entfernt
+* Datentypenspezifikation für Logical Models erweitert
+* ärztliche Fachrichtungen: +NPSY
+
+### zu Version 0.3.25
 
 * Überarbeitung der Formulierung zur Lizenz
 

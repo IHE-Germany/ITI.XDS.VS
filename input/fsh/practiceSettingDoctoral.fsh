@@ -196,6 +196,9 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 * #PSYC #FPSY "Forensische Psychiatrie" "Das Fachgebiet der Forensischen Psychiatrie stellt eine Spezialisierung innerhalb der Psychiatrie dar. Das Gebiet befasst sich mit der Begutachtung und der Therapie (ggfs. inkl. Unterbringung) von psychisch kranken Straftätern sowie mit Patienten, welche unter Drogeneinfluss ein strafrechtlich relevantes Delikt begingen."
 * #PSYC #FPSY ^property[0].code = #parent
 * #PSYC #FPSY ^property[=].valueCode = #PSYC
+* #PSYC #NPSY "Neuropsychiatrie und Neuropsychotherapie" "Das Fachgebiet der Neuropsychiatrie beschäftigt sich mit der Untersuchung anatomischer, struktureller, physiologischer und metabolischer Grundlagen kognitiver und emotionaler Prozesse sowie der Diagnostik und Behandlung neurologischer Erkrankungen mit psychischer Symptomatik."
+* #PSYC #NPSY ^property[0].code = #parent
+* #PSYC #NPSY ^property[=].valueCode = #PSYC
 * #PSYM "Psychosomatische Medizin und Psychotherapie" "Das Fachgebiet der Psychosomatischen Medizin und Psychotherapie beschäftigt sich mit der Prävention, der Erkennung, der psychotherapeutischen Behandlung sowie der Rehabilitation von Erkrankungen, deren Ursachen psychosozialer und psychosomatischer Natur sind."
 * #RADI "Radiologie" "Das Fachgebiet der Radiologie umfasst alle Bereiche der Bildgebung zu diagnostischen und therapeutischen Zwecken."
 * #RADI #KRAD "Kinderradiologie" "Das Fachgebiet der Kinderradiologie stellt eine Spezialisierung der Radiologie dar. Das Gebiet beschäftigt mit der radiologischen Bildgebung beim Kind und beim Jugendlichen."
@@ -240,6 +243,10 @@ Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.69"
 * ^identifier[=].use = #official
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
+* ^identifier[=].use = #secondary
 
 * include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
 

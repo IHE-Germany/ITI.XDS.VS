@@ -82,38 +82,24 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Aufwachraumprotokoll"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Checkliste Anästhesie"
-* #BERI "Arztberichte"
-  "Ärztliche Zusammenfassungen und Verlaufsbeurteilungen von Behandlungsepisoden, Epikrisen und Abschlussberichte zu stationären oder ambulanten Behandlungsfällen."
+* #AUFN "Einweisungs- und Aufnahmedokumente"
+  "Dokumente die im Rahmen von Überweisungs-, Einweisungs- und Aufnahmeprozessen entstehen oder diese Prozesse unterstützen. Dies betrifft sowohl stationäre wie auch ambulante Aufnahmen in Krankenhäusern und Reha-Einrichtungen, wie auch Besuche bei niedergelassenen Ärzten und Therapeuten. Diese Dokumente beinhalten üblicherweise patientenbezogene Daten, den bisherigen Krankheitsverlauf und aktuellen Zustand des Patienten sowie erste Untersuchungen/Therapieansätze."
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Arztbrief"
+  * ^property[=].valueString = "Anamnesebogen"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Entlassungsbericht"
+  * ^property[=].valueString = "Anmeldung Aufnahme"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Ärztliche Stellungnahme"
+  * ^property[=].valueString = "Checkliste Aufnahme"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Durchgangsarztbericht / BG-Bericht"
+  * ^property[=].valueString = "Verordnung einer Krankenhausbehandlung"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Rehabericht"
+  * ^property[=].valueString = "Überweisungsschein"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Verlegungsbericht"
+  * ^property[=].valueString = "G-AEP-Kriterien"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "vorläufiger Arztbericht"
+  * ^property[=].valueString = "Stammblatt"
   * ^property[+].code = #beispiel
-  * ^property[=].valueString = "ärztlicher Verlaufsbericht"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Ambulanzbericht"
-* #BESC "Ärztliche Bescheinigungen"
-  "Bestätigung eines Arztes über einen bestimmten, patientenbezogenen Sachverhalt."
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Arbeitsunfähigkeitsbescheinigung"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Beurlaubung"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Todesbescheinigung"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Ärztliche Bescheinigung"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Notfall-/ Vertretungsschein"
+  * ^property[=].valueString = "Aufnahmebogen"
 * #BEFU "Ergebnisse Diagnostik"
   "Alle Arten von Befunden und Befundbeurteilungen, sofern sie nicht durch spezifischere Konzepte abgebildet werden, z.B. BILD (\"Ergebnisse Bildgebende Diagnostik\"), FUNK (\"Ergebnisse Funktionsdiagnostik\"), MKRO (\"Ergebnisse Mikrobiologie\"), PATH (\"Pathologiebefundberichte\") oder VIRO (\"Ergebnisse Virologie\"). Auch die zugehörigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet."
   * ^property[+].code = #beispiel
@@ -154,6 +140,70 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Blutzuckeranalyse"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Laboranforderung"
+* #BERI "Arztberichte"
+  "Ärztliche Zusammenfassungen und Verlaufsbeurteilungen von Behandlungsepisoden, Epikrisen und Abschlussberichte zu stationären oder ambulanten Behandlungsfällen."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Arztbrief"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Entlassungsbericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Ärztliche Stellungnahme"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Durchgangsarztbericht / BG-Bericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Rehabericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Verlegungsbericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "vorläufiger Arztbericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "ärztlicher Verlaufsbericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Ambulanzbericht"
+* #BESC "Ärztliche Bescheinigungen"
+  "Bestätigung eines Arztes über einen bestimmten, patientenbezogenen Sachverhalt."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Arbeitsunfähigkeitsbescheinigung"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Beurlaubung"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Todesbescheinigung"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Ärztliche Bescheinigung"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Notfall-/ Vertretungsschein"
+* #BILD "Ergebnisse bildgebender Diagnostik"
+  "Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschließlich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugehörigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Radiologiebefund"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Röntgenbild (CR)"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "CT"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "MRT"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "PET"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Sonographie"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Mammographie"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Endoskopiebefund"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Szintigraphie"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Herzkatheter-Bericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Echokardiographie"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Bronchoskopiebefund"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Neuroradiologischer Befund"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Angiographiebefund"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Anforderungsschein Duplexsonographie"
 * #BSTR "Bestrahlungsdokumentation"
   "Dokumentation zur Planung und Durchführung von Radiotherapien, einschließlich der ausgefüllten Anamnese- und Aufklärungsbögen zur Bestrahlungstherapie."
   * ^property[+].code = #beispiel
@@ -170,24 +220,6 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Brachytherapieprotokoll"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Bericht zur interventionellen Radioonkologie"
-* #AUFN "Einweisungs- und Aufnahmedokumente"
-  "Dokumente die im Rahmen von Überweisungs-, Einweisungs- und Aufnahmeprozessen entstehen oder diese Prozesse unterstützen. Dies betrifft sowohl stationäre wie auch ambulante Aufnahmen in Krankenhäusern und Reha-Einrichtungen, wie auch Besuche bei niedergelassenen Ärzten und Therapeuten. Diese Dokumente beinhalten üblicherweise patientenbezogene Daten, den bisherigen Krankheitsverlauf und aktuellen Zustand des Patienten sowie erste Untersuchungen/Therapieansätze."
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Anamnesebogen"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Anmeldung Aufnahme"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Checkliste Aufnahme"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Verordnung einer Krankenhausbehandlung"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Überweisungsschein"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "G-AEP-Kriterien"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Stammblatt"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Aufnahmebogen"
 * #EINW "Einwilligungen/Aufklärungen"
   "Dokumente, Formulare und sonstige Erklärungen, die der Patient im Verlauf des Versorgungsprozesses unterschreibt, einschließlich dokumentierter Aufklärungen. Ausnahmen: Verträge; Aufklärungsbögen zu Anästhesie und Bestrahlung werden über die Konzepte ANAE (\"Anästhesiedokumente\") bzw. BSTR (\"Bestrahlungsdokumentation\") abgebildet, Einwilligungen in Studien werden über das Konzept \"STUD\" abgebildet."
   * ^property[+].code = #beispiel
@@ -252,38 +284,6 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Sturzrisikoerfassungsbogen"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Geriatrische Depressionsskala"
-* #BILD "Ergebnisse bildgebender Diagnostik"
-  "Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschließlich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugehörigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet."
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Radiologiebefund"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Röntgenbild (CR)"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "CT"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "MRT"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "PET"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Sonographie"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Mammographie"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Endoskopiebefund"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Szintigraphie"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Herzkatheter-Bericht"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Echokardiographie"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Bronchoskopiebefund"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Neuroradiologischer Befund"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Angiographiebefund"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Anforderungsschein Duplexsonographie"
 * #FALL "Fallbesprechungen"
   "Dokumente bezüglich einer patientenbezogenen Beratung zwischen Fachärzten, Therapeuten oder Pflegepersonal. Bei fachspezifischen Dokumententypen wie Tumorboardprotokolle, sollte stattdessen das spezifischere Konzept verwendet werden, z.B. ONKO (\"Onkologische Dokumente\"). Fallbesprechungen, die rein aus einem pflegerischem Team bestehen, werden unter Pflegedokumentation abgebildet."
   * ^property[+].code = #beispiel
@@ -316,6 +316,26 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Dialysedokumente"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Psychotherapeutische Dokumente"
+* #GEBU "Schwangerschafts- und Geburtsdokumentation"
+  "Dokumente mit allen Informationen über die Phase vor, während und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und ähnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden über die jeweiligen Konzepte (VERO und MEDI) abgebildet."
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Geburtenbericht"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Geburtenprotokoll"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Geburtenverlaufskurve"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Neugeborenenscreening"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Partogramm"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Wiegekarte"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Neugeborenendokumentationsbogen"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Säuglingskurve"
+  * ^property[+].code = #beispiel
+  * ^property[=].valueString = "Stillprotokoll"
 * #GRIS "Auswertung Gesundheitsrisiken"
   "Auswertungen zu datengestützter Erkennung individueller Gesundheitsrisiken durch die Kranken- und Pflegekassen Auswertungen gemäß § 25b SGB V"
 * #IMMU "Ergebnisse Immunologie"
@@ -482,8 +502,6 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Bradenskala"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Diabetikerkurve"
-//* #57016-8 "Patienteneinverständniserklärung"
-//  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
 * #QUAL "Qualitätssicherung"
   "Formulare, welche zur Qualitätssicherung der Krankenhausabläufe ausgefüllt werden müssen."
   * ^property[+].code = #beispiel
@@ -512,26 +530,6 @@ Description: "**Dokumententypen**"
   * ^property[=].valueString = "Schriftverkehr Deutsche Rentenversicherung"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Bescheinigung über Krankenhausaufenthalt"
-* #GEBU "Schwangerschafts- und Geburtsdokumentation"
-  "Dokumente mit allen Informationen über die Phase vor, während und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und ähnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden über die jeweiligen Konzepte (VERO und MEDI) abgebildet."
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Geburtenbericht"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Geburtenprotokoll"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Geburtenverlaufskurve"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Neugeborenenscreening"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Partogramm"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Wiegekarte"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Neugeborenendokumentationsbogen"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Säuglingskurve"
-  * ^property[+].code = #beispiel
-  * ^property[=].valueString = "Stillprotokoll"
 * #SOZI "Sozialdienstdokumente"
   "Dokumentation zu Leistungen des Sozialdienstes o.ä., bei denen Patienten über verschiedene Unterstützungsangebote informiert, beraten und bei Inanspruchnahme begleitet werden. Ausnahmen: siehe Konzept ANTR (\"Anträge und deren Bescheide\")."
   * ^property[+].code = #beispiel
@@ -665,16 +663,22 @@ Description: "**IHE XDS type Code**"
 //TODO verify
 
 //funktioniert, ist dann aber der einzige Code
-* LOINC#57016-8
+//* LOINC#57016-8
 
-* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
+//* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
 
 
 //* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"
-//* ^compose.include[+].system = $LOINC
-//* ^compose.include[=].concept[+].code = #57016-8
+
+* ^compose.include[+].system = $LOINC
+* ^compose.include[=].concept[+].code = #57016-8
 //* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
-//* ^compose.include[=].concept[=].display = "Patienteneinverständniserklärung"
+* ^compose.include[=].concept[=].display = "Patienteneinverständniserklärung"
+
+//* #57016-8 "Patienteneinverständniserklärung"
+//  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
+
 
 
 
