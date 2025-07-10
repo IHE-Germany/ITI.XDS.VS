@@ -3,8 +3,7 @@ Parent: Base
 Id: CodeDataType
 Title: "CodeDataType (LM)"
 Description: "This logical model describes a coded attribute defined as ebRIM Classification (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.2)."
-//Characteristics: #can-be-target //#can-bind //
-//Characteristics: #can-bind
+Characteristics: #can-be-target, #can-bind
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/CodeDataType"
@@ -18,7 +17,7 @@ Parent: Base
 Id: CodedStringDataType
 Title: "CodedStringDataType (LM)"
 Description: "This logical model describes a coded value data type that can be communicated in one string. It combines a Code and a Code System ID in the following form: Code^^^&CodeSystemID&ISO (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.7)."
-//Characteristics: #can-bind // #can-be-target
+Characteristics: #can-bind, #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/CodedStringDataType"
@@ -31,7 +30,7 @@ Parent: Base
 Id: CXDataType
 Title: "CXDataType (LM)"
 Description: "This logical model describes a patient identifier in HL7 CX (extended composite ID with check digit) format. e.g., 6578946^^^&1.3.6.1.4.1.21367.2005.3.7&ISO (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.16)."
-//Characteristics: #can-bind //#can-be-target
+Characteristics: #can-bind, #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/CXDataType"
@@ -44,7 +43,7 @@ Parent: Base
 Id: CXiDataType
 Title: "CXiDataType (LM)"
 Description: "This logical model describes an HL7 V2 Identifier in HL7 CXi format. e.g., 11379^^^&1.3.6367.3.7&ISO^urn:ihe:iti:xds:2013:uniqueId (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.28)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/CXiDataType"
@@ -57,7 +56,7 @@ Parent: Base
 Id: DTMDataType
 Title: "DTMDataType (LM)"
 Description: "This logical model describes an HL7 V2.5 date/time value defined as ebRIM Slot (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.7)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/DTMDataType"
@@ -70,7 +69,7 @@ Parent: Base
 Id: FieldDataType
 Title: "FieldDataType (LM)"
 Description: "This logical model describes demographics information of the patient in HL7 V2 PID (Patient Identification) format (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.23)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/FieldDataType"
@@ -86,7 +85,7 @@ Parent: Base
 Id: IdentifierDataType
 Title: "IdentifierDataType (LM)"
 Description: "This logical model describes an globally unique identifier as OID, URI, UUID or any other format that employs effective mechanisms to ensure global uniqueness (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.7)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/IdentifierDataType"
@@ -99,7 +98,7 @@ Parent: Base
 Id: LimitedMetadataDataType
 Title: "LimitedMetadataDataType (LM)"
 Description: "This logical model describes a flag as ebRIM Classification with a classificationNode of urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85 used to indicate whether the Document Entry was created using the less rigorous requirements of metadata as defined for the Metadata-Limited Document Source Actor (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.29)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/LimitedMetadataDataType"
@@ -112,7 +111,7 @@ Parent: Base
 Id: OIDDataType
 Title: "OIDDataType (LM)"
 Description: "This logical model describes an object identifer (OID) as ebRIM Slot; e.g. 1.3.6.1.4.5 (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.18)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/OIDDataType"
@@ -125,7 +124,7 @@ Parent: Base
 Id: OIDURNDataType
 Title: "OIDURNDataType (LM)"
 Description: "This logical model describes an OID in URN syntax; e.g. urn:oid:2.999.2005.3.7 (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.7)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/OIDURNDataType"
@@ -138,7 +137,7 @@ Parent: Base
 Id: URIDataType
 Title: "URIDataType (LM)"
 Description: "This logical model describes a Uniform Resource Identifier Reference (RFC 3986 ) as ebRIM Slot (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.27)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/URIDataType"
@@ -151,7 +150,7 @@ Parent: Base
 Id: UUIDDataType
 Title: "UUIDDataType (LM)"
 Description: "This logical model describes a DCE Universally Unique Identifier; e.g. urn:uuid:9e0110f8-4748-4f1e-b0a8-cecae32209c7 (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.1.7)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/UUIDDataType"
@@ -164,7 +163,7 @@ Parent: Base
 Id: XCNDataType
 Title: "XCNDataType (LM)"
 Description: "This logical model describes a complex data type used to represent a person's name and identification information in HL7 XCN (Extended Composite Name and ID Number for Persons) data type format; e.g. ^Welby^Marcus^^^ Dr^MD (cf. https://profiles.ihe.net/ITI/TF/Volume3/ch-4.2.html#4.2.3.2.14)."
-//Characteristics: #can-be-target
+Characteristics: #can-be-target
 * ^version = "4.0.0-alpha1"
 * ^abstract = false
 * ^type = "http://www.ihe-d.de/fhir/StructureDefinition/XCNDataType"

@@ -10,8 +10,10 @@ RuleSet: HeaderDetailRules
 //wird durch config überschrieben
 //* ^publisher = "IHE Deutschland e.V."
 
-* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-* ^extension[=].valueInteger = 2
+//is in conflict with Characteristics
+//* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+//* ^extension[=].valueInteger = 2
+
 //erstmal wieder rausnehmen, da URL nicht auflöust
 //* ^extension[=].valueInteger.extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"
 //* ^extension[=].valueInteger.extension.valueCanonical = "http://www.ihe-d.de/fhir/ImplementationGuide/ihe.de.iti.xds-vs"
