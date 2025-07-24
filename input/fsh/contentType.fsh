@@ -138,11 +138,6 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
-* uniqueId[=].preferred = false
-* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
-
-* uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"

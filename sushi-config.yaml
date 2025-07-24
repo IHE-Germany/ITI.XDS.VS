@@ -10,11 +10,11 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.26
-date: 2025-07-10
+version: 0.3.27
+date: 2025-07-24
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
-copyright: Test Copyright - tbd
+#copyright: Copyright CC-BY-4.0
 releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
@@ -35,8 +35,19 @@ extension:
 #
 dependencies:
   ihe.formatcode.fhir: 1.4.0
-  kbv.all.st: 1.21.0
-  hl7.terminology.r4: 6.4.0
+  #hl7.terminology.r4: 6.5.0
+  hl7.terminology.r4: 
+    id: terminology
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology.r4/6.5.0
+    version: 6.5.0
+  #kbv.all.st: 1.23.0
+  kbv.all.st:
+    id: st
+    uri: http://fhir.kbv.de/ImplementationGuide/kbv.all.st/1.23.0
+    version: 1.23.0
+
+  
+  
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
@@ -52,12 +63,8 @@ dependencies:
 pages:
   index.md:
     title: IHE ITI XDS VS Home (DE)
-  index_en.md:
-    title: IHE ITI XDS VS Home (EN)
   einleitung.md:
     title: Einleitung
-  structure.md:
-    title: Struktur/Aufbau des Leitfadens
   document.md:
     title: Dokumente (+ Folder)
   submissionset.md:
@@ -80,6 +87,8 @@ pages:
     title: Download
   disclaimers.md:
     title: Disclaimers
+  index_en.md:
+    title: IHE ITI XDS VS Home (EN)
 
 #   implementation.xml:
 #   examples.xml:
@@ -151,7 +160,6 @@ menu:
   IHE XDS VS Home: index.html
   Einleitung:
     Einleitung: einleitung.html
-    Struktur/Aufbau des Leitfadens: structure.html
     Dokumente (+ Folder): document.html
     Submission Set: submissionset.html
     FAQ: faq.html

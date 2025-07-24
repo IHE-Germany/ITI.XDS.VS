@@ -243,12 +243,12 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren"
 * uniqueId[=].preferred = true
-* uniqueId[=].comment = "neue URL, die eine Auflösung ermöglicht"
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
 * uniqueId[=].preferred = false
-* uniqueId[=].comment = "alternative, nicht-normative URL"
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 	
 
@@ -274,11 +274,11 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren"
 * uniqueId[=].preferred = false
-* uniqueId[=].comment = "neue URL, die eine Auflösung ermöglicht"
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
 * uniqueId[=].preferred = true
-* uniqueId[=].comment = "alternative, nicht-normative URL"
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 	

@@ -1,6 +1,3 @@
-This page and its complete content is undergoing verification and may not be correct in all details.
-{:.stu-note}
-
 **Lizenz**
 
 Der <a href="https://build.fhir.org/ig/IHE-Germany/ITI.XDS.VS/">IHE Deutschland Value Sets für XDS Implementierungsleitfaden</a> (IHE ITI XDS VS [DE]) von IHE Deutschland e.V. ist lizensiert unter der <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> Lizenz. <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" alt="CC-BY 4.0" title="CC-BY 4.0" style="max-height:2em;margin-left:.2em;"></a>

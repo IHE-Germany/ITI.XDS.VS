@@ -2,7 +2,18 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.26
+Die aktuelle Version ist 0.3.27
+
+* Notes auf Einstiegsseite entfernt
+* Note auf Disclaimerseite entfernt
+* Strukturseite auf die Einstiegsseite verschoben
+* Copyright-Notiz entfernt
+* FMM-Extension korrigiert
+* englische Seite ans Ende der Inhaltsangabe gesetzt
+* Versionsliste aktualisiert
+* diverse Korrekturen NamingSystem
+
+### zu Version 0.3.26
 
 * Links für Language Codes
 * Language Codes: ar-SU -> ar-SD, en-CX entfernt

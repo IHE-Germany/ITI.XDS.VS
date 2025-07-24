@@ -1148,13 +1148,13 @@ Usage: #definition
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"
-* uniqueId[=].preferred = false
-* uniqueId[=].comment = "alternative, nicht-normative URL"
+* uniqueId[=].preferred = true
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelAerztekammer"
 * uniqueId[=].preferred = false
-* uniqueId[=].comment = "neue URL, die auflöst"
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 
 
@@ -1180,19 +1180,19 @@ Usage: #definition
 //* responsible = "IHE Germany"
 
 * uniqueId[+].type = #oid
-* uniqueId[=].value = "uurn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
+* uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "OID, canonical"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
 * uniqueId[=].preferred = false
-* uniqueId[=].comment = "neue URL, die auflöst"
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
 * uniqueId[=].preferred = true
-* uniqueId[=].comment = "alternative, nicht-normative URL"
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 
 Instance: QualifikatorenZahnAerztekammer
@@ -1201,7 +1201,7 @@ Usage: #definition
 
 * insert HeaderNamingSystemRules
 
-* name = "FacharzttitelAerztekammer"
+* name = "QualifikatorenZahnAerztekammer"
 * description = "**Qualifikatoren der Zahnärztekammer**"
 
 * uniqueId[+].type = #oid
@@ -1212,12 +1212,12 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
 * uniqueId[=].preferred = true
-* uniqueId[=].comment = "alternative, nicht-normative URL"
+* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnAerztekammer"
 * uniqueId[=].preferred = false
-* uniqueId[=].comment = "neue URL, die auflöst"
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 
 
@@ -1233,7 +1233,9 @@ Usage: #definition
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
 * uniqueId[=].preferred = true
+* uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.2.276.0.76.5.535"
 * uniqueId[=].preferred = false
+* uniqueId[=].comment = "OID, aus historischen Gründen"

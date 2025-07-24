@@ -1,12 +1,5 @@
 > **Für die deutsche Version bitte [hier](index.html) klicken.**
 
-XDS VS (xdsVSS) - defines which value sets IHE ITI XDS SHOULD use for 
-[**IHE Document Sharing Health Information Exchange**](https://profiles.ihe.net/ITI/HIE-Whitepaper/index.html) in Germany.
-{:.stu-note}
-
-Compatibility with FHIR but also other requirements demand changes to important aspects like canonicals.
-{:.new-content}
-
 For the successful implementation of document management systems metadata is required that enables the identification, 
 selection and evaluation of documents stored in these systems. 
 In this guide value sets are developed that provide corresponding code systems. 
