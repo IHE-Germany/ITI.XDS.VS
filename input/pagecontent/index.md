@@ -1,5 +1,3 @@
-> **For an English version please click [here](index_en.html).**
-
 Zur erfolgreichen Umsetzung von (elektronischen) Dokumentenmanagementsystemen werden Metadaten benötigt, 
 die die Identifikation, Selektion und Auswertung von in den Dokumentenmanagementsystemen gespeicherten Dokumenten ermöglichen.
 In diesem Leitfaden werden Value Sets entwickelt, die entsprechende Value Sets und die dazugehörigen Codesysteme bereitstellen. 
@@ -16,18 +14,18 @@ Es ist derzeit nicht beabsichtigt, das [IHE Profile SVCM](https://profiles.ihe.n
 Um den Aufbau dieses Leitfadens besser zu verstehen, wird hier die Unterteilung der Hauptmenüs erklärt:
 
 * **IHE XDS VS Home**: Startseite
-* **Einleitung**
+* **Einleitung**: erläuternde Dokumentation zum Leitfaden
   * **Einleitung**
-  * **Dokument (+ Folder)**
-  * **Submission Set**
+  * **Dokument (+ Folder)**: Inhalte des Dokumenteneintrags
+  * **Submission Set**: Inhalte einer Submission
   * **FAQ**: häufig gestellte Fragen
   * **Versionen**: bisher veröffentlichte Versionen der XDS Value Sets
   * **Versionierungs-Policy**: Wie werden Versionsnummern vergeben?
   * **Vokabular-Management**: Wie erfolgt das Management von kodierten Informationen?
   * **Projekt-Team**: Wer arbeitet an diesem Leitfaden
-* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die in Aktenprojekten eingesetzt werden sollen.
+* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die für dir Attribute vorgschlagen werden und in Aktenprojekten eingesetzt werden sollen. Diese setzen sich zT aus mehreren Codesystemen zusammen.
 * **Codesystems**: Codesysteme, die den eigentlichen Inhalt definieren, sofern diese nicht bereits von anderen Organisationen bereitgestellt werden.
-* **Value Sets**: Canonical Value Sets zu den von IHE Deutschland definierten Codesystemen
+* Canonical **Value Sets**: Standard Value Sets zu den von IHE Deutschland definierten Codesystemen
 * **Naming Systems**: Liste mit referenzierbaren Namen der von IHE Deutschland definierten Codesystemen
 * **Artifacts**: Auflistung aller definierten Komponenten
   * Logical Models, die die XDS Artefakte noch einmal kurz beschreiben
@@ -40,6 +38,30 @@ Um den Aufbau dieses Leitfadens besser zu verstehen, wird hier die Unterteilung 
   * verwendete OIDs
   * Disclaimer
 
+### Zusammenhänge
+
+Eventuell verwirren die Menüeinträge, weil der Unterschied zwischen einem XDS Value Set
+und einem "normalen" Value Set nicht bekannt ist.
+Die nachfolgende Abbildung soll hier Abhilfe schaffen:
+
+<div width="500px">
+{% include explanation.svg %}
+</div>
+
+Die XDS Value Sets setzen sich aus den entsprechenden Codesystemen zusammen.
+(Genaugenommen sollten hier die canonical (Standard) Value Sets der Codesysteme genutzt werden. 
+Jedoch werden dann Warnungen erzeugt.)
+Ebenso können individuelle Codes, wie bspw. LOINC, hinzugefügt werden.
+Die Referenzen auf die Codesysteme können nur eines, aber auch mehrere umfassen.
+
+### NamingSystem
+
+NamingSystems dienen der Verwaltung von Identifikatoren für dasselbe Konzept.
+In Falle der Value Sets werden hier die verschiedenen Identifikatoren für Codesysteme gesammelt.
+
+Bisher wurde dies nicht bereitgestellt. Aber im Rahmen der umfassenden Diskussionen zur Verwendung
+der "richtigen" Identifikatoren für Codesystems sollen hiermit die verschiedenen, bekannten
+Identifikatoren noch einmal zusammengefasst werden.
 
 ### Erwartungen an die Conformance 
 
@@ -48,6 +70,9 @@ IHE verwendet die normativen Wörter **MUSS**, **SOLL** und **KANN** gemäß den
 ### Verbindlichkeit der Value Sets
 
 Die in diesem Leitfaden eingeführten Value Sets sind für Deutschland momentan nicht verbindlich, sondern stellen eine Empfehlung von IHE Deutschland dar.
+
+Durch die Bereitstellung als FHIR Package wird die Verwendbarkeit vereinfacht.
+So können die Value Sets bspw. als Package direkt in einen Terminologieserver geladen werden.
 
 ### Änderung und Pflege
 

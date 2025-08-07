@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.27
-date: 2025-07-30
+version: 0.3.28
+date: 2025-08-07
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -24,8 +24,8 @@ publisher:
   email: info@ihe-d.de
 
 extension:
-  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-    valueCode: draft # trial-use
+#  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+#    valueCode: draft # trial-use
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 1
 
@@ -38,12 +38,12 @@ dependencies:
   #hl7.terminology.r4: 6.5.0
   hl7.terminology.r4: 
     id: terminology
-    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology.r4/6.5.0
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 6.5.0
   #kbv.all.st: 1.23.0
   kbv.all.st:
     id: st
-    uri: http://fhir.kbv.de/ImplementationGuide/kbv.all.st/1.23.0
+    uri: http://fhir.kbv.de/ImplementationGuide/kbv.all.st
     version: 1.23.0
 
   
@@ -180,7 +180,7 @@ menu:
     XDS Healthcare Facility Type Code: ValueSet-IHEXDShealthcareFacilityTypeCode.html
     XDS Language Code: ValueSet-IHEXDSlanguageCode.html
     XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
-  Codesystems:
+  Eigene Codesysteme:
     Berufsvarianten, ärztlich: CodeSystem-BerufeAerztlich.html
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
@@ -200,7 +200,7 @@ menu:
     Qualifikationen nichtärztlicher Autoren: CodeSystem-QualifikationenNichtaerztlicherAutoren.html
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
-  Value Sets:
+  Eigene Value Sets:
     Berufsvarianten, ärztlich: ValueSet-BerufeAerztlich.html
     Dokumenten-Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentenklassen: ValueSet-Dokumentenklassen.html
@@ -218,9 +218,27 @@ menu:
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Psychotherapeutische Qualifikationen: ValueSet-PsychotherapeutischeQualifikationen.html
     Qualifikationen nichtärztlicher Autoren: ValueSet-QualifikationenNichtaerztlicherAutoren.html
-    Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
+    Qualifikatoren zahnärztlicher Autoren: ValueSet-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: ValueSet-Vertraulichkeiten.html
-  Naming Systems: artifacts.html#terminology-naming-systems
+  Naming Systems:
+    Dokumenten-Warnhinweise: NamingSystem-DokumentenWarnhinweise.html
+    Dokumentenklassen: NamingSystem-Dokumentenklassen.html
+    Dokumententypen: NamingSystem-Dokumententypen.html
+    Einrichtungsarten, nicht-patientenbezogen: NamingSystem-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, patientenbezogen: NamingSystem-EinrichtungsartenPatientenbezogen.html
+    Facharzttitel Ärztekammer: NamingSystem-FacharzttitelAerztekammer.html
+    Fachrichtungen, ärztlich: NamingSystem-FachrichtungenAerztlich.html
+    Fachrichtungen, nicht-ärztlich: NamingSystem-FachrichtungenNichtaerztlich.html
+    Fallkontexte bei Dokumentenerstellung: NamingSystem-Fallkontexte.html
+    Formate: NamingSystem-Formate.html
+    Grund der Übermittlung: NamingSystem-GrundDerUebermittlung.html
+    Ordnertypen: NamingSystem-Ordnertypen.html
+    Patientenbeziehungsrollen für Autoren: NamingSystem-PatientenbeziehungsrollenFuerAutoren.html
+    Prozessrollen für Autoren: NamingSystem-ProzessrollenFuerAutoren.html
+    Psychotherapeutische Qualifikationen: NamingSystem-PsychotherapeutischeQualifikationen.html
+    Qualifikationen nichtärztlicher Autoren: ValueSet-QualifikationenNichtaerztlicherAutoren.html
+    Qualifikatoren zahnärztlicher Autoren: NamingSystem-QualifikatorenZahnAerztekammer.html
+    Vertraulichkeiten: NamingSystem-Vertraulichkeiten.html
   Artifacts: artifacts.html
   Sonstiges:
     Changes: changes.html

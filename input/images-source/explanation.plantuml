@@ -1,0 +1,18 @@
+@startuml
+
+class "XDS Data Element" as de
+class "XDS Value Set" as xvs
+class "CodeSystem" as cs
+class "(Canonical)\nValueSet" as vs
+class "NamingSystem" as ns
+class "Code" as c
+
+de "1" -right- "1" xvs
+xvs -right- "1..*" cs
+vs "1" -left- "1" cs
+cs "1..*" -down- "1" ns
+xvs o-- "0..*" c
+
+cs *-- "1..*" c
+
+@enduml

@@ -2,7 +2,12 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.27
+Die aktuelle Version ist 0.3.28
+
+* Start-PAge: mehr Erklärungen und Klarstellungen
+* Extension Standard-Status is not allowed
+
+### zu Version 0.3.27
 
 * Notes auf Einstiegsseite entfernt
 * Note auf Disclaimerseite entfernt

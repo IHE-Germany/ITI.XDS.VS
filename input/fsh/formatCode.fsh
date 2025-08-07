@@ -93,6 +93,8 @@ Description: "Dokumenten **Formate**"
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:v1.0.1 "Untersuchungen Kinderuntersuchungsheft"
 * #urn:gematik:ig:Medikationsplan:r3.1 "Medikationsplan (gematik)"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Mutterpass:r4.0 "Mutterpass (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -109,6 +111,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.1 "Verordnungsdatensatz Medikation (gematik) v1.1"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Zahnbonusheft:r4.0 "Zahnbonusheft (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated

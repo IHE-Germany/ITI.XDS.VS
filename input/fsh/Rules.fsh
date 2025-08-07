@@ -4,7 +4,7 @@ RuleSet: HeaderDetailRules
 
 * ^status = #draft
 * ^experimental = false
-* ^date = "2025-04-14"
+* ^date = "2025-08-02"
 * ^copyright = "IHE Deutschland e.V."
 
 //wird durch config überschrieben
@@ -31,7 +31,7 @@ RuleSet: HeaderNamingSystemRules
 
 * status = #draft
 * kind = #codesystem
-* date = "2025-04-14"
+* date = "2025-08-02"
 //* copyright = "IHE Deutschland e.V."
 * contact.name = "Value Set project team"
 * contact.telecom.system = #url
