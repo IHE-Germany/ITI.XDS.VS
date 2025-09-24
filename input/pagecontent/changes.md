@@ -2,9 +2,16 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.28
+Die aktuelle Version ist 0.3.29
 
-* Start-PAge: mehr Erklärungen und Klarstellungen
+* CS: NichtaerztlicheFachrichtungen
+* CS: NichtPatientenbezogeneGesundheitsversorgung
+* Property: CS erweitert
+* Patientenbeziehungsrollen: eingerückt
+
+### zu Version 0.3.28
+
+* Start-Page: mehr Erklärungen und Klarstellungen
 * Extension Standard-Status is not allowed
 
 ### zu Version 0.3.27

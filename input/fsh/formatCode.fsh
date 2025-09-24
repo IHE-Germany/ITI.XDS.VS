@@ -47,7 +47,7 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:v1.1 "Arbeitsunfähigkeitsbescheinigung (gematik) v1.1"
 * #urn:gematik:ig:Arztbrief:r3.1 "Arztbrief § 291f SGB V"
 * #urn:gematik:ig:DatensatzPersoenlicheErklaerungen:r3.1 "Datensatz für persönliche Erklärungen (gematik)"
-* #urn:gematik:ig:diga:v1.0 "obsolet"
+* #urn:gematik:ig:diga:v1.0 "DiGA (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:diga:v1.1 "DiGA (gematik)"
@@ -106,8 +106,7 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:r4.0 "Verordnungsdatensatz Medikation (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.0.2 "obsolet"
-    "Synonym: Verodnungsdatensatz Medikation (gematik)"
+* #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.0.2 "Synonym: Verodnungsdatensatz Medikation (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.1 "Verordnungsdatensatz Medikation (gematik) v1.1"

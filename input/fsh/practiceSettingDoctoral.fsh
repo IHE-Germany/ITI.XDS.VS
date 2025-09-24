@@ -5,7 +5,7 @@ Id: FachrichtungenAerztlich
 Title: "Fachrichtungen, ärztlich"
 Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
-* ^url = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* ^url = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -248,7 +248,7 @@ Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 * ^identifier[=].use = #secondary
 
-* include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
+* include codes from system http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen
 
 
 
@@ -286,7 +286,7 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

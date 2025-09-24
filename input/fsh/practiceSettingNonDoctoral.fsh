@@ -116,7 +116,7 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/FachrichtungenNichtaerztlich"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

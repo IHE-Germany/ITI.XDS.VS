@@ -1,4 +1,3 @@
-
 ValueSet: IHEXDSpracticeSettingCode
 Id: IHEXDSpracticeSettingCode
 Title: "IHE XDS Practice Setting Code"
@@ -22,7 +21,7 @@ Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 * ^identifier[=].use = #old
 
 
-* include codes from system http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
+* include codes from system http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen
 * include codes from system http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
  
 
