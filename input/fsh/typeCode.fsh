@@ -337,7 +337,7 @@ Description: "**Dokumententypen**"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Stillprotokoll"
 * #GRIS "Auswertung Gesundheitsrisiken"
-  "Auswertungen zu datengestützter Erkennung individueller Gesundheitsrisiken durch die Kranken- und Pflegekassen Auswertungen gemäß § 25b SGB V"
+  "Ergebnisse datengestützter Auswertungen zur Erkennung individueller Gesundheitsrisiken durch die Kranken- und Pflegekassen gemäß § 25b SGB V"
 * #IMMU "Ergebnisse Immunologie"
   "Untersuchungsergebnisse der serologischen oder zellulären Diagnostik für Autoimmun- und Immundefekterkrankungen einschließlich immunologischer Testergebnisse zu Seren, Punktaten, Abstrichen usw.; auch die zugehörigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: MKRO (\"Ergebnisse Mikrobiologie\") und VIRO (\"Ergebnisse Virologie\")."
   * ^property[+].code = #beispiel
@@ -467,7 +467,7 @@ Description: "**Dokumententypen**"
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "Patiententagebuch"
 * #PATI "Patienteninformationen"
-    "Reine Informationsblätter für den Patienten, welche über den Aufenthalt, Verlauf oder eine Krankheit informieren. Diese können auch patientenspezifische Informationen beinhalten. Zusätzlich Terminerinnerungen, Schulungsnachweise und ähnliche dem Patienten ausgehändigte oder an ihn versandte Unterlagen."
+    "Reine Informationsblätter für den Patienten, welche über den Aufenthalt, Verlauf oder eine Krankheit informieren. Diese können auch patientenspezifische Informationen beinhalten (z.B. Protokoll individueller Ernährungsberatung). Zusätzlich Terminerinnerungen, Schulungsnachweise, vom Patienten nicht unterschriebene Belehrung und ähnliche dem Patienten ausgehändigte oder an ihn versandte Unterlagen."
   * ^property[+].code = #beispiel
   * ^property[=].valueString = "vom Patienten nicht unterschriebene Belehrung"
   * ^property[+].code = #beispiel

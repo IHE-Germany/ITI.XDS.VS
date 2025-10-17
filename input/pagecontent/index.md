@@ -23,9 +23,9 @@ Um den Aufbau dieses Leitfadens besser zu verstehen, wird hier die Unterteilung 
   * **Versionierungs-Policy**: Wie werden Versionsnummern vergeben?
   * **Vokabular-Management**: Wie erfolgt das Management von kodierten Informationen?
   * **Projekt-Team**: Wer arbeitet an diesem Leitfaden
-* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die für dir Attribute vorgschlagen werden und in Aktenprojekten eingesetzt werden sollen. Diese setzen sich zT aus mehreren Codesystemen zusammen.
-* **Codesystems**: Codesysteme, die den eigentlichen Inhalt definieren, sofern diese nicht bereits von anderen Organisationen bereitgestellt werden.
-* Canonical **Value Sets**: Standard Value Sets zu den von IHE Deutschland definierten Codesystemen
+* **XDS Value Sets**: Die eigentlichen XDS Value Sets, die in Aktenprojekten eingesetzt werden sollen und sowohl eigens definierte Codesysteme, wie auch von anderen Organisationen bereitgestellte Codesysteme beinhalten.
+* **Eigene Codesysteme**:  Codesysteme, die den eigentlichen Inhalt definieren, sofern diese nicht bereits von anderen Organisationen bereitgestellt werden.
+* **Eigene Value Sets**: Standard "Canonical" Value Sets, die jeweils den gesamten Inhalt der von IHE Deutschland definierten Codesysteme abbilden.
 * **Naming Systems**: Liste mit referenzierbaren Namen der von IHE Deutschland definierten Codesystemen
 * **Artifacts**: Auflistung aller definierten Komponenten
   * Logical Models, die die XDS Artefakte noch einmal kurz beschreiben
@@ -87,6 +87,12 @@ So können die Value Sets bspw. als Package direkt in einen Terminologieserver g
 * IETF „Tags for Identifying Languages“ . Online, verfügbar unter [http://tools.ietf.org/html/bcp47](http://tools.ietf.org/html/bcp47)
 * CLDR „Language-Territory Information“ . Online, verfügbar unter [http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html](http://www.unicode.org/cldr/charts/latest/supplemental/language_territory_information.html)
 * [www.ihe-d.de](https://www.ihe-d.de)
+
+### offene Punkte
+
+* Copyright-Statement für CS/VS auf "cc-By-4.0" oder besser individuell setzen?
+* Tippfehler bei language code für nb-NO
+* deutsche Übersetzung für LOINC Code 57016-8 (#31)
 
 ### Historie
 

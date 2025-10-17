@@ -1,5 +1,3 @@
-> **Für die deutsche Version bitte [hier](index.html) klicken.**
-
 For the successful implementation of document management systems metadata is required that enables the identification, 
 selection and evaluation of documents stored in these systems. 
 In this guide value sets are developed that provide corresponding code systems. 

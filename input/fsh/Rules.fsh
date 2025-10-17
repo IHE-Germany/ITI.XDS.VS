@@ -4,8 +4,8 @@ RuleSet: HeaderDetailRules
 
 * ^status = #draft
 * ^experimental = false
-* ^date = "2025-08-02"
-* ^copyright = "IHE Deutschland e.V."
+* ^date = "2025-10-17"
+* ^copyright = "CC-BY-4.0"
 
 //wird durch config überschrieben
 //* ^publisher = "IHE Deutschland e.V."

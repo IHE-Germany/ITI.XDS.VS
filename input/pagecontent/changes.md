@@ -2,7 +2,16 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.29
+Die aktuelle Version ist 0.3.30
+
+* Logo UK Freiburg aktualisiert
+* type code: GRIS + PATI Definition verbessert
+* nicht-ärztliche Fachrichtungen: BBA
+* Copyright: CC-BY-4.0
+* offene-Punkte-Liste auf Hauptseite
+* Link auf index_en entfernt
+
+### zu Version 0.3.29
 
 * CS: NichtaerztlicheFachrichtungen
 * CS: NichtPatientenbezogeneGesundheitsversorgung
