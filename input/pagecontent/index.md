@@ -80,7 +80,18 @@ So können die Value Sets bspw. als Package direkt in einen Terminologieserver g
 
 ### Links
 
-* [Projekt bei IHE-D](https://www.ihe-d.de/projekte/xds-value-sets-fuer-deutschland/)
+#### Mapping-Projekte
+
+Aus Copyright und IP-Gründen sollten hilfreiche und aufbauende Mappings in separaten Projekten erstellt werden:
+
+* [KDL](https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite?version=2025)
+* [XDS-basierte Mappings](https://build.fhir.org/ig/IHE-Germany/ITI.XDS.VS.mappings/)
+
+#### Hilfreiche Links
+
+Nachfolgend ein paar weitere nützliche Information im Zusammenhang mit dieser Spezifikation:
+
+* [Projekt bei IHE-D](https://www.ihe-d.de/projekte/aktive-und-abgeschlossene-projekte/16-aktive-projekte/58-xds-value-sets-fuer-deutschland)
 * HL7 Deutschland: deutsche Nachrichtenprofile: XDS-MDM-CDA-Mapping. Online, verfügbar unter [http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping](http://wiki.hl7.de/index.php?title=XDS-MDM-CDA-Mapping)
 * RFC 1766 „Tags for the Identification of Languages“. Online, verfügbar unter [https://www.ietf.org/rfc/rfc1766.txt](https://www.ietf.org/rfc/rfc1766.txt)
 * DIN EN ISO 3166-1 „Codes für die Namen von Ländern und deren Untereinheiten - Teil 1: Codes für Ländernamen“ . Online, verfügbar unter [http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312](http://www.beuth.de/de/norm/din-en-iso-3166-1/215472359?SearchID=959804312)
@@ -98,6 +109,6 @@ So können die Value Sets bspw. als Package direkt in einen Terminologieserver g
 
 | Version | Datum | Status | Download |
 | --- | --- | --- | --- |
-| 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
-| 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/](https://www.ihe-d.de/download/ihe-valuesets-v2-0/)
-| 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
+| 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf](https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf)
+| 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf](https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf)
+| 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf](https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf)

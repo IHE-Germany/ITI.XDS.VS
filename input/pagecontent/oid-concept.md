@@ -37,5 +37,5 @@ Zur Übersicht sind diese nachfolgend noch einmal aufgeführt:
 | 1.3.6.1.4.1.19376.3.276.1.5.17 |retired / bitte nicht verwendet|
 | 2.16.840.1.113883.2.6 | HL7 Deutschland |
 
-Das vollständige OID-Konzept befindet sich [https://wiki.hl7.de/index.php?title=OID-Konzept_IHE-D)[hier].
+Das vollständige OID-Konzept befindet sich [hier](https://wiki.hl7.de/index.php?title=OID-Konzept_IHE-D).
 

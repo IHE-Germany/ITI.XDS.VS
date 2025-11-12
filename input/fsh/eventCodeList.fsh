@@ -181,11 +181,11 @@ Description: "**IHE XDS event Code List**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.34"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 //funktioniert alleine
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"

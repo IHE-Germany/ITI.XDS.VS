@@ -16,11 +16,11 @@ Description: "**IHE XDS Healthcare Facility Type Code**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.36"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #old
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode"
-* ^identifier.use = #old
+* ^identifier.use = #secondary
 
 * include codes from system http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung
 * include codes from system http://ihe-d.de/CodeSystems/NichtPatientenbezogeneGesundheitsversorgung

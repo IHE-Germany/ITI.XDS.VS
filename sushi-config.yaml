@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.30
-date: 2025-10-17
+version: 0.3.31
+date: 2025-11-12
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -181,12 +181,12 @@ menu:
     XDS Language Code: ValueSet-IHEXDSlanguageCode.html
     XDS Practice Setting Code: ValueSet-IHEXDSpracticeSettingCode.html
   Eigene Codesysteme:
-    Berufsvarianten, ärztlich: CodeSystem-BerufeAerztlich.html
+    Berufe, ärztlich: CodeSystem-BerufeAerztlich.html
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
     Dokumententypen: CodeSystem-Dokumententypen.html
-    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
-    Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
+    Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: CodeSystem-FachrichtungenAerztlich.html
     Fachrichtungen, nicht-ärztlich: CodeSystem-FachrichtungenNichtaerztlich.html
@@ -201,7 +201,7 @@ menu:
     Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Eigene Value Sets:
-    Berufsvarianten, ärztlich: ValueSet-BerufeAerztlich.html
+    Berufe, ärztlich: ValueSet-BerufeAerztlich.html
     Dokumenten-Warnhinweise: ValueSet-DokumentenWarnhinweise.html
     Dokumentenklassen: ValueSet-Dokumentenklassen.html
     Dokumententypen: ValueSet-Dokumententypen.html
@@ -241,9 +241,9 @@ menu:
     Vertraulichkeiten: NamingSystem-Vertraulichkeiten.html
   Artifacts: artifacts.html
   Sonstiges:
+    verwendete OIDs: oid-concept.html
     Changes: changes.html
     Download: download.html
-    verwendete OIDs: oid-concept.html
     Disclaimer: disclaimers.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

@@ -2,7 +2,16 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.30
+Die aktuelle Version ist 0.3.31
+
+* diverse QA-Korrekturen:
+  * Links
+  * Typos
+  * OIDs: als "old" deklariert
+  * Menüzuordnung korrigiert
+  * ToC
+
+### zu Version 0.3.30
 
 * Logo UK Freiburg aktualisiert
 * type code: GRIS + PATI Definition verbessert

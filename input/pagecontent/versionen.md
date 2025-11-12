@@ -3,10 +3,10 @@
 | Version | Datum | Status | Download |
 | --- | --- | --- | --- |
 | 0.1 | 23.05.2016 | Draft | [https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf](https://download.hl7.de/documents/ihexdsvs/Value_Sets4XDS-v01.pdf)
-| 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten](https://www.ihe-d.de/download/value-sets-fuer-xds-metadaten)
+| 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf](https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf)
 | 1.1 | 22.05.2018 | Draft | [https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf](https://wiki.hl7.de/images/Value_Sets4XDS-v11.pdf)
-| 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/download/ihe-valuesets-v2-0/](https://www.ihe-d.de/download/ihe-valuesets-v2-0/)
-| 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
+| 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf](https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf)
+| 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf](https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf)
 | 3.1 | | Draft |
 | 4.0.0-alpha0 | Mai 2024 | in Arbeit |
 | 4.0.0-alpha0 | August+September 2024 | Ballot |

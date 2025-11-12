@@ -135,92 +135,97 @@ Kodesystem </th><th>Canonical URL </th><th>sekundärer Identifier </th><th>aus V
 </tr>
 <tr>
 <td>
-Prozessrollen für Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/ProzessrollenFuerAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13 </td><td><a href="ValueSet-IHEXDSauthorRole.html">IHEXDSauthorRole</a>
+Prozessrollen für Autoren </td><td>http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.13 </td><td><a href="ValueSet-IHEXDSauthorRole.html">IHEXDSauthorRole</a>
 </td>
 </tr>
 <tr>
 <td>
-Patientenbeziehungsrollen für Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/PatientenbeziehungsrollenFuerAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14 </td><td><a href="ValueSet-IHEXDSauthorRole.html">IHEXDSauthorRole</a>
+Patientenbeziehungsrollen für Autoren </td><td>http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.14 </td><td><a href="ValueSet-IHEXDSauthorRole.html">IHEXDSauthorRole</a>
 </td>
 </tr>
 <tr>
 <td>
-Qualifikationen nicht ärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Qualifikationen nicht ärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Facharzttitel der Ärztekammern </td><td>http://www.ihe-d.de/fhir/CodeSystem/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Facharzttitel der Ärztekammern </td><td>http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Qualifikatoren zahnärztlicher Autoren </td><td>http://www.ihe-d.de/fhir/CodeSystem/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Qualifikatoren zahnärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Ärztliche Berufsvarianten </td><td>http://www.ihe-d.de/fhir/CodeSystem/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Ärztliche Berufsvarianten </td><td>http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Dokumentenklassen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8 </td><td><a href="ValueSet-IHEXDSclassCode.html">IHEXDSclassCode</a>
+Psychotherapeutische Qualifikationen </td><td>http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen </td><td> </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
 </td>
 </tr>
 <tr>
 <td>
-Betroffeneneinschätzung der Vertraulichkeitsstufe </td><td>http://www.ihe-d.de/fhir/CodeSystem/BetroffeneneinschaetzungVertraulichkeitsstufe </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10 </td><td><a href="ValueSet-IHEXDSconfidentialityCode.html">IHEXDSconfidentialityCode</a>
+Dokumentenklassen </td><td>http://ihe-d.de/CodeSystems/IHEXDSclassCode</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8 </td><td><a href="ValueSet-IHEXDSclassCode.html">IHEXDSclassCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Dokumenten-Warnhinweise </td><td>http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15 </td><td><a href="ValueSet-IHEXDSeventCodeList.html">IHEXDSeventCodeList</a>
+Betroffeneneinschätzung der Vertraulichkeitsstufe </td><td>http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10 </td><td><a href="ValueSet-IHEXDSconfidentialityCode.html">IHEXDSconfidentialityCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Fallkontext bei Dokumentenerstellung </td><td>http://www.ihe-d.de/fhir/CodeSystem/FallkontextBeiDokumentenerstellung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16 </td><td><a href="ValueSet-IHEXDSeventCodeList.html">IHEXDSeventCodeList</a>
+Dokumenten-Warnhinweise </td><td>http://ihe-d.de/CodeSystems/DokumentenWarnhinweise </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15 </td><td><a href="ValueSet-IHEXDSeventCodeList.html">IHEXDSeventCodeList</a>
 </td>
 </tr>
 <tr>
 <td>
-Deutsche Dokumentenformate </td><td>http://www.ihe-d.de/fhir/CodeSystem/DeutscheDokumentenformate </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6 </td><td><a href="ValueSet-IHEXDSformatCodeDE.html">IHEXDSformatCode</a>
+Fallkontext bei Dokumentenerstellung </td><td>http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16 </td><td><a href="ValueSet-IHEXDSeventCodeList.html">IHEXDSeventCodeList</a>
 </td>
 </tr>
 <tr>
 <td>
-Einrichtungsarten der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
+Deutsche Dokumentenformate </td><td>http://ihe-d.de/CodeSystems/DeutscheDokumentenformate </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6 </td><td><a href="ValueSet-IHEXDSformatCodeDE.html">IHEXDSformatCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Einrichtungsarten ausserhalb der patientenbezogenen Gesundheitsversorgung </td><td>http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenNichtPatientenbezogen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
+Einrichtungsarten der patientenbezogenen Gesundheitsversorgung </td><td>http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenAerztliche </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
+Einrichtungsarten ausserhalb der patientenbezogenen Gesundheitsversorgung </td><td>http://ihe-d.de/CodeSystems/NichtPatientenbezogeneGesundheitsversorgung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3 </td><td><a href="ValueSet-IHEXDShealthcareFacilityTypeCode.html">IHEXDShealthcareFacilityTypeCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Nicht-ärztliche Fachrichtungen </td><td>http://www.ihe-d.de/fhir/CodeSystem/FachrichtungenNichtaerztlich </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
+Ärztliche Fachrichtungen </td><td>http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Dokumententypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Dokumententypen</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9 </td><td><a href="ValueSet-IHEXDStypeCode.html">IHEXDStypeCode</a>
+Nicht-ärztliche Fachrichtungen </td><td>http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5 </td><td><a href="ValueSet-IHEXDSpracticeSettingCode.html">IHEXDSpracticeSettingCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Grund der Übermittlung </td><td>http://www.ihe-d.de/fhir/CodeSystem/GrundDerUebermittlung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12 </td><td><a href="ValueSet-IHEXDScontentTypeCode.html">IHEXDScontentTypeCode</a>
+Dokumententypen </td><td>http://ihe-d.de/CodeSystems/IHEXDStypeCode</td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9 </td><td><a href="ValueSet-IHEXDStypeCode.html">IHEXDStypeCode</a>
 </td>
 </tr>
 <tr>
 <td>
-Ordnertypen </td><td>http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7 </td><td><a href="ValueSet-IHEXDScodeList.html">IHEXDScodeList</a>
+Grund der Übermittlung </td><td>http://ihe-d.de/CodeSystems/GrundDerUebermittlung </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.12 </td><td><a href="ValueSet-IHEXDScontentTypeCode.html">IHEXDScontentTypeCode</a>
+</td>
+</tr>
+<tr>
+<td>
+Ordnertypen </td><td>http://ihe-d.de/CodeSystems/Ordnertypen </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.7 </td><td><a href="ValueSet-IHEXDScodeList.html">IHEXDScodeList</a>
 </td>
 </tr>
 </table>
