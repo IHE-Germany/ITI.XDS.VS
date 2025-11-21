@@ -61,6 +61,7 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:DMP-KHK:v4 "eDMP Koronare Herzkrankheit (gematik)"
 * #urn:gematik:ig:DMP-OST:v1 "eDMP Osteoporose (gematik)"
 * #urn:gematik:ig:DMP-Rheuma:v1 "eDMP Rheumatoide Arthritis (gematik)"
+* #urn:gematik:ig:DMP-BRK:v4 "eDMP Brustkrebs (gematik)"
 * #urn:gematik:ig:Impfausweis:r4.0 "Impfausweis (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
