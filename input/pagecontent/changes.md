@@ -2,7 +2,11 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.31
+Die aktuelle Version ist 0.3.32
+
+* formatCode: Brustkrebs hinzugefügt
+
+### zu Version 0.3.31
 
 * diverse QA-Korrekturen:
   * Links
