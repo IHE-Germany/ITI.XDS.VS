@@ -10,6 +10,7 @@ Description: "**Dokumenten-Warnhinweise**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
 * ^hierarchyMeaning = #is-a
@@ -75,6 +76,7 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
 * ^hierarchyMeaning = #is-a
@@ -157,6 +159,8 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
+
 * include codes from system http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung
 
 
@@ -174,6 +178,8 @@ Description: "**IHE XDS event Code List**"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
+
+* ^language = #de-DE
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSeventCodeList"

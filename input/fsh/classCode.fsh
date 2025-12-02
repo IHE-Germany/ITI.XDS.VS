@@ -12,6 +12,7 @@ Description: "**Dokumentenklassen**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
 * ^hierarchyMeaning = #is-a

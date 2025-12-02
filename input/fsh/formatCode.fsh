@@ -10,6 +10,7 @@ Description: "Dokumenten **Formate**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Formate"
 * ^hierarchyMeaning = #is-a

@@ -10,6 +10,7 @@ Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/PatientenbeziehungsrollenFuerAutoren"
 * ^hierarchyMeaning = #is-a
@@ -108,6 +109,7 @@ Description: "**Prozessrollen** für Autoren"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/ProzessrollenFuerAutoren"
 * ^hierarchyMeaning = #is-a

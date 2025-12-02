@@ -10,6 +10,7 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
 * ^hierarchyMeaning = #is-a

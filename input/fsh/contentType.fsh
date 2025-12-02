@@ -10,6 +10,7 @@ Description: "**Grund der Übermittlung**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = false
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/GrundDerUebermittlung"
 * ^hierarchyMeaning = #is-a

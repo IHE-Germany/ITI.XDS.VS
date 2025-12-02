@@ -10,6 +10,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FacharzttitelAerztekammer"
 * ^hierarchyMeaning = #is-a
@@ -258,6 +259,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenNichtaerztlicherAutoren"
 * ^hierarchyMeaning = #is-a
@@ -893,6 +895,7 @@ Description: "**Qualifikatoren zahnärztlicher Autoren**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
 * ^hierarchyMeaning = #is-a
@@ -969,6 +972,7 @@ Description: "**Ärztliche Berufsvarianten**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
 * ^hierarchyMeaning = #is-a
@@ -1038,6 +1042,7 @@ Description: "**Psychotherapeutische Qualifikationen**"
 * ^date = "2025-05-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen"
 * ^hierarchyMeaning = #is-a
@@ -1087,18 +1092,18 @@ Description: "**Psychotherapeutische Qualifikationen**"
 
 //ValueSet
 
-ValueSet: IHEXDSauthorSpecialty
-Id: IHEXDSauthorSpecialty
-Title: "IHE XDS Author Specialty"
-Description: "**IHE XDS Author Specialty**"
+ValueSet: IHEXDSauthorSpeciality
+Id: IHEXDSauthorSpeciality
+Title: "IHE XDS Author Special(i)ty"
+Description: "**IHE XDS Author Special(i)ty** (Tippfehler: Speciality anstelle von Specialty)"
 
-* ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty"
+* ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality"
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"

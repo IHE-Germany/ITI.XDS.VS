@@ -2,7 +2,12 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.32
+Die aktuelle Version ist 0.3.33
+
+* language auf de-DE gesetzt
+* languageCode: OID entfernt, da falsch vergeben
+
+### zu Version 0.3.32
 
 * formatCode: Brustkrebs hinzugefügt
 

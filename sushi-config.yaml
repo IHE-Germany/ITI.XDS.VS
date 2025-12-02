@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.32
-date: 2025-11-21
+version: 0.3.33
+date: 2025-12-02
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -169,7 +169,7 @@ menu:
     Projekt-Team: team.html
   XDS Value Sets:
     XDS Author Role: ValueSet-IHEXDSauthorRole.html
-    XDS Author Specialty: ValueSet-IHEXDSauthorSpecialty.html
+    XDS Author Speciality: ValueSet-IHEXDSauthorSpeciality.html
     XDS Confidentiality Code: ValueSet-IHEXDSconfidentialityCode.html
     XDS Content Type Code: ValueSet-IHEXDScontentTypeCode.html
     XDS (Document) Class Code: ValueSet-IHEXDSclassCode.html

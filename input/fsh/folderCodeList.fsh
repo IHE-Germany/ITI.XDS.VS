@@ -10,6 +10,7 @@ Description: "**Ordnertypen**"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/Ordnertypen"
 * ^hierarchyMeaning = #is-a

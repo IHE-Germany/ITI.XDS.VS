@@ -10,6 +10,7 @@ Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 * ^hierarchyMeaning = #is-a

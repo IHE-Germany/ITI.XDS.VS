@@ -10,6 +10,7 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
 * ^hierarchyMeaning = #is-a

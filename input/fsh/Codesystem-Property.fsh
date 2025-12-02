@@ -12,6 +12,7 @@ Dieses Codesystem stellt alle Properties bereit, die in von IHE Deutschland publ
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^compositional = false
 * ^versionNeeded = false

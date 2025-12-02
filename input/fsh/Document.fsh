@@ -268,6 +268,7 @@ Description: "**Verfügbarkeitsstatus** von Dokumenten (ersetzen durch IHE UV)"
 
 * insert HeaderDetailRules
 
+* ^language = #de-DE
 * ^caseSensitive = true
 * ^valueSet = "http://www.ihe-d.de/fhir/ValueSet/AvailabilityStatusCode"
 * ^hierarchyMeaning = #is-a
