@@ -10,7 +10,7 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 
 * insert HeaderDetailRules
 
-* ^language = #en-EN
+* ^language = #en
 
 
 //already in use with AuthorRole

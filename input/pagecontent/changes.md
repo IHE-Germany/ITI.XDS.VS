@@ -2,7 +2,13 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.33
+Die aktuelle Version ist 0.3.34
+
+* eAU 1.2 zu formatCode hinzugefügt
+* Fixes für IHEXDSAuthorSpecial(i)ty
+* status = #active
+
+### zu Version 0.3.33
 
 * language auf de-DE gesetzt
 * languageCode: OID entfernt, da falsch vergeben

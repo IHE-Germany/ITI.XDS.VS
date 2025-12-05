@@ -19,7 +19,7 @@ More details are to be retrieved from IHE ITI on www.ihe.net.
 * role 1..1 CodeDataType "role of the author of this document" "**Role of Author**; e.g. 2^^^&amp;1.3.6.1.4.1.19376.3.276.1.5.13&amp;ISO"
 * role from http://ihe-d.de/ValueSets/IHEXDSauthorRole (required)
 * specialty 0..* CodeDataType "specialty of the author for this document" "**Specialty of Author**; e.g. 101001^^^&amp;1.3.6.1.4.1.19376.3.276.1.5.514&amp;ISO"
-* specialty from http://ihe-d.de/ValueSets/IHEXDSauthorSpecialty (required)
+* specialty from http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality (required)
 * telecommunication 0..1 string "contact information"
 
 

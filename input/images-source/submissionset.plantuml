@@ -7,7 +7,7 @@ class "SubmissionSet" as s {
 
 class "Author" as a {
     [[ValueSet-IHEXDSauthorRole.html authorRole]]: code
-    [[ValueSet-IHEXDSauthorSpecialty.html authorSpecialty]]: code
+    [[ValueSet-IHEXDSauthorSpeciality.html authorSpecialty]]: code
 }
 
 class "[[document.html Document Entry]]" as de {

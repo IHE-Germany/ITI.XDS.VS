@@ -75,7 +75,7 @@ beziehen sich dann trotzdem auf die unbenannte authorPerson. authorRole und auth
 
 ### DocumentEntry.authorSpecialty
 
-[IHE XDS Author Specialty](ValueSet-IHEXDSauthorSpecialty.html)
+[IHE XDS Author Special(i)ty](ValueSet-IHEXDSauthorSpeciality.html)
 
 ### Author.authorRole
 
@@ -83,7 +83,7 @@ beziehen sich dann trotzdem auf die unbenannte authorPerson. authorRole und auth
 
 ### Author.authorSpecialty
 
-[IHE XDS Author Specialty](ValueSet-IHEXDSauthorSpecialty.html)
+[IHE XDS Author Special(i)ty](ValueSet-IHEXDSauthorSpeciality.html)
 
 ### Folder.availabilityStatus
 

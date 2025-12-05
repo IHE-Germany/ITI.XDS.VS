@@ -145,27 +145,27 @@ Patientenbeziehungsrollen für Autoren </td><td>http://ihe-d.de/CodeSystems/Pati
 </tr>
 <tr>
 <td>
-Qualifikationen nicht ärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Qualifikationen nicht ärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren </td><td>urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecial(i)ty</a>
 </td>
 </tr>
 <tr>
 <td>
-Facharzttitel der Ärztekammern </td><td>http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Facharzttitel der Ärztekammern </td><td>http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern </td><td>urn:oid:1.2.276.0.76.5.514 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecial(i)ty</a>
 </td>
 </tr>
 <tr>
 <td>
-Qualifikatoren zahnärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Qualifikatoren zahnärztlicher Autoren </td><td>http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren </td><td>urn:oid:1.2.276.0.76.5.492 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecial(i)ty</a>
 </td>
 </tr>
 <tr>
 <td>
-Ärztliche Berufsvarianten </td><td>http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Ärztliche Berufsvarianten </td><td>http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten </td><td>urn:oid:1.2.276.0.76.5.493 </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecial(i)ty</a>
 </td>
 </tr>
 <tr>
 <td>
-Psychotherapeutische Qualifikationen </td><td>http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen </td><td> </td><td><a href="ValueSet-IHEXDSauthorSpecialty.html">IHEXDSauthorSpecialty</a>
+Psychotherapeutische Qualifikationen </td><td>http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen </td><td> </td><td><a href="ValueSet-IHEXDSauthorSpeciality.html">IHEXDSauthorSpecial(i)ty</a>
 </td>
 </tr>
 <tr>

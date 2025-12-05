@@ -1037,7 +1037,7 @@ Description: "**Psychotherapeutische Qualifikationen**"
 * ^url = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
 * ^version = "4.0.0-alpha1"
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-05-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
@@ -1079,7 +1079,7 @@ Description: "**Psychotherapeutische Qualifikationen**"
 * ^url = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen"
 * ^version = "4.0.0-alpha1"
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-05-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
@@ -1111,7 +1111,7 @@ Description: "**IHE XDS Author Special(i)ty** (Tippfehler: Speciality anstelle v
 * ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality"
 * ^identifier[=].use = #official
 
 * include codes from system http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern

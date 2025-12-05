@@ -2,7 +2,7 @@
 
 RuleSet: HeaderDetailRules
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-10-17"
 * ^copyright = "CC-BY-4.0"
