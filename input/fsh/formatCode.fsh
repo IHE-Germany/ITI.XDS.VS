@@ -46,6 +46,7 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:v1.1 "Arbeitsunfähigkeitsbescheinigung (gematik) v1.1"
+* #urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:v1.2 "Arbeitsunfähigkeitsbescheinigung (gematik) v1.2"
 * #urn:gematik:ig:Arztbrief:r3.1 "Arztbrief § 291f SGB V"
 * #urn:gematik:ig:DatensatzPersoenlicheErklaerungen:r3.1 "Datensatz für persönliche Erklärungen (gematik)"
 * #urn:gematik:ig:diga:v1.0 "DiGA (gematik)"
