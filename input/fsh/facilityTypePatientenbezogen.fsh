@@ -35,10 +35,10 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
   "Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen häuslichen Umgebung betreuen, aber keine ärztlichen Tätigkeiten durchführen."
 * #APO "Apotheke"
   "Eine Einrichtung zur Abgabe und ggf. Lagerung oder Herstellung von Arzneimitteln. Dieser Wert sollte nicht zur Kennzeichnung von Daten aus Krankenhausapotheken verwendet werden."
-* #BER "Ärztlicher Bereitschaftsdienst"
-  "Der ärztliche Bereitschaftsdienst wird auch als Kassenärztlicher Notdienst bezeichnet. Er wird häufig durch Niedergelassene Ärzte durchgeführt und von der Kassenärztlichen Vereinigungen organisiert, da diese die Verantwortung für die Sicherstellung der medizinischen Versorgung auch außerhalb der üblichen Öffnungszeiten hat. Der Dienst ist vom Rettungsdienst zu unterscheiden, der auf speziell ausgebildete Notärzte zurückgreift."
 * #BAA "Betriebsärztliche Abteilung"
   "Betriebsärztliche Abteilung in einer nicht-medizinischen Organisation (z.B. große Firmen die selbst Ärzte anstellen) die eine medizinische Betreuung für Mitarbeiter anbietet. Betriebsärztliche Tätigkeiten einer Ärztin mit eigener Praxis oder eines Diensts eines Krankenhauses fallen nicht unter dieses Konzept, sondern werden mit dem Konzept PRA (\"Arztpraxis\"), bzw. KHS (\"Krankenhaus\") abgebildet."
+* #BER "Ärztlicher Bereitschaftsdienst"
+  "Der ärztliche Bereitschaftsdienst wird auch als Kassenärztlicher Notdienst bezeichnet. Er wird häufig durch Niedergelassene Ärzte durchgeführt und von der Kassenärztlichen Vereinigungen organisiert, da diese die Verantwortung für die Sicherstellung der medizinischen Versorgung auch außerhalb der üblichen Öffnungszeiten hat. Der Dienst ist vom Rettungsdienst zu unterscheiden, der auf speziell ausgebildete Notärzte zurückgreift."
 * #BHR "Gesundheitsbehörde"
   "Staatliche oder kommunale Gesundheitsbehörde."
 * #HAN "Medizinisch-technisches Handwerk"
@@ -58,12 +58,12 @@ Für angeschlossene, aber selbständige Einrichtungen, wie z.B. ein zum Krankenh
 Psychotherapeutische, psychiatrische und psychosomatische Abteilungen von Krankenhäusern und eigenständige Fachkliniken aus diesem Bereich werden auch mit diesem Wert abgedeckt, unabhängig davon ob die Dienste stationär, als Tagesklinik oder ambulant angeboten werden."
 * #MVZ "Medizinisches Versorgungszentrum"
   "Einrichtung zur ambulanten medizinischen Versorgung nach §95 SGB V; dieses Konzept sollte für ein MVZ unabhängig von der Besitzerstruktur gewählt werden, d.h. auch MVZ die einem Krankenhaus gehören, sollten als MVZ gekennzeichnet werden."
+* #PFL "Pflegeheim"
+  "Eine Einrichtung zur Unterbringung und Versorgung pflegebedürftiger Menschen. Umfasst Altenpflegeheime und Pflegeheime für Menschen mit Behinderung. Die Einrichtungen versorgen Menschen üblicherweise langfristig, aber auch Kurzzeitpflege der genannten Personengruppen ist durch dieses Konzept abgedeckt."
 * #PRA "Arztpraxis"
   "Arbeitsplatz einer oder mehrerer niedergelassenen Ärztinnen oder Zahnärztinnen. Umfasst sowohl den klassischen \"Einzelsitz\", wie auch die Gemeinschaftspraxis oder die Praxisgemeinschaft. Auch mobile Arztpraxen, die ambulante Zentrumsdialyse (https://www.gbe-bund.de/glossar/Dialyseversorgungsarten.html) und Zahnarztpraxen werden durch diesen Wert abgedeckt. Ebenso werden niedergelassene Laborarztpraxen und von ärztlichen Psychotherapeuten geführte Arztpraxen über diesen Wert abgedeckt. Arztpraxen die Teil eines MVZ sind werden über das Konzept MVZ (\"Medizinisches Versorgungszentrum\") abgebildet."
 * #REH "Medizinische Rehabilitation"
   "Eine ambulante, teilstationäre oder stationäre Einrichtung der medizinischen Rehabilitation unter ärztlicher Leitung. Darunter fallen sowohl Kur-Einrichtungen und Reha-Kliniken als auch dezentrale Organisationsformen aus dem ambulanten Sektor."
-* #PFL "Pflegeheim"
-  "Eine Einrichtung zur Unterbringung und Versorgung pflegebedürftiger Menschen. Umfasst Altenpflegeheime und Pflegeheime für Menschen mit Behinderung. Die Einrichtungen versorgen Menschen üblicherweise langfristig, aber auch Kurzzeitpflege der genannten Personengruppen ist durch dieses Konzept abgedeckt."
 * #RTN "Rettungsdienst"
   "Einrichtungen des zivilen Rettungsdienst, wie z.B. Rettungswachen, Wasserrettung, etc."
 * #SEL "Selbsthilfe"
@@ -85,9 +85,17 @@ Description: "**Einrichtungsarten, patientenbezogen**"
 
 * insert HeaderDetailRules
 
-//* ^identifier[+].system = "urn:ietf:rfc:3986"
-//* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.58"
-//* ^identifier[=].use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.58"
+* ^identifier[=].use = #old
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare"
+* ^identifier[=].use = #secondary
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
+* ^identifier[=].use = #official
 
 
 * include codes from system http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung

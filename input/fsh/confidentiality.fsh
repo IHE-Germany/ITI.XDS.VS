@@ -77,11 +77,11 @@ Description: "**IHE XDS Confidentiality Code**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.33"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSconfidentialityCode"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
 

@@ -33,7 +33,11 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 
 
+* #000001 "Ärztin/Arzt"
+* #000011 "Praktische Ärztin/Praktischer Arzt (EWG-Recht ab 86/457/EWG)"
 * #011001 "FA Allgemeinmedizin"
+* #011002 "FA Praktischer Arzt"
+* #011101 "FA Innere und Allgemeinmedizin (Hausarzt)"
 * #012901 "SP Geriatrie" "FA Allgemeinmedizin mit SP Geriatrie"
 * #021001 "FA Anästhesiologie"
 * #021002 "FA Anästhesiologie und Intensivtherapie"
@@ -137,19 +141,19 @@ Description: "**Facharzttitel** der Ärztekammern"
 * #143009 "TG Rheumatologie" "FA Innere Medizin mit TG Rheumatologie"
 * #151002 "FA Kinder- und Jugendmedizin"
 * #151001 "FA Kinderheilkunde"
-* #152901 "SP Endokrinologie und Diabetologie in der Kinder- und Jugendmedizin"
-* #152902 "SP Gastroenterologie in der Kinder- und Jugendmedizin"
 * #152001 "SP Infektiologie" "FA Kinder- und Jugendmedizin mit SP Infektiologie"
+* #152002 "SP Kinder-Kardiologie" "FA Kinder- und Jugendmedizin mit SP Kinder-Kardiologie"
+* #152003 "SP Neonatologie" "FA Kinder- und Jugendmedizin mit SP Neonatologie"
+* #152101 "SP Kinder-Hämatologie und -Onkologie" "FA Kinder- und Jugendmedizin mit SP Kinder-Hämatologie und -Onkologie"
+* #152102 "SP Neuropädiatrie" "FA Kinder- und Jugendmedizin mit SP Neuropädiatrie"
 * #152201 "SP Kinder- und Jugend-Hämatologie und -Onkologie" "FA Kinder- und Jugendmedizin mit SP Kinder- und Jugend-Hämatologie und -Onkologie"
 * #152202 "SP Kinder- und Jugend-Kardiologie" "FA Kinder- und Jugendmedizin mit SP Kinder- und Jugend-Kardiologie"
-* #152101 "SP Kinder-Hämatologie und -Onkologie" "FA Kinder- und Jugendmedizin mit SP Kinder-Hämatologie und -Onkologie"
-* #152002 "SP Kinder-Kardiologie" "FA Kinder- und Jugendmedizin mit SP Kinder-Kardiologie"
-* #152906 "SP Kinderpneumologie" "FA Kinder- und Jugendmedizin mit SP Kinderpneumologie"
-* #152003 "SP Neonatologie" "FA Kinder- und Jugendmedizin mit SP Neonatologie"
+* #152901 "SP Endokrinologie und Diabetologie in der Kinder- und Jugendmedizin"
+* #152902 "SP Gastroenterologie in der Kinder- und Jugendmedizin"
 * #152903 "SP Nephrologie" "FA Kinder- und Jugendmedizin mit SP Nephrologie"
-* #152102 "SP Neuropädiatrie" "FA Kinder- und Jugendmedizin mit SP Neuropädiatrie"
 * #152904 "SP Pädiatrische Rheumatologie" "FA Kinder- und Jugendmedizin mit SP Pädiatrische Rheumatologie"
 * #152905 "SP Pulmologie in der Kinder- und Jugendmedizin" "FA Kinder- und Jugendmedizin mit SP Pulmologie in der Kinder- und Jugendmedizin"
+* #152906 "SP Kinderpneumologie" "FA Kinder- und Jugendmedizin mit SP Kinderpneumologie"
 * #153001 "TG Kinderdiabetologie" "FA Kinder- und Jugendmedizin mit TG Kinderdiabetologie"
 * #153002 "TG Kindergastroenterologie" "FA Kinder- und Jugendmedizin mit TG Kindergastroenterologie"
 * #153003 "TG Kinderhämatologie" "FA Kinder- und Jugendmedizin mit TG Kinderhämatologie"
@@ -208,13 +212,11 @@ Description: "**Facharzttitel** der Ärztekammern"
 * #313002 "TG Neuroradiologie" "FA Radiologie mit TG Neuroradiologie"
 * #313003 "TG Strahlentherapie" "FA Radiologie mit TG Strahlentherapie"
 * #321001 "FA Rechtsmedizin"
+* #331001 "FA Sozialhygiene"
 * #351001 "FA Strahlentherapie"
 * #361001 "FA Blutspende- und Transfusionswesen"
 * #361002 "FA Transfusionsmedizin"
 * #371001 "FA Urologie"
-* #011002 "FA Praktischer Arzt"
-* #011101 "FA Innere und Allgemeinmedizin (Hausarzt)"
-* #331001 "FA Sozialhygiene"
 * #341001 "FA Sportmedizin"
 * #590001 "Biomathematik"
 * #590002 "Biophysik"
@@ -227,8 +229,6 @@ Description: "**Facharzttitel** der Ärztekammern"
 * #590009 "Medizinische Physik und Biophysik"
 * #590010 "Medizinische Wissenschaftsinformation"
 * #590011 "Pathologische Biochemie"
-* #000001 "Ärztin/Arzt"
-* #000011 "Praktische Ärztin/Praktischer Arzt (EWG-Recht ab 86/457/EWG)"
 
 
 
@@ -1104,15 +1104,15 @@ Description: "**IHE XDS Author Special(i)ty** (Tippfehler: Speciality anstelle v
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.31"
 * ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpeciality"
-* ^identifier[=].use = #official
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"
+* ^identifier[=].use = #secondary
 
 * include codes from system http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
 * include codes from system http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren

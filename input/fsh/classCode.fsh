@@ -138,11 +138,11 @@ Description: "**IHE XDS Class Code**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.32"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 //funktioniert, ist dann aber der einzige Code
 * $LOINC#57016-8

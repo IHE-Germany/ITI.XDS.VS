@@ -2,7 +2,18 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.34
+Die aktuelle Version ist 0.3.35
+
+* IHEXDSAuthorRole: OID <-> secondary
+* IHEXDSAuthorSpecialty: official <-> secondary
+* IHEXDSConfidentiality: secondary <-> old
+* IHEXDScontentType: OID
+* IHEXDSclassCode: secondary <-> old
+* IHEXDSfoldercodeList: secondary <-> old
+* IHEXDSformatCode: secondary <-> old
+* IHEXDSpracticeSettingCode: secondary <-> old
+
+### zu Version 0.3.34
 
 * eAU 1.2 zu formatCode hinzugefügt
 * Fixes für IHEXDSAuthorSpecial(i)ty

@@ -124,9 +124,6 @@ Daher werden die in FHIR zu verwendenen Canonical URLs in der folgenden Tabelle 
 Die OID-URNs, die in den in diesem Leitfaden inkludierten ART-DECOR Auszügen verwendet werden, sind als zusätzliche, sekundäre Identifikatoren zu verstehen.
 
 
-Die Canonicals in der Tabelle müssen noch überprüft werden!
-{:.stu-note}
-
 <table>
 <tr>
 <th>

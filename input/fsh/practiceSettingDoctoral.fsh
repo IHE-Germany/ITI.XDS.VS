@@ -243,11 +243,11 @@ Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.69"
-* ^identifier[=].use = #official
+* ^identifier[=].use = #old
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
-* ^identifier[=].use = #secondary
+* ^identifier[=].use = #official
 
 * include codes from system http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen
 
