@@ -2,7 +2,13 @@ Diese Seite listet die vorgenommenen Änderungen für diesen Leitfaden auf, d.h.
 
 ### Aktuelle Version
 
-Die aktuelle Version ist 0.3.35
+Die aktuelle Version ist 0.3.36
+
+* Sprachen: Anzeigenamen
+* identifier waren teilweise nicht sichtbar (contentType, facilityType, typeCode)
+* Canonicals für facilityType CS
+
+### zu Version 0.3.35
 
 * IHEXDSAuthorRole: OID <-> secondary
 * IHEXDSAuthorSpecialty: official <-> secondary

@@ -648,17 +648,17 @@ Description: "**IHE XDS type Code**"
 
 * insert HeaderDetailRules
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://ihe-d.de/ValueSets/IHEXDStypeCode"
-* ^identifier.use = #official
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDStypeCode"
+* ^identifier[=].use = #official
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.38"
 * ^identifier[=].use = #old
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode"
-* ^identifier.use = #secondary
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDStypeCode"
+* ^identifier[=].use = #secondary
 
 
 //TODO verify

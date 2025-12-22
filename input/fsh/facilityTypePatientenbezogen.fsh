@@ -1,11 +1,11 @@
 //CodeSystem
 
-CodeSystem: EinrichtungsartenPatientenbezogenCS
-Id: EinrichtungsartenPatientenbezogen
+CodeSystem: PatientbezogenenGesundheitsversorgungCS
+Id: PatientbezogenenGesundheitsversorgung
 Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung"
+* ^url = "http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -28,7 +28,7 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung"
 * ^identifier[=].use = #official
 
 * #APD "Ambulanter Pflegedienst"
@@ -98,7 +98,7 @@ Description: "**Einrichtungsarten, patientenbezogen**"
 * ^identifier[=].use = #official
 
 
-* include codes from system http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung
+* include codes from system http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung
 
 
 
@@ -135,7 +135,7 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

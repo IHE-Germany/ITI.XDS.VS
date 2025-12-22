@@ -887,8 +887,8 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 CodeSystem: QualifikatorenZahnAerztekammerCS
 Id: QualifikatorenZahnAerztekammer
-Title: "Qualifikatoren zahnärztlicher Autoren"
-Description: "**Qualifikatoren zahnärztlicher Autoren**"
+Title: "Qualifikatoren Zahnärztekammer"
+Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^url = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
 * ^version = "4.0.0-alpha1"
@@ -964,8 +964,8 @@ Description: "**Qualifikatoren Zahnärztekammer**"
 
 CodeSystem: BerufeAerztlichCS
 Id: BerufeAerztlich
-Title: "Berufsvarianten, ärztlich"
-Description: "**Ärztliche Berufsvarianten**"
+Title: "Berufe, ärztlich"
+Description: "**Ärztliche Berufe**"
 
 * ^url = "http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten"
 * ^version = "4.0.0-alpha1"

@@ -24,11 +24,12 @@ Description: "**Ordnertypen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-* ^identifier[=].use = #secondary
-
-* ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
 * ^identifier[=].use = #official
+
+//nicht notwendig, da vorher nicht benutzt
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
+//* ^identifier[=].use = #official
 
 * #DIAG "Medizinischer Fall auf Diagnose Basis"
 * #DMP "Disease Management Programm"

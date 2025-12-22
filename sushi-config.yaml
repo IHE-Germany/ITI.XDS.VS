@@ -10,8 +10,8 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.35
-date: 2025-12-16
+version: 0.3.36
+date: 2025-12-22
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -118,8 +118,8 @@ parameters:
     - http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe
     - http://ihe-d.de/CodeSystems/DeutscheDokumentenformate
     - http://ihe-d.de/CodeSystems/DokumentenWarnhinweise
-    - http://ihe-d.de/CodeSystems/PatientenbezogenenGesundheitsversorgung
-    - http://ihe-d.de/CodeSystems/NichtPatientenbezogeneGesundheitsversorgung
+    - http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung
+    - http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung
     - http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
     - http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung
     - http://ihe-d.de/CodeSystems/GrundDerUebermittlung
@@ -185,8 +185,8 @@ menu:
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
     Dokumententypen: CodeSystem-Dokumententypen.html
-    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-EinrichtungsartenNichtPatientenbezogen.html
-    Einrichtungsarten, patientenbezogen: CodeSystem-EinrichtungsartenPatientenbezogen.html
+    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-NichtPatientbezogeneGesundheitsversorgung.html
+    Einrichtungsarten, patientenbezogen: CodeSystem-PatientbezogenenGesundheitsversorgung.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: CodeSystem-FachrichtungenAerztlich.html
     Fachrichtungen, nicht-ärztlich: CodeSystem-FachrichtungenNichtaerztlich.html
@@ -198,7 +198,7 @@ menu:
     Prozessrollen für Autoren: CodeSystem-ProzessrollenFuerAutoren.html
     Psychotherapeutische Qualifikationen: CodeSystem-PsychotherapeutischeQualifikationen.html
     Qualifikationen nichtärztlicher Autoren: CodeSystem-QualifikationenNichtaerztlicherAutoren.html
-    Qualifikatoren zahnärztlicher Autoren: CodeSystem-QualifikatorenZahnAerztekammer.html
+    Qualifikatoren Zahnärztekammer: CodeSystem-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: CodeSystem-Vertraulichkeiten.html
   Eigene Value Sets:
     Berufe, ärztlich: ValueSet-BerufeAerztlich.html
@@ -218,7 +218,7 @@ menu:
     Prozessrollen für Autoren: ValueSet-ProzessrollenFuerAutoren.html
     Psychotherapeutische Qualifikationen: ValueSet-PsychotherapeutischeQualifikationen.html
     Qualifikationen nichtärztlicher Autoren: ValueSet-QualifikationenNichtaerztlicherAutoren.html
-    Qualifikatoren zahnärztlicher Autoren: ValueSet-QualifikatorenZahnAerztekammer.html
+    Qualifikatoren Zahnärztekammer: ValueSet-QualifikatorenZahnAerztekammer.html
     Vertraulichkeiten: ValueSet-Vertraulichkeiten.html
   Naming Systems:
     Dokumenten-Warnhinweise: NamingSystem-DokumentenWarnhinweise.html
