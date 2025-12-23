@@ -22,8 +22,8 @@ Description: "**IHE XDS Healthcare Facility Type Code**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDShealthcareFacilityTypeCode"
 * ^identifier[=].use = #secondary
 
-* include codes from system http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung
-* include codes from system http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung
+* include codes from system http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung
+* include codes from system http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung
 
 
 

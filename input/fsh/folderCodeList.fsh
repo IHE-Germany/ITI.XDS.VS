@@ -5,7 +5,7 @@ Id: Ordnertypen
 Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
-* ^url = "http://ihe-d.de/CodeSystems/Ordnertypen"
+* ^url = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -54,7 +54,7 @@ Description: "**Ordnertypen**"
 
 * insert HeaderDetailRules
 
-* include codes from system http://ihe-d.de/CodeSystems/Ordnertypen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen
 
 
 
@@ -83,7 +83,7 @@ Description: "**IHE XDS Folder Code List**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSfolderCodeList"
 * ^identifier[=].use = #secondary
 
-* include codes from system http://ihe-d.de/CodeSystems/Ordnertypen
+* include codes from system http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen
 
 
 
@@ -119,7 +119,7 @@ Usage: #definition
 * uniqueId[=].preferred = false
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
-* uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
-* uniqueId[=].preferred = true
-* uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+//* uniqueId[+].type = #uri
+//* uniqueId[=].value = "http://ihe-d.de/CodeSystems/Ordnertypen"
+//* uniqueId[=].preferred = true
+//* uniqueId[=].comment = "(alte) Canonical, die nicht verwendet wurde"

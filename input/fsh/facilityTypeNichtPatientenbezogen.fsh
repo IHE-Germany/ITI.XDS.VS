@@ -1,11 +1,11 @@
 //CodeSystem
 
-CodeSystem: NichtPatientbezogeneGesundheitsversorgungCS
-Id: NichtPatientbezogeneGesundheitsversorgung
+CodeSystem: NichtPatientBezogeneGesundheitsversorgungCS
+Id: NichtPatientBezogeneGesundheitsversorgung
 Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung"
+* ^url = "http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -27,7 +27,7 @@ Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheit
 * ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
-* ^identifier[=].value = "http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung"
+* ^identifier[=].value = "http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung"
 * ^identifier[=].use = #official
 
 
@@ -73,7 +73,7 @@ Description: "**Einrichtungsarten, nicht-patientenbezogen**"
 * ^identifier[=].use = #official
 
 
-* include codes from system http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung
+* include codes from system http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung
 
 
 
@@ -113,7 +113,7 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

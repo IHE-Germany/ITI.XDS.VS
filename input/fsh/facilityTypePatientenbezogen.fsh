@@ -1,11 +1,11 @@
 //CodeSystem
 
-CodeSystem: PatientbezogenenGesundheitsversorgungCS
-Id: PatientbezogenenGesundheitsversorgung
+CodeSystem: PatientBezogenenGesundheitsversorgungCS
+Id: PatientBezogenenGesundheitsversorgung
 Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
-* ^url = "http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung"
+* ^url = "http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"
 * ^version = "4.0.0-alpha1"
 
 * insert HeaderDetailRules
@@ -98,7 +98,7 @@ Description: "**Einrichtungsarten, patientenbezogen**"
 * ^identifier[=].use = #official
 
 
-* include codes from system http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung
+* include codes from system http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung
 
 
 
@@ -135,7 +135,7 @@ Usage: #definition
 * uniqueId[=].comment = "neue Canonical, die auflöst"
 
 * uniqueId[+].type = #uri
-* uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung"
+* uniqueId[=].value = "http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
 

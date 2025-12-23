@@ -11,7 +11,7 @@ title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
 version: 0.3.36
-date: 2025-12-22
+date: 2025-12-23
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -118,12 +118,11 @@ parameters:
     - http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe
     - http://ihe-d.de/CodeSystems/DeutscheDokumentenformate
     - http://ihe-d.de/CodeSystems/DokumentenWarnhinweise
-    - http://ihe-d.de/CodeSystems/PatientbezogenenGesundheitsversorgung
-    - http://ihe-d.de/CodeSystems/NichtPatientbezogeneGesundheitsversorgung
+    - http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung
+    - http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung
     - http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern
     - http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung
     - http://ihe-d.de/CodeSystems/GrundDerUebermittlung
-    - http://ihe-d.de/CodeSystems/Ordnertypen
     - http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren
     - http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren
     - http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen
@@ -185,8 +184,8 @@ menu:
     Dokumenten-Warnhinweise: CodeSystem-DokumentenWarnhinweise.html
     Dokumentenklassen: CodeSystem-Dokumentenklassen.html
     Dokumententypen: CodeSystem-Dokumententypen.html
-    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-NichtPatientbezogeneGesundheitsversorgung.html
-    Einrichtungsarten, patientenbezogen: CodeSystem-PatientbezogenenGesundheitsversorgung.html
+    Einrichtungsarten, nicht-patientenbezogen: CodeSystem-NichtPatientBezogeneGesundheitsversorgung.html
+    Einrichtungsarten, patientenbezogen: CodeSystem-PatientBezogenenGesundheitsversorgung.html
     Facharzttitel Ärztekammer: CodeSystem-FacharzttitelAerztekammer.html
     Fachrichtungen, ärztlich: CodeSystem-FachrichtungenAerztlich.html
     Fachrichtungen, nicht-ärztlich: CodeSystem-FachrichtungenNichtaerztlich.html
