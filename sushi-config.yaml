@@ -10,14 +10,14 @@ name: IHE_DE_ITI_XDS_VS
 title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
-version: 0.3.36
-date: 2025-12-23
+version: 4.0.0
+date: 2026-02-24
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2025+
+copyrightYear: 2026+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
 releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#DE #"Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: IHE Deutschland e.V., Berlin, Deutschland
   url: http://www.ihe-d.de
@@ -44,7 +44,7 @@ dependencies:
   kbv.all.st:
     id: st
     uri: http://fhir.kbv.de/ImplementationGuide/kbv.all.st
-    version: 1.23.0
+    version: 1.34.0
 
   
   

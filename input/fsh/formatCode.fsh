@@ -6,7 +6,7 @@ Title: "Formate"
 Description: "Dokumenten **Formate**"
 
 * ^url = "http://ihe-d.de/CodeSystems/DeutscheDokumentenformate"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -169,7 +169,7 @@ Title: "Formate"
 Description: "Dokumenten **Formate**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Formate"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -186,7 +186,7 @@ Title: "IHE XDS Format Code"
 Description: "**IHE XDS Format Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSformatCodeDE"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

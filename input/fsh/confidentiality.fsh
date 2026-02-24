@@ -6,7 +6,7 @@ Title: "Vertraulichkeiten"
 Description: "Betroffeneneinschätzung der **Vertraulichkeitsstufe**"
 
 * ^url = "http://ihe-d.de/CodeSystems/BetroffeneneinschaetzungVertraulichkeitsstufe"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -49,7 +49,7 @@ Title: "Vertraulichkeiten"
 Description: "**Vertraulichkeiten**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Vertraulichkeiten"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -67,7 +67,7 @@ Title: "IHE XDS Confidentiality Code"
 Description: "**IHE XDS Confidentiality Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

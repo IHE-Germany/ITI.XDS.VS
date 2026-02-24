@@ -6,7 +6,7 @@ Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^url = "http://ihe-d.de/CodeSystems/PatientenbeziehungsrollenFuerAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -87,7 +87,7 @@ Title: "Patientenbeziehungsrollen für Autoren"
 Description: "**Patientenbeziehungsrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/PatientenbeziehungsrollenFuerAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -105,7 +105,7 @@ Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
 
 * ^url = "http://ihe-d.de/CodeSystems/ProzessrollenFuerAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -184,7 +184,7 @@ Title: "Prozessrollen für Autoren"
 Description: "**Prozessrollen** für Autoren"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/ProzessrollenFuerAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -202,7 +202,7 @@ Title: "IHE XDS Author Role"
 Description: "**IHE XDS Author Role**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorRole"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

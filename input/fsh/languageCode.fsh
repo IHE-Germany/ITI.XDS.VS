@@ -6,7 +6,7 @@ Title: "IHE XDS Language Code"
 Description: "**IHE XDS Language Code** (Sprachcode)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSlanguageCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -402,9 +402,9 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[=].designation.value = "maltesisch (Malta)"
 
 * ^compose.include[=].concept[+].code = #nb-NO 
-* ^compose.include[=].concept[=].display = "Norwegian BokmC%l (Norway)"
+* ^compose.include[=].concept[=].display = "Norwegian Bokmål (Norway)"
 * ^compose.include[=].concept[=].designation.language = #de
-* ^compose.include[=].concept[=].designation.value = "norwegisch (Bokmal)"
+* ^compose.include[=].concept[=].designation.value = "norwegisch (Bokmål)"
 * ^compose.include[=].concept[+].code = #nn-NO 
 * ^compose.include[=].concept[=].display = "Norwegian Nynorsk (Norway)"
 * ^compose.include[=].concept[=].designation.language = #de
@@ -516,7 +516,7 @@ Description: "**IHE XDS Language Code** (Sprachcode)"
 * ^compose.include[=].concept[=].designation.language = #de
 * ^compose.include[=].concept[=].designation.value = "türkisch (Zypern)"
 * ^compose.include[=].concept[+].code = #tr-TR 
-* ^compose.include[=].concept[=].display = "Turkish (TC<rkiye)"
+* ^compose.include[=].concept[=].display = "Turkish (Türkiye)"
 * ^compose.include[=].concept[=].designation.language = #de
 * ^compose.include[=].concept[=].designation.value = "türkisch (Türkei)"
 

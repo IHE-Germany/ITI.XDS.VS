@@ -8,7 +8,7 @@ Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
 * ^url = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -111,7 +111,7 @@ Title: "Dokumentenklassen"
 Description: "**Dokumentenklassen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumentenklassen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -128,7 +128,7 @@ Title: "IHE XDS Class Code"
 Description: "**IHE XDS Class Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSclassCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -144,16 +144,15 @@ Description: "**IHE XDS Class Code**"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
 * ^identifier[=].use = #secondary
 
-//funktioniert, ist dann aber der einzige Code
-* $LOINC#57016-8
+* ^compose.include[+].system = "http://loinc.org"
+* ^compose.include[=].concept[+].code = #57016-8
+* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
+* ^compose.include[=].concept[=].designation[+].language = #de
+* ^compose.include[=].concept[=].designation[=].value = "Patienteneinverständniserklärung"
+//* ^compose.include[=].concept[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
+//* ^compose.include[=].concept[=].extension[=].valueString = "display: Patienteneinverständniserklärung"
 
-* include codes from system http://ihe-d.de/CodeSystems/IHEXDSclassCode
-
-
-//* ^compose.include[+].system = "http://loinc.org"
-//* ^compose.include[=].concept[+].code = #57016-8
-//* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
-//* ^compose.include[=].concept[=].display = "Patienteneinverständniserklärung"
+* ^compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
 
 
 

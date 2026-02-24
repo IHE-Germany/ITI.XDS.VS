@@ -6,7 +6,7 @@ Title: "Fachrichtungen, ärztlich"
 Description: "**Ärztliche Fachrichtungen** (Practice Setting Doctoral)"
 
 * ^url = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -237,7 +237,7 @@ Title: "Fachrichtungen, ärztlich"
 Description: "**Fachrichtungen, ärztlich** (Practice Setting Doctoral)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

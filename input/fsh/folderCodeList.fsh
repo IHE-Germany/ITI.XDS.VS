@@ -6,7 +6,7 @@ Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Ordnertypen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -50,7 +50,7 @@ Title: "Ordnertypen"
 Description: "**Ordnertypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Ordnertypen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -67,7 +67,7 @@ Title: "IHE XDS Folder Code List"
 Description: "**IHE XDS Folder Code List**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDScodeList"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

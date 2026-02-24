@@ -6,7 +6,7 @@ Title: "Fachrichtungen, nicht-ärztlich"
 Description: "**Nicht-ärztliche Fachrichtungen** (Practice Setting Non Doctoral)"
 
 * ^url = "http://ihe-d.de/CodeSystems/NichtaerztlicheFachrichtungen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -66,7 +66,7 @@ Title: "Fachrichtungen, nicht-ärztlich"
 Description: "**Fachrichtungen, nicht-ärztlich** (Practice Setting Non Doctoral)"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenNichtaerztlich"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

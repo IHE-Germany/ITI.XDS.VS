@@ -6,7 +6,7 @@ Title: "Facharzttitel der Ärztekammern"
 Description: "**Facharzttitel** der Ärztekammern"
 
 * ^url = "http://ihe-d.de/CodeSystems/FacharzttitelDerAerztekammern"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -240,7 +240,7 @@ Title: "Facharzttitel Ärztekammer"
 Description: "**Facharzttitel Ärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/FacharzttitelAerztekammer"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -255,7 +255,7 @@ Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^url = "http://ihe-d.de/CodeSystems/QualifikationenNichtAerztlicherAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -873,7 +873,7 @@ Title: "Qualifikationen nicht ärztlicher Autoren"
 Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikationenNichtaerztlicherAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -891,7 +891,7 @@ Title: "Qualifikatoren Zahnärztekammer"
 Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^url = "http://ihe-d.de/CodeSystems/QualifikatorenZahnaerztlicherAutoren"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -948,7 +948,7 @@ Title: "Qualifikatoren Zahnärztekammer"
 Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/QualifikatorenZahnAerztekammer"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -968,7 +968,7 @@ Title: "Berufe, ärztlich"
 Description: "**Ärztliche Berufe**"
 
 * ^url = "http://ihe-d.de/CodeSystems/AerztlicheBerufsvarianten"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -1017,7 +1017,7 @@ Title: "Berufe, ärztlich"
 Description: "**Ärztliche Berufe**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/BerufeAerztlich"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -1035,11 +1035,11 @@ Title: "Psychotherapeutische Qualifikationen"
 Description: "**Psychotherapeutische Qualifikationen**"
 
 * ^url = "http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-24"
+* ^date = "2026-02-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
 
 * ^language = #de-DE
@@ -1077,11 +1077,11 @@ Title: "Psychotherapeutische Qualifikationen"
 Description: "**Psychotherapeutische Qualifikationen**"
 
 * ^url = "http://www.bptk.de/fhir/ValueSet/PsychotherapeutischeQualifikationen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-24"
+* ^date = "2026-02-24"
 * ^copyright = "Bundespsychotherapeutenkammer"
 
 * include codes from system http://www.bptk.de/fhir/CodeSystem/PsychotherapeutischeQualifikationen
@@ -1098,7 +1098,7 @@ Title: "IHE XDS Author Special(i)ty"
 Description: "**IHE XDS Author Special(i)ty** (Tippfehler: Speciality anstelle von Specialty)"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

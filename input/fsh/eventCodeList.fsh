@@ -6,7 +6,7 @@ Title: "Dokumenten-Warnhinweise"
 Description: "**Dokumenten-Warnhinweise**"
 
 * ^url = "http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -53,7 +53,7 @@ Title: "Dokumenten-Warnhinweise"
 Description: "**Warnhinweise** zu Dokumenten"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/DokumentenWarnhinweise"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -72,7 +72,7 @@ Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -155,7 +155,7 @@ Title: "Fallkontexte bei Dokumentenerstellung"
 Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Fallkontexte"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -175,7 +175,7 @@ Title: "IHE XDS Event Code List"
 Description: "**IHE XDS event Code List**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSeventCodeList"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

@@ -4,7 +4,7 @@ Title: "IHE XDS Practice Setting Code"
 Description: "**IHE XDS Practice Setting Code** (Fachrichtungen)"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

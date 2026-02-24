@@ -6,7 +6,7 @@ Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
 * ^url = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -628,7 +628,7 @@ Title: "Dokumententypen"
 Description: "**Dokumententypen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/Dokumententypen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -644,7 +644,7 @@ Title: "IHE XDS Type Code"
 Description: "**IHE XDS type Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDStypeCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

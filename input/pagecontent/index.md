@@ -101,9 +101,7 @@ Nachfolgend ein paar weitere nützliche Information im Zusammenhang mit dieser S
 
 ### offene Punkte
 
-* Copyright-Statement für CS/VS auf "cc-By-4.0" oder besser individuell setzen?
-* Tippfehler bei language code für nb-NO
-* deutsche Übersetzung für LOINC Code 57016-8 (#31)
+* Die deutsche Übersetzung für LOINC Code 57016-8 (#31) wird nicht korrekt in die Expansion übernommen.
 
 ### Historie
 
@@ -112,3 +110,4 @@ Nachfolgend ein paar weitere nützliche Information im Zusammenhang mit dieser S
 | 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf](https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf)
 | 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf](https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf)
 | 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf](https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf)
+| 4.0 | 24.02.2026 | Final | tbd

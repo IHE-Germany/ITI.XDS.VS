@@ -6,7 +6,7 @@ Title: "IHE XDS Healthcare Facility Type Code"
 Description: "**IHE XDS Healthcare Facility Type Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

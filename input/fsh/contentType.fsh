@@ -6,7 +6,7 @@ Title: "Grund der Übermittlung"
 Description: "**Grund der Übermittlung**"
 
 * ^url = "http://ihe-d.de/CodeSystems/GrundDerUebermittlung"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -67,7 +67,7 @@ Title: "GrundDerUebermittlung"
 Description: "**Grund der Übermittlung**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/GrundDerUebermittlung"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -84,7 +84,7 @@ Title: "IHE XDS Content Type Code"
 Description: "**IHE XDS Content Type Code**"
 
 * ^url = "http://ihe-d.de/ValueSets/IHEXDScontentTypeCode"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

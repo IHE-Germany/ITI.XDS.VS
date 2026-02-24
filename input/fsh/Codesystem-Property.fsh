@@ -8,7 +8,7 @@ Dieses Codesystem stellt alle Properties bereit, die in von IHE Deutschland publ
 """
 
 * ^url = "http://www.ihe-d.de/fhir/CodeSystem/Property"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0S"
 
 * insert HeaderDetailRules
 

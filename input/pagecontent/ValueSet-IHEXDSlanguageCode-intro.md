@@ -10,8 +10,8 @@ in Verbindung mit DIN EN ISO 3166-1 ausgedrückt werden.
 
 DocumentEntry.languageCode besitzt somit ein Format, welches aus zwei Kleinbuchstaben 
 für den Sprachencode ("language") und zwei Großbuchstaben für den Ländercode ("territory") besteht. 
-Die beiden Buchstabengruppen werden dabei durch ein '-' verbunden. 
-Die allgemeine Syntax sieht damit aus wie folgt: „aa-BB“ (laut RFC 1766: <Primary Tag> - <Subtag>).
+Die beiden Buchstabengruppen werden dabei durch ein '-' verbunden.
+Die allgemeine Syntax sieht damit aus wie folgt: „aa-BB“ (laut RFC 1766: %lt;Primary Tag&gt; - &lt;Subtag&gt;).
 
 Dabei wird zusätzlich die Einschränkung zu RFC 1766 hinzugefügt, dass für das Primary Tag 
 (vor dem Bindestrich) ausschließlich die zweibuchstabigen ISO 639-1 Codes für Sprachen als Kleinbuchstaben verwendet werden dürfen. 

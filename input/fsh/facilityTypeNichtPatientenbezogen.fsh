@@ -6,7 +6,7 @@ Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten** ausserhalb der patientenbezogenen Gesundheitsversorgung"
 
 * ^url = "http://ihe-d.de/CodeSystems/NichtPatientBezogeneGesundheitsversorgung"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -56,7 +56,7 @@ Title: "Einrichtungsarten, nicht-patientenbezogen"
 Description: "**Einrichtungsarten, nicht-patientenbezogen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenNichtPatientenbezogen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 

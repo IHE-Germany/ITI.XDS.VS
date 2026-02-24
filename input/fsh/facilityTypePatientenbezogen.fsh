@@ -6,7 +6,7 @@ Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung"
 
 * ^url = "http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
@@ -81,7 +81,7 @@ Title: "Einrichtungsarten, patientenbezogen"
 Description: "**Einrichtungsarten, patientenbezogen**"
 
 * ^url = "http://www.ihe-d.de/fhir/ValueSet/EinrichtungsartenPatientenbezogen"
-* ^version = "4.0.0-alpha1"
+* ^version = "4.0.0"
 
 * insert HeaderDetailRules
 
