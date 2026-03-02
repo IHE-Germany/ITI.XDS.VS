@@ -11,7 +11,7 @@ title: IHE Germany - Value Sets for XDS
 description: Set of Value Sets for IHE IT-I XDS in Germany (in reconciliation after ballot)
 status: draft # draft | active | retired | unknown
 version: 4.0.0
-date: 2026-02-24
+date: 2026-03-01
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 copyright: Dieser Leitfaden ist lizenziert unter CC-BY-4.0.
@@ -37,12 +37,12 @@ dependencies:
   ihe.formatcode.fhir: 1.4.0
   #hl7.terminology.r4: 6.5.0
   hl7.terminology.r4: 
-    id: terminology
+    #id: terminology
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 7.0.1
   #kbv.all.st: 1.23.0
   kbv.all.st:
-    id: st
+    #id: st
     uri: http://fhir.kbv.de/ImplementationGuide/kbv.all.st
     version: 1.34.0
 

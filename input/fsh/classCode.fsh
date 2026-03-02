@@ -154,6 +154,33 @@ Description: "**IHE XDS Class Code**"
 
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
 
+//um den Displayname zu setzen (nur als explizite Auflistung):
+//* ^expansion.timestamp = "2026-02-26T00:00:00Z"
+
+//* ^expansion.contains[+].system = "http://loinc.org"
+//* ^expansion.contains[=].code = #57016-8
+//* ^expansion.contains[=].display = "Privacy policy acknowledgment Document"
+//* ^expansion.contains[=].designation[+].language = #57016-8
+//* ^expansion.contains[=].designation[=].value = "Privacy policy acknowledgment Document"
+
+//Expansion("http://loinc.org", 57016-8, "Privacy policy acknowledgment Document")
+//ExpansionDesignation(#de-DE, "Privacy policy acknowledgment Document")
+
+
+//* ^expansion.contains[+].system = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
+//* ^expansion.contains[=].code = #ADM
+//* ^expansion.contains[=].display = "Administratives Dokument"
+
+//* ^expansion.contains[+].system = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
+//* ^expansion.contains[=].code = #ANF
+//* ^expansion.contains[=].display = "Anforderung"
+//.. alle anderen Codes
+
+//via rule..
+//* insert Expansion("http://ihe-d.de/CodeSystems/IHEXDSclassCode", ADM, "Administratives Dokument")
+//* insert Expansion("http://ihe-d.de/CodeSystems/IHEXDSclassCode", ANF, "Anforderung")
+
+
 
 
 Instance: Dokumentenklassen
@@ -192,4 +219,16 @@ Usage: #definition
 * uniqueId[=].value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
 * uniqueId[=].preferred = true
 * uniqueId[=].comment = "alte Canonical, die nicht auflöst"
+
+
+
+//RuleSet: ExpansionDesignation(code, value)
+//* ^expansion.contains[=].designation[+].language = #{code}
+//* ^expansion.contains[=].designation[=].value = "{value}"
+
+
+//RuleSet: Expansion(system, code, display)
+//* ^expansion.contains[+].system = {system}
+//* ^expansion.contains[=].code = #{code}
+//* ^expansion.contains[=].display = "{display}"
 

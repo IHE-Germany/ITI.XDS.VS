@@ -661,24 +661,17 @@ Description: "**IHE XDS type Code**"
 * ^identifier[=].use = #secondary
 
 
-//TODO verify
-
-//funktioniert, ist dann aber der einzige Code
-//* LOINC#57016-8
+* ^compose.include[+].system = "http://loinc.org"
+* ^compose.include[=].concept[+].code = #57016-8
+* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
+* ^compose.include[=].concept[=].designation[+].language = #de
+* ^compose.include[=].concept[=].designation[=].value = "Patienteneinverständniserklärung"
 
 //* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"
 
 
 //* ^compose.include[+].system = "http://www.ihe-d.de/fhir/CodeSystem/DocumentType"
-
-* ^compose.include[+].system = $LOINC
-* ^compose.include[=].concept[+].code = #57016-8
-//* ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
-* ^compose.include[=].concept[=].display = "Patienteneinverständniserklärung"
-
-//* #57016-8 "Patienteneinverständniserklärung"
-//  "IHE APPC verwendet diesen Class Code für \"Privacy Consent Documents\", d.h. für Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."
 
 
 
