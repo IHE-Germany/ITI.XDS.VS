@@ -64,6 +64,8 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:DMP-OST:v1 "eDMP Osteoporose (gematik)"
 * #urn:gematik:ig:DMP-Rheuma:v1 "eDMP Rheumatoide Arthritis (gematik)"
 * #urn:gematik:ig:DMP-BRK:v4 "eDMP Brustkrebs (gematik)"
+* #urn:gematik:ig:DMP-ADERW:v1 "eDMP Adipositas Erwachsene (gematik)"
+* #urn:gematik:ig:DMP-ADKJ:v1 "eDMP Adipositas Kinder und Jugendliche (gematik)"
 * #urn:gematik:ig:Impfausweis:r4.0 "Impfausweis (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
