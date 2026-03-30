@@ -196,9 +196,17 @@ Description: "**Workflow Events**"
 * ^versionNeeded = false
 * ^content = #complete
 
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Status"
+* ^property[=].type = #code
 
 * #urn:ihe:iti:xdw:2011:eventCode:open "Workflow offen"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:ihe:iti:xdw:2011:eventCode:closed "Workflow geschlossen" 
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 
 
 
