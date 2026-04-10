@@ -9,7 +9,7 @@
 * Arnold Roesner, Universitätsklinikum Freiburg
 * Raik Kuhlisch, gematik
 * Antje Brandner, Universitätsklinikum Heidelberg
-* Annett Müller, DMI
+* Annett Müller, DVMD
 * Daniel Hellmuth, CGM
 
 ### Kontributoren
