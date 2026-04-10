@@ -664,8 +664,10 @@ Description: "**IHE XDS type Code**"
 * ^compose.include[+].system = "http://loinc.org"
 * ^compose.include[=].concept[+].code = #57016-8
 * ^compose.include[=].concept[=].display = "Privacy policy acknowledgment Document"
-* ^compose.include[=].concept[=].designation[+].language = #de
-* ^compose.include[=].concept[=].designation[=].value = "Patienteneinverständniserklärung"
+* ^compose.include[=].concept[=].designation[+].language = #de-DE
+* ^compose.include[=].concept[=].designation[=].value = "Bestätigung der Datenschutzbestimmungen"
+//* ^compose.include[=].concept[=].designation[+].language = #de-AT
+//* ^compose.include[=].concept[=].designation[=].value = "Patienteneinverständniserklärung"
 
 //* include codes from system http://ihe-d.de/CodeSystems/IHEXDStypeCode
 * ^compose.include[+].system = "http://ihe-d.de/CodeSystems/IHEXDStypeCode"

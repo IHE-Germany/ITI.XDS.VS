@@ -8,9 +8,22 @@ die allerdings keine Spezialisierung des 'classCode' darstellen muss.
 IHE International empfiehlt, dass eine XDS Affinity Domain die Wertemenge für das Attribut 'classCode' definiert. 
 Zur Definition der Wertemenge kann auf internationale Codes aus SNOMED CT, LOINC oder auf eigene Codes zurückgegriffen werden.
 
-Da die internationalen Codesysteme nicht alle in Deutschland gängigen Dokumentenklassen abbilden, 
-hat man sich in der Arbeitsgruppe "Value Sets" von IHE Deutschland entschieden, 
-ein eigenes Codesystem zu erstellen. 
-Zusätzlich muss bei Verwendung von IHE BPPC Dokumenten auch der dort fest vorgegebene LOINC Code unterstützt werden. 
-Bei Verwendung von IHE APPC Dokumenten dagegen ist der Einsatz von LOINC für den classCode nicht gefordert, 
-stattdessen gibt es bei IHE APPC eine Vorgabe für den Einsatz eines LOINC Codes als typeCode.
+### Verwendung von Codes für Einwilligungsdokumente
+
+Bei IHE BPPC Dokumenten muss gemäß Profil der dort fest vorgegebene LOINC Code 57016-8 verwendet werden. 
+Im IHE APPC Profil ist der Einsatz dieses LOINC Codes für den classCode nicht gefordert.
+Stattdessen gibt es bei IHE APPC eine Vorgabe für den Einsatz dieses LOINC Codes als typeCode. 
+Für IHE APPC Dokumente ist als classCode der Code ADM zu verwenden.
+
+|Einwilligungsdokument 	|classCode 	|typeCode|
+| --- | --- | --- |
+|APPC Dokument 	|ADM 	|57016-8 |
+|BPPC Dokument 	|57016-8 |	EINW |
+
+### Zum LOINC Code 57016-8
+
+Aus technischen Gründen wird die Übersetzung evtl. nicht angezeigt.
+
+| Code  | Anzeigename (englisch) | Anzeigename (de-DE) |
+| --- | --- | --- |
+| 57016-8 | Privacy policy acknowledgment Document | Bestätigung der Datenschutzbestimmungen |

@@ -20,7 +20,20 @@ ein eigenes Codesystem zu erstellen. Dieses Codesystem ist nicht hierarchisch au
 Das Konzept "Ergebnisse Diagnostik" ist beispielsweise nicht der Oberbegriff zu Konzepten wie "Ergebnisse Funktionsdiagnostik" oder "Ergebnisse Mikrobiologie", 
 sondern umfasst nur die Dokumente vom Typ "Ergebnisse Diagnostik", die nicht durch andere Konzepte abgedeckt werden.
 
-Bei Verwendung von IHE APPC Dokumenten muss auch der dort fest vorgegebene LOINC Code unterstützt werden. 
-Bei Verwendung von IHE BPPC Dokumenten dagegen ist der Einsatz von LOINC für den typeCode nicht gefordert, 
-stattdessen gibt es bei IHE BPPC eine Vorgabe für den Einsatz eines LOINC Codes als classCode.
+### Verwendung von Codes für Einwilligungsdokumente
+
+Bei IHE APPC Dokumenten muss auch der dort fest vorgegebene LOINC Code unterstützt werden. Bei IHE BPPC Dokumenten dagegen ist der Einsatz von LOINC für den typeCode nicht gefordert, stattdessen gibt es bei IHE BPPC eine Vorgabe für den Einsatz eines LOINC Codes als classCode. Für IHE BPPC Dokumente ist als typeCode der Code EINW zu verwenden.
+
+| Einwilligungsdokument | classCode | typeCode |
+| --- | --- | --- |
+| APPC Dokument | ADM | 57016-8 |
+| BPPC Dokument | 57016-8 | EINW |
+
+### Zum LOINC Code 57016-8
+
+Aus technischen Gründen wird die Übersetzung evtl. nicht angezeigt.
+
+|Code  | Anzeigename (englisch) | Anzeigename (de-DE) |
+| --- | --- | --- |
+|57016-8 | Privacy policy acknowledgment Document | Bestätigung der Datenschutzbestimmungen |
 
