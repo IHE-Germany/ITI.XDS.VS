@@ -127,7 +127,10 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:Telemedizinisches-Monitoring:v1.0 "Telemedizinisches Monitoring (gematik)"
 * #urn:gematik:ig:Pflegeueberleitungsbogen:v1.0 "Pflegeüberleitungsbogen (gematik)"
 * #urn:gematik:ig:pka:v1.0 "Patientenkurzakte (gematik) v1.0"
-
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
+* #urn:gematik:ig:laboratory:v1.0 "Laborbefund (gematik) v1.0"
+* #urn:gematik:ig:patient-summary:v1.0 "Patient Summary (gematik) v1.0"
 * #urn:hl7-de:DGUV-StatEntlassbrief:2020 "DGUV Stationärer Entlassbrief"
 
 //* #urn:ihe:iti:xdw:2011:eventCode:open "Workflow offen"
