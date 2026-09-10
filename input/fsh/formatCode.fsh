@@ -46,6 +46,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:v1.1 "Arbeitsunfähigkeitsbescheinigung (gematik) v1.1"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:v1.2 "Arbeitsunfähigkeitsbescheinigung (gematik) v1.2"
 * #urn:gematik:ig:Arztbrief:r3.1 "Arztbrief § 291f SGB V"
 * #urn:gematik:ig:DatensatzPersoenlicheErklaerungen:r3.1 "Datensatz für persönliche Erklärungen (gematik)"
@@ -70,6 +72,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Impfausweis:v1.1.0 "Impfausweis (gematik)"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:r4.0 "Untersuchungen Kinderuntersuchungsheft"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -83,6 +87,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftTeilnahmekarte:v1.0.1 "Teilnahmekarte Kinderuntersuchungsheft"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftNotizen:r4.0 "Notizen Kinderuntersuchungsheft"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -90,6 +96,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftNotizen:v1.0.1 "Notizen Kinderuntersuchungsheft"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Kinderuntersuchungsheft:r4.0 "Kinderuntersuchungsheft (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -97,6 +105,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:v1.0.1 "Untersuchungen Kinderuntersuchungsheft"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Medikationsplan:r3.1 "Medikationsplan (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -107,6 +117,8 @@ Description: "Dokumenten **Formate**"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Mutterpass:v1.1.0 "Mutterpass (gematik)"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Notfalldatensatz:r3.1 "Notfalldatensatz"
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:r4.0 "Verordnungsdatensatz Medikation (gematik)"
   * ^property[+].code = #status
@@ -125,7 +137,11 @@ Description: "Dokumenten **Formate**"
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Zahnbonusheft:v1.1.0 "Zahnbonusheft (gematik)"
 * #urn:gematik:ig:Telemedizinisches-Monitoring:v1.0 "Telemedizinisches Monitoring (gematik)"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:Pflegeueberleitungsbogen:v1.0 "Pflegeüberleitungsbogen (gematik)"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:pka:v1.0 "Patientenkurzakte (gematik) v1.0"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
