@@ -123,7 +123,7 @@ Description: "Dokumenten **Formate**"
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:r4.0 "Verordnungsdatensatz Medikation (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.0.2 "Synonym: Verodnungsdatensatz Medikation (gematik)"
+* #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.0.2 "Synonym: Verordnungsdatensatz Medikation (gematik)"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:VerordnungsdatensatzMedikation:v1.1 "Verordnungsdatensatz Medikation (gematik) v1.1"
@@ -147,6 +147,7 @@ Description: "Dokumenten **Formate**"
   * ^property[=].valueCode = #deprecated
 * #urn:gematik:ig:laboratory:v1.0 "Laborbefund (gematik) v1.0"
 * #urn:gematik:ig:patient-summary:v1.0 "Patient Summary (gematik) v1.0"
+* #urn:gematik:ig:medication-plan:v1.4 "Medikationsplan (gematik) v1.4"
 * #urn:hl7-de:DGUV-StatEntlassbrief:2020 "DGUV Stationärer Entlassbrief"
 
 //* #urn:ihe:iti:xdw:2011:eventCode:open "Workflow offen"
