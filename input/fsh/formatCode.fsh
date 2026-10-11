@@ -20,7 +20,7 @@ Description: "Dokumenten **Formate**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Formate"
@@ -203,6 +203,11 @@ Description: "**Workflow Events**"
 * ^property[=].description = "Status"
 * ^property[=].type = #code
 
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.2.276.0.76.11.20"
+* ^identifier[=].use = #secondary
+
+
 * #urn:ihe:iti:xdw:2011:eventCode:open "Workflow offen"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
@@ -246,7 +251,7 @@ Description: "**IHE XDS Format Code**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.35"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSformatCode"

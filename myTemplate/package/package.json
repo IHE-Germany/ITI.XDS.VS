@@ -1,13 +1,13 @@
 { 
-  "name": "shs.fhir.us.ig-template",
+  "name": "ihe-de.ig-template",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "SHS FHIR IG Template",
+  "description": "IHE-D FHIR IG Template",
   "author": "http://oemig.de/fhir",
-  "canonical": "http://fhir.org/templates/hl7.fhir.us.mcode.ig-template",
+  "canonical": "http://www.ihe-d.de/fhir/templates/ihe-de.ig-template",
   "base": "fhir.base.template",
   "dependencies": {
-    "fhir.base.template": "current"
+    "fhir.base.template": "1.0.0"
   },
   "version": "0.1.0"
 }

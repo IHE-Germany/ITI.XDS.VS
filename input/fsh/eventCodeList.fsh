@@ -20,7 +20,7 @@ Description: "**Dokumenten-Warnhinweise**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/DokumentenWarnhinweise"
@@ -86,7 +86,7 @@ Description: "**Fallkontexte** bei Dokumentenerstellung"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Fallkontexte"
@@ -187,7 +187,7 @@ Description: "**IHE XDS event Code List**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.34"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSeventCodeList"

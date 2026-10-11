@@ -22,7 +22,7 @@ Description: "**Dokumentenklassen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/Dokumentenklassen"
@@ -31,8 +31,6 @@ Description: "**Dokumentenklassen**"
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/CodeSystems/IHEXDSclassCode"
 * ^identifier[=].use = #official
-
-
 
 * ^property[+].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
@@ -115,6 +113,11 @@ Description: "**Dokumentenklassen**"
 
 * insert HeaderDetailRules
 
+//* ^identifier[+].system = "urn:ietf:rfc:3986"
+//* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.11.8"
+//* ^identifier[=].use = #secondary
+
+
 * include codes from system http://ihe-d.de/CodeSystems/IHEXDSclassCode
 
 
@@ -138,7 +141,7 @@ Description: "**IHE XDS Class Code**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.32"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSclassCode"
@@ -209,6 +212,9 @@ Usage: #definition
 //* contact.telecom.system = #url
 //* contact.telecom.value = "http://www.ihe-d.de"
 //* responsible = "IHE Germany"
+
+//* id = "1.3.6.1.4.1.19376.3.276.1.16.8"
+
 
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8"

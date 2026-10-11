@@ -276,6 +276,11 @@ Description: "**Verfügbarkeitsstatus** von Dokumenten (ersetzen durch IHE UV)"
 * ^versionNeeded = false
 * ^content = #complete
 
+
+* ^identifier[+].system = "urn:ietf:rfc:3986"
+* ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.18"
+* ^identifier[=].use = #secondary
+
 * #Approved "The document is available for patient care."
 * #Deprecated "The document is obsolete."
 

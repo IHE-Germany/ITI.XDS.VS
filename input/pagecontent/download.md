@@ -9,18 +9,18 @@ The expanded value sets can be found:
 
 The source code for this Implementation Guide will be found shortly on [IHE GitHub](https://github.com/IHE-Germany/ITI.XDS.VS)
 
-#### Cross Version Analysis
+### Cross Version Analysis
 
 {% include cross-version-analysis.xhtml %}
 
-#### Dependency Table
+### Dependency Table
 
 {% include dependency-table.xhtml %}
 
-#### Globals Table
+### Globals Table
 
 {% include globals-table.xhtml %}
 
-#### IP Statements
+### IP Statements
 
 {% include ip-statements.xhtml %}

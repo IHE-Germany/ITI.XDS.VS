@@ -1,4 +1,4 @@
-#### DocumentEntry.healthcareFacilityTypeCode
+### DocumentEntry.healthcareFacilityTypeCode
 
 ''DocumentEntry.healthcareFacilityTypeCode'' repräsentiert die Art der Einrichtung, in der die Tätigkeit stattfand, die zur Erzeugung des Dokuments führte. 
 Zum Beispiel sollten Dokumente, die während eines ambulanten Falls in einem Krankenhaus entstehen, mit dem healthcareFacilityTypeCode für „Krankenhaus“ gekennzeichnet werden. 

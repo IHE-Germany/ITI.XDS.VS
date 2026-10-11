@@ -20,7 +20,7 @@ Description: "**Facharzttitel** der Ärztekammern"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.5.514"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -269,7 +269,7 @@ Description: "**Qualifikationen nicht ärztlicher Autoren**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.11"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/QualifikationenNichtaerztlicherAutoren"
@@ -905,7 +905,7 @@ Description: "**Qualifikatoren Zahnärztekammer**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.5.492"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 // OID und CodeSystem Inhalte kommen von Bundeszahnärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundeszahnärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -982,7 +982,7 @@ Description: "**Ärztliche Berufe**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.5.493"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 // OID und CodeSystem Inhalte kommen von Bundesärztekammer, daher sollte eine auflösbare canonicalUrl grundsätzlich auch von der Bundesärztekammer ausgestellt werden
 * ^identifier[+].system = "urn:ietf:rfc:3986"
@@ -1108,7 +1108,7 @@ Description: "**IHE XDS Author Special(i)ty** (Tippfehler: Speciality anstelle v
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.31"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/ValueSet/IHEXDSauthorSpecialty"

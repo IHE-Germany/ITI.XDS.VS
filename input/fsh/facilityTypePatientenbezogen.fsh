@@ -21,7 +21,7 @@ Description: "**Einrichtungsarten** der patientenbezogenen Gesundheitsversorgung
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://www.ihe-d.de/fhir/CodeSystem/EinrichtungsartenPatientenbezogen"
@@ -87,7 +87,7 @@ Description: "**Einrichtungsarten, patientenbezogen**"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.2.276.0.76.11.58"
-* ^identifier[=].use = #old
+* ^identifier[=].use = #secondary
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare"
