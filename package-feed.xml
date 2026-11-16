@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org" xmlns:content="http://purl.org" xmlns:atom="http://w3.org" version="2.0" xmlns:fhir="http://hl7.org">
+  <channel>
+    <title>IHE Germany Publications</title>
+    <description>Publications published by IHE Germany (IHE Deutschland e.V.)</description>
+    <link>https://www.ihe-d.de/fhir</link>
+    <generator>HL7 FHIR IG-Publisher</generator>
+    <lastBuildDate>Mon, 16 Nov 2026 16:00:00 +0100</lastBuildDate>
+    <atom:link href="https://www.ihe-d.de/fhir/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 Nov 2026 16:00:00 +0100</pubDate>
+    <language>de^</language>
+	<ttl>600</ttl>
+    <item>
+      <title>ihe-de.iti.xds-vs#4.0.0</title>
+      <description>IHE Germany - Value Sets für XDS, 4.0.0</description>
+      <link>http://www.ihe-d.de/fhir/ImplementationGuide/ihe-de.iti.xds-vs/4.0.0/package.tgz</link>
+      <guid isPermaLink="true">http://www.ihe-d.de/fhir/ImplementationGuide/ihe-de.iti.xds-vs/4.0.0/package.tgz</guid>
+      <dc:creator>IHE Deutschland e.V.</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 16 Nov 2026 16:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

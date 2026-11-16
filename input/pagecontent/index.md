@@ -102,6 +102,8 @@ Nachfolgend ein paar weitere nützliche Information im Zusammenhang mit dieser S
 ### offene Punkte
 
 * Die deutsche Übersetzung für LOINC Code 57016-8 (#31) wird nicht korrekt in die Expansion übernommen.
+* Nicht alle Codesysteme und Valuesets haben zugeordnete OIDs.
+* Die Canonical URL 'http://fhir.kbv.de/ImplementationGuide/kbv.all.st' kann nicht aufgelöst werden.
 
 ### Historie
 
@@ -110,4 +112,5 @@ Nachfolgend ein paar weitere nützliche Information im Zusammenhang mit dieser S
 | 1.0 | 10.11.2016 | Final | [https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf](https://www.ihe-d.de/images/projekte/XDS_Value_Sets1.pdf)
 | 2.0 | 09.10.2018 | Final | [https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf](https://www.ihe-d.de/images/projekte/ValueSets2_0.pdf)
 | 3.0 | 12.04.2021 | Final | [https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf](https://www.ihe-d.de/images/projekte/XDSValueSetsDv3.pdf)
-| 4.0 | 24.02.2026 | Final | tbd
+| 4.0 | 16.11.2026 | Final | [Implementation Guide 4.0.0](https://www.ihe-d.de/fhir/ImplementationGuide/ihe-de.iti.xds-vs/4.0.0/)
+
