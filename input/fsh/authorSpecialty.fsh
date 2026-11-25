@@ -1002,6 +1002,9 @@ Description: "**Ärztliche Berufe**"
 * #1 "Arzt in Facharztausbildung"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2 "Hausarzt"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #inactive
 * #3 "Praktischer Arzt"
   "Praktischer Arzt oder Praktische Ärztin ist eine seit der Weiterbildungsordnung von 1992 nicht mehr neu vergebene Berufsbezeichnung für einen niedergelassenen Arzt ohne eine zum Führen der Bezeichnung \"Facharzt\" obligate Weiterbildung."
   * ^property[+].code = #status
